@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G04
+Layer_Name,Households (RESTRICTED)
+Layer_Type,Vector-Point
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,GPS point (accuracy recorded per point)
+Source_ID,SRC017
+Source_Dataset,Household Survey (Project Primary Collection)
+Provider,Project Team
+Acquisition_Date,YYYY-MM-DD (survey-round basis)
+Source_Version,Baseline 2026
+Coverage,10 N-HYPPADEC study states (sampled communities only)
+Processing_Method,"Import DB02 Household Survey GPS coordinates; assign CRS EPSG:4326; spatial validate against G03 (community boundary/centroid); store ONLY in restricted GIS environment; do NOT export to public layers"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x (restricted project file only)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Project data — RESTRICTED
+Restrictions,"SECURITY LEVEL 3 — RESTRICTED. Household coordinates must NOT be published. Public output must use aggregated / jittered / generalized representation only. Access requires project authorisation."
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,DB02 (source) | G03 (spatial validation against community)
+Derived_Layers,"G33 (vulnerability — aggregated only); G35 (risk — aggregated only); report tables (aggregated only)"
+Storage_Location,"04_GIS/01_RAW/ (RESTRICTED subfolder) | 04_GIS/02_CLEAN/ (RESTRICTED subfolder) — must NOT be in public GIS folder"
+File_Format,GeoPackage with password / encrypted storage
+File_Name,G04_Households_RESTRICTED_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,See DB02 schema (analytical variables only — no raw sensitive responses in GIS layer)
+Feature_Count,TBD
+Bounding_Box_W,REDACTED
+Bounding_Box_E,REDACTED
+Bounding_Box_S,REDACTED
+Bounding_Box_N,REDACTED
+Data_Date,YYYY-MM-DD
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,RESTRICTED archive
+Map_Outputs,No direct map output — only aggregated community-level representations
+Notes,"PRIVACY RULE: Household coordinates must not automatically be published. Before any output containing household spatial data is created, a privacy check must be run and approved. Jittering or aggregation to community centroid is the only permitted public representation."

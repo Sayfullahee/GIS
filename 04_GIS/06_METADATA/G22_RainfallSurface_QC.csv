@@ -1,0 +1,14 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G22-Q01,Dependency,G21 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,G21 QC_Status = CLEAN,Do not generate surface from unvalidated station data,Yes,Pending
+G22-Q02,Method,Interpolation method pre-specified in CLIMATE_INTERPOLATION_DECISIONS.csv,Check CLD01,CLD01 decision recorded before computation,Record decision; do not change method after seeing results,Yes,Pending
+G22-Q03,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G22-Q04,NoData,NoData value set,gdalinfo,NoData value explicitly set; not 0,Set nodata value,Yes,Pending
+G22-Q05,Coverage,Raster covers all 10 study states,Spatial check,No NoData within study state boundaries,Extend interpolation extent; acquire additional source data,Yes,Pending
+G22-Q06,Range,Annual mean rainfall within expected Nigeria range,Raster statistics,Mean annual rainfall 500–2500mm across study area; flag pixels outside range,Flag extremes; verify against station records and literature,Yes,Pending
+G22-Q07,Spatial pattern,Rainfall gradient consistent with known Nigeria climatology,Visual and profile check,"Higher rainfall in south (Cross River, Delta, Edo ~1500-3000mm); lower in north (Kogi ~1000-1300mm); gradient increases south-to-north",Flag inversions of expected gradient; investigate interpolation error,No,Pending
+G22-Q08,Cross-validation,LOOCV or satellite comparison documented,Cross-validation results,RMSE and MAE documented; RMSE < 20% of mean annual rainfall,Document and archive cross-validation results; if RMSE > 20% consider alternative method,Yes,Pending
+G22-Q09,Station agreement,Interpolated value at station locations agrees with observed mean,Sample raster at G20 station locations,|interpolated - observed| / observed < 15% for >= 80% of stations,Flag high-error stations; check for outliers in station record,No,Pending
+G22-Q10,Uncertainty,Prediction uncertainty/RMSE surface produced,Raster check,Uncertainty raster produced alongside G22,Generate uncertainty raster; required for data confidence model,No,Pending
+G22-Q11,Resolution,Output resolution matches CLD04 decision,gdalinfo,Pixel size matches documented resolution decision,Resample to correct resolution; document,Yes,Pending
+G22-Q12,Period,Baseline period documented,Metadata check,Start year; end year; number of record years documented,Document in metadata and VERSION_LOG,Yes,Pending
+G22-Q13,Attribution,Gridded product attribution documented,SOURCE_REGISTER.csv,Source entry for gridded product present,Add source entry to SOURCE_REGISTER.csv,No,Pending

@@ -1,0 +1,12 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G21-Q01,Dependency,DB05 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,DB05 QC_Status = CLEAN,Do not generate G21 from unvalidated DB05,Yes,Pending
+G21-Q02,Dependency,G20 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,G20 QC_Status = CLEAN,G21 geometry depends on G20; G20 must be CLEAN,Yes,Pending
+G21-Q03,Coverage,G21 station count matches G20 active station count,Count comparison,G21 feature count = G20 Active_Status=Yes count,Flag missing stations; investigate DB05 gaps,Yes,Pending
+G21-Q04,Linkage,All G21 Station_IDs resolve to G20,LEFT JOIN,All Station_IDs in G20,Flag unresolved; register missing stations,Yes,Pending
+G21-Q05,Aggregation period,Aggregation period documented,Metadata check,Aggregation period (start year; end year; record years) recorded in metadata and processing notes,Document before publication; minimum 10 years preferred,Yes,Pending
+G21-Q06,Range,Mean annual rainfall plausible for Nigeria,Range check,Mean annual rainfall 500–2500mm for all stations,Flag values outside range; likely aggregation error or extreme data gap,Yes,Pending
+G21-Q07,Range,Mean temperature plausible for Nigeria,Range check,Mean annual temperature 20–35°C for all stations,Flag values outside range,Yes,Pending
+G21-Q08,Completeness,Record completeness documented per station,Count check,Completeness % (actual records / expected records) calculated per station,Flag stations with < 70% completeness; document implications for surface interpolation,No,Pending
+G21-Q09,Spatial,G21 geometry matches G20 geometry per station,Coordinate comparison,G21 coordinates identical to G20 for same Station_ID,Regenerate geometry join from G20,Yes,Pending
+G21-Q10,Temporal,Aggregation consistent across all stations,Date range check,All stations aggregated over same baseline period (or period documented and justified per station),Flag inconsistent periods; document if per-station adjustment applied,No,Pending
+G21-Q11,Missing data flag,Stations with high missing data flagged for interpolation caution,Completeness check,Stations with < 70% completeness flagged in G21 attribute,Add flag field; propagate to G22/G23 uncertainty,No,Pending

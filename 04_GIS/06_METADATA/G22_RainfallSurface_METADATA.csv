@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G22
+Layer_Name,Rainfall Surface
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,"Method-dependent — see CLIMATE_INTERPOLATION_DECISIONS.csv CLD01 and CLD04. Recommended: 0.05 degree (~5km) if CHIRPS gridded product; DEM-matched resolution if station interpolation."
+Source_ID,G21 (station data) + gridded product source (SRC to be added at acquisition)
+Source_Dataset,"Derived from G21 (DB05 aggregated) + CHIRPS or approved gridded rainfall product"
+Provider,Derived (NiMet via DB05/G21 + CHIRPS/approved gridded source)
+Acquisition_Date,N/A (derived)
+Source_Version,Dependent on G21 version + gridded product version
+Coverage,10 study states (+ buffer for interpolation boundary effects)
+Processing_Method,"Method determined by CLIMATE_INTERPOLATION_DECISIONS.csv CLD01. If CHIRPS: (1) Download CHIRPS tiles for study area and baseline period. (2) Compute annual/seasonal means. (3) Clip to study area. (4) Validate against G21 station means. If IDW/Kriging: (1) Use G21 station mean annual/seasonal rainfall values. (2) Run interpolation with documented parameters. (3) Cross-validate with LOOCV. (4) Apply uncertainty raster. Document method and parameters fully."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (scipy / sklearn / pykrige / rasterio) / QGIS / GDAL
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,"CHIRPS: free for research/non-commercial use with attribution. ERA5: Copernicus licence."
+Restrictions,Attribution required for gridded product sources
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G21 (CLEAN) | G20 (CLEAN) | DB05 (CLEAN) | G09 (if elevation-adjusted interpolation)
+Derived_Layers,"G24 (flood hazard — rainfall is primary driver), IND01 (flood frequency), G31 (hazard index)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Float32)
+File_Name,G22_RainfallSurface_[method]_[period]_v1_0.tif
+File_Size_MB,TBD
+Attribute_Count,N/A (raster — single band per time period)
+Feature_Count,N/A
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Baseline period (e.g. 2000–2025 mean)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_14_Rainfall, MAP_05_Flood_Hazard (input)"
+Notes,"Interpolation method must be pre-specified in CLIMATE_INTERPOLATION_DECISIONS.csv BEFORE computation begins. The chosen method cannot be changed after seeing results — this would constitute post-hoc selection. Cross-validation results must be reported and archived. Uncertainty raster (RMSE surface or prediction variance) must accompany the interpolated surface for use in data confidence model (G35 metadata)."

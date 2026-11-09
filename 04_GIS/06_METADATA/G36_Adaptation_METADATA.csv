@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G36
+Layer_Name,Adaptation
+Layer_Type,Vector-Polygon (community level) + Vector-Point (site-level adaptation measures)
+Geometry_Type,Polygon and Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon + adaptation measure point
+Source_ID,"DB01 (community adaptation status), DB02 (household adaptation — aggregated), DB06 (infrastructure repair/adaptation), LKP_AdaptationStatus.csv"
+Source_Dataset,Multi-input derived product from field databases
+Provider,Project Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from DB01/DB02/DB06 CLEAN versions
+Coverage,10 study states
+Processing_Method,"Compile adaptation measures from DB01 Adaptation_Status; DB02 Adaptation_Measure (aggregated to community); DB06 Repair_Status and Control_Present. Classify by adaptation type (structural/nature-based/preparedness/economic/institutional). Compute IND09 (Adaptation Coverage) and IND10 (Adaptation Gap). Produce: (A) Community adaptation inventory polygon layer; (B) Adaptation measure point layer (site-level measures from DB06/DB03)."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas) / QGIS
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived product
+Restrictions,None for community-level output; DB02 household inputs aggregated only
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"DB01 (CLEAN), DB02 (CLEAN — aggregated), DB06 (CLEAN), LKP_AdaptationStatus.csv"
+Derived_Layers,"G37 (priority areas — adaptation gap used in prioritisation), G33 (vulnerability — IND09 inverted), IND09 (adaptation coverage), IND10 (adaptation gap)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage
+File_Name,G36_Adaptation_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,14 (community layer)
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from field survey dates
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_26_Adaptation
+Notes,"Adaptation inventory is a positive asset — it shows what communities already have in place. High adaptation = lower vulnerability (IND09 protective direction). The adaptation gap (IND10) is the complementary measure — residual risk after existing adaptation is accounted for. Both must be computed before G37 Priority Areas. Household adaptation data from DB02 must be aggregated to community level — no individual household adaptation records in G36."

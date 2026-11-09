@@ -1,0 +1,14 @@
+2026-11-05 13:48:47 | INFO     | 20_climate_change | ============================================================
+2026-11-05 13:48:47 | INFO     | 20_climate_change |   20_CLIMATE_CHANGE — Climate Trend and Drought Indicators
+2026-11-05 13:48:47 | INFO     | 20_climate_change | ============================================================
+2026-11-05 13:48:47 | INFO     | 20_climate_change | Climate indicators computed: 20 stations | With rainfall trend: 0 | With drought freq: 0
+2026-11-05 13:48:47 | INFO     | 20_climate_change | Station indicators saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\ClimateChange_Station_Indicators.csv
+2026-11-05 13:48:48 | INFO     | 20_climate_change | G42 Climate Change Index saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G42_ClimateChangeIndex.csv | Mean CC_Score: nan
+2026-11-05 13:48:48 | INFO     | 20_climate_change | 20_climate_change complete
+2026-11-05 13:49:11 | INFO     | 20_climate_change | ============================================================
+2026-11-05 13:49:11 | INFO     | 20_climate_change |   20_CLIMATE_CHANGE — Climate Trend and Drought Indicators
+2026-11-05 13:49:11 | INFO     | 20_climate_change | ============================================================
+2026-11-05 13:49:11 | INFO     | 20_climate_change | Climate indicators computed: 20 stations | With rainfall trend: 0 | With drought freq: 0
+2026-11-05 13:49:11 | INFO     | 20_climate_change | Station indicators saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\ClimateChange_Station_Indicators.csv
+2026-11-05 13:49:11 | INFO     | 20_climate_change | G42 Climate Change Index saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G42_ClimateChangeIndex.csv | Mean CC_Score: nan
+2026-11-05 13:49:11 | INFO     | 20_climate_change | 20_climate_change complete

@@ -1,0 +1,13 @@
+Metadata_Item,Value
+Layer_ID,G65
+Layer_Name,G65_EnvironmentalProblems
+Specification_Source,Official National Environmental Survey Legend (Photo Standard)
+Coordinate_System,EPSG:4326 (WGS 84)
+Feature_Type,Vector Point
+Total_Features,54
+Taxonomy_Items,"14 (Air Pollution, Climate Change, Deforestation, Desertification, Drought, Ecological Conflict, Erosion, Flooding, Lead Poisoning, Oil Spillage, Solid Waste Management, Water Pollution, Food Security, Bandit Attack)"
+Adamawa_Observations,Deforestation (green starburst) and Erosion (red triangle) documented from official national survey map
+Member_State_Coverage,10 N-HYPPADEC States + Adamawa Extended Basin State + Selected National Benchmarks
+Version,v1.0 (Integrated October 2026)
+Custodian,Federal Ministry of Environment / NESREA / N-HYPPADEC CHER-CDSS
+Status,Active QC Validated

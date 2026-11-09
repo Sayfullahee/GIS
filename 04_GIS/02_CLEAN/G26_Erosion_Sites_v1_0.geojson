@@ -1,0 +1,2712 @@
+{
+  "type": "FeatureCollection",
+  "name": "G26_Erosion_Sites_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.855444,
+          9.508473
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000001",
+        "Community_ID": "COM-NIG-001-0001",
+        "Latitude": 9.508473,
+        "Longitude": 6.855444,
+        "GPS_Accuracy_m": 8.7,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 391.7,
+        "Width_m": 38.2,
+        "Depth_m": 8.6,
+        "River_Distance_m": 1320.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250688,
+          9.721289
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000002",
+        "Community_ID": "COM-NIG-002-0002",
+        "Latitude": 9.721289,
+        "Longitude": 6.250688,
+        "GPS_Accuracy_m": 4.1,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 31.8,
+        "Width_m": 13.0,
+        "Depth_m": 8.6,
+        "River_Distance_m": 2381.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.637751,
+          9.47113
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000003",
+        "Community_ID": "COM-NIG-003-0003",
+        "Latitude": 9.47113,
+        "Longitude": 6.637751,
+        "GPS_Accuracy_m": 5.6,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 405.0,
+        "Width_m": 38.5,
+        "Depth_m": 9.8,
+        "River_Distance_m": 2005.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.63554,
+          9.300203
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000004",
+        "Community_ID": "COM-NIG-004-0004",
+        "Latitude": 9.300203,
+        "Longitude": 6.63554,
+        "GPS_Accuracy_m": 3.9,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 491.4,
+        "Width_m": 35.7,
+        "Depth_m": 3.1,
+        "River_Distance_m": 365.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.091366,
+          11.191838
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KEB-000005",
+        "Community_ID": "COM-KEB-004-0009",
+        "Latitude": 11.191838,
+        "Longitude": 4.091366,
+        "GPS_Accuracy_m": 9.1,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 549.5,
+        "Width_m": 6.9,
+        "Depth_m": 3.2,
+        "River_Distance_m": 1699.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kebbi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.839227,
+          9.945664
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000006",
+        "Community_ID": "COM-PLA-001-0011",
+        "Latitude": 9.945664,
+        "Longitude": 8.839227,
+        "GPS_Accuracy_m": 5.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 1,
+        "Length_m": 538.1,
+        "Width_m": 36.0,
+        "Depth_m": 6.3,
+        "River_Distance_m": 1079.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.701949,
+          9.87645
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000007",
+        "Community_ID": "COM-PLA-003-0013",
+        "Latitude": 9.87645,
+        "Longitude": 8.701949,
+        "GPS_Accuracy_m": 5.1,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 487.2,
+        "Width_m": 23.6,
+        "Depth_m": 2.7,
+        "River_Distance_m": 1659.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.695101,
+          9.678892
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000008",
+        "Community_ID": "COM-PLA-005-0015",
+        "Latitude": 9.678892,
+        "Longitude": 8.695101,
+        "GPS_Accuracy_m": 7.9,
+        "Erosion_Type": "BANK",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 450.2,
+        "Width_m": 32.2,
+        "Depth_m": 10.7,
+        "River_Distance_m": 1887.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.556452,
+          7.6923
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000009",
+        "Community_ID": "COM-BEN-002-0017",
+        "Latitude": 7.6923,
+        "Longitude": 8.556452,
+        "GPS_Accuracy_m": 7.9,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 4,
+        "Length_m": 61.1,
+        "Width_m": 40.9,
+        "Depth_m": 10.5,
+        "River_Distance_m": 1881.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.246901,
+          7.759751
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000010",
+        "Community_ID": "COM-BEN-003-0018",
+        "Latitude": 7.759751,
+        "Longitude": 8.246901,
+        "GPS_Accuracy_m": 5.0,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 204.1,
+        "Width_m": 41.0,
+        "Depth_m": 3.5,
+        "River_Distance_m": 682.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.400074,
+          7.946278
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000011",
+        "Community_ID": "COM-BEN-004-0019",
+        "Latitude": 7.946278,
+        "Longitude": 8.400074,
+        "GPS_Accuracy_m": 4.0,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 323.0,
+        "Width_m": 17.3,
+        "Depth_m": 10.4,
+        "River_Distance_m": 92.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.792769,
+          8.037122
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000012",
+        "Community_ID": "COM-BEN-005-0020",
+        "Latitude": 8.037122,
+        "Longitude": 8.792769,
+        "GPS_Accuracy_m": 9.9,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 550.7,
+        "Width_m": 10.6,
+        "Depth_m": 4.4,
+        "River_Distance_m": 769.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.005385,
+          7.847405
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000013",
+        "Community_ID": "COM-KOG-001-0021",
+        "Latitude": 7.847405,
+        "Longitude": 7.005385,
+        "GPS_Accuracy_m": 6.8,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 3,
+        "Length_m": 189.9,
+        "Width_m": 19.7,
+        "Depth_m": 6.6,
+        "River_Distance_m": 1908.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.928967,
+          8.102803
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000014",
+        "Community_ID": "COM-KOG-002-0022",
+        "Latitude": 8.102803,
+        "Longitude": 6.928967,
+        "GPS_Accuracy_m": 3.7,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 2,
+        "Length_m": 358.6,
+        "Width_m": 34.3,
+        "Depth_m": 3.9,
+        "River_Distance_m": 1897.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.839132,
+          7.925368
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000015",
+        "Community_ID": "COM-KOG-003-0023",
+        "Latitude": 7.925368,
+        "Longitude": 6.839132,
+        "GPS_Accuracy_m": 8.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 173.5,
+        "Width_m": 39.8,
+        "Depth_m": 10.2,
+        "River_Distance_m": 2095.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.757603,
+          7.667218
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000016",
+        "Community_ID": "COM-KOG-004-0024",
+        "Latitude": 7.667218,
+        "Longitude": 6.757603,
+        "GPS_Accuracy_m": 5.7,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 2,
+        "Length_m": 294.7,
+        "Width_m": 21.7,
+        "Depth_m": 5.1,
+        "River_Distance_m": 260.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.526685,
+          8.831885
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KWA-000017",
+        "Community_ID": "COM-KWA-001-0026",
+        "Latitude": 8.831885,
+        "Longitude": 4.526685,
+        "GPS_Accuracy_m": 7.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 675.3,
+        "Width_m": 24.6,
+        "Depth_m": 5.6,
+        "River_Distance_m": 1356.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kwara",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.396326,
+          8.727173
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KWA-000018",
+        "Community_ID": "COM-KWA-002-0027",
+        "Latitude": 8.727173,
+        "Longitude": 4.396326,
+        "GPS_Accuracy_m": 5.5,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 1,
+        "Length_m": 619.8,
+        "Width_m": 15.8,
+        "Depth_m": 9.3,
+        "River_Distance_m": 2324.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kwara",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.395075,
+          8.406296
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KWA-000019",
+        "Community_ID": "COM-KWA-004-0029",
+        "Latitude": 8.406296,
+        "Longitude": 4.395075,
+        "GPS_Accuracy_m": 5.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 3,
+        "Length_m": 735.3,
+        "Width_m": 30.4,
+        "Depth_m": 2.2,
+        "River_Distance_m": 1661.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kwara",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.304783,
+          10.546222
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KAD-000020",
+        "Community_ID": "COM-KAD-001-0031",
+        "Latitude": 10.546222,
+        "Longitude": 7.304783,
+        "GPS_Accuracy_m": 9.4,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 575.7,
+        "Width_m": 44.5,
+        "Depth_m": 10.4,
+        "River_Distance_m": 1578.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kaduna",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3084,
+          10.532173
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KAD-000021",
+        "Community_ID": "COM-KAD-003-0033",
+        "Latitude": 10.532173,
+        "Longitude": 7.3084,
+        "GPS_Accuracy_m": 8.0,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 681.4,
+        "Width_m": 33.9,
+        "Depth_m": 2.8,
+        "River_Distance_m": 1489.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kaduna",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.470667,
+          10.69684
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KAD-000022",
+        "Community_ID": "COM-KAD-005-0035",
+        "Latitude": 10.69684,
+        "Longitude": 7.470667,
+        "GPS_Accuracy_m": 3.7,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 27.8,
+        "Width_m": 31.5,
+        "Depth_m": 2.6,
+        "River_Distance_m": 1586.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kaduna",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.379455,
+          8.266902
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000023",
+        "Community_ID": "COM-NAS-001-0036",
+        "Latitude": 8.266902,
+        "Longitude": 8.379455,
+        "GPS_Accuracy_m": 8.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 575.5,
+        "Width_m": 40.9,
+        "Depth_m": 3.3,
+        "River_Distance_m": 1945.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.589425,
+          8.470766
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000024",
+        "Community_ID": "COM-NAS-002-0037",
+        "Latitude": 8.470766,
+        "Longitude": 8.589425,
+        "GPS_Accuracy_m": 9.1,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 300.8,
+        "Width_m": 44.0,
+        "Depth_m": 2.0,
+        "River_Distance_m": 1037.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.824743,
+          8.861474
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000025",
+        "Community_ID": "COM-NAS-003-0038",
+        "Latitude": 8.861474,
+        "Longitude": 8.824743,
+        "GPS_Accuracy_m": 8.6,
+        "Erosion_Type": "BANK",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 723.0,
+        "Width_m": 33.4,
+        "Depth_m": 4.1,
+        "River_Distance_m": 1997.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.737198,
+          8.615208
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000026",
+        "Community_ID": "COM-NAS-004-0039",
+        "Latitude": 8.615208,
+        "Longitude": 8.737198,
+        "GPS_Accuracy_m": 5.0,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 3,
+        "Length_m": 78.8,
+        "Width_m": 12.1,
+        "Depth_m": 8.6,
+        "River_Distance_m": 1453.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.631653,
+          8.941593
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-TAR-000027",
+        "Community_ID": "COM-TAR-002-0042",
+        "Latitude": 8.941593,
+        "Longitude": 11.631653,
+        "GPS_Accuracy_m": 8.9,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 336.2,
+        "Width_m": 13.9,
+        "Depth_m": 9.2,
+        "River_Distance_m": 1393.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Taraba",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.407694,
+          10.543935
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-GOM-000028",
+        "Community_ID": "COM-GOM-001-0046",
+        "Latitude": 10.543935,
+        "Longitude": 11.407694,
+        "GPS_Accuracy_m": 3.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 4,
+        "Length_m": 43.2,
+        "Width_m": 32.0,
+        "Depth_m": 1.7,
+        "River_Distance_m": 2189.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Gombe",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.00755,
+          10.413676
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-GOM-000029",
+        "Community_ID": "COM-GOM-003-0048",
+        "Latitude": 10.413676,
+        "Longitude": 11.00755,
+        "GPS_Accuracy_m": 7.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 3,
+        "Length_m": 120.5,
+        "Width_m": 12.5,
+        "Depth_m": 9.2,
+        "River_Distance_m": 2331.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Gombe",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.329359,
+          10.38847
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-GOM-000030",
+        "Community_ID": "COM-GOM-004-0049",
+        "Latitude": 10.38847,
+        "Longitude": 11.329359,
+        "GPS_Accuracy_m": 6.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 126.5,
+        "Width_m": 14.3,
+        "Depth_m": 11.2,
+        "River_Distance_m": 822.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Gombe",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.86661,
+          9.524904
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000031",
+        "Community_ID": "COM-NIG-001-0001",
+        "Latitude": 9.524904,
+        "Longitude": 6.86661,
+        "GPS_Accuracy_m": 8.8,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 1,
+        "Length_m": 231.6,
+        "Width_m": 22.2,
+        "Depth_m": 5.5,
+        "River_Distance_m": 556.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249034,
+          9.709159
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000032",
+        "Community_ID": "COM-NIG-002-0002",
+        "Latitude": 9.709159,
+        "Longitude": 6.249034,
+        "GPS_Accuracy_m": 7.0,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 514.7,
+        "Width_m": 4.4,
+        "Depth_m": 5.6,
+        "River_Distance_m": 2233.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.622578,
+          9.467097
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000033",
+        "Community_ID": "COM-NIG-003-0003",
+        "Latitude": 9.467097,
+        "Longitude": 6.622578,
+        "GPS_Accuracy_m": 8.7,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 486.4,
+        "Width_m": 4.7,
+        "Depth_m": 3.6,
+        "River_Distance_m": 180.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.61305,
+          9.297395
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000034",
+        "Community_ID": "COM-NIG-004-0004",
+        "Latitude": 9.297395,
+        "Longitude": 6.61305,
+        "GPS_Accuracy_m": 9.3,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 257.8,
+        "Width_m": 34.4,
+        "Depth_m": 5.2,
+        "River_Distance_m": 1565.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.089398,
+          11.190997
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KEB-000035",
+        "Community_ID": "COM-KEB-004-0009",
+        "Latitude": 11.190997,
+        "Longitude": 4.089398,
+        "GPS_Accuracy_m": 7.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 1,
+        "Length_m": 409.2,
+        "Width_m": 37.7,
+        "Depth_m": 11.4,
+        "River_Distance_m": 1975.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kebbi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.851583,
+          9.932894
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000036",
+        "Community_ID": "COM-PLA-001-0011",
+        "Latitude": 9.932894,
+        "Longitude": 8.851583,
+        "GPS_Accuracy_m": 6.3,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 2,
+        "Length_m": 73.9,
+        "Width_m": 19.0,
+        "Depth_m": 9.9,
+        "River_Distance_m": 993.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.689435,
+          9.881362
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000037",
+        "Community_ID": "COM-PLA-003-0013",
+        "Latitude": 9.881362,
+        "Longitude": 8.689435,
+        "GPS_Accuracy_m": 8.3,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 670.0,
+        "Width_m": 3.0,
+        "Depth_m": 4.8,
+        "River_Distance_m": 105.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.700992,
+          9.674147
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000038",
+        "Community_ID": "COM-PLA-005-0015",
+        "Latitude": 9.674147,
+        "Longitude": 8.700992,
+        "GPS_Accuracy_m": 6.6,
+        "Erosion_Type": "BANK",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 29.9,
+        "Width_m": 18.9,
+        "Depth_m": 9.3,
+        "River_Distance_m": 1447.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.558816,
+          7.695855
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000039",
+        "Community_ID": "COM-BEN-002-0017",
+        "Latitude": 7.695855,
+        "Longitude": 8.558816,
+        "GPS_Accuracy_m": 9.8,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 733.7,
+        "Width_m": 25.1,
+        "Depth_m": 2.3,
+        "River_Distance_m": 274.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.222615,
+          7.749438
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000040",
+        "Community_ID": "COM-BEN-003-0018",
+        "Latitude": 7.749438,
+        "Longitude": 8.222615,
+        "GPS_Accuracy_m": 8.8,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 296.7,
+        "Width_m": 22.6,
+        "Depth_m": 5.6,
+        "River_Distance_m": 2388.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.428188,
+          7.932579
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000041",
+        "Community_ID": "COM-BEN-004-0019",
+        "Latitude": 7.932579,
+        "Longitude": 8.428188,
+        "GPS_Accuracy_m": 6.3,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 147.0,
+        "Width_m": 13.0,
+        "Depth_m": 9.8,
+        "River_Distance_m": 881.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.776189,
+          8.032608
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000042",
+        "Community_ID": "COM-BEN-005-0020",
+        "Latitude": 8.032608,
+        "Longitude": 8.776189,
+        "GPS_Accuracy_m": 4.2,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 749.8,
+        "Width_m": 8.9,
+        "Depth_m": 9.5,
+        "River_Distance_m": 529.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.998884,
+          7.844425
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000043",
+        "Community_ID": "COM-KOG-001-0021",
+        "Latitude": 7.844425,
+        "Longitude": 6.998884,
+        "GPS_Accuracy_m": 6.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 1,
+        "Length_m": 190.1,
+        "Width_m": 43.5,
+        "Depth_m": 10.5,
+        "River_Distance_m": 1744.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.948564,
+          8.093689
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000044",
+        "Community_ID": "COM-KOG-002-0022",
+        "Latitude": 8.093689,
+        "Longitude": 6.948564,
+        "GPS_Accuracy_m": 9.6,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 360.4,
+        "Width_m": 44.2,
+        "Depth_m": 6.0,
+        "River_Distance_m": 2078.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.842969,
+          7.942181
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000045",
+        "Community_ID": "COM-KOG-003-0023",
+        "Latitude": 7.942181,
+        "Longitude": 6.842969,
+        "GPS_Accuracy_m": 7.0,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 2,
+        "Length_m": 736.0,
+        "Width_m": 19.8,
+        "Depth_m": 9.7,
+        "River_Distance_m": 1844.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.773984,
+          7.650738
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000046",
+        "Community_ID": "COM-KOG-004-0024",
+        "Latitude": 7.650738,
+        "Longitude": 6.773984,
+        "GPS_Accuracy_m": 5.2,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 47.3,
+        "Width_m": 43.8,
+        "Depth_m": 3.2,
+        "River_Distance_m": 1772.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.522937,
+          8.837002
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KWA-000047",
+        "Community_ID": "COM-KWA-001-0026",
+        "Latitude": 8.837002,
+        "Longitude": 4.522937,
+        "GPS_Accuracy_m": 5.3,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 3,
+        "Length_m": 408.2,
+        "Width_m": 36.2,
+        "Depth_m": 11.4,
+        "River_Distance_m": 514.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kwara",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.400101,
+          8.73236
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KWA-000048",
+        "Community_ID": "COM-KWA-002-0027",
+        "Latitude": 8.73236,
+        "Longitude": 4.400101,
+        "GPS_Accuracy_m": 9.6,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 1,
+        "Length_m": 611.7,
+        "Width_m": 40.1,
+        "Depth_m": 8.3,
+        "River_Distance_m": 286.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kwara",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.396988,
+          8.385828
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KWA-000049",
+        "Community_ID": "COM-KWA-004-0029",
+        "Latitude": 8.385828,
+        "Longitude": 4.396988,
+        "GPS_Accuracy_m": 7.9,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 98.2,
+        "Width_m": 39.4,
+        "Depth_m": 8.1,
+        "River_Distance_m": 307.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kwara",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.284438,
+          10.546937
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KAD-000050",
+        "Community_ID": "COM-KAD-001-0031",
+        "Latitude": 10.546937,
+        "Longitude": 7.284438,
+        "GPS_Accuracy_m": 8.6,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 2,
+        "Length_m": 318.7,
+        "Width_m": 41.0,
+        "Depth_m": 4.2,
+        "River_Distance_m": 1164.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kaduna",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.320505,
+          10.527144
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KAD-000051",
+        "Community_ID": "COM-KAD-003-0033",
+        "Latitude": 10.527144,
+        "Longitude": 7.320505,
+        "GPS_Accuracy_m": 6.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 449.8,
+        "Width_m": 29.1,
+        "Depth_m": 1.6,
+        "River_Distance_m": 1651.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kaduna",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.478653,
+          10.688103
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KAD-000052",
+        "Community_ID": "COM-KAD-005-0035",
+        "Latitude": 10.688103,
+        "Longitude": 7.478653,
+        "GPS_Accuracy_m": 4.9,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 231.1,
+        "Width_m": 8.2,
+        "Depth_m": 7.5,
+        "River_Distance_m": 168.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kaduna",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.390794,
+          8.262361
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000053",
+        "Community_ID": "COM-NAS-001-0036",
+        "Latitude": 8.262361,
+        "Longitude": 8.390794,
+        "GPS_Accuracy_m": 6.3,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 706.8,
+        "Width_m": 6.0,
+        "Depth_m": 10.8,
+        "River_Distance_m": 1991.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.613393,
+          8.466968
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000054",
+        "Community_ID": "COM-NAS-002-0037",
+        "Latitude": 8.466968,
+        "Longitude": 8.613393,
+        "GPS_Accuracy_m": 3.6,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 4,
+        "Length_m": 383.0,
+        "Width_m": 19.0,
+        "Depth_m": 7.6,
+        "River_Distance_m": 1701.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.838807,
+          8.864705
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000055",
+        "Community_ID": "COM-NAS-003-0038",
+        "Latitude": 8.864705,
+        "Longitude": 8.838807,
+        "GPS_Accuracy_m": 5.1,
+        "Erosion_Type": "BANK",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 591.8,
+        "Width_m": 29.9,
+        "Depth_m": 1.3,
+        "River_Distance_m": 890.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.752422,
+          8.632191
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NAS-000056",
+        "Community_ID": "COM-NAS-004-0039",
+        "Latitude": 8.632191,
+        "Longitude": 8.752422,
+        "GPS_Accuracy_m": 4.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 326.5,
+        "Width_m": 33.1,
+        "Depth_m": 4.8,
+        "River_Distance_m": 2093.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Nasarawa",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.613824,
+          8.932459
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-TAR-000057",
+        "Community_ID": "COM-TAR-002-0042",
+        "Latitude": 8.932459,
+        "Longitude": 11.613824,
+        "GPS_Accuracy_m": 8.2,
+        "Erosion_Type": "BANK",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 1,
+        "Length_m": 62.8,
+        "Width_m": 31.5,
+        "Depth_m": 5.8,
+        "River_Distance_m": 1407.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Taraba",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.408251,
+          10.545268
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-GOM-000058",
+        "Community_ID": "COM-GOM-001-0046",
+        "Latitude": 10.545268,
+        "Longitude": 11.408251,
+        "GPS_Accuracy_m": 4.7,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 3,
+        "Length_m": 632.7,
+        "Width_m": 32.6,
+        "Depth_m": 11.0,
+        "River_Distance_m": 114.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Gombe",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.005436,
+          10.430305
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-GOM-000059",
+        "Community_ID": "COM-GOM-003-0048",
+        "Latitude": 10.430305,
+        "Longitude": 11.005436,
+        "GPS_Accuracy_m": 8.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 218.8,
+        "Width_m": 11.8,
+        "Depth_m": 2.2,
+        "River_Distance_m": 2063.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Gombe",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.340296,
+          10.374899
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-GOM-000060",
+        "Community_ID": "COM-GOM-004-0049",
+        "Latitude": 10.374899,
+        "Longitude": 11.340296,
+        "GPS_Accuracy_m": 8.2,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 490.3,
+        "Width_m": 26.8,
+        "Depth_m": 6.9,
+        "River_Distance_m": 1605.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Gombe",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.868684,
+          9.532071
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000061",
+        "Community_ID": "COM-NIG-001-0001",
+        "Latitude": 9.532071,
+        "Longitude": 6.868684,
+        "GPS_Accuracy_m": 4.1,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 2,
+        "Length_m": 539.8,
+        "Width_m": 42.3,
+        "Depth_m": 7.3,
+        "River_Distance_m": 1157.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244017,
+          9.716544
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000062",
+        "Community_ID": "COM-NIG-002-0002",
+        "Latitude": 9.716544,
+        "Longitude": 6.244017,
+        "GPS_Accuracy_m": 8.4,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 551.1,
+        "Width_m": 28.8,
+        "Depth_m": 10.4,
+        "River_Distance_m": 2039.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.618213,
+          9.476053
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000063",
+        "Community_ID": "COM-NIG-003-0003",
+        "Latitude": 9.476053,
+        "Longitude": 6.618213,
+        "GPS_Accuracy_m": 9.6,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Active",
+        "Severity_0_4": 3,
+        "Length_m": 550.6,
+        "Width_m": 25.4,
+        "Depth_m": 1.4,
+        "River_Distance_m": 1668.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "Yes",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.639019,
+          9.281543
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-NIG-000064",
+        "Community_ID": "COM-NIG-004-0004",
+        "Latitude": 9.281543,
+        "Longitude": 6.639019,
+        "GPS_Accuracy_m": 6.5,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 2,
+        "Length_m": 80.3,
+        "Width_m": 14.2,
+        "Depth_m": 9.4,
+        "River_Distance_m": 1125.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Niger",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.092202,
+          11.200197
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KEB-000065",
+        "Community_ID": "COM-KEB-004-0009",
+        "Latitude": 11.200197,
+        "Longitude": 4.092202,
+        "GPS_Accuracy_m": 9.9,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 3,
+        "Length_m": 644.0,
+        "Width_m": 12.8,
+        "Depth_m": 11.1,
+        "River_Distance_m": 505.0,
+        "Slope": "Steep (15-30%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kebbi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.832065,
+          9.937999
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000066",
+        "Community_ID": "COM-PLA-001-0011",
+        "Latitude": 9.937999,
+        "Longitude": 8.832065,
+        "GPS_Accuracy_m": 3.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 3,
+        "Length_m": 736.4,
+        "Width_m": 10.6,
+        "Depth_m": 9.3,
+        "River_Distance_m": 2183.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.703535,
+          9.886358
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000067",
+        "Community_ID": "COM-PLA-003-0013",
+        "Latitude": 9.886358,
+        "Longitude": 8.703535,
+        "GPS_Accuracy_m": 4.6,
+        "Erosion_Type": "SHEET",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 591.5,
+        "Width_m": 43.3,
+        "Depth_m": 9.0,
+        "River_Distance_m": 2058.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.702377,
+          9.674186
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-PLA-000068",
+        "Community_ID": "COM-PLA-005-0015",
+        "Latitude": 9.674186,
+        "Longitude": 8.702377,
+        "GPS_Accuracy_m": 8.7,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 203.2,
+        "Width_m": 19.6,
+        "Depth_m": 10.4,
+        "River_Distance_m": 41.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "No",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Plateau",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.564855,
+          7.679795
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000069",
+        "Community_ID": "COM-BEN-002-0017",
+        "Latitude": 7.679795,
+        "Longitude": 8.564855,
+        "GPS_Accuracy_m": 8.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 2,
+        "Length_m": 714.4,
+        "Width_m": 27.0,
+        "Depth_m": 4.6,
+        "River_Distance_m": 1899.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.24575,
+          7.74579
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000070",
+        "Community_ID": "COM-BEN-003-0018",
+        "Latitude": 7.74579,
+        "Longitude": 8.24575,
+        "GPS_Accuracy_m": 4.5,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 2,
+        "Length_m": 51.1,
+        "Width_m": 9.9,
+        "Depth_m": 10.1,
+        "River_Distance_m": 707.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.424256,
+          7.941441
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000071",
+        "Community_ID": "COM-BEN-004-0019",
+        "Latitude": 7.941441,
+        "Longitude": 8.424256,
+        "GPS_Accuracy_m": 9.3,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 2,
+        "Length_m": 315.7,
+        "Width_m": 34.9,
+        "Depth_m": 9.6,
+        "River_Distance_m": 2138.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Good",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.770122,
+          8.0301
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-BEN-000072",
+        "Community_ID": "COM-BEN-005-0020",
+        "Latitude": 8.0301,
+        "Longitude": 8.770122,
+        "GPS_Accuracy_m": 5.1,
+        "Erosion_Type": "RILL",
+        "Activity_Status": "Stabilised",
+        "Severity_0_4": 2,
+        "Length_m": 358.5,
+        "Width_m": 6.5,
+        "Depth_m": 9.6,
+        "River_Distance_m": 152.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Benue",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.994207,
+          7.839704
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000073",
+        "Community_ID": "COM-KOG-001-0021",
+        "Latitude": 7.839704,
+        "Longitude": 6.994207,
+        "GPS_Accuracy_m": 5.7,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Active",
+        "Severity_0_4": 4,
+        "Length_m": 410.7,
+        "Width_m": 27.6,
+        "Depth_m": 1.5,
+        "River_Distance_m": 895.0,
+        "Slope": "Gentle (2-5%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Fair",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 1",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.95122,
+          8.103068
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000074",
+        "Community_ID": "COM-KOG-002-0022",
+        "Latitude": 8.103068,
+        "Longitude": 6.95122,
+        "GPS_Accuracy_m": 5.2,
+        "Erosion_Type": "GULLY",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 1,
+        "Length_m": 489.5,
+        "Width_m": 20.2,
+        "Depth_m": 8.9,
+        "River_Distance_m": 1479.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "Yes",
+        "Control_Present": "No",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 2",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.841482,
+          7.923088
+        ]
+      },
+      "properties": {
+        "Erosion_ID": "ERO-KOG-000075",
+        "Community_ID": "COM-KOG-003-0023",
+        "Latitude": 7.923088,
+        "Longitude": 6.841482,
+        "GPS_Accuracy_m": 4.5,
+        "Erosion_Type": "BANK",
+        "Activity_Status": "Inactive",
+        "Severity_0_4": 2,
+        "Length_m": 418.3,
+        "Width_m": 8.9,
+        "Depth_m": 4.9,
+        "River_Distance_m": 1018.0,
+        "Slope": "Moderate (5-15%)",
+        "Infrastructure_Threat": "No",
+        "Control_Present": "Yes",
+        "Control_Condition": "Poor",
+        "Sediment_To_River": "Yes",
+        "Observation_Date": "2026-06-22",
+        "Observed_By": "Erosion Field Team 3",
+        "Notes": "Active erosion site surveyed in Kogi",
+        "Record_Created": "2026-06-22",
+        "Record_Modified": "2026-10-21",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN"
+      }
+    }
+  ]
+}

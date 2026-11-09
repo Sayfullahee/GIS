@@ -1,0 +1,32 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Unique,Description,QC_Rule,Privacy_Level
+Waste_ID,Text,14,Yes,Yes,Yes,Permanent waste site identifier — format: WST-[StateCode2]-[Seq6] e.g. WST-AB-000001,No duplicates; no nulls; stable once assigned,Level 2
+Community_ID,Text,12,No,No,No,FK → DB01 nearest community (assigned via SJ12 variant),If present must resolve to DB01,Level 2
+State_Code,Text,6,Yes,No,No,FK → LKP_States.csv,Must resolve to LKP_States.csv,Level 2
+LGA_Code,Text,10,Yes,No,No,FK → LKP_LGAs.csv,Must resolve; consistent with State_Code,Level 2
+Latitude,Double,,Yes,No,No,GPS latitude decimal degrees WGS84,No nulls; 4.0–14.0; within stated state,Level 2
+Longitude,Double,,Yes,No,No,GPS longitude decimal degrees WGS84,No nulls; 2.5–15.0,Level 2
+GPS_Accuracy_m,Double,,Yes,No,No,GPS horizontal accuracy metres,No nulls; flag >30m; reject >100m,Level 2
+Waste_Type_Code,Text,6,Yes,No,No,FK → LKP_WasteSiteTypes.csv,Must resolve to LKP_WasteSiteTypes.csv; no nulls,Level 2
+Site_Name,Text,100,No,No,No,Local name or descriptor for site,Optional; for readability only,Level 2
+Area_sqm,Double,,No,No,No,Estimated footprint area in square metres,If present must be > 0,Level 2
+Volume_m3,Double,,No,No,No,Estimated waste volume in cubic metres,If present must be > 0,Level 2
+Activity_Status,Text,10,Yes,No,No,"Active, Inactive, Remediated, Unknown",Allowed values only; no nulls,Level 2
+Open_Burning,Text,3,Yes,No,No,"Yes, No, Unknown",Whether open burning has been observed at this site,Allowed values only; no nulls,Level 2
+River_Distance_m,Double,,No,No,No,Distance to nearest river in metres — calculated from G05,If present >= 0; populated by integration script,Level 2
+Water_Source_Distance_m,Double,,No,No,No,Distance to nearest community water source in metres,If present >= 0; populated by integration script,Level 2
+Leachate_Evidence,Text,3,No,No,No,"Yes, No, Unknown",Whether leachate flow has been observed,Allowed values only,Level 2
+Leachate_Direction,Text,100,No,No,No,Observed direction of leachate flow (towards river / community / farmland),Free text; cross-reference with topographic slope,Level 2
+Odour_Severity,Integer,,No,No,No,"0=None; 1=Mild; 2=Moderate; 3=Severe",0–3 integer; flag if > 2 (severe — health risk),Level 2
+Households_Within_500m,Integer,,No,No,No,Estimated number of households within 500m buffer,If present >= 0; populated by GIS after G03 built,Level 2
+Health_Complaints_Reported,Text,3,No,No,No,"Yes, No, Unknown",Whether community members have reported health issues linked to site,Allowed values only,Level 2
+Regulatory_Action_Taken,Text,3,No,No,No,"Yes, No, Unknown",Whether any regulatory or enforcement action has been taken,Allowed values only,Level 2
+Remediation_Status,Text,20,No,No,No,"Not started, Planned, In progress, Completed, Unknown",Allowed values only,Level 2
+Data_Source,Text,200,Yes,No,No,Source of this record — field survey / remote sensing / community report,No nulls; document clearly,Level 2
+Observation_Date,Date,,Yes,No,No,Date of observation YYYY-MM-DD,No nulls; valid date; >= 2026-01-01 for new surveys; not future,Level 2
+Observed_By,Text,50,Yes,No,No,Observer name or code,No nulls,Level 2
+Photo_ID,Text,200,No,No,No,Reference IDs of site photographs,If present must have corresponding files,Level 2
+Notes,Text,1000,No,No,No,Field notes,Review before publication,Level 2
+Record_Created,Date,,Yes,No,No,Date record created,Auto-populated; no nulls,Level 2
+Record_Modified,Date,,No,No,No,Date record last modified,Auto-populated,Level 2
+Data_Version,Text,10,Yes,No,No,Data version,No nulls,Level 2
+QC_Status,Text,12,Yes,No,No,Processing status,Must resolve to LKP_QC_Status.csv,Level 2

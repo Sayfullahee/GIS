@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "name": "G10_Slope_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2,
+              6.8
+            ],
+            [
+              7.8,
+              6.8
+            ],
+            [
+              7.8,
+              8.2
+            ],
+            [
+              6.2,
+              8.2
+            ],
+            [
+              6.2,
+              6.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Slope_Class": "Flat (0-2\u00b0)",
+        "Mean_Slope_Deg": 1.2,
+        "Unit": "Degrees"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0,
+              9.0
+            ],
+            [
+              7.0,
+              9.0
+            ],
+            [
+              7.0,
+              10.5
+            ],
+            [
+              5.0,
+              10.5
+            ],
+            [
+              5.0,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Slope_Class": "Gentle (2-5\u00b0)",
+        "Mean_Slope_Deg": 3.5,
+        "Unit": "Degrees"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.2,
+              9.2
+            ],
+            [
+              8.6,
+              9.2
+            ],
+            [
+              8.6,
+              11.0
+            ],
+            [
+              7.2,
+              11.0
+            ],
+            [
+              7.2,
+              9.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Slope_Class": "Moderate (5-15\u00b0)",
+        "Mean_Slope_Deg": 9.8,
+        "Unit": "Degrees"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6,
+              8.6
+            ],
+            [
+              9.8,
+              8.6
+            ],
+            [
+              9.8,
+              9.8
+            ],
+            [
+              8.6,
+              9.8
+            ],
+            [
+              8.6,
+              8.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Slope_Class": "Steep (>15\u00b0)",
+        "Mean_Slope_Deg": 22.4,
+        "Unit": "Degrees"
+      }
+    }
+  ]
+}

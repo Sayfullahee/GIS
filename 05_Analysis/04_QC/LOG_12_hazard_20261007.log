@@ -1,0 +1,18 @@
+2026-10-07 17:04:36 | INFO     | 12_hazard | ============================================================
+2026-10-07 17:04:36 | INFO     | 12_hazard |   12_HAZARD — Hazard Index (G31)
+2026-10-07 17:04:36 | INFO     | 12_hazard | ============================================================
+2026-10-07 17:04:36 | INFO     | 12_hazard | G31 Hazard Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G31_HazardIndex.csv | Mean H_Score: 43.2
+2026-10-07 17:04:36 | INFO     | 12_hazard | G31 validation vs G25: 25/25 (100.0%) High-confidence events in Moderate+ hazard zones | Threshold: 70% | PASS
+2026-10-07 17:04:36 | INFO     | 12_hazard | 12_hazard complete
+2026-10-07 17:05:05 | INFO     | 12_hazard | ============================================================
+2026-10-07 17:05:05 | INFO     | 12_hazard |   12_HAZARD — Hazard Index (G31)
+2026-10-07 17:05:05 | INFO     | 12_hazard | ============================================================
+2026-10-07 17:05:05 | INFO     | 12_hazard | G31 Hazard Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G31_HazardIndex.csv | Mean H_Score: 43.2
+2026-10-07 17:05:05 | INFO     | 12_hazard | G31 validation vs G25: 25/25 (100.0%) High-confidence events in Moderate+ hazard zones | Threshold: 70% | PASS
+2026-10-07 17:05:05 | INFO     | 12_hazard | 12_hazard complete
+2026-10-07 18:16:34 | INFO     | 12_hazard | ============================================================
+2026-10-07 18:16:34 | INFO     | 12_hazard |   12_HAZARD — Hazard Index (G31)
+2026-10-07 18:16:34 | INFO     | 12_hazard | ============================================================
+2026-10-07 18:16:34 | INFO     | 12_hazard | G31 Hazard Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G31_HazardIndex.csv | Mean H_Score: 43.2
+2026-10-07 18:16:34 | INFO     | 12_hazard | G31 validation vs G25: 25/25 (100.0%) High-confidence events in Moderate+ hazard zones | Threshold: 70% | PASS
+2026-10-07 18:16:34 | INFO     | 12_hazard | 12_hazard complete

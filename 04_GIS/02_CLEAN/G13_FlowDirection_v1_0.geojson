@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "name": "G13_FlowDirection_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.6,
+            11.2
+          ],
+          [
+            4.8,
+            10.5
+          ],
+          [
+            5.2,
+            9.8
+          ]
+        ]
+      },
+      "properties": {
+        "Vector_Name": "Upper Niger Flow",
+        "Flow_Compass": "SE",
+        "Algorithm": "D8 Flow Direction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2,
+            9.8
+          ],
+          [
+            5.8,
+            9.1
+          ],
+          [
+            6.6,
+            8.0
+          ]
+        ]
+      },
+      "properties": {
+        "Vector_Name": "Middle Niger Flow",
+        "Flow_Compass": "SE",
+        "Algorithm": "D8 Flow Direction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6,
+            8.0
+          ],
+          [
+            6.7,
+            7.5
+          ],
+          [
+            6.8,
+            6.4
+          ]
+        ]
+      },
+      "properties": {
+        "Vector_Name": "Confluence Flow",
+        "Flow_Compass": "S",
+        "Algorithm": "D8 Flow Direction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.5,
+            9.1
+          ],
+          [
+            10.2,
+            8.6
+          ],
+          [
+            8.9,
+            8.0
+          ]
+        ]
+      },
+      "properties": {
+        "Vector_Name": "Upper Benue Flow",
+        "Flow_Compass": "SW",
+        "Algorithm": "D8 Flow Direction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.9,
+            8.0
+          ],
+          [
+            7.8,
+            7.8
+          ],
+          [
+            6.7,
+            7.7
+          ]
+        ]
+      },
+      "properties": {
+        "Vector_Name": "Lower Benue Flow",
+        "Flow_Compass": "W",
+        "Algorithm": "D8 Flow Direction"
+      }
+    }
+  ]
+}

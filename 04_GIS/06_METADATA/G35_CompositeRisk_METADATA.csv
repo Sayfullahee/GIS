@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G35
+Layer_Name,Composite Risk
+Layer_Type,Vector-Polygon (community level)
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon
+Source_ID,"G31 (H), G32 (E), G33 (V), G34 (C) — all CLEAN"
+Source_Dataset,Multi-input derived product from four component indices
+Provider,Project Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from G31-G34 CLEAN versions
+Coverage,10 study states
+Processing_Method,"Formula: R = 0.35H + 0.25E + 0.25V + 0.15C. Where H, E, V, C are each normalised 0-100. R is therefore 0-100. Inputs taken directly from G31.H_Score, G32.E_Score, G33.V_Score, G34.C_Score. No re-normalisation of component scores — they are already on 0-100 scale. Missing component handling: see RISK_MODEL_SPEC.md Section 7. Output: R_Score per community + risk classification (Very Low/Low/Moderate/High/Very High) + sensitivity model results (S1 equal weights; S2 alternative weights)."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived product
+Restrictions,None for community-level aggregated output
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G31 (CLEAN), G32 (CLEAN), G33 (CLEAN), G34 (CLEAN)"
+Derived_Layers,"G37 (priority areas — G35 is the primary input)"
+Storage_Location,04_GIS/03_DERIVED/ | 07_Decision_Support/01_Risk/
+File_Format,GeoPackage (community polygons) + CSV (tabular export for reporting)
+File_Name,"G35_CompositeRisk_v1_0.gpkg | G35_CompositeRisk_v1_0.csv"
+File_Size_MB,TBD
+Attribute_Count,22
+Feature_Count,TBD (one per community)
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from G31-G34 computation dates
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,09_Archive/
+Map_Outputs,"MAP_20_Composite_Risk, MAP_25_Risk_Classification"
+Notes,"R = 0.35H + 0.25E + 0.25V + 0.15C is the BASELINE model. Sensitivity models S1 (equal weights) and S2 (alternative weights — see RISK_MODEL_SPEC.md) must also be computed and stored alongside the baseline. The composite risk index is a DECISION-SUPPORT MEASURE — not a probability of disaster. Every published output must carry Risk_Model_Version, component versions, and computation date. Results are IMMUTABLE once published — a new computation creates a new version."

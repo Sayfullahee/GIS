@@ -1,0 +1,12 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Allowed_Values,Description,QC_Rule
+Station_ID,Text(10),Yes,Yes,No,,Yes,Format: NIM[NNNNNN] or approved alternative,Permanent climate station identifier — assigned at registration; never changes,No duplicates; no nulls; format must follow pattern
+Station_Name,Text(100),Yes,No,No,,No,,Official station name,No nulls; flag duplicate names in same state
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,See LKP_States.csv,State where station is located,Must resolve to LKP_States.csv; no nulls
+LGA_Code,Text(10),No,No,Yes,LKP_LGAs.csv,No,See LKP_LGAs.csv or NULL,LGA where station is located,If present must resolve to LKP_LGAs.csv and be consistent with State_Code
+Latitude,Double,Yes,No,No,,No,4.0 to 14.0,Station latitude decimal degrees WGS84,No nulls; must be within Nigeria/buffer bounds (3.5–14.5); must fall within or near stated state
+Longitude,Double,Yes,No,No,,No,2.5 to 15.0,Station longitude decimal degrees WGS84,No nulls; must be within Nigeria/buffer bounds (2.0–15.5)
+Elevation_m,Double,No,No,No,,No,>=0 or NULL,Station elevation in metres above sea level,If present must be >=0; cross-check against G09 DEM value at station location (within 50m tolerance)
+Source,Text(100),Yes,No,No,,No,,Data provider — e.g. NiMet; GHCN; GSOD,No nulls; document all sources
+Active_Status,Text(3),Yes,No,No,,No,"Yes, No, Unknown",Whether station is currently active,No nulls; allowed values only
+Record_Start_Year,Integer,No,No,No,,No,>=1900 or NULL,Year station record begins,If present must be >= 1900 and <= current year
+geometry,Point,Yes,No,No,,No,Valid point,Station location (WGS84),No null geometries; X = Longitude; Y = Latitude; must fall within or near G01 study states or within 100km buffer

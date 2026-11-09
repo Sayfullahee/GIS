@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G21
+Layer_Name,Climate Observations (GIS Layer)
+Layer_Type,Vector-Point (time-series attribute representation)
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Station point (one point per station; temporal dimension in attributes)
+Source_ID,SRC011 (via DB05)
+Source_Dataset,Derived from DB05 Climate Observations database
+Provider,Derived (DB05 → G21)
+Acquisition_Date,N/A (derived from DB05)
+Source_Version,Derived from DB05 v1.0
+Coverage,Same as G20 (study area + 100km buffer)
+Processing_Method,"Derived from DB05 CLEAN. Two representations: (A) Station summary layer — one point per station with aggregated statistics (mean annual rainfall; mean temperature; record count; date range); (B) Annual/seasonal snapshot — one point per station per time period for mapping. G21 inherits G20 geometry. Step 1: DB05 must be CLEAN. Step 2: Aggregate DB05 by Station_ID and period. Step 3: Join to G20 geometry by Station_ID. Step 4: QC aggregated values. Step 5: Publish G21 CLEAN."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas) / QGIS
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (same as G20)
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Same as DB05 / G20 sources
+Restrictions,NiMet data agreement applies
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,DB05 (must be CLEAN) | G20 (must be CLEAN — provides geometry)
+Derived_Layers,"G22 (rainfall surface), G23 (temperature surface)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage preferred (summary layer); CSV for full time-series export
+File_Name,G21_ClimateObservations_[period]_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,15 (summary layer)
+Feature_Count,Equals G20 station count
+Bounding_Box_W,Same as G20
+Bounding_Box_E,Same as G20
+Bounding_Box_S,Same as G20
+Bounding_Box_N,Same as G20
+Data_Date,Dependent on DB05 record range
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_13_Climate_Stations, MAP_14_Rainfall, MAP_15_Temperature"
+Notes,"G21 is the spatial/aggregated representation of DB05. The full time-series remains in DB05. G21 provides station-level summaries for GIS mapping and is the direct input to G22 and G23 surface interpolation. When DB05 is updated G21 must be regenerated. The aggregation period (baseline years) must be documented — use longest available consistent record; minimum 10 years preferred for reliable means."

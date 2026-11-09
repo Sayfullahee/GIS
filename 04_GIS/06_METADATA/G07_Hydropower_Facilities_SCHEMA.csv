@@ -1,0 +1,13 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+Hydro_ID,Text(12),Yes,Yes,No,Yes,Format: HYD-SS-NNNN (SS=State code; NNNN=sequential),Permanent hydropower facility identifier,No duplicates; no nulls; stable across all updates
+Facility_Name,Text(100),Yes,No,No,No,,Official or commonly used facility name,No nulls; flag duplicates — same name in different states is possible but requires verification
+State_Code,Text(6),Yes,No,Yes,No,See LKP_States.csv,State where facility is located,Must resolve to G01 State_Code
+LGA_Code,Text(10),Yes,No,Yes,No,See LKP_LGAs.csv,LGA where facility is located,Must resolve to G02 LGA_Code; must be consistent with State_Code
+Latitude,Double,Yes,No,No,No,4.0 to 14.0,GPS/geocoded latitude in decimal degrees WGS84,Must fall within Nigeria bounds; must fall within stated state polygon (G01)
+Longitude,Double,Yes,No,No,No,2.5 to 15.0,GPS/geocoded longitude in decimal degrees WGS84,Must fall within Nigeria bounds; must fall within stated state polygon (G01)
+Installed_MW,Double,No,No,No,No,>0,Installed generating capacity in megawatts,If present must be >0; flag unusually large values (>1000 MW for review)
+Operating_Status,Text(2),Yes,No,Yes,No,See LKP_OperatingStatus.csv,Current operational status,Must resolve to LKP_OperatingStatus.csv; no nulls
+River_Name,Text(100),No,No,No,No,,Name of river where facility is located,If populated cross-check against G05 LOCAL_NAME or RIVER_NAME
+Source,Text(200),Yes,No,No,No,,Data source for this facility record,No nulls; record all sources used (comma-separated if multiple)
+Source_Date,Date,Yes,No,No,No,YYYY-MM-DD,Date of most recent source verification,No nulls; must be valid date
+geometry,Point,Yes,No,No,No,Valid point,Facility GPS/geocoded location (WGS84),No null geometries; X must equal Longitude; Y must equal Latitude; must fall within stated G01 state polygon

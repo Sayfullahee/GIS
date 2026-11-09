@@ -1,0 +1,14 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Scenario_ID,Text,40,Yes,Yes,No,,Scenario unique identifier
+Scenario_Name,Text,100,Yes,No,No,,Descriptive scenario name
+Scenario_Type,Text,50,Yes,No,No,,Scenario simulation type
+Assumptions_JSON,Text,1000,Yes,No,No,,Model parameter perturbation payload
+Projected_Risk_Mean,Double,,Yes,No,No,,Projected population-wide mean risk
+Delta_Risk_Mean,Double,,Yes,No,No,,Net change from 2026 baseline
+Tier1_Count,Integer,,Yes,No,No,,Projected Tier 1 communities
+Tier2_Count,Integer,,Yes,No,No,,Projected Tier 2 communities
+Tier3_Count,Integer,,Yes,No,No,,Projected Tier 3 communities
+Tier4_Count,Integer,,Yes,No,No,,Projected Tier 4 communities
+Model_Version,Text,20,Yes,No,No,,Scenario model version
+Created_At,Date,10,Yes,No,No,,Simulation execution date
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

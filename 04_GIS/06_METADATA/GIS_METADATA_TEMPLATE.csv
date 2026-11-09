@@ -1,0 +1,47 @@
+Field,Value,Rules
+Layer_ID,,e.g. G01
+Layer_Name,,Full descriptive name
+Layer_Type,,Vector-Polygon / Vector-Point / Vector-Line / Raster
+Geometry_Type,,Polygon / Point / Line / Raster / Multi
+CRS,EPSG:4326,WGS84 unless documented exception
+CRS_EPSG,,Numeric EPSG code
+Resolution_or_Scale,,Raster: pixel size in metres. Vector: source map scale e.g. 1:50000
+Source_ID,,Reference to SOURCE_REGISTER.csv Source_ID
+Source_Dataset,,Full dataset name as per source
+Provider,,Organisation providing the data
+Acquisition_Date,,YYYY-MM-DD
+Source_Version,,Dataset version/edition
+Coverage,,Study area / Nigeria / Africa / Global
+Processing_Method,,Description of processing applied
+Processing_Date,,YYYY-MM-DD
+Processing_Software,,e.g. QGIS 3.x / Python / ArcGIS
+Processing_Version,,Software version used
+Clipped_to_Study_Area,,Yes / No
+Reprojected,,Yes / No — if Yes state source CRS
+Hydrologic_Conditioned,,Yes / No / N/A (DEM only)
+License,,Data license
+Restrictions,,None / Restricted — describe if restricted
+QC_Status,,RAW / INGESTED / VALIDATING / QC_FAILED / CLEAN / DERIVED / VALIDATED / PUBLISHED
+QC_Date,,YYYY-MM-DD
+QC_By,,Name or initials
+QC_Notes,,Summary of QC findings
+Critical_QC_Passed,,Yes / No / Pending
+Dependent_Layers,,Comma-separated list of layer IDs this layer depends on
+Derived_Layers,,Comma-separated list of layers derived from this one
+Storage_Location,,Relative path within GIS/ folder
+File_Format,,GeoPackage / Shapefile / GeoTIFF / CSV / other
+File_Name,,Actual filename with extension
+File_Size_MB,,
+Attribute_Count,,Number of attribute fields
+Feature_Count,,Number of features/rows
+Bounding_Box_W,,Western extent (decimal degrees)
+Bounding_Box_E,,Eastern extent (decimal degrees)
+Bounding_Box_S,,Southern extent (decimal degrees)
+Bounding_Box_N,,Northern extent (decimal degrees)
+Data_Date,,Date of the data content (not acquisition)
+Baseline_Version,,v1.0 for first production release
+Current_Version,,
+Previous_Version,,
+Archive_Path,,Path in 09_Archive/ if superseded
+Map_Outputs,,Comma-separated list of map IDs using this layer
+Notes,,Any additional information

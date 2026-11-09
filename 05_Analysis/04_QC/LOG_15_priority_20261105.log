@@ -1,0 +1,12 @@
+2026-11-05 14:57:38 | INFO     | 15_priority | ============================================================
+2026-11-05 14:57:38 | INFO     | 15_priority |   15_PRIORITY — Priority Areas (G37)
+2026-11-05 14:57:38 | INFO     | 15_priority | ============================================================
+2026-11-05 14:57:38 | WARNING  | 15_priority | Priority tier thresholds use equal-interval placeholder — compute Jenks on baseline Priority_Score distribution and update thresholds in RISK_MODEL_SPEC.md Section 8 before publication.
+2026-11-05 14:57:38 | INFO     | 15_priority | Tier changes baseline vs S1: 0
+2026-11-05 14:57:38 | INFO     | 15_priority | G37 Priority Areas saved | 1616 communities
+  Tier 1 (Highest): 0
+  Tier 2 (High):    10
+  Tier 3 (Moderate):1591
+  Tier 4 (Lower):   15
+2026-11-05 14:57:38 | INFO     | 15_priority | Top-20 priority list saved: C:\xampp\htdocs\GIS\07_Decision_Support\03_Priority_Areas\G37_Top20_Priority_Communities.csv
+2026-11-05 14:57:38 | INFO     | 15_priority | 15_priority complete

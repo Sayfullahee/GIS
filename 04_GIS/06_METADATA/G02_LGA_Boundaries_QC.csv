@@ -1,0 +1,15 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G02-Q01,Structure,All required fields present,Check column names against schema,All 8 schema fields present,Add missing fields; flag,Yes,Pending
+G02-Q02,Completeness,No nulls in required fields,Count nulls per required field,Zero nulls in all required fields,Identify and fill or flag,Yes,Pending
+G02-Q03,Uniqueness,No duplicate LGA_Code,Count distinct vs total,Count distinct = count total,Resolve duplicates after review,Yes,Pending
+G02-Q04,Uniqueness,No duplicate adm2_pcode,Count distinct vs total,Count distinct = count total,Resolve duplicates,Yes,Pending
+G02-Q05,Reference integrity,All State_Code values resolve to G01,Cross-check G01 State_Code,All State_Code values exist in G01,Flag unresolved State_Code values,Yes,Pending
+G02-Q06,Reference integrity,LGA count per state matches LKP_LGAs.csv,Group count by State_Code,Count matches expected LGA count from LKP_LGAs.csv for each state,Investigate missing or extra LGAs,Yes,Pending
+G02-Q07,Spatial nesting,Every LGA polygon falls within its state polygon,Point-in-polygon or containment check,100% of LGA centroids fall within correct G01 state polygon,Flag LGAs outside expected state; check boundary alignment,Yes,Pending
+G02-Q08,Geometry,No null geometries,Geometry null check,Zero null geometries,Fix or remove,Yes,Pending
+G02-Q09,Geometry,No invalid geometries,Geometry validity check,All geometries valid,Run ST_MakeValid; document,Yes,Pending
+G02-Q10,Geometry,No duplicate polygons,Spatial overlap check,No two LGAs in same state overlap significantly,Investigate and resolve,Yes,Pending
+G02-Q11,Coordinate,CRS = EPSG:4326,Layer CRS check,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G02-Q12,Area,area_sqkm positive and plausible,Range check,All values >0; no LGA > 15000 sqkm for study states,Flag and recalculate from geometry,No,Pending
+G02-Q13,Topology,No gaps between LGAs within same state,Gap topology check,Gaps <0.001 sqkm within state extent,Document boundary source discrepancies,No,Pending
+G02-Q14,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC002 present and complete,Update SOURCE_REGISTER.csv,No,Pending

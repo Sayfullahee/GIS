@@ -1,0 +1,8 @@
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | ============================================================
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv |   STAGE 15: ADAPTATION, PROJECTS AND MRV EVALUATION
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | ============================================================
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | Loaded 20 intervention records from c:\xampp\htdocs\GIS\03_Data\CLEAN\Interventions_CLEAN.csv
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | MRV Portfolio Register saved: c:\xampp\htdocs\GIS\07_Decision_Support\05_MRV\MRV_PORTFOLIO_REGISTER_v4.1.csv
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | IES Evaluation Matrix saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\IES_Evaluation_Matrix.csv
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | Derived MRV CSV saved: c:\xampp\htdocs\GIS\03_Data\DERIVED\MRV_Interventions_DERIVED.csv
+2026-10-08 09:30:43 | INFO     | 20_interventions_mrv | MRV Report generated at c:\xampp\htdocs\GIS\07_Decision_Support\05_MRV\MRV_PORTFOLIO_REPORT.md

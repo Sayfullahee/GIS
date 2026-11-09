@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "name": "G22_RainfallSurface_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.6,
+              11.5
+            ],
+            [
+              6.0,
+              11.5
+            ],
+            [
+              6.0,
+              13.5
+            ],
+            [
+              3.6,
+              13.5
+            ],
+            [
+              3.6,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Semi-Arid (600-800 mm)",
+        "Annual_Rainfall_mm": 720,
+        "Source": "CHIRPS v2.0 Interpolation (CLD01)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.0,
+              9.5
+            ],
+            [
+              12.0,
+              9.5
+            ],
+            [
+              12.0,
+              12.0
+            ],
+            [
+              6.0,
+              12.0
+            ],
+            [
+              6.0,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Sudan Savanna (800-1100 mm)",
+        "Annual_Rainfall_mm": 950,
+        "Source": "CHIRPS v2.0 Interpolation (CLD01)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.5,
+              7.5
+            ],
+            [
+              9.0,
+              7.5
+            ],
+            [
+              9.0,
+              9.5
+            ],
+            [
+              4.5,
+              9.5
+            ],
+            [
+              4.5,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Guinea Savanna / River Corridor (1100-1500 mm)",
+        "Annual_Rainfall_mm": 1320,
+        "Source": "CHIRPS v2.0 Interpolation (CLD01)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5,
+              6.5
+            ],
+            [
+              11.5,
+              6.5
+            ],
+            [
+              11.5,
+              7.8
+            ],
+            [
+              7.5,
+              7.8
+            ],
+            [
+              7.5,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Humid Sub-Tropical Plain (>1500 mm)",
+        "Annual_Rainfall_mm": 1680,
+        "Source": "CHIRPS v2.0 Interpolation (CLD01)"
+      }
+    }
+  ]
+}

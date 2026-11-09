@@ -1,0 +1,9 @@
+Domain_Code,Domain_Name,Version_Introduced,Primary_Hazard_Pressure,Risk_Component,GIS_Layers,Database,Indicators,Processing_Script,Status
+CC,Climate Change,v2.0,Long-term rainfall and temperature shifts; drought intensification,H + V modifier,G38-G42,DB05 extension,IND11-IND13,20_climate_change.py,Specified
+FL,Flooding Upgraded,v2.0,Multi-return-period inundation; flash flood; dam failure,H (replaces G24 basic),G43-G46,G25 extension,IND14,21_flooding.py,Specified
+LD,Land Degradation,v2.0,Soil erosion; NDVI decline; productivity loss; gully expansion,H + E modifier,G47-G50,DB03 extension,IND15-IND16,22_land_degradation.py,Specified
+DF,Deforestation,v2.0,Canopy loss; runoff amplification; carbon stock depletion; habitat loss,H modifier,G51-G54,None (remote sensing),IND17,23_deforestation.py,Specified
+WP,Waste Pollution,v2.0,Dump site leachate; open burning; groundwater contamination; health risk,E + V modifier,G55-G58,DB08,IND18-IND19,24_waste_pollution.py,Specified
+BL,Biodiversity Loss,v2.0,Habitat fragmentation; species richness decline; ecosystem services loss,V modifier,G59-G63,DB09,IND20-IND22,25_biodiversity.py,Specified
+ERI,Environmental Risk Index v2.0,v2.0,All nine components combined,H+E+V+C+CC+LD+DF+WP+BL,G64,None,All,26_eri.py,Specified
+NEP,National Environmental Problems,v4.1,12 Canonical National Problems (Air/Water/Lead Pollution; Oil Spillage; Deforestation; Erosion; Flooding; Desertification; Drought; Ecological Conflict; Solid Waste),Multi-Component H+E+V+C,G65,LKP_EnvironmentalProblems,All,generate_g65_layer.py,Active QC Validated

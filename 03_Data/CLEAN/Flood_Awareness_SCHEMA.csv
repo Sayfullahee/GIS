@@ -1,0 +1,16 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+awareness_id,str,NO,CAW-NIG-001,Verified field for Flood_Awareness
+alert_id,str,YES,ALT-2026-NIG-001,Verified field for Flood_Awareness
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Awareness
+activity_type,str,NO,preparedness_session,Verified field for Flood_Awareness
+conducted_at,str,NO,2026-09-28 10:00:00+01:00,Verified field for Flood_Awareness
+method,str,NO,Townhall Simulation,Verified field for Flood_Awareness
+language_code,str,NO,ha,Verified field for Flood_Awareness
+target_audience,str,NO,Riparian Farmers & Households,Verified field for Flood_Awareness
+audience_count,int64,NO,1400,Verified field for Flood_Awareness
+reach_count,int64,NO,1250,Verified field for Flood_Awareness
+materials,str,NO,N-HYPPADEC Flood Preparedness Manual v4.1,Verified field for Flood_Awareness
+feedback,str,NO,Community requested additional sandbags and megaphone kits.,Verified field for Flood_Awareness
+facilitator_id,str,NO,FAC-NIG-04,Verified field for Flood_Awareness
+confidence,str,NO,High,Verified field for Flood_Awareness
+publication_status,str,NO,approved,Verified field for Flood_Awareness

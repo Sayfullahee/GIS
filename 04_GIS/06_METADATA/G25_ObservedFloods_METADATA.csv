@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G25
+Layer_Name,Observed Floods
+Layer_Type,Vector-Point (event record; polygon where extent mapped)
+Geometry_Type,Point or Polygon (document per record)
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Event-based (GPS point or mapped extent)
+Source_ID,"SRC013 (field survey), SRC011 (NiMet event reports), official emergency management records"
+Source_Dataset,"Field survey flood reports + NiMet event records + NEMA/SEMA records + verified remote-sensing interpretation"
+Provider,Project Field Team + NiMet + NEMA/SEMA + approved remote-sensing sources
+Acquisition_Date,YYYY-MM-DD (ongoing)
+Source_Version,Baseline 2026
+Coverage,10 N-HYPPADEC study states
+Processing_Method,"Step 1: Collect flood event records from field surveys (DB01 Flood_Experience; DB02 Flood_Affected; field event reports). Step 2: Supplement with NiMet event bulletins and NEMA/SEMA disaster records. Step 3: Verify each event against at least two sources where possible. Step 4: Assign permanent Flood_ID. Step 5: Geocode or map flood extent (point if location only; polygon if extent mapped). Step 6: Validate against G01/G02. Step 7: Publish CLEAN layer. G25 is a direct input to G24 Flood Hazard model."
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python (geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,Project compilation (multiple sources)
+Restrictions,None for event-level spatial data
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G01 G02 G03 (spatial validation) | DB01 DB02 (flood experience cross-check)
+Derived_Layers,"G24 (flood hazard model — observed events calibrate/validate model), IND01 (flood frequency), IND02 (flood severity)"
+Storage_Location,04_GIS/01_RAW/ (raw event reports) | 04_GIS/02_CLEAN/ (verified events)
+File_Format,GeoPackage preferred
+File_Name,G25_ObservedFloods_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,12
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Event dates (historic + baseline 2026)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_05_Flood_Hazard, MAP_16_Observed_Events"
+Notes,"G25 records are event-based time series — each flood event is a separate record with a date. Multiple events at same location are separate records. Confidence rating is mandatory (High/Medium/Low) — affects weight in G24 model calibration. Historic events (pre-2026) should be included where verifiable sources exist — minimum date = 2000 recommended for baseline."

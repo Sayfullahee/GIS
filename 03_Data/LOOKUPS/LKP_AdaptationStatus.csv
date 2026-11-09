@@ -1,0 +1,16 @@
+Adaptation_Code,Adaptation_Name,Category,Description,Notes
+AD01,No adaptation measures,None,No documented adaptation in place,Baseline reference
+AD02,Relocation (partial),Relocation,Some households/structures relocated away from hazard zone,
+AD03,Relocation (complete),Relocation,Entire community/settlement relocated,
+AD04,Erosion control works (present/functional),Structural,Gabion/retaining wall/check dam in place and working,
+AD05,Erosion control works (present/degraded),Structural,Control works exist but damaged or poorly maintained,
+AD06,Flood barrier/embankment,Structural,Bund/levee/flood wall,
+AD07,Drainage improvement,Structural,Improved/constructed drainage channels,
+AD08,Reforestation/revegetation,Nature-based,Tree planting or vegetation restoration on erosion-prone slopes,
+AD09,Agroforestry,Nature-based,Combined agriculture and tree cover,
+AD10,Early warning system,Preparedness,Community or official flood/erosion early warning,
+AD11,Livelihood diversification,Economic,Shift to less hazard-dependent livelihood,
+AD12,Insurance/safety net,Economic,Crop/flood insurance or government support scheme,
+AD13,Community hazard plan,Preparedness,Documented community disaster response plan,
+AD14,Government intervention programme,Institutional,State or federal programme targeting site,
+AD99,Other,Other,Specify in Notes,

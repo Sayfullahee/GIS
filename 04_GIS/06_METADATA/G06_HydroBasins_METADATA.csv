@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G06
+Layer_Name,HydroBasins
+Layer_Type,Vector-Polygon
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,HydroSHEDS HydroBASINS v1c (Pfafstetter hierarchical basin delineation)
+Source_ID,SRC004
+Source_Dataset,HydroSHEDS HydroBASINS Africa
+Provider,USGS / WWF
+Acquisition_Date,YYYY-MM-DD
+Source_Version,v1c
+Coverage,Africa (levels 4-6 recommended; clip to study area + buffer)
+Processing_Method,"Download HydroBASINS Africa levels 4-6; clip to study area with buffer; validate geometry; spatially join communities (G03), hydropower facilities (G07), erosion sites (G26), and climate stations (G20) — record HYBAS_ID per asset"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (with buffer)
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,Yes (derived from hydrologically conditioned HydroSHEDS DEM)
+License,Free for non-commercial use (HydroSHEDS licence)
+Restrictions,Non-commercial use; attribution required
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,None (external source layer)
+Derived_Layers,"G24 (flood hazard — basin-level), G29 (flood exposure — basin aggregation), G31-G35 (risk — basin aggregation option)"
+Storage_Location,04_GIS/01_RAW/ (Africa source levels 4-6) | 04_GIS/02_CLEAN/ (clipped and validated)
+File_Format,GeoPackage preferred (one layer per level or combined with LEVEL field)
+File_Name,G06_HydroBasins_L4_6_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,8
+Feature_Count,TBD after clip
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,HydroBASINS v1c (circa 2008 DEM base)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_04_Hydrology
+Notes,"Level 4 = large river basins (Niger/Benue/Cross River scale). Level 5-6 = sub-basins at community scale. Use level 6 for community-basin joins where available. HYBAS_ID and NEXT_DOWN enable upstream-downstream network analysis. PFAF_ID encodes basin hierarchy."

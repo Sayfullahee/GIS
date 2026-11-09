@@ -1,0 +1,11 @@
+2026-10-13 16:47:15 | INFO     | 17_reports | ============================================================
+2026-10-13 16:47:15 | INFO     | 17_reports |   17_REPORTS — Analytical Tables and Profiles
+2026-10-13 16:47:15 | INFO     | 17_reports | ============================================================
+2026-10-13 16:47:15 | INFO     | 17_reports | Community profile table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Community_Profiles.csv (50 communities)
+2026-10-13 16:47:15 | INFO     | 17_reports | State summary table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_State_Summaries.csv (10 states)
+2026-10-13 16:47:16 | INFO     | 17_reports | Descriptive statistics table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Descriptive_Statistics.csv
+2026-10-13 16:47:16 | INFO     | 17_reports | Risk distribution table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Risk_Distribution_by_State.csv
+2026-10-13 16:47:16 | INFO     | 17_reports | Sensitivity summary: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Sensitivity_Analysis.csv
+2026-10-13 16:47:16 | INFO     | 17_reports | 17_reports complete — tables saved to c:\xampp\htdocs\GIS\06_Reports\02_TABLES
+  Community profiles: 50 rows
+  State summaries:    10 rows

@@ -1,0 +1,29 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+DB02-Q01,Structure,All required fields present,Schema check,All 35 schema fields present,Add missing columns,Yes,Pending
+DB02-Q02,Completeness,No nulls in required fields,Null count per required field,Zero nulls in Household_ID / Community_ID / Enumerator_ID / Survey_Date / Consent_Given / Record_Created / Data_Version / QC_Status,Flag and resolve,Yes,Pending
+DB02-Q03,Uniqueness,No duplicate Household_ID,Distinct count,Count distinct = count total,Investigate and resolve; never silently delete,Yes,Pending
+DB02-Q04,Reference integrity,Community_ID resolves to DB01,LEFT JOIN check,All Community_ID values exist in DB01,Flag unresolved; do not create household without valid parent community,Yes,Pending
+DB02-Q05,Consent,All Consent_Given = Yes before analysis,Filter check,Zero records with Consent_Given = No used in any analytical output,Flag and quarantine records with Consent_Given = No; escalate to PI for deletion decision,Yes,Pending
+DB02-Q06,Temporal,Survey_Date is valid,Date check,Valid dates; >= 2026-01-01; not future,Flag invalid dates,Yes,Pending
+DB02-Q07,Temporal,Survey_Date on or after parent community Survey_Date,Cross-check with DB01,HH Survey_Date >= community Survey_Date from DB01,Flag earlier dates; verify with enumerator records,No,Pending
+DB02-Q08,Coordinate,Latitude within bounds if present,Range check,If present: 4.0 to 14.0,Flag outliers,Yes,Pending
+DB02-Q09,Coordinate,Longitude within bounds if present,Range check,If present: 2.5 to 15.0,Flag outliers,Yes,Pending
+DB02-Q10,Coordinate,Household within 5km of parent community,Distance check if coordinates present,All HH within 5km of parent community centroid (DB01 Lat/Lon),Flag outliers; check GPS record,No,Pending
+DB02-Q11,Logical,HH_Size between 1 and 30,Range check,All non-null values between 1 and 30,Flag out-of-range; verify with enumerator,No,Pending
+DB02-Q12,Logical,HH_Head_Age between 15 and 100,Range check,All non-null values between 15 and 100,Flag out-of-range,No,Pending
+DB02-Q13,Logical,Income_Band allowed values,Value check,All non-null values in {INC1/INC2/INC3/INC4/INC5},Flag invalid values,No,Pending
+DB02-Q14,Logical,Water_Hours_Per_Day between 0 and 24,Range check,All non-null values 0–24,Flag out-of-range,No,Pending
+DB02-Q15,Logical,Electricity_Outage_Days between 0 and 365,Range check,All non-null values 0–365,Flag out-of-range,No,Pending
+DB02-Q16,Logical,Flood_Last_Year plausible,Range check,If present: >= 1990 and <= current year,Flag out-of-range years,No,Pending
+DB02-Q17,Logical,Flood_Losses_NGN non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB02-Q18,Logical,Erosion_Losses_NGN non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB02-Q19,Logical,Land_Lost_Erosion_sqm non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB02-Q20,Reference integrity,Livelihood_Primary resolves to LKP_Livelihood.csv,LEFT JOIN,All non-null values in LKP_Livelihood.csv,Flag unresolved,No,Pending
+DB02-Q21,Reference integrity,Livelihood_Secondary resolves to LKP_Livelihood.csv,LEFT JOIN,All non-null values in LKP_Livelihood.csv,Flag unresolved,No,Pending
+DB02-Q22,Reference integrity,Water_Source resolves to LKP_WaterSource.csv,LEFT JOIN,All non-null values in LKP_WaterSource.csv,Flag unresolved,No,Pending
+DB02-Q23,Reference integrity,Adaptation_Measure resolves to LKP_AdaptationStatus.csv,LEFT JOIN,All non-null values in LKP_AdaptationStatus.csv,Flag unresolved,No,Pending
+DB02-Q24,Logical,Allowed values in all coded Yes/No/Unknown fields,Value check,All non-null values match allowed values per field,Flag invalid values,No,Pending
+DB02-Q25,Privacy,GPS coordinates not exposed in any public output,Pre-publication check,No Latitude/Longitude fields in any Level 1 or 2 output from DB02,Run PRIV07 privacy checklist before any output generation,Yes,Pending
+DB02-Q26,Privacy,Household_ID not exposed in any public output,Pre-publication check,No Household_ID in any published output,Aggregate to community level before publication,Yes,Pending
+DB02-Q27,Enumerator QC,Check enumerator completion rate and outlier patterns,Group by Enumerator_ID,Flag enumerators with <80% field completion rate or anomalous response patterns,Review with field supervisor; flag suspicious records,No,Pending
+DB02-Q28,Missing data,Distinguish missing from zero for loss fields,Field check,Flood_Losses_NGN and Erosion_Losses_NGN are NULL when not reported — not 0,Correct 0 entries that represent not-reported to NULL; add flag field if needed,Yes,Pending

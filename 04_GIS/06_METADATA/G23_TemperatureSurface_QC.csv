@@ -1,0 +1,15 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G23-Q01,Dependency,G21 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,G21 QC_Status = CLEAN,Do not generate surface from unvalidated station data,Yes,Pending
+G23-Q02,Method,Interpolation method pre-specified in CLIMATE_INTERPOLATION_DECISIONS.csv,Check CLD02,CLD02 decision recorded before computation,Record decision; do not change after seeing results,Yes,Pending
+G23-Q03,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G23-Q04,NoData,NoData value set,gdalinfo,NoData value explicitly set; not 0,Set nodata value,Yes,Pending
+G23-Q05,Coverage,Raster covers all 10 study states,Spatial check,No NoData within study state boundaries,Extend interpolation or acquire additional source data,Yes,Pending
+G23-Q06,Range,Mean temperature within expected Nigeria range,Raster statistics,All pixel values 20–35°C for annual mean; flag < 15°C or > 40°C,Flag extremes; verify against station records,Yes,Pending
+G23-Q07,Spatial pattern,Temperature pattern consistent with known Nigeria climatology,Visual and profile check,"Higher temperatures in northern states (Kogi) in dry season; cooler in highlands (Cross River/Ebonyi plateaux); pattern reflects lapse-rate where elevation-adjusted",Flag inversions; investigate lapse-rate correction,No,Pending (requires G09)
+G23-Q08,Elevation consistency,Temperature decreases with elevation where lapse-rate method used,Sample along elevation transect,Temperature values decrease approximately 6.5°C per 1000m elevation gain (±2°C tolerance),Flag areas with inverted temperature-elevation relationship,No,Pending (requires G09 and lapse-rate method)
+G23-Q09,Cross-validation,LOOCV or ERA5 comparison documented,Cross-validation results,RMSE documented; RMSE < 3°C,Document and archive; if RMSE > 3°C consider ERA5 gridded product,Yes,Pending
+G23-Q10,Station agreement,Interpolated value at station locations agrees with observed mean,Sample raster at G20,|interpolated - observed| < 2°C for >= 80% of stations,Flag high-error stations; check station record quality,No,Pending
+G23-Q11,Uncertainty,Prediction uncertainty surface produced,Raster check,Uncertainty raster produced alongside G23,Generate; required for data confidence model,No,Pending
+G23-Q12,Resolution,Output resolution matches CLD04,gdalinfo,Pixel size matches CLD04 decision,Resample to correct resolution,Yes,Pending
+G23-Q13,Period,Baseline period documented,Metadata check,Start year; end year; record years documented in metadata,Document in metadata and VERSION_LOG,Yes,Pending
+G23-Q14,Lapse rate,Lapse rate value documented if lapse-rate method used,Metadata check,Lapse rate (°C/1000m) recorded in CLIMATE_INTERPOLATION_DECISIONS.csv CLD02,Document lapse rate before computation,No,Pending

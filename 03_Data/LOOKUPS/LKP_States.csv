@@ -1,0 +1,12 @@
+State_Code,Internal_Code,State_Name,adm1_pcode,adm0_pcode,Capital,Region,Notes
+NG-NIG,NIG,Niger,NG026,NG,Minna,North Central,N-HYPPADEC member state (v4.1 permanent internal code NIG)
+NG-KEB,KEB,Kebbi,NG021,NG,Birnin Kebbi,North West,N-HYPPADEC member state (v4.1 permanent internal code KEB)
+NG-PLA,PLA,Plateau,NG031,NG,Jos,North Central,N-HYPPADEC member state (v4.1 permanent internal code PLA)
+NG-BEN,BEN,Benue,NG007,NG,Makurdi,North Central,N-HYPPADEC member state (v4.1 permanent internal code BEN)
+NG-KOG,KOG,Kogi,NG022,NG,Lokoja,North Central,N-HYPPADEC member state (v4.1 permanent internal code KOG)
+NG-KWA,KWA,Kwara,NG023,NG,Ilorin,North Central,N-HYPPADEC member state (v4.1 permanent internal code KWA)
+NG-KAD,KAD,Kaduna,NG018,NG,Kaduna,North West,N-HYPPADEC member state (v4.1 permanent internal code KAD)
+NG-NAS,NAS,Nasarawa,NG025,NG,Lafia,North Central,N-HYPPADEC member state (v4.1 permanent internal code NAS)
+NG-TAR,TAR,Taraba,NG034,NG,Jalingo,North East,N-HYPPADEC member state (v4.1 permanent internal code TAR)
+NG-GOM,GOM,Gombe,NG015,NG,Gombe,North East,N-HYPPADEC member state (v4.1 permanent internal code GOM)
+NG-ADA,ADA,Adamawa,NG002,NG,Yola,North East,Extended basin state (Upper Benue River Basin / Lagdo Dam corridor)

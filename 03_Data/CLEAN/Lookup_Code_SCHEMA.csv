@@ -1,0 +1,9 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Lookup_ID,Text,30,Yes,Yes,No,,Lookup code entry ID
+Domain,Text,50,Yes,No,No,,Domain category
+Code,Text,30,Yes,No,No,,Lookup code value
+Label,Text,100,Yes,No,No,,Descriptive title
+Description,Text,300,No,No,No,,Explanatory notes
+Unit,Text,30,No,No,No,,Standard unit
+Version,Text,20,Yes,No,No,,Vocabulary version
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

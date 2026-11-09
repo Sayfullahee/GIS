@@ -1,0 +1,23 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G03-Q01,Structure,All required fields present,Schema check,All required fields in schema present,Add missing fields,Yes,Pending
+G03-Q02,Completeness,No nulls in required fields,Null count per required field,Zero nulls in Community_ID / Community / State_Code / State_Name / LGA_Code / LGA / Latitude / Longitude / GPS_Accuracy_m / Survey_Date,Flag and correct with field team,Yes,Pending
+G03-Q03,Uniqueness,No duplicate Community_ID,Distinct count,Count distinct = count total,Investigate duplicates; assign new IDs only after review,Yes,Pending
+G03-Q04,Reference integrity,State_Code resolves to G01,Cross-check,All State_Code values in G01,Flag unresolved codes,Yes,Pending
+G03-Q05,Reference integrity,LGA_Code resolves to G02,Cross-check,All LGA_Code values in G02,Flag unresolved codes,Yes,Pending
+G03-Q06,Reference integrity,State_Code and LGA_Code are consistent,Cross-check LKP_LGAs.csv,LGA belongs to stated State_Code,Flag inconsistencies; check with field team,Yes,Pending
+G03-Q07,Coordinate,Latitude within Nigeria bounds,Range check,All Latitude between 4.0 and 14.0,Flag outliers; verify with field team,Yes,Pending
+G03-Q08,Coordinate,Longitude within Nigeria bounds,Range check,All Longitude between 2.5 and 15.0,Flag outliers; verify with field team,Yes,Pending
+G03-Q09,Spatial,Community point falls within its stated state,Point-in-polygon with G01,100% within correct state polygon,Flag mismatches; check coordinates and state assignment,Yes,Pending
+G03-Q10,Spatial,Community point falls within its stated LGA,Point-in-polygon with G02,100% within correct LGA polygon,Flag mismatches; check coordinates and LGA assignment,Yes,Pending
+G03-Q11,Coordinate,Geometry X/Y matches Latitude/Longitude fields,Comparison,|geom_x - Longitude| < 0.00001 and |geom_y - Latitude| < 0.00001,Rebuild geometry from Latitude/Longitude fields; flag discrepancy,Yes,Pending
+G03-Q12,Coordinate,GPS accuracy acceptable,Range check,GPS_Accuracy_m <= 30 for all points; flag >30 and >100,Flag high-accuracy-error points for field re-survey,No (flag only),Pending
+G03-Q13,Temporal,Survey_Date is valid and not future,Date check,All Survey_Date values are valid dates; none after 2026-10-02,Flag invalid or future dates,Yes,Pending
+G03-Q14,Reference integrity,Livelihood code resolves to LKP_Livelihood.csv,Cross-check if populated,All non-null Livelihood values in LKP_Livelihood.csv,Flag unresolved codes; add to lookup if legitimate new value,No,Pending
+G03-Q15,Reference integrity,Water_Source resolves to LKP_WaterSource.csv,Cross-check if populated,All non-null values in LKP_WaterSource.csv,Flag unresolved codes,No,Pending
+G03-Q16,Reference integrity,Adaptation_Status resolves to LKP_AdaptationStatus.csv,Cross-check if populated,All non-null values in LKP_AdaptationStatus.csv,Flag unresolved codes,No,Pending
+G03-Q17,Logical,Electricity_Access only allowed values,Value check,All values in {Yes / No / Partial / NULL},Flag invalid values,No,Pending
+G03-Q18,Logical,Flood_Experience only allowed values,Value check,All values in {Yes / No / Unknown / NULL},Flag invalid values,No,Pending
+G03-Q19,Logical,Erosion_Presence only allowed values,Value check,All values in {Yes / No / Unknown / NULL},Flag invalid values,No,Pending
+G03-Q20,Privacy,No household-level coordinates in this layer,Field check,No Household_ID field present; no household GPS in this layer,Remove household data; ensure it is in G04 (restricted),Yes,Pending
+G03-Q21,Geometry,No null geometries,Null check,Zero null geometries,Rebuild from Latitude/Longitude; flag if source coordinates also missing,Yes,Pending
+G03-Q22,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC013 present and complete,Update SOURCE_REGISTER.csv,No,Pending

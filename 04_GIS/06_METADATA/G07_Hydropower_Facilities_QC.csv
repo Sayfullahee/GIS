@@ -1,0 +1,16 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G07-Q01,Structure,All required fields present,Schema check,All required fields present,Add missing fields,Yes,Pending
+G07-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Hydro_ID / Facility_Name / State_Code / LGA_Code / Latitude / Longitude / Operating_Status / Source / Source_Date,Flag and resolve,Yes,Pending
+G07-Q03,Uniqueness,No duplicate Hydro_ID,Distinct count,Count distinct = count total,Investigate and resolve,Yes,Pending
+G07-Q04,Reference integrity,State_Code resolves to G01,Cross-check,All State_Code values in G01,Flag unresolved,Yes,Pending
+G07-Q05,Reference integrity,LGA_Code resolves to G02 and is consistent with State_Code,Cross-check,All LGA_Code in G02 and match State_Code,Flag inconsistencies,Yes,Pending
+G07-Q06,Reference integrity,Operating_Status resolves to LKP_OperatingStatus.csv,Cross-check,All values in LKP_OperatingStatus.csv,Flag unresolved codes,Yes,Pending
+G07-Q07,Coordinate,Latitude within Nigeria bounds,Range check,All Latitude between 4.0 and 14.0,Flag outliers,Yes,Pending
+G07-Q08,Coordinate,Longitude within Nigeria bounds,Range check,All Longitude between 2.5 and 15.0,Flag outliers,Yes,Pending
+G07-Q09,Spatial,Facility point falls within stated state,Point-in-polygon G01,100% within correct state polygon,Flag and investigate with source records,Yes,Pending
+G07-Q10,Spatial,Facility point near a river (within 2km),Buffer check against G05,>90% of facilities within 2km of G05 river segment,Flag distant facilities; verify coordinates; may be small streams not in HydroRIVERS,No,Pending (requires G05)
+G07-Q11,Source comparison,Coordinates from multiple sources compared,Cross-check N-HYPPADEC vs operator vs field,Source discrepancy < 1km for same facility,Flag discrepancies > 1km for resolution; document reconciliation,Yes,Pending
+G07-Q12,Range,Installed_MW plausible,Range check,If present: 0 < Installed_MW <= 1000,Flag values > 1000 for verification,No,Pending
+G07-Q13,Temporal,Source_Date is valid,Date check,All Source_Date values are valid; none before 2000-01-01,Flag invalid dates,No,Pending
+G07-Q14,Geometry,Geometry X/Y matches Latitude/Longitude,Comparison,|geom_x - Longitude| < 0.00001 and |geom_y - Latitude| < 0.00001,Rebuild geometry from coordinates,Yes,Pending
+G07-Q15,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC012 present and complete,Update SOURCE_REGISTER.csv,No,Pending

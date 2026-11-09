@@ -1,0 +1,11 @@
+2026-10-26 11:02:31 | INFO     | 03_clean | ============================================================
+2026-10-26 11:02:31 | INFO     | 03_clean |   03_CLEAN — Promote Validated Datasets to CLEAN
+2026-10-26 11:02:31 | INFO     | 03_clean | ============================================================
+2026-10-26 11:02:31 | INFO     | 03_clean | Clean file saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB01_Community_Master_CLEAN.csv (1616 records)
+2026-10-26 11:02:31 | INFO     | 03_clean | DB01 cleaned: 1616 records → 1616 records
+2026-10-26 11:02:31 | INFO     | 03_clean | Clean file saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB02_Household_Survey_CLEAN_RESTRICTED.csv (250 records)
+2026-10-26 11:02:31 | INFO     | 03_clean | DB02 cleaned: 250 → 250 consented records (RESTRICTED)
+2026-10-26 11:02:31 | INFO     | 03_clean | Clean file saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB03_Erosion_Sites_CLEAN.csv (75 records)
+2026-10-26 11:02:31 | INFO     | 03_clean | Clean file saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB04_Hydropower_Water_CLEAN.csv (36 records)
+2026-10-26 11:02:31 | INFO     | 03_clean | Clean file saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_CLEAN.csv (240 records)
+2026-10-26 11:02:31 | INFO     | 03_clean | Clean file saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB06_Infrastructure_CLEAN.csv (100 records)

@@ -1,0 +1,18 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+performance_id,str,NO,PERF-2026-001,Verified field for Flood_Warning_Performance
+alert_id,str,NO,ALT-2026-NIG-001,Verified field for Flood_Warning_Performance
+flood_event_id,str,YES,FLD-0001,Verified field for Flood_Warning_Performance
+evaluated_at,str,NO,2026-10-09 18:00:00+01:00,Verified field for Flood_Warning_Performance
+evaluated_by,str,NO,Lead_Reviewer_SEMA,Verified field for Flood_Warning_Performance
+lead_time_hours,float64,NO,24.5,Verified field for Flood_Warning_Performance
+recipient_count,int64,NO,450,Verified field for Flood_Warning_Performance
+reached_count,int64,NO,412,Verified field for Flood_Warning_Performance
+acknowledgement_count,int64,NO,380,Verified field for Flood_Warning_Performance
+hit_status,str,NO,hit,Verified field for Flood_Warning_Performance
+alerted_extent_sqkm,float64,NO,28.5,Verified field for Flood_Warning_Performance
+observed_extent_sqkm,float64,NO,24.2,Verified field for Flood_Warning_Performance
+high_risk_communities,int64,NO,12,Verified field for Flood_Warning_Performance
+communities_reached,int64,NO,11,Verified field for Flood_Warning_Performance
+audit_completeness_pct,int64,NO,95,Verified field for Flood_Warning_Performance
+confidence,str,NO,High,Verified field for Flood_Warning_Performance
+publication_status,str,NO,approved,Verified field for Flood_Warning_Performance

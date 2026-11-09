@@ -1,0 +1,16 @@
+Field_Name,Data_Type,Required,Primary_Key,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Community identifier,No duplicates; no nulls; resolves to DB01
+State_Code,Text(6),Yes,No,State code,Resolves to LKP_States.csv
+LGA_Code,Text(10),Yes,No,LGA code,Resolves to LKP_LGAs.csv
+Primary_Adaptation_Code,Text(5),No,No,Primary adaptation measure code from LKP_AdaptationStatus.csv,If present must resolve to LKP_AdaptationStatus.csv
+Structural_Measures_Count,Integer,No,No,Count of structural adaptation measures (erosion control; flood barriers; drainage),If present >= 0
+Nature_Based_Measures_Count,Integer,No,No,Count of nature-based measures (reforestation; agroforestry),If present >= 0
+Preparedness_Measures_Count,Integer,No,No,Count of preparedness measures (early warning; community plan),If present >= 0
+Economic_Measures_Count,Integer,No,No,Count of economic measures (insurance; livelihood diversification),If present >= 0
+Institutional_Measures_Count,Integer,No,No,Count of institutional measures (government programme; NGO support),If present >= 0
+Total_Adaptation_Measures,Integer,No,No,Total count of all adaptation measures across all categories,If present >= 0; must equal sum of category counts
+IND09_Adaptation_Coverage,Double,No,No,IND09 Adaptation Coverage score 0-1 (proportion of applicable measures in place and functional),If present: 0-1; NOT 0-100 (raw proportion); normalisation to 0-100 done in G33 vulnerability step
+IND10_Adaptation_Gap,Double,No,No,IND10 Adaptation Gap score 0-100 (residual risk after accounting for adaptation — higher = larger gap),If present: 0-100; computed per INDICATOR_REGISTER.csv IND10 formula once approved
+Adaptation_Data_Source,Text(20),Yes,No,"Community_Survey, Household_Survey, Infrastructure_Survey, Combined",Sources used to derive this community's adaptation profile; no nulls
+Computation_Date,Date,Yes,No,Computation date,No nulls
+geometry,Polygon,Yes,No,Community boundary,No null geometries

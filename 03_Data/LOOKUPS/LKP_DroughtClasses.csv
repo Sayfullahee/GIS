@@ -1,0 +1,12 @@
+SPI_Class_Code,SPI_Range,Class_Label,Description,Agricultural_Impact,Frequency_Expected
+D0,"-0.5 to -0.79",Abnormally Dry,Unusual dryness; short-term crop stress possible,Low stress,20-30% of years
+D1,"-0.80 to -1.29",Moderate Drought,Some crop damage; pasture stressed; low stream flows,Moderate stress,10-20%
+D2,"-1.30 to -1.59",Severe Drought,Crop loss likely; water shortages developing,Severe stress,5-10%
+D3,"-1.60 to -1.99",Extreme Drought,Major crop losses; widespread water shortages,Extreme crop loss,2-5%
+D4,<-2.00,Exceptional Drought,Exceptional and widespread crop and pasture loss; water emergency,Catastrophic,<2%
+W0,"0.5 to 0.79",Abnormally Wet,Unusual wetness; slight flood risk,N/A,20-30%
+W1,"0.80 to 1.29",Moderately Wet,Some flood risk,N/A,10-20%
+W2,"1.30 to 1.59",Very Wet,Flood risk elevated,N/A,5-10%
+W3,"1.60 to 1.99",Extremely Wet,Major flood risk,N/A,2-5%
+W4,>2.00,Exceptionally Wet,Exceptional flood risk,N/A,<2%
+ND,"-0.49 to +0.49",Near Normal,No significant drought or excess,Normal,~50%

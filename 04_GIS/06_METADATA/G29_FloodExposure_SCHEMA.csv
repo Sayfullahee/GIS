@@ -1,0 +1,21 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Yes,DB01 Community_ID,Yes,Community identifier — one record per community,No duplicates; no nulls; must resolve to DB01
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,State code,Must resolve to LKP_States.csv
+LGA_Code,Text(10),Yes,No,Yes,LKP_LGAs.csv,No,LGA code,Must resolve to LKP_LGAs.csv; consistent with State_Code
+Population,Integer,No,No,No,,No,Community population from DB01,If present must be > 0; NULL if not recorded — do not substitute 0
+Pop_in_Moderate_Plus_Hazard,Integer,No,No,No,,No,Estimated population in Moderate + High + Very High flood hazard zones,If present must be >= 0 and <= Population; NULL if population data missing
+Pop_in_High_Plus_Hazard,Integer,No,No,No,,No,Estimated population in High + Very High flood hazard zones only,If present must be >= 0 and <= Pop_in_Moderate_Plus_Hazard
+IND05_Pop_Exposure,Double,No,No,No,,No,IND05 Population Exposure score 0-100 (normalised),If present must be 0-100; computed per EXPOSURE_MODEL_DECISIONS.csv EMD01
+Buildings_Total,Integer,No,No,No,,No,Total building count in community from G17,If present must be >= 0
+Buildings_in_Moderate_Plus_Hazard,Integer,No,No,No,,No,Building count in Moderate + High + Very High flood hazard zones,If present must be >= 0 and <= Buildings_Total
+Roads_km_Moderate_Plus_Hazard,Double,No,No,No,,No,Length of roads (km) in Moderate + High + Very High flood hazard zones from G16,If present must be >= 0
+Critical_Infra_in_Moderate_Plus_Hazard,Integer,No,No,No,,No,Count of critical infrastructure items (G19 Critical_Service=Yes) in Moderate + High + Very High flood hazard zones,If present must be >= 0
+POI_Critical_in_Moderate_Plus_Hazard,Integer,No,No,No,,No,Count of critical POI (G18 Critical_Service=Yes) in Moderate + High + Very High flood hazard zones,If present must be >= 0
+IND06_Infra_Exposure,Double,No,No,No,,No,IND06 Infrastructure Exposure score 0-100 (normalised; see EXPOSURE_MODEL_DECISIONS.csv EMD02),If present must be 0-100
+Mean_Hazard_Score,Double,No,No,No,,No,Mean G24 flood hazard index value within community boundary,If present must be 0-100
+Max_Hazard_Score,Double,No,No,No,,No,Maximum G24 flood hazard index value within community,If present must be 0-100; >= Mean_Hazard_Score
+Pct_Area_High_Plus_Hazard,Double,No,No,No,,No,Percentage of community area in High + Very High flood hazard zones,If present must be 0-100
+Exposure_Data_Completeness,Text(10),Yes,No,No,,No,"Full, Partial, Minimal",Data completeness flag for this community's exposure calculation,No nulls; Full = population + buildings + roads + infrastructure all available; Partial = some components missing; Minimal = only hazard zone area computed
+Computation_Date,Date,Yes,No,No,,No,Date G29 was computed YYYY-MM-DD,No nulls
+Input_Layers_Version,Text(200),Yes,No,No,,No,Versions of G24/G03/G17/G16/G18/G19/DB01 used,No nulls; required for traceability
+geometry,Polygon,Yes,No,No,,No,Community boundary polygon (from G03/G02),No null geometries

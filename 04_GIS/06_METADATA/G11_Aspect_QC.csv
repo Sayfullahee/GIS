@@ -1,0 +1,10 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G11-Q01,Dependency,G09 QC_Status = CLEAN before aspect computed,Check PROCESSING_STATUS.csv,G09 QC_Status = CLEAN,Do not compute from unvalidated DEM,Yes,Pending
+G11-Q02,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G11-Q03,Resolution,Pixel size matches G09,gdalinfo comparison,Pixel size identical to G09,Recompute from G09 CLEAN,Yes,Pending
+G11-Q04,Range,Valid aspect values 0–360 degrees (or -1 for flat),Raster statistics,Min >= -1; Max <= 360; values < -1 indicate error,Flag out-of-range values; check nodata setting,Yes,Pending
+G11-Q05,Flat areas,Flat area convention documented,Metadata check,Flat area value (-1 or 9999) recorded in TERRAIN_PROCESSING_DECISIONS.csv or processing notes,Document before use in any analysis,Yes,Pending
+G11-Q06,NoData,NoData value set,gdalinfo,NoData value set and matches G09 nodata mask,Set nodata value,Yes,Pending
+G11-Q07,Extent,Raster extent matches G09,Bounding box comparison,Extents identical (tolerance ±1 pixel),Recompute from G09 CLEAN,Yes,Pending
+G11-Q08,Spatial pattern,Aspect distribution covers all cardinal directions,Histogram check,Values distributed across 0–360 range; no single direction dominates >50% in non-flat terrain,Flag if distribution is anomalously concentrated — may indicate algorithmic error,No,Pending
+G11-Q09,Reproducibility,Same inputs + parameters = same output,Re-run and compare,MD5 hash matches,Document all parameters,No,Pending

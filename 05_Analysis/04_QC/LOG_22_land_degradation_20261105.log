@@ -1,0 +1,14 @@
+2026-11-05 13:47:10 | INFO     | 22_land_degradation | ============================================================
+2026-11-05 13:47:10 | INFO     | 22_land_degradation |   22_LAND_DEGRADATION — NDVI Trend + RUSLE + LD Index (G50)
+2026-11-05 13:47:10 | INFO     | 22_land_degradation | ============================================================
+2026-11-05 13:47:10 | WARNING  | 22_land_degradation | NDVI community stats not found at C:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\NDVI_Community_Stats.csv. Run remote sensing pipeline (GEE) to produce this file. IND15 will be NULL until available.
+2026-11-05 13:47:10 | WARNING  | 22_land_degradation | RUSLE stats not found at C:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\RUSLE_Community_Stats.csv. Run RUSLE raster computation (G49) to produce this file. IND16 will be NULL until available.
+2026-11-05 13:47:10 | INFO     | 22_land_degradation | G50 Land Degradation Index saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G50_LandDegradationIndex.csv | Mean LD_Score: nan | Completeness: Minimal
+2026-11-05 13:47:10 | INFO     | 22_land_degradation | 22_land_degradation complete
+2026-11-05 13:49:12 | INFO     | 22_land_degradation | ============================================================
+2026-11-05 13:49:12 | INFO     | 22_land_degradation |   22_LAND_DEGRADATION — NDVI Trend + RUSLE + LD Index (G50)
+2026-11-05 13:49:12 | INFO     | 22_land_degradation | ============================================================
+2026-11-05 13:49:12 | WARNING  | 22_land_degradation | NDVI community stats not found at C:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\NDVI_Community_Stats.csv. Run remote sensing pipeline (GEE) to produce this file. IND15 will be NULL until available.
+2026-11-05 13:49:12 | WARNING  | 22_land_degradation | RUSLE stats not found at C:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\RUSLE_Community_Stats.csv. Run RUSLE raster computation (G49) to produce this file. IND16 will be NULL until available.
+2026-11-05 13:49:12 | INFO     | 22_land_degradation | G50 Land Degradation Index saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G50_LandDegradationIndex.csv | Mean LD_Score: nan | Completeness: Minimal
+2026-11-05 13:49:12 | INFO     | 22_land_degradation | 22_land_degradation complete

@@ -1,0 +1,11 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G36-Q01,Dependency,DB01 DB02 (aggregated) DB06 CLEAN,Check PROCESSING_STATUS.csv,All upstream CLEAN,Do not compute until all pass QC,Yes,Pending
+G36-Q02,Privacy,DB02 data aggregated to community level,Content check,No household-level records from DB02 in G36,Aggregate before use,Yes,Pending
+G36-Q03,Coverage,One record per community,Count check,G36 count = DB01 CLEAN count,Investigate,Yes,Pending
+G36-Q04,IND09 raw value range,IND09_Adaptation_Coverage 0-1,Range check,All non-null IND09 values 0-1 (raw proportion — NOT 0-100 in G36),Flag values outside 0-1; check calculation,Yes,Pending
+G36-Q05,IND10 range,IND10_Adaptation_Gap 0-100 if computed,Range check,All non-null IND10 values 0-100,Flag out-of-range; check formula approval,No,Pending
+G36-Q06,IND10 formula,IND10 formula approved before use,INDICATOR_REGISTER check,IND10 formula status = Active in INDICATOR_REGISTER.csv,Do not compute IND10 until formula approved,Yes,Pending
+G36-Q07,Category counts,Category measure counts non-negative and sum to Total,Cross-field check,Structural + Nature_Based + Preparedness + Economic + Institutional = Total_Adaptation_Measures,Correct arithmetic errors,No,Pending
+G36-Q08,Reference integrity,Primary_Adaptation_Code resolves to LKP_AdaptationStatus.csv,LEFT JOIN,All non-null values in LKP_AdaptationStatus.csv,Flag unresolved,No,Pending
+G36-Q09,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending
+G36-Q10,Metadata,Adaptation_Data_Source and Computation_Date populated,Null check,Zero nulls in both fields,Populate,Yes,Pending

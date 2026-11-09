@@ -1,0 +1,15 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Allowed_Values,Description,QC_Rule
+Flood_ID,Text(14),Yes,Yes,No,,Yes,Format: FLD-[StateCode2]-[Seq6],Permanent flood event identifier,No duplicates; no nulls; stable across all updates
+Community_ID,Text(12),No,No,Yes,DB01 Community_ID,No,,Affected community — linked to DB01 where event tied to a surveyed community,If populated must resolve to DB01; NULL permitted for events without community link
+Date,Date,Yes,No,No,,No,YYYY-MM-DD,Date flood event began (or best estimate),No nulls; valid date; >= 2000-01-01 recommended; not future; flag if exact date unknown — use first of month convention and note in Notes
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,See LKP_States.csv,State where flood event occurred,Must resolve to LKP_States.csv
+LGA_Code,Text(10),No,No,Yes,LKP_LGAs.csv,No,See LKP_LGAs.csv or NULL,LGA where flood occurred,If present must resolve to LKP_LGAs.csv; consistent with State_Code
+Depth_m,Double,No,No,No,,No,>=0 or NULL,Maximum observed flood depth in metres,If present must be >=0; NULL if not measured; flag >10m for verification
+Duration_days,Integer,No,No,No,,No,>=0 or NULL,Duration of flood event in days,If present must be >=0; NULL if not known
+Area_Affected_sqkm,Double,No,No,No,,No,>=0 or NULL,Area affected in square kilometres,If present must be >=0
+Households_Affected,Integer,No,No,No,,No,>=0 or NULL,Number of households affected,If present must be >=0
+Infrastructure_Affected,Text(500),No,No,No,,No,,Description of infrastructure affected,Free text; cross-reference with DB06 Infrastructure_ID where possible
+Source,Text(200),Yes,No,No,,No,,Data source for this event record,No nulls; record all sources (comma-separated if multiple)
+Confidence,Text(6),Yes,No,No,,No,"High, Medium, Low",Confidence in event record accuracy,"No nulls; High = verified ≥2 independent sources; Medium = single reliable source; Low = community report only; affects weight in G24 model"
+Geometry_Type_Used,Text(10),Yes,No,No,,No,"Point, Polygon",Whether geometry is a point location or mapped extent polygon,No nulls; document per record
+geometry,Geometry,Yes,No,No,,No,Valid point or polygon,Flood event location or mapped extent (WGS84),No null geometries; must fall within G01 study states

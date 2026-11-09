@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "name": "G06_HydroBasins_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.0,
+              8.5
+            ],
+            [
+              7.5,
+              8.5
+            ],
+            [
+              7.5,
+              11.5
+            ],
+            [
+              4.0,
+              11.5
+            ],
+            [
+              4.0,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Basin_ID": "BASIN-001",
+        "Basin_Name": "Niger Central Basin",
+        "Area_km2": 112500,
+        "Source": "HydroSHEDS / HydroBasins Level 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0,
+              6.5
+            ],
+            [
+              12.0,
+              6.5
+            ],
+            [
+              12.0,
+              9.8
+            ],
+            [
+              7.0,
+              9.8
+            ],
+            [
+              7.0,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Basin_ID": "BASIN-002",
+        "Basin_Name": "Benue River Basin",
+        "Area_km2": 154200,
+        "Source": "HydroSHEDS / HydroBasins Level 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5,
+              9.0
+            ],
+            [
+              8.9,
+              9.0
+            ],
+            [
+              8.9,
+              11.6
+            ],
+            [
+              6.5,
+              11.6
+            ],
+            [
+              6.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Basin_ID": "BASIN-003",
+        "Basin_Name": "Kaduna River Basin",
+        "Area_km2": 66300,
+        "Source": "HydroSHEDS / HydroBasins Level 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              9.4
+            ],
+            [
+              12.0,
+              9.4
+            ],
+            [
+              12.0,
+              11.5
+            ],
+            [
+              10.0,
+              11.5
+            ],
+            [
+              10.0,
+              9.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Basin_ID": "BASIN-004",
+        "Basin_Name": "Gongola Sub-Basin",
+        "Area_km2": 58000,
+        "Source": "HydroSHEDS / HydroBasins Level 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.5,
+              10.5
+            ],
+            [
+              5.5,
+              10.5
+            ],
+            [
+              5.5,
+              13.5
+            ],
+            [
+              3.5,
+              13.5
+            ],
+            [
+              3.5,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Basin_ID": "BASIN-005",
+        "Basin_Name": "Sokoto-Rima Basin",
+        "Area_km2": 82000,
+        "Source": "HydroSHEDS / HydroBasins Level 6"
+      }
+    }
+  ]
+}

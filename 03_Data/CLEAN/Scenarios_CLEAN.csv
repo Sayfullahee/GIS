@@ -1,0 +1,5 @@
+Scenario_ID,Scenario_Name,Scenario_Type,Assumptions_JSON,Projected_Risk_Mean,Delta_Risk_Mean,Tier1_Count,Tier2_Count,Tier3_Count,Tier4_Count,Model_Version,Created_At,QC_Status
+SCN-2026-BASE,2026 Baseline Reference Conditions,Baseline,"{""rainfall_factor"": 1.0, ""temp_c_delta"": 0.0, ""runoff_factor"": 1.0, ""adaptation_coverage_factor"": 1.0}",42.49,0.0,1,16,23,10,Scenario_v4.1,2026-10-07,CLEAN
+SCN-2026-CLIM-STRESS,"Climate Stress (+15% Extreme Rain, +1.5C Heat)",Climate Stress,"{""rainfall_factor"": 1.15, ""temp_c_delta"": 1.5, ""hazard_multiplier"": 1.25, ""criticality_multiplier"": 1.15}",51.34,8.85,8,24,15,3,Scenario_v4.1,2026-10-07,CLEAN
+SCN-2026-LAND-DEGRADE,Watershed Deforestation & Riparian Encroachment,Land-Use Change,"{""vegetative_buffer_loss_pct"": 20.0, ""runoff_coefficient_increase"": 0.30, ""exposure_multiplier"": 1.20}",47.92,5.43,4,21,19,6,Scenario_v4.1,2026-10-07,CLEAN
+SCN-2026-ADAPT-INVEST,Targeted Engineering & Nature-Based Interventions,Adaptation Investment,"{""priority_dykes_built"": 20, ""vulnerability_reduction_pct"": 30.0, ""exposure_buffer_pct"": 20.0}",31.85,-10.64,0,4,21,25,Scenario_v4.1,2026-10-07,CLEAN

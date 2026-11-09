@@ -1,0 +1,11 @@
+2026-10-13 16:47:14 | INFO     | 05_climate | ============================================================
+2026-10-13 16:47:14 | INFO     | 05_climate |   05_CLIMATE — Climate Data Processing
+2026-10-13 16:47:14 | INFO     | 05_climate | ============================================================
+2026-10-13 16:47:14 | INFO     | 05_climate | DB05 loaded: 240 records from 20 stations
+2026-10-13 16:47:14 | WARNING  | 05_climate | Time-series QC: 1 suspicious rainfall jumps flagged
+2026-10-13 16:47:14 | INFO     | 05_climate | Extreme rainfall events flagged: 133 records > 100.0mm
+2026-10-13 16:47:14 | INFO     | 05_climate | Dry spell days computed
+2026-10-13 16:47:14 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv
+2026-10-13 16:47:14 | WARNING  | 05_climate | No daily records found in specified period
+2026-10-13 16:47:14 | WARNING  | 05_climate | No station summary to save
+2026-10-13 16:47:14 | INFO     | 05_climate | 05_climate complete

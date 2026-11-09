@@ -1,0 +1,56 @@
+2026-10-07 17:01:12 | INFO     | 01_ingest | ============================================================
+2026-10-07 17:01:12 | INFO     | 01_ingest |   01_INGEST — Source Registration and Raw Data Ingestion
+2026-10-07 17:01:12 | INFO     | 01_ingest | ============================================================
+2026-10-07 17:01:12 | INFO     | 01_ingest | Source registered: SRC_SRTM — SRTM 30m Digital Elevation Model
+2026-10-07 17:01:13 | INFO     | 01_ingest | Source registered: SRC_NIMET — NiMet Daily Climate Observations
+2026-10-07 17:01:13 | INFO     | 01_ingest | Source registered: SRC_FIELD_2026 — N-HYPPADEC Baseline Field Survey 2026
+2026-10-07 17:01:13 | INFO     | 01_ingest | Source registered: SRC_HYDRO_2026 — Federal Ministry of Water Resources / Hydropower Operators
+2026-10-07 17:01:13 | INFO     | 01_ingest | Asset DB01 verified in RAW: DB01_Community_Master_ENTRY_TEMPLATE.csv
+2026-10-07 17:01:13 | INFO     | 01_ingest | Asset DB02 verified in RAW: DB02_Household_Survey_RAW.csv
+2026-10-07 17:01:13 | INFO     | 01_ingest | Asset DB03 verified in RAW: DB03_Erosion_Sites_ENTRY_TEMPLATE.csv
+2026-10-07 17:01:13 | INFO     | 01_ingest | Asset DB04 verified in RAW: DB04_Hydropower_Water_RAW.csv
+2026-10-07 17:01:13 | INFO     | 01_ingest | Asset DB05 verified in RAW: DB05_Climate_Observations_RAW.csv
+2026-10-07 17:01:13 | INFO     | 01_ingest | Asset DB06 verified in RAW: DB06_Infrastructure_ENTRY_TEMPLATE.csv
+2026-10-07 17:01:13 | INFO     | 01_ingest | 01_ingest complete
+2026-10-07 17:02:44 | INFO     | 01_ingest | ============================================================
+2026-10-07 17:02:44 | INFO     | 01_ingest |   01_INGEST — Source Registration and Raw Data Ingestion
+2026-10-07 17:02:44 | INFO     | 01_ingest | ============================================================
+2026-10-07 17:02:44 | INFO     | 01_ingest | Source already registered: SRC_SRTM — skipping
+2026-10-07 17:02:44 | INFO     | 01_ingest | Source already registered: SRC_NIMET — skipping
+2026-10-07 17:02:44 | INFO     | 01_ingest | Source already registered: SRC_FIELD_2026 — skipping
+2026-10-07 17:02:44 | INFO     | 01_ingest | Source already registered: SRC_HYDRO_2026 — skipping
+2026-10-07 17:02:44 | INFO     | 01_ingest | Asset DB01 verified in RAW: DB01_Community_Master_ENTRY_TEMPLATE.csv
+2026-10-07 17:02:44 | INFO     | 01_ingest | Asset DB02 verified in RAW: DB02_Household_Survey_RAW.csv
+2026-10-07 17:02:44 | INFO     | 01_ingest | Asset DB03 verified in RAW: DB03_Erosion_Sites_ENTRY_TEMPLATE.csv
+2026-10-07 17:02:44 | INFO     | 01_ingest | Asset DB04 verified in RAW: DB04_Hydropower_Water_RAW.csv
+2026-10-07 17:02:44 | INFO     | 01_ingest | Asset DB05 verified in RAW: DB05_Climate_Observations_RAW.csv
+2026-10-07 17:02:44 | INFO     | 01_ingest | Asset DB06 verified in RAW: DB06_Infrastructure_ENTRY_TEMPLATE.csv
+2026-10-07 17:02:44 | INFO     | 01_ingest | 01_ingest complete
+2026-10-07 17:05:04 | INFO     | 01_ingest | ============================================================
+2026-10-07 17:05:04 | INFO     | 01_ingest |   01_INGEST — Source Registration and Raw Data Ingestion
+2026-10-07 17:05:04 | INFO     | 01_ingest | ============================================================
+2026-10-07 17:05:04 | INFO     | 01_ingest | Source already registered: SRC_SRTM — skipping
+2026-10-07 17:05:04 | INFO     | 01_ingest | Source already registered: SRC_NIMET — skipping
+2026-10-07 17:05:04 | INFO     | 01_ingest | Source already registered: SRC_FIELD_2026 — skipping
+2026-10-07 17:05:04 | INFO     | 01_ingest | Source already registered: SRC_HYDRO_2026 — skipping
+2026-10-07 17:05:04 | INFO     | 01_ingest | Asset DB01 verified in RAW: DB01_Community_Master_ENTRY_TEMPLATE.csv
+2026-10-07 17:05:04 | INFO     | 01_ingest | Asset DB02 verified in RAW: DB02_Household_Survey_RAW.csv
+2026-10-07 17:05:04 | INFO     | 01_ingest | Asset DB03 verified in RAW: DB03_Erosion_Sites_ENTRY_TEMPLATE.csv
+2026-10-07 17:05:04 | INFO     | 01_ingest | Asset DB04 verified in RAW: DB04_Hydropower_Water_RAW.csv
+2026-10-07 17:05:04 | INFO     | 01_ingest | Asset DB05 verified in RAW: DB05_Climate_Observations_RAW.csv
+2026-10-07 17:05:04 | INFO     | 01_ingest | Asset DB06 verified in RAW: DB06_Infrastructure_ENTRY_TEMPLATE.csv
+2026-10-07 17:05:04 | INFO     | 01_ingest | 01_ingest complete
+2026-10-07 18:16:33 | INFO     | 01_ingest | ============================================================
+2026-10-07 18:16:33 | INFO     | 01_ingest |   01_INGEST — Source Registration and Raw Data Ingestion
+2026-10-07 18:16:33 | INFO     | 01_ingest | ============================================================
+2026-10-07 18:16:33 | INFO     | 01_ingest | Source already registered: SRC_SRTM — skipping
+2026-10-07 18:16:33 | INFO     | 01_ingest | Source already registered: SRC_NIMET — skipping
+2026-10-07 18:16:33 | INFO     | 01_ingest | Source already registered: SRC_FIELD_2026 — skipping
+2026-10-07 18:16:33 | INFO     | 01_ingest | Source already registered: SRC_HYDRO_2026 — skipping
+2026-10-07 18:16:33 | INFO     | 01_ingest | Asset DB01 verified in RAW: DB01_Community_Master_ENTRY_TEMPLATE.csv
+2026-10-07 18:16:33 | INFO     | 01_ingest | Asset DB02 verified in RAW: DB02_Household_Survey_RAW.csv
+2026-10-07 18:16:33 | INFO     | 01_ingest | Asset DB03 verified in RAW: DB03_Erosion_Sites_ENTRY_TEMPLATE.csv
+2026-10-07 18:16:33 | INFO     | 01_ingest | Asset DB04 verified in RAW: DB04_Hydropower_Water_RAW.csv
+2026-10-07 18:16:33 | INFO     | 01_ingest | Asset DB05 verified in RAW: DB05_Climate_Observations_RAW.csv
+2026-10-07 18:16:33 | INFO     | 01_ingest | Asset DB06 verified in RAW: DB06_Infrastructure_ENTRY_TEMPLATE.csv
+2026-10-07 18:16:33 | INFO     | 01_ingest | 01_ingest complete

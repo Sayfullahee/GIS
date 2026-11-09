@@ -1,0 +1,207 @@
+import csv
+from pathlib import Path
+
+path = Path(r"c:\xampp\htdocs\GIS\03_Data\LOOKUPS\LKP_EnvironmentalProblems.csv")
+
+data = [
+    {
+        "Problem_ID": "EP01",
+        "Problem_Code": "AIR_POLLUTION",
+        "Problem_Name": "Air Pollution",
+        "Symbol_Type": "Circle",
+        "Symbol_Shape": "circle",
+        "Symbol_Color_Hex": "#38BDF8",
+        "Symbol_Char": "●",
+        "Category": "Pollution",
+        "Primary_Risk_Component": "Exposure / Health",
+        "Related_Domain_Code": "WP/CC",
+        "GIS_Layer_Code": "G65_01",
+        "Photo_Legend_Order": 1,
+        "Description": "Atmospheric particulate and gaseous contamination from vehicular emissions, diesel generators, industrial facilities, and open refuse incineration.",
+        "Key_Affected_States": "Lagos; Kano; Rivers; Kaduna; FCT"
+    },
+    {
+        "Problem_ID": "EP02",
+        "Problem_Code": "CLIMATE_CHANGE",
+        "Problem_Name": "Climate Change Impacts",
+        "Symbol_Type": "Circle",
+        "Symbol_Shape": "circle",
+        "Symbol_Color_Hex": "#EA580C",
+        "Symbol_Char": "●",
+        "Category": "Atmospheric & Climate",
+        "Primary_Risk_Component": "Hazard / Trend",
+        "Related_Domain_Code": "CC",
+        "GIS_Layer_Code": "G65_02",
+        "Photo_Legend_Order": 2,
+        "Description": "Systemic shifts in precipitation patterns, temperature warming, extreme weather anomalies, and accelerated hydrological volatility.",
+        "Key_Affected_States": "All States; Niger; Benue; Adamawa; Kebbi; Taraba"
+    },
+    {
+        "Problem_ID": "EP03",
+        "Problem_Code": "DEFORESTATION",
+        "Problem_Name": "Deforestation",
+        "Symbol_Type": "Starburst",
+        "Symbol_Shape": "starburst",
+        "Symbol_Color_Hex": "#16A34A",
+        "Symbol_Char": "✱",
+        "Category": "Land & Biosphere",
+        "Primary_Risk_Component": "Hazard Modifier",
+        "Related_Domain_Code": "DF",
+        "GIS_Layer_Code": "G65_03",
+        "Photo_Legend_Order": 3,
+        "Description": "Severe loss of forest canopy and vegetative cover due to agricultural expansion, unchecked fuelwood harvesting, and illegal timber logging (specifically recorded in Adamawa).",
+        "Key_Affected_States": "Adamawa; Taraba; Cross River; Edo; Ogun; Plateau"
+    },
+    {
+        "Problem_ID": "EP04",
+        "Problem_Code": "DESERTIFICATION",
+        "Problem_Name": "Desertification",
+        "Symbol_Type": "Cross",
+        "Symbol_Shape": "cross",
+        "Symbol_Color_Hex": "#DC2626",
+        "Symbol_Char": "✚",
+        "Category": "Land & Aridification",
+        "Primary_Risk_Component": "Hazard / Land Loss",
+        "Related_Domain_Code": "LD",
+        "GIS_Layer_Code": "G65_04",
+        "Photo_Legend_Order": 4,
+        "Description": "Encroachment of arid Sahara conditions, devegetation of topsoil, and southern march of sand dunes across northern frontline corridors.",
+        "Key_Affected_States": "Sokoto; Kebbi; Katsina; Kano; Jigawa; Yobe; Borno; Gombe"
+    },
+    {
+        "Problem_ID": "EP05",
+        "Problem_Code": "DROUGHT",
+        "Problem_Name": "Drought",
+        "Symbol_Type": "Nested Diamond",
+        "Symbol_Shape": "diamond_nested",
+        "Symbol_Color_Hex": "#1E293B",
+        "Symbol_Char": "◈",
+        "Category": "Hydrometeorology",
+        "Primary_Risk_Component": "Hazard / Water Stress",
+        "Related_Domain_Code": "CC",
+        "GIS_Layer_Code": "G65_05",
+        "Photo_Legend_Order": 5,
+        "Description": "Prolonged meteorological and agricultural dry spells leading to depleted water tables, crop failures, and pasture desiccation.",
+        "Key_Affected_States": "Borno; Yobe; Sokoto; Kebbi; Katsina; Adamawa; Gombe"
+    },
+    {
+        "Problem_ID": "EP06",
+        "Problem_Code": "ECOLOGICAL_CONFLICT",
+        "Problem_Name": "Ecological Conflict",
+        "Symbol_Type": "Crossed Swords",
+        "Symbol_Shape": "badge_swords",
+        "Symbol_Color_Hex": "#B45309",
+        "Symbol_Char": "⚔",
+        "Category": "Socio-Ecological",
+        "Primary_Risk_Component": "Vulnerability / Conflict",
+        "Related_Domain_Code": "V",
+        "GIS_Layer_Code": "G65_06",
+        "Photo_Legend_Order": 6,
+        "Description": "Resource-scarcity tensions, grazing route disputes, and communal friction aggravated by desert encroachment and river basin degradation.",
+        "Key_Affected_States": "Benue; Plateau; Nasarawa; Taraba; Kaduna; Niger; Adamawa"
+    },
+    {
+        "Problem_ID": "EP07",
+        "Problem_Code": "EROSION",
+        "Problem_Name": "Erosion",
+        "Symbol_Type": "Triangle",
+        "Symbol_Shape": "triangle_up",
+        "Symbol_Color_Hex": "#E11D48",
+        "Symbol_Char": "▲",
+        "Category": "Geomorphic & Soil",
+        "Primary_Risk_Component": "Hazard (H)",
+        "Related_Domain_Code": "LD",
+        "GIS_Layer_Code": "G65_07",
+        "Photo_Legend_Order": 7,
+        "Description": "Severe gully, rill, sheet, and coastal erosion destroying fertile topsoils, transport infrastructure, and settlements (specifically recorded in Adamawa).",
+        "Key_Affected_States": "Adamawa; Gombe; Anambra; Abia; Imo; Enugu; Niger; Kogi; Plateau"
+    },
+    {
+        "Problem_ID": "EP08",
+        "Problem_Code": "FLOODING",
+        "Problem_Name": "Flooding",
+        "Symbol_Type": "Segmented Diamond",
+        "Symbol_Shape": "diamond_quartered",
+        "Symbol_Color_Hex": "#2563EB",
+        "Symbol_Char": "⬖",
+        "Category": "Hydrological Hazard",
+        "Primary_Risk_Component": "Hazard (H)",
+        "Related_Domain_Code": "FL",
+        "GIS_Layer_Code": "G65_08",
+        "Photo_Legend_Order": 8,
+        "Description": "Riverine inundation, flash flooding, and reservoir spillway overflows displacing riverside communities and damaging critical infrastructure.",
+        "Key_Affected_States": "Kogi; Niger; Benue; Kebbi; Kwara; Adamawa; Taraba; Anambra; Bayelsa"
+    },
+    {
+        "Problem_ID": "EP09",
+        "Problem_Code": "LEAD_POISONING",
+        "Problem_Name": "Lead Poisoning",
+        "Symbol_Type": "Trefoil Clover",
+        "Symbol_Shape": "trefoil_clover",
+        "Symbol_Color_Hex": "#15803D",
+        "Symbol_Char": "☘",
+        "Category": "Toxic Contamination",
+        "Primary_Risk_Component": "Vulnerability / Toxic Exposure",
+        "Related_Domain_Code": "WP",
+        "GIS_Layer_Code": "G65_09",
+        "Photo_Legend_Order": 9,
+        "Description": "Acute heavy metal contamination of soil, groundwater, and livestock from unsafe artisanal gold mining and informal battery recycling.",
+        "Key_Affected_States": "Zamfara; Niger; Kaduna; Kebbi"
+    },
+    {
+        "Problem_ID": "EP10",
+        "Problem_Code": "OIL_SPILLAGE",
+        "Problem_Name": "Oil Spillage",
+        "Symbol_Type": "5-Point Star",
+        "Symbol_Shape": "star_5pt",
+        "Symbol_Color_Hex": "#7C3AED",
+        "Symbol_Char": "★",
+        "Category": "Petrochemical Pollution",
+        "Primary_Risk_Component": "Exposure / Environmental Damage",
+        "Related_Domain_Code": "WP",
+        "GIS_Layer_Code": "G65_10",
+        "Photo_Legend_Order": 10,
+        "Description": "Petroleum hydrocarbon spills from pipeline ruptures, bunkering, and operational failures degrading deltaic mangroves, fisheries, and potable water.",
+        "Key_Affected_States": "Rivers; Bayelsa; Delta; Akwa Ibom; Ondo; Imo"
+    },
+    {
+        "Problem_ID": "EP11",
+        "Problem_Code": "SOLID_WASTE",
+        "Problem_Name": "Solid Waste Management",
+        "Symbol_Type": "Circle",
+        "Symbol_Shape": "circle",
+        "Symbol_Color_Hex": "#A3E635",
+        "Symbol_Char": "●",
+        "Category": "Municipal Pollution",
+        "Primary_Risk_Component": "Exposure / Waste",
+        "Related_Domain_Code": "WP",
+        "GIS_Layer_Code": "G65_11",
+        "Photo_Legend_Order": 11,
+        "Description": "Inadequate municipal collection, proliferation of unregulated open dumpsites, plastic accumulation in drainage canals, and leachate infiltration.",
+        "Key_Affected_States": "Lagos; Kano; Ibadan; Port Harcourt; Kaduna; Minna; Lokoja; Jos"
+    },
+    {
+        "Problem_ID": "EP12",
+        "Problem_Code": "WATER_POLLUTION",
+        "Problem_Name": "Water Pollution",
+        "Symbol_Type": "Diamond Outline",
+        "Symbol_Shape": "diamond_outline",
+        "Symbol_Color_Hex": "#059669",
+        "Symbol_Char": "◇",
+        "Category": "Aquatic Pollution",
+        "Primary_Risk_Component": "Vulnerability / Water Quality",
+        "Related_Domain_Code": "WP",
+        "GIS_Layer_Code": "G65_12",
+        "Photo_Legend_Order": 12,
+        "Description": "Contamination of surface rivers, reservoirs, and shallow aquifers by industrial effluents, agrochemical runoff, untreated sewage, and mine tailings.",
+        "Key_Affected_States": "Lagos; Rivers; Kano; Niger; Kogi; Benue; Adamawa"
+    }
+]
+
+fieldnames = list(data[0].keys())
+with open(path, mode="w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_MINIMAL)
+    writer.writeheader()
+    writer.writerows(data)
+
+print("Saved correctly formatted CSV!")

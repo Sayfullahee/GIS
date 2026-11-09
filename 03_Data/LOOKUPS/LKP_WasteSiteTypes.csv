@@ -1,0 +1,12 @@
+Waste_Type_Code,Waste_Type_Name,Leachate_Risk,Burning_Risk,Water_Contamination_Risk,Health_Risk_Class,Regulatory_Status_Nigeria,Notes
+WST01,Open Municipal Dump,High,High,High,Critical,Unregulated,Most common type in study area; often informal; near communities
+WST02,Controlled Landfill,Low,None,Low,Low,Regulated (where operational),Engineered liner and leachate collection; rare in study area
+WST03,Medical/Clinical Waste Dump,Critical,Critical,High,Critical,Illegal if open,Sharps; pathological; pharmaceutical contamination
+WST04,Industrial/Chemical Dump,Critical,High,Critical,Critical,Regulated / illegal if open,Heavy metals; persistent organic pollutants
+WST05,Electronic Waste (E-waste) Site,High,Critical,High,High,Unregulated,Lead; mercury; cadmium contamination
+WST06,Agricultural Waste Dump,Moderate,Moderate,Moderate,Moderate,Unregulated,Pesticide containers; organic waste
+WST07,Construction/Demolition Debris,Low,Low,Low,Low,Unregulated,Inert material; minimal leachate unless asbestos present
+WST08,Open Burning Site (no dump),Moderate,Critical,Low,High,Illegal,Airborne particulates; dioxins; furans
+WST09,River/Waterbody Disposal Site,Critical,Moderate,Critical,Critical,Illegal,Direct contamination of drinking water sources
+WST10,Roadside Illegal Dump,Moderate,Moderate,Moderate,Moderate,Illegal,Common; often mixed waste
+WST99,Unknown/Mixed,Variable,Variable,Variable,Unknown,Unknown,Requires field investigation to classify

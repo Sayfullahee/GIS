@@ -1,0 +1,14 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+Reservoir_ID,Text(12),Yes,Yes,No,Yes,Format: RES-SS-NNNN,Permanent reservoir identifier,No duplicates; no nulls
+Hydro_ID,Text(12),Yes,No,Yes,No,Must exist in G07,Parent hydropower facility identifier,Must resolve to G07 Hydro_ID; one reservoir per facility (flag if multiple reservoirs for one facility — may be valid for cascade systems)
+Reservoir_Name,Text(100),No,No,No,No,,Reservoir or dam name,Optional; fill from official records where available
+State_Code,Text(6),Yes,No,Yes,No,See LKP_States.csv,State where reservoir is located,Must resolve to G01 State_Code; must be consistent with parent G07 facility
+Area_sqkm,Double,No,No,No,No,>0,Reservoir surface area at time of delineation in square kilometres,If present must be >0; document water level/season
+Max_Depth_m,Double,No,No,No,No,>0,Maximum known reservoir depth in metres,If present must be >0; source must be documented
+Capacity_MCM,Double,No,No,No,No,>0,Reservoir storage capacity in million cubic metres,If present must be >0; from official records
+Monitoring_Zone_km,Double,No,No,No,No,>0,Radius of monitoring zone around reservoir in km (see BUFFER_RULES.csv BUF004),Default from BUFFER_RULES.csv; document if facility-specific override applied
+Delineation_Method,Text(200),Yes,No,No,No,"Official boundary / Satellite delineation / Field observation / Estimated",Method used to delineate reservoir polygon,No nulls; document clearly — affects confidence in downstream analyses
+Delineation_Date,Date,Yes,No,No,No,YYYY-MM-DD,Date reservoir boundary was delineated,No nulls; cross-check with water level data where available
+Source,Text(200),Yes,No,No,No,,Data source for reservoir geometry and attributes,No nulls
+Notes,Text(500),No,No,No,No,,Notes on uncertainty or seasonal variation,Record water level / season / uncertainty
+geometry,Polygon,Yes,No,No,No,Valid polygon,Reservoir surface polygon (WGS84),No null geometries; no invalid geometries; reservoir polygon must be spatially consistent with parent G07 facility point (facility point should be at or near reservoir dam wall — within 5km); reservoir polygon should generally be upstream of facility point

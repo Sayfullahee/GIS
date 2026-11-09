@@ -1,0 +1,4 @@
+alert_area_id,alert_id,state_code,lga_id,community_id,affected_area_sqkm,exposed_population,exposed_households,exposed_critical_assets,assessed_at,confidence
+AREA-2026-NIG-001,ALT-2026-NIG-001,NG-NIG,LGA-NIG-002,COM-NIG-001-0001,24.5,4250,680,8,2026-10-08 05:15:00+01:00,High
+AREA-2026-BEN-001,ALT-2026-BEN-001,NG-BEN,LGA-BEN-001,COM-BEN-001-0001,42.0,8400,1350,14,2026-10-09 03:40:00+01:00,High
+AREA-2026-KOG-001,ALT-2026-KOG-001,NG-KOG,LGA-KOG-001,COM-KOG-001-0001,31.0,5900,920,11,2026-10-10 05:30:00+01:00,High

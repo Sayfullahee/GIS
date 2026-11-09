@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G13
+Layer_Name,Flow Direction
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Same as G09 DEM (inherited)
+Source_ID,G09 (derived)
+Source_Dataset,Derived from G09 CLEAN (hydrologically conditioned) DEM
+Provider,Project GIS team
+Acquisition_Date,N/A (derived product)
+Source_Version,Derived from G09 v1.0
+Coverage,Same as G09 (study area + 50km buffer — full buffer required for complete basin delineation)
+Processing_Method,"Compute flow direction from G09 CLEAN hydrologically conditioned DEM. Algorithm: D8 (recommended — see TERRAIN_PROCESSING_DECISIONS.csv DEC03). D8 encoding: 1=E; 2=SE; 4=S; 8=SW; 16=W; 32=NW; 64=N; 128=NE (ESRI/TauDEM convention). Must use HYDROLOGICALLY CONDITIONED DEM — flat areas and sinks must be resolved before this step."
+Processing_Date,YYYY-MM-DD
+Processing_Software,GDAL / TauDEM / WhiteboxTools / QGIS (SAGA Flow Direction) / Python (pysheds / richdem)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (with full 50km buffer — required for complete upstream area computation in G14)
+Reprojected,No
+Hydrologic_Conditioned,Yes — input DEM MUST be hydrologically conditioned; see G09 and TERRAIN_PROCESSING_DECISIONS.csv DEC01/DEC04
+License,Derived from G09 source licence
+Restrictions,Same as G09
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G09 (must be CLEAN and hydrologically conditioned)
+Derived_Layers,G14 (Flow Accumulation — directly derived from G13)
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Int16 or Byte depending on algorithm output)
+File_Name,G13_FlowDirection_D8_v1_0.tif
+File_Size_MB,TBD
+Attribute_Count,N/A (raster)
+Feature_Count,N/A
+Bounding_Box_W,Same as G09
+Bounding_Box_E,Same as G09
+Bounding_Box_S,Same as G09
+Bounding_Box_N,Same as G09
+Data_Date,Derived from G09
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,Internal analytical layer — not a primary map output
+Notes,"CRITICAL: Flow direction MUST be derived from a hydrologically conditioned DEM. Using a raw DEM will produce flow direction errors in flat and depressed areas. D8 convention (1/2/4/8/16/32/64/128) must be documented — different software tools use different conventions. Document the exact convention used so G14 flow accumulation and any downstream watershed tools use the same encoding."

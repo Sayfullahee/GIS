@@ -1,0 +1,13 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+flood_event_id,str,NO,FLD-0001,Verified field for Flood_Events
+event_name,str,NO,September 2025 Niger River Flood Overflow,Verified field for Flood_Events
+start_date,str,NO,2025-09-14,Verified field for Flood_Events
+end_date,str,NO,2025-10-07,Verified field for Flood_Events
+state_code,str,NO,NG-NIG,Verified field for Flood_Events
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Events
+peak_depth_m,float64,NO,1.55,Verified field for Flood_Events
+duration_days,int64,NO,23,Verified field for Flood_Events
+source_agency,str,NO,SEMA / Sentinel-1 C-Band SAR,Verified field for Flood_Events
+confidence_rating,str,NO,High,Verified field for Flood_Events
+impact_summary,str,NO,Extensive agricultural submergence and riverbank access disruption across Gurara corridor,Verified field for Flood_Events
+provenance_id,str,NO,PRV-NIG-SEMA-2025-01,Verified field for Flood_Events

@@ -1,0 +1,14 @@
+check_id,category,description,status,critical,details
+Q01,Structure,All required fields present,PASS,True,
+Q02,Completeness,No nulls in required fields,PASS,True,
+Q03,Uniqueness,No duplicate Climate_ID,PASS,True,
+Q04a,Referential integrity,State_Code resolves to State_Code,PASS,False,
+Q05,Coordinate,Coordinates within bounds and not swapped,PASS,True,
+Q07,Temporal,Observation_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 1950-01-01: 0
+Q09a,Range,"Rainfall_mm in [0, 500]",PASS,False,Below 0: 0; Above 500: 0
+Q09b,Range,"Temperature_Max_C in [-5, 55]",PASS,True,Below -5: 0; Above 55: 0
+Q09c,Range,"Temperature_Min_C in [-5, 55]",PASS,True,Below -5: 0; Above 55: 0
+Q08a,Logical,Temperature_Min_C <= Temperature_Max_C,PASS,True,0 inversions
+Q08b,Logical,Observation_Period allowed values,PASS,True,
+Q08c,Logical,Unit_Standard allowed values,PASS,True,
+Q10,Missing vs zero,NULL used for not-recorded values — not 0,PASS,True,

@@ -1,0 +1,13 @@
+check_id,category,description,status,critical,details
+Q01,Structure,All required fields present,PASS,True,
+Q02,Completeness,No nulls in required fields,PASS,True,
+Q03,Uniqueness,No duplicate Infrastructure_ID,PASS,True,
+Q04,Referential integrity,Infrastructure_Type resolves to Infra_Type_Code,PASS,True,
+Q05,Coordinate,Coordinates within bounds and not swapped,PASS,True,
+GPS,GPS,GPS_Accuracy_m acceptable,PASS,False,Flag (>30m): 0; Reject (>100m): 0
+Q07,Temporal,Observation_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 2026-01-01: 0
+Q08a,Logical,Condition allowed values,PASS,False,
+Q08b,Logical,Flood_Exposure allowed values,PASS,True,
+Q08c,Logical,Erosion_Exposure allowed values,PASS,True,
+Q08d,Logical,Critical_Service allowed values,PASS,True,
+Q09a,Range,"Damage_Severity in [0, 4]",PASS,False,Below 0: 0; Above 4: 0

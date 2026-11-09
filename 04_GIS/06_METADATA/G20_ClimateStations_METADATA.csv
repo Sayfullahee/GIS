@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G20
+Layer_Name,Climate Stations
+Layer_Type,Vector-Point
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Station point (one point per physical monitoring station)
+Source_ID,SRC011
+Source_Dataset,NiMet climate station network + approved supplementary sources
+Provider,Nigerian Meteorological Agency (NiMet) + approved additional sources
+Acquisition_Date,YYYY-MM-DD
+Source_Version,Baseline 2026
+Coverage,10 N-HYPPADEC study states + adjacent stations within 100km buffer
+Processing_Method,"Step 1: Request station inventory from NiMet (formal data request). Step 2: Supplement with GHCN-Daily and GSOD station lists for Nigeria where NiMet data incomplete. Step 3: Validate coordinates. Step 4: Assign permanent Station_ID. Step 5: Spatial validate against G01/G02. Step 6: Record station metadata (elevation; start year; active status). Step 7: Publish CLEAN station layer. NOTE: G20 must be CLEAN before DB05 Climate Observations can be validated."
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (study area + 100km buffer — stations outside buffer unlikely to represent conditions within study states)
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,NiMet data subject to formal data agreement; GHCN/GSOD open
+Restrictions,NiMet data: formal data sharing agreement required before use
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G01 G02 (spatial validation)
+Derived_Layers,"DB05 (climate observations — all DB05 records link to G20 Station_ID), G21 (climate observations GIS layer), G22 (rainfall surface), G23 (temperature surface)"
+Storage_Location,04_GIS/02_CLEAN/
+File_Format,GeoPackage preferred
+File_Name,G20_ClimateStations_v1_0.gpkg
+File_Size_MB,TBD (small — tens to hundreds of stations)
+Attribute_Count,10
+Feature_Count,TBD (NiMet inventory to be confirmed)
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,YYYY-MM-DD (station inventory date)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_13_Climate_Stations
+Notes,"Station_ID is permanent — must not change once assigned. DB05 records link to Station_ID. Coverage is a critical QC concern — if fewer than 2 active stations per study state the interpolation approach for G22/G23 must be reconsidered (gridded product preferred over station interpolation). Include all active stations within 100km buffer even if outside study states — needed for interpolation boundary effects."

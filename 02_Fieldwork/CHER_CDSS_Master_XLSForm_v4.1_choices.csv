@@ -1,0 +1,309 @@
+list_name,name,label,state
+yes_no,yes,Yes,
+yes_no,no,No,
+state_list,NG-NIG,Niger (NIG),
+state_list,NG-KEB,Kebbi (KEB),
+state_list,NG-PLA,Plateau (PLA),
+state_list,NG-BEN,Benue (BEN),
+state_list,NG-KOG,Kogi (KOG),
+state_list,NG-KWA,Kwara (KWA),
+state_list,NG-KAD,Kaduna (KAD),
+state_list,NG-NAS,Nasarawa (NAS),
+state_list,NG-TAR,Taraba (TAR),
+state_list,NG-GOM,Gombe (GOM),
+state_list,NG-ADA,Adamawa (ADA),
+lga_list,NG-NIG-001,Agaie,NG-NIG
+lga_list,NG-NIG-002,Agwara,NG-NIG
+lga_list,NG-NIG-003,Bida,NG-NIG
+lga_list,NG-NIG-004,Borgu,NG-NIG
+lga_list,NG-NIG-005,Bosso,NG-NIG
+lga_list,NG-NIG-006,Chanchaga,NG-NIG
+lga_list,NG-NIG-007,Edati,NG-NIG
+lga_list,NG-NIG-008,Gbako,NG-NIG
+lga_list,NG-NIG-009,Gurara,NG-NIG
+lga_list,NG-NIG-010,Katcha,NG-NIG
+lga_list,NG-NIG-011,Kontagora,NG-NIG
+lga_list,NG-NIG-012,Lapai,NG-NIG
+lga_list,NG-NIG-013,Lavun,NG-NIG
+lga_list,NG-NIG-014,Magama,NG-NIG
+lga_list,NG-NIG-015,Mariga,NG-NIG
+lga_list,NG-NIG-016,Mashegu,NG-NIG
+lga_list,NG-NIG-017,Mokwa,NG-NIG
+lga_list,NG-NIG-018,Muya,NG-NIG
+lga_list,NG-NIG-019,Paikoro,NG-NIG
+lga_list,NG-NIG-020,Rafi,NG-NIG
+lga_list,NG-NIG-021,Rijau,NG-NIG
+lga_list,NG-NIG-022,Shiroro,NG-NIG
+lga_list,NG-NIG-023,Suleja,NG-NIG
+lga_list,NG-NIG-024,Tafa,NG-NIG
+lga_list,NG-NIG-025,Wushishi,NG-NIG
+lga_list,NG-KEB-001,Aleiro,NG-KEB
+lga_list,NG-KEB-002,Arewa Dandi,NG-KEB
+lga_list,NG-KEB-003,Argungu,NG-KEB
+lga_list,NG-KEB-004,Augie,NG-KEB
+lga_list,NG-KEB-005,Bagudo,NG-KEB
+lga_list,NG-KEB-006,Birnin Kebbi,NG-KEB
+lga_list,NG-KEB-007,Bunza,NG-KEB
+lga_list,NG-KEB-008,Dandi,NG-KEB
+lga_list,NG-KEB-009,Fakai,NG-KEB
+lga_list,NG-KEB-010,Gwandu,NG-KEB
+lga_list,NG-KEB-011,Jega,NG-KEB
+lga_list,NG-KEB-012,Kalgo,NG-KEB
+lga_list,NG-KEB-013,Koko/Besse,NG-KEB
+lga_list,NG-KEB-014,Maiyama,NG-KEB
+lga_list,NG-KEB-015,Ngaski,NG-KEB
+lga_list,NG-KEB-016,Sakaba,NG-KEB
+lga_list,NG-KEB-017,Shanga,NG-KEB
+lga_list,NG-KEB-018,Suru,NG-KEB
+lga_list,NG-KEB-019,Danko/Wasagu,NG-KEB
+lga_list,NG-KEB-020,Yauri,NG-KEB
+lga_list,NG-KEB-021,Zuru,NG-KEB
+lga_list,NG-PLA-001,Barkin Ladi,NG-PLA
+lga_list,NG-PLA-002,Bassa,NG-PLA
+lga_list,NG-PLA-003,Bokkos,NG-PLA
+lga_list,NG-PLA-004,Jos East,NG-PLA
+lga_list,NG-PLA-005,Jos North,NG-PLA
+lga_list,NG-PLA-006,Jos South,NG-PLA
+lga_list,NG-PLA-007,Kanam,NG-PLA
+lga_list,NG-PLA-008,Kanke,NG-PLA
+lga_list,NG-PLA-009,Langtang North,NG-PLA
+lga_list,NG-PLA-010,Langtang South,NG-PLA
+lga_list,NG-PLA-011,Mangu,NG-PLA
+lga_list,NG-PLA-012,Mikang,NG-PLA
+lga_list,NG-PLA-013,Pankshin,NG-PLA
+lga_list,NG-PLA-014,Qua'an Pan,NG-PLA
+lga_list,NG-PLA-015,Riyom,NG-PLA
+lga_list,NG-PLA-016,Shendam,NG-PLA
+lga_list,NG-PLA-017,Wase,NG-PLA
+lga_list,NG-BEN-001,Ado,NG-BEN
+lga_list,NG-BEN-002,Agatu,NG-BEN
+lga_list,NG-BEN-003,Apa,NG-BEN
+lga_list,NG-BEN-004,Buruku,NG-BEN
+lga_list,NG-BEN-005,Gboko,NG-BEN
+lga_list,NG-BEN-006,Guma,NG-BEN
+lga_list,NG-BEN-007,Gwer East,NG-BEN
+lga_list,NG-BEN-008,Gwer West,NG-BEN
+lga_list,NG-BEN-009,Katsina-Ala,NG-BEN
+lga_list,NG-BEN-010,Konshisha,NG-BEN
+lga_list,NG-BEN-011,Kwande,NG-BEN
+lga_list,NG-BEN-012,Logo,NG-BEN
+lga_list,NG-BEN-013,Makurdi,NG-BEN
+lga_list,NG-BEN-014,Obi,NG-BEN
+lga_list,NG-BEN-015,Ogbadibo,NG-BEN
+lga_list,NG-BEN-016,Ohimini,NG-BEN
+lga_list,NG-BEN-017,Oju,NG-BEN
+lga_list,NG-BEN-018,Okpokwu,NG-BEN
+lga_list,NG-BEN-019,Otukpo,NG-BEN
+lga_list,NG-BEN-020,Tarka,NG-BEN
+lga_list,NG-BEN-021,Ukum,NG-BEN
+lga_list,NG-BEN-022,Ushongo,NG-BEN
+lga_list,NG-BEN-023,Vandeikya,NG-BEN
+lga_list,NG-KOG-001,Adavi,NG-KOG
+lga_list,NG-KOG-002,Ajaokuta,NG-KOG
+lga_list,NG-KOG-003,Ankpa,NG-KOG
+lga_list,NG-KOG-004,Bassa,NG-KOG
+lga_list,NG-KOG-005,Dekina,NG-KOG
+lga_list,NG-KOG-006,Ibaji,NG-KOG
+lga_list,NG-KOG-007,Idah,NG-KOG
+lga_list,NG-KOG-008,Igalamela Odolu,NG-KOG
+lga_list,NG-KOG-009,Ijumu,NG-KOG
+lga_list,NG-KOG-010,Kabba/Bunu,NG-KOG
+lga_list,NG-KOG-011,Kogi Koton Karfe,NG-KOG
+lga_list,NG-KOG-012,Lokoja,NG-KOG
+lga_list,NG-KOG-013,Mopa Muro,NG-KOG
+lga_list,NG-KOG-014,Ofu,NG-KOG
+lga_list,NG-KOG-015,Ogori/Magongo,NG-KOG
+lga_list,NG-KOG-016,Okehi,NG-KOG
+lga_list,NG-KOG-017,Okene,NG-KOG
+lga_list,NG-KOG-018,Olamaboro,NG-KOG
+lga_list,NG-KOG-019,Omala,NG-KOG
+lga_list,NG-KOG-020,Yagba East,NG-KOG
+lga_list,NG-KOG-021,Yagba West,NG-KOG
+lga_list,NG-KWA-001,Asa,NG-KWA
+lga_list,NG-KWA-002,Baruten,NG-KWA
+lga_list,NG-KWA-003,Edu,NG-KWA
+lga_list,NG-KWA-004,Ekiti,NG-KWA
+lga_list,NG-KWA-005,Ifelodun,NG-KWA
+lga_list,NG-KWA-006,Ilorin East,NG-KWA
+lga_list,NG-KWA-007,Ilorin South,NG-KWA
+lga_list,NG-KWA-008,Ilorin West,NG-KWA
+lga_list,NG-KWA-009,Irepodun,NG-KWA
+lga_list,NG-KWA-010,Isin,NG-KWA
+lga_list,NG-KWA-011,Kaiama,NG-KWA
+lga_list,NG-KWA-012,Moro,NG-KWA
+lga_list,NG-KWA-013,Offa,NG-KWA
+lga_list,NG-KWA-014,Oke Ero,NG-KWA
+lga_list,NG-KWA-015,Oyun,NG-KWA
+lga_list,NG-KWA-016,Pategi,NG-KWA
+lga_list,NG-KAD-001,Birnin Gwari,NG-KAD
+lga_list,NG-KAD-002,Chikun,NG-KAD
+lga_list,NG-KAD-003,Giwa,NG-KAD
+lga_list,NG-KAD-004,Igabi,NG-KAD
+lga_list,NG-KAD-005,Ikara,NG-KAD
+lga_list,NG-KAD-006,Jaba,NG-KAD
+lga_list,NG-KAD-007,Jema'a,NG-KAD
+lga_list,NG-KAD-008,Kachia,NG-KAD
+lga_list,NG-KAD-009,Kaduna North,NG-KAD
+lga_list,NG-KAD-010,Kaduna South,NG-KAD
+lga_list,NG-KAD-011,Kagarko,NG-KAD
+lga_list,NG-KAD-012,Kajuru,NG-KAD
+lga_list,NG-KAD-013,Kaura,NG-KAD
+lga_list,NG-KAD-014,Kauru,NG-KAD
+lga_list,NG-KAD-015,Kubau,NG-KAD
+lga_list,NG-KAD-016,Kudan,NG-KAD
+lga_list,NG-KAD-017,Lere,NG-KAD
+lga_list,NG-KAD-018,Makarfi,NG-KAD
+lga_list,NG-KAD-019,Sabon Gari,NG-KAD
+lga_list,NG-KAD-020,Sanga,NG-KAD
+lga_list,NG-KAD-021,Soba,NG-KAD
+lga_list,NG-KAD-022,Zangon Kataf,NG-KAD
+lga_list,NG-KAD-023,Zaria,NG-KAD
+lga_list,NG-NAS-001,Akwanga,NG-NAS
+lga_list,NG-NAS-002,Awe,NG-NAS
+lga_list,NG-NAS-003,Doma,NG-NAS
+lga_list,NG-NAS-004,Karu,NG-NAS
+lga_list,NG-NAS-005,Keana,NG-NAS
+lga_list,NG-NAS-006,Keffi,NG-NAS
+lga_list,NG-NAS-007,Kokona,NG-NAS
+lga_list,NG-NAS-008,Lafia,NG-NAS
+lga_list,NG-NAS-009,Nasarawa,NG-NAS
+lga_list,NG-NAS-010,Nasarawa Egon,NG-NAS
+lga_list,NG-NAS-011,Obi,NG-NAS
+lga_list,NG-NAS-012,Toto,NG-NAS
+lga_list,NG-NAS-013,Wamba,NG-NAS
+lga_list,NG-TAR-001,Ardo Kola,NG-TAR
+lga_list,NG-TAR-002,Bali,NG-TAR
+lga_list,NG-TAR-003,Donga,NG-TAR
+lga_list,NG-TAR-004,Gashaka,NG-TAR
+lga_list,NG-TAR-005,Gassol,NG-TAR
+lga_list,NG-TAR-006,Ibi,NG-TAR
+lga_list,NG-TAR-007,Jalingo,NG-TAR
+lga_list,NG-TAR-008,Karim Lamido,NG-TAR
+lga_list,NG-TAR-009,Kurmi,NG-TAR
+lga_list,NG-TAR-010,Lau,NG-TAR
+lga_list,NG-TAR-011,Sardauna,NG-TAR
+lga_list,NG-TAR-012,Takum,NG-TAR
+lga_list,NG-TAR-013,Ussa,NG-TAR
+lga_list,NG-TAR-014,Wukari,NG-TAR
+lga_list,NG-TAR-015,Yorro,NG-TAR
+lga_list,NG-TAR-016,Zing,NG-TAR
+lga_list,NG-GOM-001,Akko,NG-GOM
+lga_list,NG-GOM-002,Balanga,NG-GOM
+lga_list,NG-GOM-003,Billiri,NG-GOM
+lga_list,NG-GOM-004,Dukku,NG-GOM
+lga_list,NG-GOM-005,Funakaye,NG-GOM
+lga_list,NG-GOM-006,Gombe,NG-GOM
+lga_list,NG-GOM-007,Kaltungo,NG-GOM
+lga_list,NG-GOM-008,Kwami,NG-GOM
+lga_list,NG-GOM-009,Nafada,NG-GOM
+lga_list,NG-GOM-010,Shongom,NG-GOM
+lga_list,NG-GOM-011,Yamaltu/Deba,NG-GOM
+livelihood_list,LIV01,Rainfed Farming,
+livelihood_list,LIV02,Irrigated Farming,
+livelihood_list,LIV03,Artisanal Fishing,
+livelihood_list,LIV04,Pastoralism / Livestock,
+livelihood_list,LIV05,Trading & Commerce,
+livelihood_list,LIV06,Artisan / Small Business,
+livelihood_list,LIV07,Public Service / Salary,
+electricity_list,Yes,Grid Connected (Stable),
+electricity_list,Partial,Grid Connected (Frequent Outages),
+electricity_list,OffGrid,Solar / Generator / Off-grid,
+electricity_list,No,No Electricity Access,
+water_list,WS01,Solar / Motorized Borehole,
+water_list,WS02,Handpump Borehole,
+water_list,WS03,Protected Dug Well,
+water_list,WS04,Unprotected Dug Well,
+water_list,WS05,River / Stream / Pond,
+water_list,WS06,Water Tanker / Commercial,
+rainfall_trend,earlier,Onset Earlier than Usual,
+rainfall_trend,delayed,Onset Significantly Delayed,
+rainfall_trend,erratic,Erratic / Short High-Intensity Storms,
+rainfall_trend,normal,No Noticeable Change,
+temp_trend,much_hotter,Noticeably Hotter Extremes,
+temp_trend,slightly_hotter,Slightly Warmer,
+temp_trend,normal,Normal / No Change,
+severity_1_5,1,1 — Minor Nuisance,
+severity_1_5,2,2 — Moderate Disruption,
+severity_1_5,3,3 — Severe Farmland Damage,
+severity_1_5,4,4 — Critical Structural Flooding,
+severity_1_5,5,5 — Catastrophic Submergence,
+severity_0_4,0,0 — None,
+severity_0_4,1,1 — Slight (Sheet/Rill),
+severity_0_4,2,2 — Moderate,
+severity_0_4,3,3 — Severe (Gully),
+severity_0_4,4,4 — Very Severe (Canyon Gully),
+flood_cause,river_overflow,Main River Overflow,
+flood_cause,intense_rain,Severe Localized Rainfall,
+flood_cause,dam_release,Upstream Reservoir / Dam Release,
+flood_cause,drainage_blocked,Blocked / Inadequate Drainage Channels,
+exposed_assets,crops_farmland,Farmlands & Food Crops,
+exposed_assets,residential_homes,Residential Buildings,
+exposed_assets,schools_clinics,Schools & Health Facilities,
+exposed_assets,roads_bridges,"Roads, Culverts & Bridges",
+exposed_assets,water_boreholes,Water Infrastructure / Boreholes,
+erosion_type_list,gully,Gully Erosion,
+erosion_type_list,riverbank,Riverbank / Shoreline Collapse,
+erosion_type_list,rill,Rill Erosion,
+erosion_type_list,sheet,Sheet Erosion,
+activity_list,active,Active (Rapidly expanding),
+activity_list,stabilizing,Stabilizing (Slowing down),
+activity_list,dormant,Dormant (Vegetated / No recent change),
+project_types,drainage,Concrete Drainage / Flood Channel,
+project_types,gully_control,Gully Reclamation / Gabions,
+project_types,solar_borehole,Solar-Powered Potable Water,
+project_types,school_health,School / Clinic Rehabilitation,
+project_types,embankment,River Embankment / Dyke,
+project_types,tree_planting,Agroforestry / Vegetative Barrier,
+project_status,completed,Completed & Fully Functional,
+project_status,ongoing,Under Construction / Ongoing,
+project_status,impaired,Partially Damaged / Impaired,
+project_status,abandoned,Abandoned / Defunct,
+effectiveness_scale,very_effective,Very Effective — Substantial Risk Reduction,
+effectiveness_scale,moderate,Moderate — Partial Protection,
+effectiveness_scale,ineffective,Ineffective — No Noticeable Reduction,
+few_evidence_type,rainfall,Rainfall observation or approved forecast,
+few_evidence_type,river_level,River level or rate of rise,
+few_evidence_type,reservoir,Reservoir or water-condition observation,
+few_evidence_type,satellite,Satellite observed surface water or flood extent,
+few_evidence_type,community_report,Community or field-team report,
+few_drainage_feature,main_river,Main river,
+few_drainage_feature,tributary,Tributary,
+few_drainage_feature,distributary,Distributary,
+few_drainage_feature,stream,Stream,
+few_drainage_feature,drainage_channel,Drainage channel,
+few_awareness_method,sms,SMS,
+few_awareness_method,radio,Radio,
+few_awareness_method,community_leader,Community leader,
+few_awareness_method,field_team,Field team,
+few_awareness_method,digital,Digital channel,
+few_awareness_method,drill,Preparedness drill,
+few_confidence,high,High,
+few_confidence,moderate,Moderate,
+few_confidence,low,Low,
+few_confidence,unknown,Unknown,
+bandit_impact_list,farm_abandonment,Farmland Abandonment / Inability to Cultivate,
+bandit_impact_list,cattle_rustling,Cattle Rustling / Livestock Looted,
+bandit_impact_list,kidnapping_ransom,Kidnapping for Ransom / Loss of Assets,
+bandit_impact_list,village_displacement,Village Submersion / Forced Displacement to IDP Sites,
+bandit_impact_list,market_closure,Weekly Rural Market Closures / Commercial Paralysis,
+env_problems_list,AIR_POLLUTION,Air Pollution (Particulate/Diesel/Factory Smoke),
+env_problems_list,CLIMATE_CHANGE,Climate Change Impacts (Erratic Rains/Heat Stress),
+env_problems_list,DEFORESTATION,Deforestation & Unchecked Fuelwood Logging,
+env_problems_list,DESERTIFICATION,Desertification & Southern Sand Dune Encroachment,
+env_problems_list,DROUGHT,Drought & Agricultural Water Table Desiccation,
+env_problems_list,ECOLOGICAL_CONFLICT,Ecological Conflict (Farmer-Herder Grazing Route Disputes),
+env_problems_list,EROSION,"Erosion (Gully, Rill & Riverbank Collapse)",
+env_problems_list,FLOODING,Flooding (Riverine Inundation & Dam Release Overflows),
+env_problems_list,LEAD_POISONING,Lead Poisoning & Artisanal Gold Mining Contamination,
+env_problems_list,OIL_SPILLAGE,Oil Spillage & Petroleum Hydrocarbon Contamination,
+env_problems_list,SOLID_WASTE,Solid Waste Dumps & Drainage Canal Plastic Blockage,
+env_problems_list,WATER_POLLUTION,Water Pollution (Industrial Runoff & Agrochemical Infiltration),
+env_problems_list,FOOD_SECURITY,Food Security (Severe Staple Deficit & Hunger Stress),
+env_problems_list,BANDIT_ATTACK,Bandit Attack & Violent Rural Insecurity,
+problem_trend_list,worsening,Worsening / Rapidly Escalating,
+problem_trend_list,stable,Stable / Constant Level,
+problem_trend_list,improving,Improving / Under Effective Control,
+photo_category_list,INFRASTRUCTURE,"Infrastructure Asset (Dyke, Culvert, Well, Road)",
+photo_category_list,EROSION_GULLY,Erosion Gully / Riverbank Scour,
+photo_category_list,FLOOD_WATERMARK,Flood Watermark / Inundation Zone,
+photo_category_list,HOUSEHOLD,Household / Settlement Compound (Level 3 Restricted),

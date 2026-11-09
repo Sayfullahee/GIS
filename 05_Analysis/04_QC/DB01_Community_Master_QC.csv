@@ -1,0 +1,27 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+DB01-Q01,Structure,All required fields present in table,Compare column list to schema,All 24 schema fields present,Add missing columns; update schema if new fields added through approved process,Yes,Pending
+DB01-Q02,Completeness,No nulls in required fields,COUNT null per required field,Zero nulls in Community_ID / Community / State_Code / State_Name / LGA_Code / LGA / Latitude / Longitude / GPS_Accuracy_m / Survey_Date / Record_Created / Data_Version / QC_Status,Flag records; return to field team for completion,Yes,Pending
+DB01-Q03,Uniqueness,No duplicate Community_ID,SELECT Community_ID COUNT(*) GROUP BY Community_ID HAVING COUNT > 1,Zero duplicate Community_ID values,Investigate source; assign corrected ID only after review; never silently delete,Yes,Pending
+DB01-Q04,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN check,All State_Code values present in LKP_States.csv,Flag unresolved codes; correct to valid code or add to lookup if legitimate,Yes,Pending
+DB01-Q05,Reference integrity,LGA_Code resolves to LKP_LGAs.csv,LEFT JOIN check,All LGA_Code values present in LKP_LGAs.csv,Flag unresolved codes,Yes,Pending
+DB01-Q06,Reference integrity,State_Code and LGA_Code are mutually consistent,Cross-check LKP_LGAs.csv State_Code for each LGA_Code,LGA belongs to stated State_Code for every record,Flag inconsistencies; verify with field team,Yes,Pending
+DB01-Q07,Coordinate,Latitude within Nigeria bounds,Range check,All values between 4.0 and 14.0,Flag outliers; return to field team for re-survey or correction,Yes,Pending
+DB01-Q08,Coordinate,Longitude within Nigeria bounds,Range check,All values between 2.5 and 15.0,Flag outliers,Yes,Pending
+DB01-Q09,Coordinate,Latitude and Longitude not swapped,Check Latitude between 4-14 AND Longitude between 2.5-15,No records where Latitude looks like Longitude,Flag suspected swaps; verify with field notes,Yes,Pending
+DB01-Q10,GPS,GPS_Accuracy_m is positive,Range check,All values > 0,Flag nulls and zero values,Yes,Pending
+DB01-Q11,GPS,GPS_Accuracy_m flag high values,Range check,Flag all records where GPS_Accuracy_m > 30; reject records where > 100,Return flagged records to field team for re-survey,No (flag only for >30; Yes for >100),Pending
+DB01-Q12,Temporal,Survey_Date is valid and not in future,Date validation,All Survey_Date values are valid dates; none after current date; none before 2026-01-01,Flag invalid or future dates; correct from field forms,Yes,Pending
+DB01-Q13,Reference integrity,Livelihood resolves to LKP_Livelihood.csv,LEFT JOIN check if not null,All non-null Livelihood values in LKP_Livelihood.csv,Flag unresolved; add to lookup if legitimate new value with approval,No,Pending
+DB01-Q14,Reference integrity,Water_Source resolves to LKP_WaterSource.csv,LEFT JOIN check if not null,All non-null Water_Source values in LKP_WaterSource.csv,Flag unresolved,No,Pending
+DB01-Q15,Reference integrity,Adaptation_Status resolves to LKP_AdaptationStatus.csv,LEFT JOIN check if not null,All non-null Adaptation_Status values in LKP_AdaptationStatus.csv,Flag unresolved,No,Pending
+DB01-Q16,Logical,Electricity_Access allowed values only,Value check,All non-null values in {Yes / No / Partial / Unknown},Flag invalid values,No,Pending
+DB01-Q17,Logical,Flood_Experience allowed values only,Value check,All non-null values in {Yes / No / Unknown},Flag invalid values,No,Pending
+DB01-Q18,Logical,Erosion_Presence allowed values only,Value check,All non-null values in {Yes / No / Unknown},Flag invalid values,No,Pending
+DB01-Q19,Logical,Hydropower_Distance is non-negative if present,Range check,All non-null values >= 0,Flag negative values; correct or null,No,Pending
+DB01-Q20,Logical,Population is positive if present,Range check,All non-null Population > 0,Flag zero or negative values; distinguish from NULL (not recorded),No,Pending
+DB01-Q21,Spatial,Community point falls within stated state (GIS cross-check),GIS point-in-polygon after G01 built,100% of communities within correct state,Flag mismatches; check coordinates and State_Code,Yes,Pending (requires G01)
+DB01-Q22,Spatial,Community point falls within stated LGA (GIS cross-check),GIS point-in-polygon after G02 built,100% of communities within correct LGA,Flag mismatches; check coordinates and LGA_Code,Yes,Pending (requires G02)
+DB01-Q23,Duplicate detection,No two communities with same name in same LGA without review,Group by Community + LGA_Code,Flag duplicates for manual review,Investigate in field; may be genuine duplicate survey records or legitimate same-name communities,No,Pending
+DB01-Q24,Privacy,No Household_ID or household GPS data in DB01,Column check,No Household_ID column; no household-level GPS,Remove; ensure household data is in DB02 only,Yes,Pending
+DB01-Q25,Version,Data_Version populated for all records,Null check,Zero nulls in Data_Version,Populate from processing log,No,Pending
+DB01-Q26,QC Status,QC_Status resolves to LKP_QC_Status.csv,LEFT JOIN check,All values in LKP_QC_Status.csv,Flag unresolved values,Yes,Pending

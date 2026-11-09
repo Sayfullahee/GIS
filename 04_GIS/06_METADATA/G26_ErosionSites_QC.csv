@@ -1,0 +1,16 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G26-Q01,Dependency,DB03 QC_Status = CLEAN before G26 generated,Check PROCESSING_STATUS.csv,DB03 QC_Status = CLEAN,Do not generate G26 from unvalidated DB03,Yes,Pending
+G26-Q02,Sync,G26 feature count matches DB03 CLEAN record count,Count comparison,G26 count = DB03 CLEAN count,Regenerate G26 from DB03; investigate discrepancy,Yes,Pending
+G26-Q03,Sync,All DB03 Erosion_IDs present in G26,LEFT JOIN check,All Erosion_IDs in G26,Regenerate G26; investigate missing records,Yes,Pending
+G26-Q04,Sync,Geometry centroid X/Y matches DB03 Latitude/Longitude,Coordinate comparison,|geom_x - DB03 Longitude| < 0.00001 AND |geom_y - DB03 Latitude| < 0.00001,Rebuild geometry from DB03 coordinates,Yes,Pending
+G26-Q05,CRS,CRS = EPSG:4326,gdalinfo / QGIS check,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G26-Q06,Geometry,No null geometries,Null check,Zero null geometries,Investigate null coordinate source in DB03,Yes,Pending
+G26-Q07,Geometry,No invalid geometries,Validity check,All geometries valid,Run ST_MakeValid,Yes,Pending
+G26-Q08,Spatial,All sites within 10 study states,Point-in-polygon G01,100% within G01 study state polygons,Flag outliers; check DB03 coordinates,Yes,Pending (requires G01)
+G26-Q09,Severity,Severity_0_4 values valid,Range check,All values integer 0–4; no nulls,Correct from DB03; severity is mandatory,Yes,Pending
+G26-Q10,Activity,Activity_Status values valid,Value check,All values in {Active / Inactive / Stabilised / Unknown},Flag invalid values,No,Pending
+G26-Q11,Attribute sync,All DB03 fields present in G26,Schema check vs DB03_Erosion_Sites_SCHEMA.csv,All 31 DB03 fields present in G26 attribute table,Regenerate with correct field mapping,Yes,Pending
+G26-Q12,Geometry type,Geometry_type documented per record,Field check,Geometry type (Point/Line/Polygon) consistent with actual geometry,Fix mismatches between geometry type field and actual geometry,No,Pending
+G26-Q13,Hotspot readiness,Sufficient sites per state for G27 analysis,Count by state,Count per state recorded; states with < 10 sites flagged — hotspot analysis unreliable below threshold,Document data gap per state; flag in G27 method decision,No,Pending
+G26-Q14,River proximity,River_Distance_m populated for all sites,Null check,River_Distance_m populated after 04_integrate.py runs spatial join,Run integration script; populate from G05 nearest-feature,No,Pending (requires G05)
+G26-Q15,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC014 present and complete,Update SOURCE_REGISTER.csv,No,Pending

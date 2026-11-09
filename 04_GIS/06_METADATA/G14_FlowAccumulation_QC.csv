@@ -1,0 +1,13 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G14-Q01,Dependency,G13 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,G13 QC_Status = CLEAN,Do not compute from unvalidated flow direction,Yes,Pending
+G14-Q02,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G14-Q03,Resolution,Pixel size matches G09/G13,gdalinfo,Pixel size identical to G09,Recompute from G13 CLEAN,Yes,Pending
+G14-Q04,Range,All values >= 0,Raster statistics,Min >= 0; no negative values,Flag negatives; indicates computation error,Yes,Pending
+G14-Q05,Units,Accumulation unit documented,Metadata + processing notes,Unit (cells or km²) recorded in processing notes and metadata,Document before use in G24 flood hazard,Yes,Pending
+G14-Q06,NoData,NoData value set,gdalinfo,NoData value set; matches G13/G09 nodata mask,Set nodata value,Yes,Pending
+G14-Q07,Network consistency,High accumulation cells align with G05 river network,Overlay comparison,>=85% of pixels with accumulation > 1000 cells fall within 1 pixel of G05 river lines,Flag systematic misalignment; indicates DEM conditioning issue,No,Pending (requires G05)
+G14-Q08,Basin outlet,Maximum accumulation value at study area outlet(s) plausible,Compare max accumulation to expected basin area,Max accumulation * pixel_area_km² ≈ known basin area for Niger/Benue at study boundary (within 20%),Flag large discrepancies; check buffer extent and G13 conditioning,No,Pending
+G14-Q09,Distribution,Log-transformed accumulation shows expected bimodal pattern (ridges vs channels),Histogram check,Distribution shows low-accumulation (hillslope) and high-accumulation (channel) populations,Flag if distribution is anomalously uniform — indicates flow routing error,No,Pending
+G14-Q10,Extent,Raster extent matches G09,Bounding box comparison,Extents identical,Recompute,Yes,Pending
+G14-Q11,Stream threshold,Minimum accumulation threshold for channel extraction documented,Metadata check,Threshold value (number of cells or km²) recorded before G24 flood hazard modelling begins,Document threshold and rationale in TERRAIN_PROCESSING_DECISIONS.csv,No,Pending
+G14-Q12,Reproducibility,Same inputs + parameters = same output,Re-run and compare,MD5 hash matches,Document all parameters,No,Pending

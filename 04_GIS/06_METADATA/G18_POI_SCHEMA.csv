@@ -1,0 +1,12 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Allowed_Values,Description,QC_Rule
+POI_ID,Text(14),Yes,Yes,No,,Yes,Format: POI-[StateCode2]-[Seq6],Project POI identifier,No duplicates; no nulls
+POI_Class_Code,Text(10),Yes,No,Yes,LKP_POIClasses.csv,No,See LKP_POIClasses.csv,POI classification code,Must resolve to LKP_POIClasses.csv; no nulls
+POI_Name,Text(100),No,No,No,,No,,Facility name,Populate from official register or OSM name tag where available
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,See LKP_States.csv,State where POI is located,Must resolve to LKP_States.csv
+LGA_Code,Text(10),Yes,No,Yes,LKP_LGAs.csv,No,See LKP_LGAs.csv,LGA where POI is located,Must resolve to LKP_LGAs.csv; consistent with State_Code
+Community_ID,Text(12),No,No,Yes,DB01 Community_ID,No,,Nearest community — assigned via spatial join,If populated must resolve to DB01
+Critical_Service,Text(3),Yes,No,No,,No,"Yes, No",Whether facility provides a critical service — from LKP_POIClasses.csv,No nulls; must be consistent with POI_Class_Code Critical_Service field
+Source,Text(20),Yes,No,No,,No,"OSM, Official, Field, Combined",Primary data source,No nulls; allowed values only
+Latitude,Double,Yes,No,No,,No,4.0 to 14.0,Latitude in decimal degrees WGS84,Must be within Nigeria bounds; must fall within stated state
+Longitude,Double,Yes,No,No,,No,2.5 to 15.0,Longitude in decimal degrees WGS84,Must be within Nigeria bounds
+geometry,Point,Yes,No,No,,No,Valid point,POI location (WGS84),No null geometries; X = Longitude; Y = Latitude; within G01 study state

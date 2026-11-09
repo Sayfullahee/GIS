@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G07
+Layer_Name,Hydropower Facilities
+Layer_Type,Vector-Point
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,GPS point (field verified or geocoded from official records)
+Source_ID,SRC012
+Source_Dataset,N-HYPPADEC Hydropower Facility Register + operator/official records + field verification
+Provider,N-HYPPADEC / Facility Operators / Project Field Team
+Acquisition_Date,YYYY-MM-DD
+Source_Version,Baseline 2026
+Coverage,10 N-HYPPADEC study states
+Processing_Method,"Compile facility list from N-HYPPADEC register and official records; geocode or extract coordinates; field-verify coordinates and capacity where possible; cross-check multiple sources; assign permanent Hydro_ID; validate against G01/G02 boundaries"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Project compilation (multiple sources)
+Restrictions,None for facility-level point data; operational/commercial data from DB04 may be restricted
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G01 (state validation) | G02 (LGA validation) | G06 (basin join)
+Derived_Layers,"G08 (reservoirs), G28 (hydro/water observations), G34 (criticality index), IND08 (hydropower disruption)"
+Storage_Location,04_GIS/01_RAW/ | 04_GIS/02_CLEAN/
+File_Format,GeoPackage preferred
+File_Name,G07_Hydropower_Facilities_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,11
+Feature_Count,TBD (N-HYPPADEC register to be acquired)
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,YYYY-MM-DD
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_06_Hydropower
+Notes,"Hydro_ID is permanent — must not change once assigned. Multiple source comparison (N-HYPPADEC vs operator vs field) is mandatory — discrepancies must be flagged and resolved. Installed_MW from official records; field observation updates Operating_Status only."

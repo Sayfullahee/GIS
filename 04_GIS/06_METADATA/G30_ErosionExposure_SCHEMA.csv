@@ -1,0 +1,20 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Yes,DB01 Community_ID,Yes,Community identifier — one record per community,No duplicates; no nulls; must resolve to DB01
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,State code,Must resolve to LKP_States.csv
+LGA_Code,Text(10),Yes,No,Yes,LKP_LGAs.csv,No,LGA code,Must resolve to LKP_LGAs.csv; consistent with State_Code
+Active_Erosion_Sites_Count,Integer,No,No,No,,No,Count of active erosion sites (G26 Activity_Status=Active) within 5km of community centroid,If present must be >= 0
+Active_Erosion_Max_Severity,Integer,No,No,No,,No,Maximum Severity_0_4 among active erosion sites within 5km,If present must be 0-4; NULL if no active sites within range
+Infra_Exposed_Count,Integer,No,No,No,,No,Count of G19 infrastructure items within BUF003 (100m) of any active erosion site,If present must be >= 0
+Critical_Infra_Exposed_Count,Integer,No,No,No,,No,Count of critical infrastructure (G19 Critical_Service=Yes) within BUF003 of active erosion sites,If present must be >= 0 and <= Infra_Exposed_Count
+Roads_km_Exposed,Double,No,No,No,,No,Length of G16 roads (km) within BUF003 of active erosion sites,If present must be >= 0
+Critical_Roads_km_Exposed,Double,No,No,No,,No,Length of RC01+RC02+RC03 (federal/state/LGA) roads within BUF003,If present must be >= 0 and <= Roads_km_Exposed
+Buildings_Exposed_Count,Integer,No,No,No,,No,Count of G17 buildings within BUF003 of active erosion sites,If present must be >= 0
+Community_Centroid_in_Hotspot,Text(3),No,No,No,,No,"Yes, No, Unknown",Whether community centroid falls within a G27 erosion hotspot zone,Allowed values only; Unknown if G27 not available for this state/zone
+Severity_Weighted_Exposure,Double,No,No,No,,No,Severity-weighted exposure score: sum of (asset_count × max_site_severity) per community — see EMD03,If present must be >= 0; computed per EXPOSURE_MODEL_DECISIONS.csv EMD03
+IND06_Erosion_Exposure,Double,No,No,No,,No,IND06 Infrastructure Exposure score (erosion component) 0-100 (normalised),If present must be 0-100
+Threat_Buffer_m,Integer,Yes,No,No,,No,Buffer distance used to define erosion threat zone — must equal BUF003 value from BUFFER_RULES.csv,No nulls; must equal 100 (current BUF003); if buffer changed document in BUFFER_RULES.csv and recompute
+Active_Sites_Used,Text(3),Yes,No,No,,No,"Yes, No",Whether active-only sites were used (Yes) or all sites including inactive (No),No nulls; must be Yes for primary analysis
+Exposure_Data_Completeness,Text(10),Yes,No,No,,No,"Full, Partial, Minimal, None",Data completeness flag,No nulls; None = community has no G26 sites within 10km
+Computation_Date,Date,Yes,No,No,,No,Date G30 was computed YYYY-MM-DD,No nulls
+Input_Layers_Version,Text(200),Yes,No,No,,No,Versions of G26/G27/G19/G16/G17/G03 used — comma-separated,No nulls; required for traceability
+geometry,Polygon,Yes,No,No,,No,Community boundary polygon,No null geometries

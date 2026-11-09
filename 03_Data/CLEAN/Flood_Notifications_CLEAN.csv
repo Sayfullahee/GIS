@@ -1,0 +1,5 @@
+notification_id,alert_id,community_id,channel,language_code,message_version,sent_at,delivery_status,recipient_count,reached_count,provider_reference,sent_by
+NOTIF-2026-001,ALT-2026-NIG-001,COM-NIG-001-0001,sms,ha,SMS-WATCH-v4.1,2026-10-08 06:05:00+01:00,sent,450,412,TELCO-NG-SMS-8841,FEW_Dispatch_Engine
+NOTIF-2026-002,ALT-2026-BEN-001,COM-BEN-001-0001,radio,tiv,RADIO-WARN-v4.1,2026-10-09 04:35:00+01:00,sent,1200,1150,BSES-RADIO-AM-104,FEW_Dispatch_Engine
+NOTIF-2026-003,ALT-2026-KOG-001,COM-KOG-001-0001,community_leader,ha,IVR-ALERT-v4.1,2026-10-09 08:10:00+01:00,sent,350,310,VILLAGE-FOCAL-KOG-09,FEW_Dispatch_Engine
+NOTIF-2026-004,ALT-2026-KEB-001,COM-KEB-001-0001,sms,ha,SMS-ADVISORY-v4.1,2026-10-10 09:20:00+01:00,sent,280,245,TELCO-NG-SMS-8910,FEW_Dispatch_Engine

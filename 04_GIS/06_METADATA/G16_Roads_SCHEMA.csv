@@ -1,0 +1,12 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Allowed_Values,Description,QC_Rule
+Road_ID,Text(14),Yes,Yes,No,,Yes,Format: RD-[StateCode2]-[Seq6],Project road segment identifier,No duplicates; no nulls
+OSM_ID,Text(20),No,No,No,,No,,Original OSM way ID — retained for traceability,Record if available; do not modify
+Road_Class_Code,Text(4),Yes,No,Yes,LKP_RoadHierarchy.csv,No,See LKP_RoadHierarchy.csv,Project road hierarchy classification,Must resolve to LKP_RoadHierarchy.csv; no nulls
+Road_Class_Name,Text(30),Yes,No,No,,No,See LKP_RoadHierarchy.csv,Road class name,Must be consistent with Road_Class_Code
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,See LKP_States.csv,State where road segment is located (primary state if crossing boundary),Must resolve to LKP_States.csv
+OSM_Highway_Tag,Text(30),No,No,No,,No,,Original OSM highway tag value,Retain for audit; used to verify Road_Class_Code assignment
+Surface,Text(20),No,No,No,,No,"paved, unpaved, gravel, earth, unknown",Road surface type from OSM or field supplement,Allowed values only
+Is_Bridge,Text(3),No,No,No,,No,"Yes, No, Unknown",Whether segment is a bridge or elevated crossing,Allowed values only; flag bridges for priority exposure analysis
+Length_km,Double,Yes,No,No,,No,>0,Segment length in kilometres (calculated from geometry),Must be >0; recalculate from geometry; flag >500km (likely multi-segment error)
+OSM_Extract_Date,Date,Yes,No,No,,No,YYYY-MM-DD,Date of OSM extract used as source,No nulls; must be consistent across all records from same extract
+geometry,Line,Yes,No,No,,No,Valid linestring or multilinestring,Road segment geometry (WGS84),No null geometries; no invalid geometries; no zero-length segments

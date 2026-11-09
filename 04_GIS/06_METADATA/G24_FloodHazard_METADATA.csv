@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G24
+Layer_Name,Flood Hazard
+Layer_Type,Raster (index surface) + Vector-Polygon (hazard zones)
+Geometry_Type,Raster and Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Raster: match G09 DEM resolution. Polygon: classified hazard zones derived from raster.
+Source_ID,"G09 G10 G13 G14 G05 G22 G25 (all must be CLEAN before G24 computed)"
+Source_Dataset,Multi-input derived product
+Provider,Project GIS/Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from all upstream layers at their CLEAN versions
+Coverage,10 study states
+Processing_Method,"Model approach determined by HAZARD_MODEL_DECISIONS.csv HMD01. Recommended approach: Multi-criteria index model combining terrain, hydrology, and observed flood drivers. Inputs and indicative weights (to be approved — see HMD01): (1) Flow accumulation G14 — drainage concentration; (2) Slope G10 — terrain gradient; (3) Distance to rivers G05 — proximity to flood source; (4) Annual rainfall G22 — precipitation driver; (5) Land cover G15 — runoff/infiltration modifier; (6) Observed flood locations G25 — calibration/validation. Processing steps: Step 1: Confirm all upstream layers are CLEAN. Step 2: Normalise each input to 0-100 scale. Step 3: Apply approved weights (HMD01). Step 4: Compute weighted sum to produce continuous hazard index raster (0-100). Step 5: Classify into hazard zones (Very Low / Low / Moderate / High / Very High) using approved thresholds (HMD02). Step 6: Validate classified zones against G25 observed flood locations. Step 7: Publish CLEAN raster and derived hazard zone polygons."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (rasterio / numpy / geopandas) / QGIS / GDAL
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,Yes (inherits from G09)
+License,Derived from source layer licences
+Restrictions,Attribution required for HydroSHEDS and ESA WorldCover components
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G09 (CLEAN) | G10 (CLEAN) | G13 (CLEAN) | G14 (CLEAN) | G05 (CLEAN) | G22 (CLEAN) | G25 (CLEAN) | G15 (CLEAN)"
+Derived_Layers,"G29 (flood exposure — G24 is the hazard surface), G31 (hazard index — G24 is the flood hazard component), G35 (composite risk)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,"GeoTIFF Float32 (continuous raster) + GeoPackage (classified hazard zone polygons)"
+File_Name,"G24_FloodHazard_index_v1_0.tif | G24_FloodHazard_zones_v1_0.gpkg"
+File_Size_MB,TBD
+Attribute_Count,N/A (raster) / 6 (hazard zone polygons)
+Feature_Count,N/A (raster) / TBD zones
+Bounding_Box_W,TBD (study area)
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from most recent upstream layer date
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_05_Flood_Hazard, MAP_20_Risk (input component)"
+Notes,"CRITICAL: Input weights and classification thresholds must be pre-specified in HAZARD_MODEL_DECISIONS.csv (HMD01 and HMD02) BEFORE computation begins. They MUST NOT be changed after seeing the output. G24 is a decision-support hazard INDEX — it is not a flood return period map and must not be described as a probability of flooding. Every G24 output must carry its model version (Risk_Model_Version) and input layer versions in metadata. G25 observed floods are used for VALIDATION only — not as an additional input weight (this would create circular validation). Sensitivity analysis with alternate input weights is recommended and must be pre-specified (see HMD01)."

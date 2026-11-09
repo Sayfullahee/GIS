@@ -1,0 +1,15 @@
+Field_Name,Data_Type,Required,Primary_Key,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Community identifier,No duplicates; no nulls; resolves to DB01
+State_Code,Text(6),Yes,No,State code,Resolves to LKP_States.csv
+LGA_Code,Text(10),Yes,No,LGA code,Resolves to LKP_LGAs.csv
+IND06_Critical_Infra_Exposed_Norm,Double,No,No,Normalised critical infrastructure exposure score 0-100,If present: 0-100
+IND07_Electricity_Disruption_Norm,Double,No,No,Normalised electricity disruption score 0-100,If present: 0-100; note this indicator also appears in G33 — document treatment in RISK_MODEL_SPEC.md to avoid double-counting
+IND08_Hydropower_Disruption_Norm,Double,No,No,Normalised hydropower disruption score 0-100,If present: 0-100; NULL for communities outside BUF004 — not 0
+Critical_Services_Count,Integer,No,No,Count of critical service POI and infrastructure items per community (G18 + G19 Critical_Service=Yes),If present: >= 0
+Hydropower_Within_10km,Text(3),Yes,No,"Yes, No",Whether community is within BUF004 of a hydropower facility,No nulls; determines whether IND08 is applicable
+C_Score,Double,Yes,No,Criticality Index score 0-100,No nulls; 0-100; weighted per RISK_MODEL_SPEC.md
+C_Missing_Components,Integer,No,No,Count of missing indicator components,If present: 0-3
+C_Data_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",No nulls
+Risk_Model_Version,Text(20),Yes,No,Risk model version,No nulls
+Computation_Date,Date,Yes,No,Computation date,No nulls
+geometry,Polygon,Yes,No,Community boundary,No null geometries

@@ -1,0 +1,15 @@
+Attribute,Type,Required,Description,QC_Rule
+Band_1_Values,Float32,Yes,Elevation in metres above mean sea level (AMSL),No nulls (nodata value must be set — use -9999 or source nodata; not 0); all valid cells must have values within expected elevation range for Nigeria
+Nodata_Value,Float32,Yes,NoData value — must be explicitly set,Must be set before any derivative processing; do not use 0 as nodata (valid elevations near sea level exist in study area)
+CRS,EPSG:4326,Yes,Coordinate reference system,Must be EPSG:4326; verify with gdalinfo before processing derivatives
+Pixel_Size_X,Double,Yes,Pixel width in decimal degrees,Must match selected source resolution (3 arc-sec = 0.000833 degrees; 1 arc-sec = 0.000278 degrees)
+Pixel_Size_Y,Double,Yes,Pixel height in decimal degrees (negative for north-up raster),Must be negative (north-up); magnitude must match Pixel_Size_X
+Extent_W,Double,Yes,Western bounding extent in decimal degrees,Must encompass study area + 50km buffer
+Extent_E,Double,Yes,Eastern bounding extent in decimal degrees,Must encompass study area + 50km buffer
+Extent_S,Double,Yes,Southern bounding extent in decimal degrees,Must encompass study area + 50km buffer
+Extent_N,Double,Yes,Northern bounding extent in decimal degrees,Must encompass study area + 50km buffer
+Min_Elevation_m,Double,Yes,Minimum valid elevation value in raster,Must be >= -10m (coastal/delta areas may be near sea level); flag if < -10
+Max_Elevation_m,Double,Yes,Maximum valid elevation value in raster,Must be <= 2500m for Nigeria study area; flag if > 2500 (possible error or extreme highland)
+Hydrologic_Conditioning,Text,Yes,Whether hydrologic conditioning was applied and method used,"Must be one of: Already conditioned (HydroSHEDS) / Sink-fill applied / Breach-depression applied / Stream-burned from G05 / Not conditioned — document clearly; affects validity of G13/G14"
+Source_DEM,Text,Yes,Source DEM dataset used,Must match SOURCE_REGISTER.csv Source_ID (SRC005 or SRC006)
+Mosaic_Tiles,Text,No,List of tile IDs mosaicked to produce this layer,Record all tile filenames used; aids reproducibility

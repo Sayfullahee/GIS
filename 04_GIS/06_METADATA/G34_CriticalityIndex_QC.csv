@@ -1,0 +1,12 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G34-Q01,Dependency,G19 G18 G28 CLEAN; INDICATOR_REGISTER IND06-IND08 approved,Check PROCESSING_STATUS.csv,All upstream CLEAN; indicators approved,Do not compute until all pass QC,Yes,Pending
+G34-Q02,IND08 applicability,IND08 NULL (not 0) for communities outside BUF004,Value check,All communities where Hydropower_Within_10km = No have IND08_Hydropower_Disruption_Norm = NULL,Correct 0 entries to NULL for non-applicable communities,Yes,Pending
+G34-Q03,IND07 note,IND07 in G34 is documented as separate from IND07 in G33,Documentation check,Processing notes confirm that IND07 in G34 represents criticality dimension (service importance) and in G33 represents vulnerability dimension (household impact); same source but different conceptual use,Document in processing notes and RISK_MODEL_SPEC.md Section 3,No,Pending
+G34-Q04,Coverage,One record per community,Count check,G34 count = DB01 CLEAN count,Investigate,Yes,Pending
+G34-Q05,Range,C_Score 0-100,Range check,All C_Score values 0-100,Investigate normalisation,Yes,Pending
+G34-Q06,Formula,C_Score = weighted sum of available criticality indicators,Calculation check,C_Score consistent with RISK_MODEL_SPEC.md Section 3,Recompute,Yes,Pending
+G34-Q07,Missing data,NULL used for missing indicators,Field check,Missing indicators NULL — not 0,Correct,Yes,Pending
+G34-Q08,Completeness,C_Data_Completeness populated,Cross-check,Full/Partial/Minimal,Update flag,Yes,Pending
+G34-Q09,Hydropower flag,Hydropower_Within_10km populated for all records,Null check,Zero nulls; values only Yes or No,Populate from G07 BUF004 spatial join,Yes,Pending
+G34-Q10,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending
+G34-Q11,Metadata,Risk_Model_Version and Computation_Date populated,Null check,Zero nulls,Populate before publication,Yes,Pending

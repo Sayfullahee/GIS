@@ -1,0 +1,72 @@
+[
+  {
+    "sync_timestamp": "2026-10-21T11:52:53.278127",
+    "total_incoming": 5,
+    "new_passed": 3,
+    "new_quarantined": 2,
+    "cumulative_passed": 3
+  },
+  {
+    "sync_timestamp": "2026-10-21T12:10:14.287121",
+    "total_incoming": 5,
+    "new_passed": 1,
+    "new_quarantined": 1,
+    "cumulative_passed": 4
+  },
+  {
+    "sync_timestamp": "2026-10-21T12:23:56.576128",
+    "total_incoming": 5,
+    "new_passed": 0,
+    "new_quarantined": 0,
+    "cumulative_passed": 5
+  },
+  {
+    "sync_timestamp": "2026-10-21T13:03:43.968339",
+    "total_incoming": 5,
+    "new_passed": 0,
+    "new_quarantined": 0,
+    "cumulative_passed": 5
+  },
+  {
+    "sync_timestamp": "2026-10-21T13:03:44.589665",
+    "total_incoming": 5,
+    "new_passed": 0,
+    "new_quarantined": 0,
+    "cumulative_passed": 5
+  },
+  {
+    "sync_timestamp": "2026-10-21T13:33:14.939245",
+    "total_incoming": 5,
+    "new_passed": 0,
+    "new_quarantined": 0,
+    "cumulative_passed": 5
+  },
+  {
+    "sync_timestamp": "2026-10-22T15:33:50.983295",
+    "total_incoming": 5,
+    "new_passed": 4,
+    "new_quarantined": 1,
+    "cumulative_passed": 9
+  },
+  {
+    "sync_timestamp": "2026-11-05T16:37:46.634446",
+    "total_incoming": 5,
+    "new_passed": 4,
+    "new_quarantined": 1,
+    "cumulative_passed": 14
+  },
+  {
+    "sync_timestamp": "2026-11-06T10:16:04.981165",
+    "total_incoming": 5,
+    "new_passed": 4,
+    "new_quarantined": 1,
+    "cumulative_passed": 19
+  },
+  {
+    "sync_timestamp": "2026-11-06T10:43:49.735786",
+    "total_incoming": 5,
+    "new_passed": 0,
+    "new_quarantined": 1,
+    "cumulative_passed": 19
+  }
+]

@@ -1,0 +1,14 @@
+2026-10-14 15:52:52 | INFO     | 23_deforestation | ============================================================
+2026-10-14 15:52:52 | INFO     | 23_deforestation |   23_DEFORESTATION — Hansen GFC + Deforestation Pressure (G54)
+2026-10-14 15:52:52 | INFO     | 23_deforestation | ============================================================
+2026-10-14 15:52:52 | WARNING  | 23_deforestation | Forest community stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\Forest_Community_Stats.csv. Download Hansen GFC data and run remote sensing pipeline. IND17 and DF_Score will be NULL until available.
+2026-10-14 15:52:52 | WARNING  | 23_deforestation | No forest stats available — DF_Score will be NULL
+2026-10-14 15:52:52 | INFO     | 23_deforestation | G54 Deforestation Pressure Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G54_DeforestationPressureIndex.csv | Communities with data: 0/30
+2026-10-14 15:52:52 | INFO     | 23_deforestation | 23_deforestation complete
+2026-10-14 16:22:38 | INFO     | 23_deforestation | ============================================================
+2026-10-14 16:22:38 | INFO     | 23_deforestation |   23_DEFORESTATION — Hansen GFC + Deforestation Pressure (G54)
+2026-10-14 16:22:38 | INFO     | 23_deforestation | ============================================================
+2026-10-14 16:22:38 | WARNING  | 23_deforestation | Forest community stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\Forest_Community_Stats.csv. Download Hansen GFC data and run remote sensing pipeline. IND17 and DF_Score will be NULL until available.
+2026-10-14 16:22:38 | WARNING  | 23_deforestation | No forest stats available — DF_Score will be NULL
+2026-10-14 16:22:38 | INFO     | 23_deforestation | G54 Deforestation Pressure Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G54_DeforestationPressureIndex.csv | Communities with data: 0/30
+2026-10-14 16:22:38 | INFO     | 23_deforestation | 23_deforestation complete

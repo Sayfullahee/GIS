@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G18
+Layer_Name,Points of Interest (POI)
+Layer_Type,Vector-Point
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,OSM point features + official datasets + field inventory
+Source_ID,"SRC009 (OSM), SRC013 (field), official datasets where available"
+Source_Dataset,OpenStreetMap Nigeria + official facility registers + field survey
+Provider,OSM contributors / Government agencies / Project field team
+Acquisition_Date,YYYY-MM-DD
+Source_Version,OSM extract date + field survey date
+Coverage,10 study states
+Processing_Method,"Step 1: Extract POI from OSM (amenity, education, health, religion, shop tags). Step 2: Supplement with official facility registers (UBEC for schools; FMOH for health). Step 3: Add field-verified POI from community surveys. Step 4: Classify into project POI classes (LKP_POIClasses.csv). Step 5: Remove duplicates (same facility from multiple sources). Step 6: Assign POI_ID. Step 7: Spatially validate against G01/G02."
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python (geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,"ODbL (OSM component); official data terms; project data (field component)"
+Restrictions,Attribution required for OSM component
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G01 G02 G03 (spatial validation)
+Derived_Layers,"G29 (flood exposure — critical facility exposure), G32 (exposure index), G34 (criticality index)"
+Storage_Location,04_GIS/01_RAW/ | 04_GIS/02_CLEAN/
+File_Format,GeoPackage preferred
+File_Name,G18_POI_[YYYYMMDD]_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,10
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Mixed (OSM extract date; official register date; field survey date)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_10_Infrastructure, MAP_12_Critical_Facilities"
+Notes,"POI completeness depends heavily on source. OSM is strong for religious buildings and markets in urban areas but weak for rural health posts and schools. Official registers (UBEC/FMOH) are more complete for formal facilities but may not capture informal or private facilities. Field survey fills gaps for project communities. Deduplication is critical when combining sources — same facility may appear in all three."

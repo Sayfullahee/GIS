@@ -1,0 +1,108 @@
+{
+  "type": "FeatureCollection",
+  "name": "G18_POI_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.55,
+          9.61
+        ]
+      },
+      "properties": {
+        "name": "Minna General Hospital",
+        "type": "Healthcare",
+        "lon": 6.55,
+        "lat": 9.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53,
+          7.73
+        ]
+      },
+      "properties": {
+        "name": "Makurdi Riverine Market",
+        "type": "Market",
+        "lon": 8.53,
+        "lat": 7.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.74,
+          7.8
+        ]
+      },
+      "properties": {
+        "name": "Lokoja Port Authority",
+        "type": "Administrative",
+        "lon": 6.74,
+        "lat": 7.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.19,
+          12.45
+        ]
+      },
+      "properties": {
+        "name": "Birnin Kebbi College",
+        "type": "Education",
+        "lon": 4.19,
+        "lat": 12.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.89,
+          9.92
+        ]
+      },
+      "properties": {
+        "name": "Jos Water Works",
+        "type": "Water Facility",
+        "lon": 8.89,
+        "lat": 9.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.51,
+          10.31
+        ]
+      },
+      "properties": {
+        "name": "Dadin Kowa Fisheries Center",
+        "type": "Economic POI",
+        "lon": 11.51,
+        "lat": 10.31
+      }
+    }
+  ]
+}

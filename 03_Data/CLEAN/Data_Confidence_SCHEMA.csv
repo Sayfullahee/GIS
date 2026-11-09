@@ -1,0 +1,10 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Confidence_ID,Text,40,Yes,Yes,No,,Confidence assessment ID
+Entity_Or_Layer,Text,100,Yes,No,No,,Layer or entity assessed
+Completeness_Pct,Double,,Yes,No,No,,Data completeness percentage
+Recency_Months,Integer,,Yes,No,No,,Age of most recent observation
+Source_Quality,Text,50,Yes,No,No,,Authoritativeness classification
+Validation_Status,Text,50,Yes,No,No,,Verification audit status
+Rating,Text,20,Yes,No,No,,"High, Moderate, Low, or Unknown"
+Decision_Use,Text,200,Yes,No,No,,Statutory decision permission
+Assessed_Date,Date,10,Yes,No,No,,Assessment audit date

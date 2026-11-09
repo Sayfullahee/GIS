@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "name": "G40_Community_Awareness_Locations_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.07,
+          9.73
+        ]
+      },
+      "properties": {
+        "aware_id": "CAW-NIG-001",
+        "name": "Wushishi Community Civic Hall",
+        "lon": 6.07,
+        "lat": 9.73,
+        "reach": 1250,
+        "type": "Townhall Preparedness Drill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54,
+          7.72
+        ]
+      },
+      "properties": {
+        "aware_id": "CAW-BEN-001",
+        "name": "Makurdi Riverside Youth Center",
+        "lon": 8.54,
+        "lat": 7.72,
+        "reach": 3400,
+        "type": "Flood Early Action Workshop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.76,
+          7.78
+        ]
+      },
+      "properties": {
+        "aware_id": "CAW-KOG-001",
+        "name": "Ganaja Primary Awareness Center",
+        "lon": 6.76,
+        "lat": 7.78,
+        "reach": 2100,
+        "type": "Community Evacuation Orientation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5,
+          10.3
+        ]
+      },
+      "properties": {
+        "aware_id": "CAW-GOM-001",
+        "name": "Dadin Kowa Community Center",
+        "lon": 11.5,
+        "lat": 10.3,
+        "reach": 980,
+        "type": "Riparian Safety Sensitization"
+      }
+    }
+  ]
+}

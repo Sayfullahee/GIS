@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "name": "G28_Hydro_Water_Observations_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.609,
+          9.863
+        ]
+      },
+      "properties": {
+        "Hydro_ID": "HYD-01",
+        "Total_Disruption_Days": 2,
+        "Total_Generation_MWh": 404082.6,
+        "Installed_MW": 760.0,
+        "Flood_Damage_Events": 2,
+        "Max_Sedimentation_Num": 3.0,
+        "Observation_Count": 6,
+        "Record_Years": 1,
+        "Annual_Disruption_Days": 2.0,
+        "Theoretical_Max_MWh": 6657600.0,
+        "Generation_Efficiency_Pct": 6.069493511175198,
+        "IND08_Hydropower_Disruption": 68.709010604422,
+        "Computation_Date": "2026-10-15",
+        "Data_Version": "Baseline_2026",
+        "Facility_Name": "Kainji Hydroelectric Dam",
+        "Latitude": 9.863,
+        "Longitude": 4.609
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.825,
+          9.138
+        ]
+      },
+      "properties": {
+        "Hydro_ID": "HYD-02",
+        "Total_Disruption_Days": 1,
+        "Total_Generation_MWh": 403945.0,
+        "Installed_MW": 578.0,
+        "Flood_Damage_Events": 2,
+        "Max_Sedimentation_Num": 3.0,
+        "Observation_Count": 6,
+        "Record_Years": 1,
+        "Annual_Disruption_Days": 1.0,
+        "Theoretical_Max_MWh": 5063280.0,
+        "Generation_Efficiency_Pct": 7.977931301448864,
+        "IND08_Hydropower_Disruption": 62.2077240444929,
+        "Computation_Date": "2026-10-15",
+        "Data_Version": "Baseline_2026",
+        "Facility_Name": "Jebba Hydroelectric Dam",
+        "Latitude": 9.138,
+        "Longitude": 4.825
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.832,
+          9.972
+        ]
+      },
+      "properties": {
+        "Hydro_ID": "HYD-03",
+        "Total_Disruption_Days": 3,
+        "Total_Generation_MWh": 360536.3,
+        "Installed_MW": 600.0,
+        "Flood_Damage_Events": 0,
+        "Max_Sedimentation_Num": 3.0,
+        "Observation_Count": 6,
+        "Record_Years": 1,
+        "Annual_Disruption_Days": 3.0,
+        "Theoretical_Max_MWh": 5256000.0,
+        "Generation_Efficiency_Pct": 6.859518645357686,
+        "IND08_Hydropower_Disruption": 54.265835140791474,
+        "Computation_Date": "2026-10-15",
+        "Data_Version": "Baseline_2026",
+        "Facility_Name": "Shiroro Hydroelectric Dam",
+        "Latitude": 9.972,
+        "Longitude": 6.832
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.915,
+          9.814
+        ]
+      },
+      "properties": {
+        "Hydro_ID": "HYD-04",
+        "Total_Disruption_Days": 5,
+        "Total_Generation_MWh": 388645.9,
+        "Installed_MW": 700.0,
+        "Flood_Damage_Events": 2,
+        "Max_Sedimentation_Num": 2.0,
+        "Observation_Count": 6,
+        "Record_Years": 1,
+        "Annual_Disruption_Days": 5.0,
+        "Theoretical_Max_MWh": 6132000.0,
+        "Generation_Efficiency_Pct": 6.337995759947815,
+        "IND08_Hydropower_Disruption": 76.11503481735159,
+        "Computation_Date": "2026-10-15",
+        "Data_Version": "Baseline_2026",
+        "Facility_Name": "Zungeru Hydroelectric Dam",
+        "Latitude": 9.814,
+        "Longitude": 6.915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.492,
+          10.312
+        ]
+      },
+      "properties": {
+        "Hydro_ID": "HYD-05",
+        "Total_Disruption_Days": 7,
+        "Total_Generation_MWh": 359045.8,
+        "Installed_MW": 40.0,
+        "Flood_Damage_Events": 0,
+        "Max_Sedimentation_Num": 3.0,
+        "Observation_Count": 6,
+        "Record_Years": 1,
+        "Annual_Disruption_Days": 7.0,
+        "Theoretical_Max_MWh": 350400.0,
+        "Generation_Efficiency_Pct": 100.0,
+        "IND08_Hydropower_Disruption": 45.0,
+        "Computation_Date": "2026-10-15",
+        "Data_Version": "Baseline_2026",
+        "Facility_Name": "Dadin Kowa Dam",
+        "Latitude": 10.312,
+        "Longitude": 11.492
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.052,
+          7.154
+        ]
+      },
+      "properties": {
+        "Hydro_ID": "HYD-06",
+        "Total_Disruption_Days": 1,
+        "Total_Generation_MWh": 379983.6,
+        "Installed_MW": 40.0,
+        "Flood_Damage_Events": 1,
+        "Max_Sedimentation_Num": 3.0,
+        "Observation_Count": 6,
+        "Record_Years": 1,
+        "Annual_Disruption_Days": 1.0,
+        "Theoretical_Max_MWh": 350400.0,
+        "Generation_Efficiency_Pct": 100.0,
+        "IND08_Hydropower_Disruption": 20.0,
+        "Computation_Date": "2026-10-15",
+        "Data_Version": "Baseline_2026",
+        "Facility_Name": "Kashimbila Multipurpose Dam",
+        "Latitude": 7.154,
+        "Longitude": 10.052
+      }
+    }
+  ]
+}

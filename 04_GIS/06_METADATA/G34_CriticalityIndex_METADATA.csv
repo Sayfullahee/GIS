@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G34
+Layer_Name,Criticality Index
+Layer_Type,Vector-Polygon (community level)
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon
+Source_ID,"G19 (field infrastructure), G18 (POI), DB04/G28 (hydropower disruption), IND06 (infrastructure exposure), IND07 (electricity disruption), IND08 (hydropower disruption)"
+Source_Dataset,Multi-input derived product
+Provider,Project Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from upstream CLEAN layers
+Coverage,10 study states
+Processing_Method,"Standardise criticality indicators (IND06 critical infrastructure exposed; IND07 electricity disruption; IND08 hydropower disruption; critical service count per community) → normalise to 0-100 → apply approved weights → weighted sum → C score 0-100 per community."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived product
+Restrictions,None
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G19 (CLEAN), G18 (CLEAN), G28 (CLEAN), INDICATOR_REGISTER.csv IND06-IND08 approved"
+Derived_Layers,"G35 (composite risk — C component with weight 0.15)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage
+File_Name,G34_CriticalityIndex_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,12
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_24_Criticality_Index
+Notes,"C score feeds G35 with weight 0.15 — the smallest weight in the composite, reflecting that criticality modifies severity of consequence rather than driving primary risk. Criticality = the degree to which loss of services and assets would compound community vulnerability. High criticality communities are those highly dependent on infrastructure that is already exposed. IND08 (hydropower disruption) applies only to communities within BUF004 (10km) of a hydropower facility — other communities receive IND08 = NULL not 0."

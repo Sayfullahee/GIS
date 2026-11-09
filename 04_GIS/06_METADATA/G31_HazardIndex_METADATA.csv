@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G31
+Layer_Name,Hazard Index
+Layer_Type,Vector-Polygon (community level)
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon
+Source_ID,"G24 (flood hazard), G26 (erosion sites), IND01 (flood frequency), IND02 (flood severity), IND03 (erosion severity), IND04 (river proximity)"
+Source_Dataset,Multi-input derived product — all upstream CLEAN layers
+Provider,Project Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from upstream CLEAN layers
+Coverage,10 study states
+Processing_Method,"Standardise hazard indicators (IND01-IND04) → normalise each to 0-100 using fixed reference bounds → apply approved weights (see RISK_MODEL_SPEC.md) → weighted sum → aggregate by community → output H score 0-100."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas / rasterstats)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived product
+Restrictions,None
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G24 (CLEAN), G26 (CLEAN), DB01 (CLEAN), INDICATOR_REGISTER.csv IND01-IND04 all approved"
+Derived_Layers,"G35 (composite risk — H component)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage
+File_Name,G31_HazardIndex_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,12
+Feature_Count,TBD (one per community)
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from upstream layers
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_21_Hazard_Index
+Notes,"H score feeds G35 with weight 0.35. Every H score must carry Risk_Model_Version. IND01/IND02 flood indicators depend on G25 and DB01/DB02. IND03/IND04 depend on G26 and G05. All indicators must be in INDICATOR_REGISTER.csv with approved weights before G31 computation."

@@ -1,0 +1,10 @@
+Erosion_Type_Code,Erosion_Type_Name,Description,Notes
+RILL,Rill Erosion,Small channels formed by surface runoff,Early stage; reversible with management
+GULLY,Gully Erosion,Deep incised channels; main erosion type in SE Nigeria,Most common and destructive type in study area
+SHEET,Sheet Erosion,Uniform removal of thin soil layer,Often precedes rill formation
+BANK,River Bank Erosion,Lateral undercutting and collapse of riverbanks,Directly linked to river proximity
+COASTAL,Coastal Erosion,Wave-driven shoreline recession,Applicable to coastal LGAs
+TUNNEL,Tunnel/Piping Erosion,Sub-surface soil removal creating tunnels,Less visible; may collapse suddenly
+MASS,Mass Movement/Landslide,Slope failure involving soil/rock mass,Associated with steep terrain
+COMBO,Combined/Multiple Types,More than one erosion type at same site,Record primary type separately in Notes
+UNK,Unknown,Erosion type not determined in field,Requires follow-up verification

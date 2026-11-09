@@ -1,0 +1,24 @@
+2026-10-14 15:52:51 | INFO     | 15_priority | ============================================================
+2026-10-14 15:52:51 | INFO     | 15_priority |   15_PRIORITY — Priority Areas (G37)
+2026-10-14 15:52:51 | INFO     | 15_priority | ============================================================
+2026-10-14 15:52:51 | WARNING  | 15_priority | Priority tier thresholds use equal-interval placeholder — compute Jenks on baseline Priority_Score distribution and update thresholds in RISK_MODEL_SPEC.md Section 8 before publication.
+2026-10-14 15:52:51 | INFO     | 15_priority | Tier changes baseline vs S1: 0
+2026-10-14 15:52:51 | INFO     | 15_priority | G37 Priority Areas saved | 30 communities
+  Tier 1 (Highest): 0
+  Tier 2 (High):    10
+  Tier 3 (Moderate):15
+  Tier 4 (Lower):   5
+2026-10-14 15:52:51 | INFO     | 15_priority | Top-20 priority list saved: c:\xampp\htdocs\GIS\07_Decision_Support\03_Priority_Areas\G37_Top20_Priority_Communities.csv
+2026-10-14 15:52:51 | INFO     | 15_priority | 15_priority complete
+2026-10-14 16:22:37 | INFO     | 15_priority | ============================================================
+2026-10-14 16:22:37 | INFO     | 15_priority |   15_PRIORITY — Priority Areas (G37)
+2026-10-14 16:22:37 | INFO     | 15_priority | ============================================================
+2026-10-14 16:22:37 | WARNING  | 15_priority | Priority tier thresholds use equal-interval placeholder — compute Jenks on baseline Priority_Score distribution and update thresholds in RISK_MODEL_SPEC.md Section 8 before publication.
+2026-10-14 16:22:37 | INFO     | 15_priority | Tier changes baseline vs S1: 0
+2026-10-14 16:22:37 | INFO     | 15_priority | G37 Priority Areas saved | 30 communities
+  Tier 1 (Highest): 0
+  Tier 2 (High):    10
+  Tier 3 (Moderate):15
+  Tier 4 (Lower):   5
+2026-10-14 16:22:37 | INFO     | 15_priority | Top-20 priority list saved: c:\xampp\htdocs\GIS\07_Decision_Support\03_Priority_Areas\G37_Top20_Priority_Communities.csv
+2026-10-14 16:22:37 | INFO     | 15_priority | 15_priority complete

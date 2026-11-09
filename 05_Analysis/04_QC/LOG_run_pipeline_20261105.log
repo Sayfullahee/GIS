@@ -1,0 +1,173 @@
+2026-11-05 13:41:53 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:41:53 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-11-05 13:41:53 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:41:53 | INFO     | run_pipeline | Run date:    2026-11-05
+2026-11-05 13:41:53 | INFO     | run_pipeline | Steps:       25/25 total
+2026-11-05 13:41:53 | INFO     | run_pipeline | Dry run:     True
+2026-11-05 13:41:53 | INFO     | run_pipeline | 
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [19] 20_climate_change    — Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [20] 21_flooding          — Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [21] 22_land_degradation  — NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [22] 23_deforestation     — Hansen GFC IND17; deforestation pressure DF_Score
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [23] 24_waste_pollution   — DB08 waste sites; leachate IND18–19; WP_Score
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [24] 25_biodiversity      — Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-11-05 13:41:53 | INFO     | run_pipeline |   [25] 26_eri               — ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-11-05 13:41:53 | INFO     | run_pipeline | 
+2026-11-05 13:41:53 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-11-05 13:48:58 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:48:58 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-11-05 13:48:58 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:48:58 | INFO     | run_pipeline | Run date:    2026-11-05
+2026-11-05 13:48:58 | INFO     | run_pipeline | Steps:       25/25 total
+2026-11-05 13:48:58 | INFO     | run_pipeline | Dry run:     True
+2026-11-05 13:48:58 | INFO     | run_pipeline | 
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [19] 20_climate_change    — Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [20] 21_flooding          — Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [21] 22_land_degradation  — NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [22] 23_deforestation     — Hansen GFC IND17; deforestation pressure DF_Score
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [23] 24_waste_pollution   — DB08 waste sites; leachate IND18–19; WP_Score
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [24] 25_biodiversity      — Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-11-05 13:48:58 | INFO     | run_pipeline |   [25] 26_eri               — ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-11-05 13:48:58 | INFO     | run_pipeline | 
+2026-11-05 13:48:58 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-11-05 13:49:10 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:10 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-11-05 13:49:10 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:10 | INFO     | run_pipeline | Run date:    2026-11-05
+2026-11-05 13:49:10 | INFO     | run_pipeline | Steps:       7/25 total
+2026-11-05 13:49:10 | INFO     | run_pipeline | Dry run:     False
+2026-11-05 13:49:10 | INFO     | run_pipeline | 
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [01] 20_climate_change    — Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [02] 21_flooding          — Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [03] 22_land_degradation  — NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [04] 23_deforestation     — Hansen GFC IND17; deforestation pressure DF_Score
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [05] 24_waste_pollution   — DB08 waste sites; leachate IND18–19; WP_Score
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [06] 25_biodiversity      — Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-11-05 13:49:10 | INFO     | run_pipeline |   [07] 26_eri               — ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-11-05 13:49:10 | INFO     | run_pipeline | 
+2026-11-05 13:49:10 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:10 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-11-05 13:49:10 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:10 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:10 | INFO     | run_pipeline | STEP: 20_climate_change — Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-11-05 13:49:10 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:11 | INFO     | run_pipeline | ✓ PASSED: 20_climate_change (1.4s)
+2026-11-05 13:49:11 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:11 | INFO     | run_pipeline | STEP: 21_flooding — Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-11-05 13:49:11 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:12 | INFO     | run_pipeline | ✓ PASSED: 21_flooding (0.6s)
+2026-11-05 13:49:12 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:12 | INFO     | run_pipeline | STEP: 22_land_degradation — NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-11-05 13:49:12 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:12 | INFO     | run_pipeline | ✓ PASSED: 22_land_degradation (0.0s)
+2026-11-05 13:49:12 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:12 | INFO     | run_pipeline | STEP: 23_deforestation — Hansen GFC IND17; deforestation pressure DF_Score
+2026-11-05 13:49:12 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:12 | INFO     | run_pipeline | ✓ PASSED: 23_deforestation (0.0s)
+2026-11-05 13:49:12 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:12 | INFO     | run_pipeline | STEP: 24_waste_pollution — DB08 waste sites; leachate IND18–19; WP_Score
+2026-11-05 13:49:12 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:13 | INFO     | run_pipeline | ✓ PASSED: 24_waste_pollution (1.0s)
+2026-11-05 13:49:13 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:13 | INFO     | run_pipeline | STEP: 25_biodiversity — Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-11-05 13:49:13 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:13 | INFO     | run_pipeline | ✓ PASSED: 25_biodiversity (0.1s)
+2026-11-05 13:49:13 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:13 | INFO     | run_pipeline | STEP: 26_eri — ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-11-05 13:49:13 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:14 | INFO     | run_pipeline | ✓ PASSED: 26_eri (1.4s)
+2026-11-05 13:49:14 | INFO     | run_pipeline | 
+============================================================
+2026-11-05 13:49:14 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-11-05 13:49:14 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:49:14 | INFO     | run_pipeline |   Total elapsed:  4.5s (0.1 min)
+2026-11-05 13:49:14 | INFO     | run_pipeline |   Steps passed:   7
+2026-11-05 13:49:14 | INFO     | run_pipeline |   Steps failed:   0
+2026-11-05 13:49:14 | INFO     | run_pipeline |   Steps pending:  0
+2026-11-05 13:49:14 | INFO     | run_pipeline | 
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 20_climate_change    PASSED     1.4s
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 21_flooding          PASSED     0.6s
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 22_land_degradation  PASSED     0.0s
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 23_deforestation     PASSED     0.0s
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 24_waste_pollution   PASSED     1.0s
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 25_biodiversity      PASSED     0.1s
+2026-11-05 13:49:14 | INFO     | run_pipeline |   ✓ 26_eri               PASSED     1.4s
+2026-11-05 13:49:14 | INFO     | run_pipeline | 
+✓ PIPELINE COMPLETE — all steps passed.
+2026-11-05 13:52:36 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:52:36 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-11-05 13:52:36 | INFO     | run_pipeline | ============================================================
+2026-11-05 13:52:36 | INFO     | run_pipeline | Run date:    2026-11-05
+2026-11-05 13:52:36 | INFO     | run_pipeline | Steps:       25/25 total
+2026-11-05 13:52:36 | INFO     | run_pipeline | Dry run:     True
+2026-11-05 13:52:36 | INFO     | run_pipeline | 
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [19] 20_climate_change    — Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [20] 21_flooding          — Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [21] 22_land_degradation  — NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [22] 23_deforestation     — Hansen GFC IND17; deforestation pressure DF_Score
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [23] 24_waste_pollution   — DB08 waste sites; leachate IND18–19; WP_Score
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [24] 25_biodiversity      — Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-11-05 13:52:36 | INFO     | run_pipeline |   [25] 26_eri               — ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-11-05 13:52:36 | INFO     | run_pipeline | 
+2026-11-05 13:52:36 | INFO     | run_pipeline | DRY RUN — no modules executed.

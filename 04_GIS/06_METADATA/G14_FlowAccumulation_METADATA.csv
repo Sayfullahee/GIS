@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G14
+Layer_Name,Flow Accumulation
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Same as G09 DEM (inherited)
+Source_ID,G13 (derived from flow direction)
+Source_Dataset,Derived from G13 Flow Direction
+Provider,Project GIS team
+Acquisition_Date,N/A (derived product)
+Source_Version,Derived from G13 v1.0
+Coverage,Same as G09 (study area + 50km buffer)
+Processing_Method,"Compute flow accumulation from G13 Flow Direction. Each cell value = count of upstream cells draining into that cell (or upstream area in square metres/km² if weighted). Unit: number of upstream cells OR upstream area in km² (document which). High accumulation values mark drainage channels. Used for drainage concentration analysis and stream network extraction."
+Processing_Date,YYYY-MM-DD
+Processing_Software,GDAL / TauDEM / WhiteboxTools / QGIS (SAGA) / Python (pysheds / richdem)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (with full 50km buffer — required to capture complete upstream contributing areas)
+Reprojected,No
+Hydrologic_Conditioned,N/A (inherits conditioning from G09/G13)
+License,Derived from G09 source licence
+Restrictions,Same as G09
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G13 (must be CLEAN)
+Derived_Layers,"G24 (flood hazard — high flow accumulation = flood concentration zones), G31 (hazard index input)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Int32 or Float32 for large rasters)
+File_Name,G14_FlowAccumulation_v1_0.tif
+File_Size_MB,TBD
+Attribute_Count,N/A (raster)
+Feature_Count,N/A
+Bounding_Box_W,Same as G09
+Bounding_Box_E,Same as G09
+Bounding_Box_S,Same as G09
+Bounding_Box_N,Same as G09
+Data_Date,Derived from G09
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,Internal analytical layer — high-accumulation channel network may be used in flood hazard map (G24)
+Notes,"Flow accumulation values range from 0 (ridgeline cells with no upstream area) to very large numbers (major river outlets — potentially millions of cells for Niger/Benue). Values typically log-transformed for visualisation and hazard index use. Document whether output is in cells or area units (km²). This layer is a key input to G24 flood hazard modelling."

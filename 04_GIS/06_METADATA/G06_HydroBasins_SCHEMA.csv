@@ -1,0 +1,10 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+HYBAS_ID,Integer,Yes,Yes,No,Yes,>0,HydroSHEDS basin unique identifier,No duplicates; no nulls; do not modify
+NEXT_DOWN,Integer,Yes,No,No,No,>= 0 (0 = outlet/sink),ID of the next downstream basin,Must be 0 (sink/ocean outlet) or resolve to another HYBAS_ID in the dataset
+NEXT_SINK,Integer,Yes,No,No,No,>0,ID of the ultimate downstream sink basin,Must resolve to a HYBAS_ID; should be same as HYBAS_ID for sink basins
+MAIN_BAS,Integer,Yes,No,No,No,>0,ID of the largest downstream basin (main basin),Must resolve to a HYBAS_ID
+SUB_AREA,Double,Yes,No,No,No,>0,Sub-basin area in square kilometres (this level only),Must be >0
+UP_AREA,Double,Yes,No,No,No,>0,Total upstream area including sub-basin in square kilometres,Must be >= SUB_AREA
+PFAF_ID,Integer,Yes,No,No,Yes,Pfafstetter code,Pfafstetter hierarchical basin code,No duplicates within same level; encodes parent-child relationships
+LEVEL,Integer,Yes,No,No,No,4 / 5 / 6,HydroBASINS level,Must be 4 5 or 6 for this project
+geometry,Polygon,Yes,No,No,No,Valid polygon,Basin polygon geometry,No null geometries; no invalid geometries; basins at same level must not overlap; higher level basins must be contained within lower level parent basins

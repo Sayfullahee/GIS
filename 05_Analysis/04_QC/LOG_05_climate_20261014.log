@@ -1,0 +1,14 @@
+2026-10-14 15:52:49 | INFO     | 05_climate | ============================================================
+2026-10-14 15:52:49 | INFO     | 05_climate |   05_CLIMATE — Climate Data Processing
+2026-10-14 15:52:49 | INFO     | 05_climate | ============================================================
+2026-10-14 15:52:49 | INFO     | 05_climate | DB05 loaded: 1380 records from 5 stations
+2026-10-14 15:52:50 | INFO     | 05_climate | Extreme rainfall events flagged: 802 records > 100.0mm
+2026-10-14 15:52:50 | INFO     | 05_climate | Dry spell days computed
+2026-10-14 15:52:50 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv
+2026-10-14 16:22:36 | INFO     | 05_climate | ============================================================
+2026-10-14 16:22:36 | INFO     | 05_climate |   05_CLIMATE — Climate Data Processing
+2026-10-14 16:22:36 | INFO     | 05_climate | ============================================================
+2026-10-14 16:22:36 | INFO     | 05_climate | DB05 loaded: 1380 records from 5 stations
+2026-10-14 16:22:36 | INFO     | 05_climate | Extreme rainfall events flagged: 802 records > 100.0mm
+2026-10-14 16:22:36 | INFO     | 05_climate | Dry spell days computed
+2026-10-14 16:22:36 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv

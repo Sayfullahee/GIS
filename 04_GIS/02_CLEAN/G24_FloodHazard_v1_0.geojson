@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "name": "G24_FloodHazard_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.8,
+              9.2
+            ],
+            [
+              5.8,
+              9.2
+            ],
+            [
+              6.8,
+              7.8
+            ],
+            [
+              6.5,
+              7.6
+            ],
+            [
+              4.8,
+              9.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hazard_Level": "Very High",
+        "Hazard_Code": 4,
+        "Method": "AHP Multi-Criteria Model (HMD01)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5,
+              7.5
+            ],
+            [
+              9.5,
+              7.5
+            ],
+            [
+              9.5,
+              8.2
+            ],
+            [
+              7.5,
+              8.2
+            ],
+            [
+              7.5,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hazard_Level": "High",
+        "Hazard_Code": 3,
+        "Method": "AHP Multi-Criteria Model (HMD01)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8,
+              9.5
+            ],
+            [
+              7.8,
+              9.5
+            ],
+            [
+              7.8,
+              10.5
+            ],
+            [
+              6.8,
+              10.5
+            ],
+            [
+              6.8,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hazard_Level": "Moderate",
+        "Hazard_Code": 2,
+        "Method": "AHP Multi-Criteria Model (HMD01)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.5,
+              9.0
+            ],
+            [
+              10.5,
+              9.0
+            ],
+            [
+              10.5,
+              10.5
+            ],
+            [
+              8.5,
+              10.5
+            ],
+            [
+              8.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hazard_Level": "Low",
+        "Hazard_Code": 1,
+        "Method": "AHP Multi-Criteria Model (HMD01)"
+      }
+    }
+  ]
+}

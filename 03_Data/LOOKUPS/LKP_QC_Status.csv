@@ -1,0 +1,10 @@
+QC_Status_Code,QC_Status_Label,Description,Can_Be_Published,Action_Required
+RAW,Raw,Ingested but no QC performed,No,Run structural QC
+INGESTED,Ingested,Data received and registered in source catalogue,No,Awaiting QC
+VALIDATING,Validating,QC checks currently in progress,No,QC in progress
+QC_FAILED,QC Failed,One or more critical QC checks failed,No,Fix errors; resubmit
+CLEAN,Clean,Passed all required QC checks,No,Ready for integration
+DERIVED,Derived,Processed/computed from clean inputs,No,Awaiting analytical validation
+VALIDATED,Validated,Analytical outputs verified and approved,No,Ready for publication
+PUBLISHED,Published,Released as official output; immutable,Yes,Archive previous version
+ARCHIVED,Archived,Superseded; retained for audit/reproducibility,Reference only,Do not overwrite

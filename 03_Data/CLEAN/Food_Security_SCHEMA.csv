@@ -1,0 +1,13 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Food_Record_ID,Text,40,Yes,Yes,No,,Food record primary key
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Linked community
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code
+Reporting_Period,Text,30,Yes,No,No,,Monitoring cycle period
+Crop_Loss_Pct,Double,,Yes,No,No,,Agricultural crop harvest loss percentage
+Livestock_Loss_Pct,Double,,Yes,No,No,,Livestock mortality percentage
+Market_Access_Score,Double,,Yes,No,No,,Market access condition score (0-100)
+Food_Insecurity_Index,Double,,Yes,No,No,,Composite food insecurity index (0-100)
+Food_Consumption_Score_Mean,Double,,No,No,No,,WFP Food Consumption Score (0-112)
+Coping_Strategy_Index_Mean,Double,,No,No,No,,Coping Strategy Index score
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Source provenance lineage
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

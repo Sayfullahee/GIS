@@ -1,0 +1,9 @@
+Status_Code,Status_Label,Description,Notes
+OP,Operational,Facility fully operational,Normal generation/function
+PP,Partial,Partially operational,Reduced capacity; specify reason in Notes
+SU,Suspended,Operations suspended,Temporary stoppage
+DM,Damaged,Physical damage affecting operation,Specify damage type in Notes
+UN,Under Maintenance,Scheduled or unscheduled maintenance,
+UC,Under Construction,New facility not yet operational,
+DE,Decommissioned,Permanently closed,
+UK,Unknown,Status not verified,Requires field confirmation

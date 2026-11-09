@@ -1,0 +1,19 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G30-Q01,Dependency,All upstream layers CLEAN,Check PROCESSING_STATUS.csv,G26 G19 G03 G16 G17 all QC_Status = CLEAN,Do not compute until all upstream layers pass QC,Yes,Pending
+G30-Q02,Exposure method,Exposure calculation method pre-specified,Check EXPOSURE_MODEL_DECISIONS.csv EMD03,EMD03 approved before computation,Record decision before running,Yes,Pending
+G30-Q03,Buffer,Threat_Buffer_m matches BUF003,Cross-check BUFFER_RULES.csv,All records have Threat_Buffer_m = 100 (BUF003 value),Investigate discrepancy; if buffer changed update BUFFER_RULES.csv and recompute,Yes,Pending
+G30-Q04,Coverage,One record per community in G03,Count check,G30 record count = G03 CLEAN community count,Investigate missing communities,Yes,Pending
+G30-Q05,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending
+G30-Q06,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+G30-Q07,Logical,Active erosion sites used only for primary threat buffer,Value check,Active_Sites_Used = Yes for all records in primary analysis layer,Flag records using all sites; primary analysis must use active sites only,Yes,Pending
+G30-Q08,Logical,Critical_Infra_Exposed <= Infra_Exposed_Count,Cross-field check,Critical_Infra_Exposed_Count <= Infra_Exposed_Count for all records,Flag violations; check spatial intersection,Yes,Pending
+G30-Q09,Logical,Critical_Roads_km <= Roads_km_Exposed,Cross-field check,Critical_Roads_km_Exposed <= Roads_km_Exposed for all records,Flag violations,Yes,Pending
+G30-Q10,Logical,Active_Erosion_Max_Severity 0-4 if present,Range check,All non-null values integer 0-4,Flag out-of-range,Yes,Pending
+G30-Q11,Range,IND06_Erosion_Exposure 0-100,Range check,All non-null values 0-100,Flag out-of-range; check normalisation,Yes,Pending
+G30-Q12,Range,Severity_Weighted_Exposure non-negative,Range check,All non-null values >= 0,Flag negatives; check computation,Yes,Pending
+G30-Q13,Consistency,Communities with Erosion_Presence = Yes in DB01 have non-zero exposure,Cross-check DB01,>=80% of communities with DB01 Erosion_Presence = Yes have Active_Erosion_Sites_Count > 0 or Infra_Exposed_Count > 0,Flag discrepancies; document in QC report — may indicate field survey sites not yet linked,No,Pending (requires DB01 CLEAN)
+G30-Q14,Consistency,G26 active site Infrastructure_Threat = Yes records linked to exposed infrastructure in G30,Cross-check G26,>=70% of G26 records with Infrastructure_Threat = Yes have matching Infra_Exposed_Count > 0 in nearby community,Flag unlinked threat records; verify spatial join and buffer,No,Pending (requires G26 CLEAN)
+G30-Q15,DB update,DB06 Erosion_Exposure field updated for validated exposed items,Check DB06,All DB06 records with Infrastructure_ID appearing in G30 asset layer have Erosion_Exposure = Yes,Run update script; flag unupdated records,No,Pending (requires DB06 CLEAN)
+G30-Q16,Completeness,Exposure_Data_Completeness populated,Null check,Zero nulls in Exposure_Data_Completeness,Populate; None = valid for communities with no G26 sites within 10km,Yes,Pending
+G30-Q17,Separation,Erosion exposure does not incorporate vulnerability,Content review,No vulnerability variable included in G30 calculation,Remove any vulnerability component; belongs in G33,Yes,Pending
+G30-Q18,Metadata,Input_Layers_Version and Computation_Date populated,Null check,Zero nulls in both fields,Populate before publication,Yes,Pending

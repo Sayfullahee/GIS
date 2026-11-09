@@ -1,0 +1,9 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+HYRIV_ID,Integer,Yes,Yes,No,Yes,>0,HydroRIVERS unique river segment identifier,No duplicates; no nulls; do not modify source ID
+RIVER_NAME,Text(100),No,No,No,No,,River name (often blank for minor rivers),Leave as-is from source; supplement with local names in a separate field (LOCAL_NAME) — do not overwrite source field
+LENGTH_KM,Double,Yes,No,No,No,>0,Segment length in kilometres,Must be >0; recalculate from geometry and compare; flag >5% difference
+UP_AREA,Double,Yes,No,No,No,>=10,Upstream drainage area in square kilometres,Must be >=10 (HydroRIVERS threshold); larger values indicate major rivers
+ORD_STRA,Integer,Yes,No,No,No,1 to 10,Strahler stream order,Must be between 1 and 10; higher order = larger river
+BASIN_ID,Integer,Yes,No,Yes,No,>0,HydroSHEDS basin identifier,Must resolve to G06 HYBAS_ID (level match); used for basin-river join
+LOCAL_NAME,Text(100),No,No,No,No,,Locally known river name (project addition),Optional; added by project team from field knowledge or local sources; document source of name
+geometry,Line,Yes,No,No,No,Valid linestring or multilinestring,River segment geometry,No null geometries; no self-intersections; segments must form connected network (check for disconnected orphan segments)

@@ -1,0 +1,12 @@
+Habitat_Code,Habitat_Name,ESA_WorldCover_Classes,Ecosystem_Services,Biodiversity_Value,Threat_Level_Nigeria,Carbon_Stock_tCO2_ha,Notes
+HAB01,Lowland Tropical Forest,10,Water regulation; carbon storage; biodiversity refuge; climate regulation,Very High,Critical (< 5% remaining),200-400,Critically endangered in study area; major loss driver = agriculture and logging
+HAB02,Riparian/Gallery Forest,10 near rivers,Water purification; bank stabilisation; flood attenuation; fish habitat,Very High,Severe,150-300,Linear corridors along G05 rivers; highly fragmented
+HAB03,Guinea Savanna Woodland,10-20,Livestock grazing; carbon; water recharge; fuelwood,High,High,50-120,Dominant vegetation type in northern study states (Kogi)
+HAB04,Freshwater Wetlands/Floodplains,90,Flood attenuation; water storage; fisheries; nutrient cycling,Very High,High,100-250 (peat),Critical flood buffer zones; often converted to agriculture
+HAB05,Mangroves (Coastal),95,Coastal protection; carbon (blue carbon); fisheries nursery; storm buffer,Very High,Severe,200-600 (blue carbon),Present in Delta/Cross River/Ondo coastal LGAs
+HAB06,Farmland/Agroforestry,40,Food production; limited carbon; pollinator habitat if diverse,Moderate,Low (managed),20-60,Covers large areas; biodiversity value depends on management intensity
+HAB07,Cropland (intensive/monoculture),40,Food production only,Low,Low,10-30,Low biodiversity; high pesticide and erosion risk
+HAB08,Grassland/Shrubland,20-30,Grazing; recharge; limited carbon,Moderate,Moderate,20-50,Often degraded savanna; indicator of overgrazing
+HAB09,Urban/Built-up,50,Minimal ecosystem services,Very Low,Low (stable),<5,Urban heat island; impervious surface; stormwater generation
+HAB10,Bare/Degraded Land,60,None functional,Minimal,High (outcome of degradation),<5,Often endpoint of deforestation or erosion; requires rehabilitation
+HAB99,Unknown/Unclassified,,,Unknown,Unknown,,Requires field verification

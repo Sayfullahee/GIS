@@ -1,0 +1,55 @@
+2026-11-05 13:45:37 | INFO     | 21_flooding | ============================================================
+2026-11-05 13:45:37 | INFO     | 21_flooding |   21_FLOODING — Multi-Return-Period Flood Model
+2026-11-05 13:45:37 | INFO     | 21_flooding | ============================================================
+2026-11-05 13:48:24 | INFO     | 21_flooding | ============================================================
+2026-11-05 13:48:24 | INFO     | 21_flooding |   21_FLOODING — Multi-Return-Period Flood Model
+2026-11-05 13:48:24 | INFO     | 21_flooding | ============================================================
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-BEN-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-BEN-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-GOM-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-GOM-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KAD-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KAD-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KEB-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KEB-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KOG-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KOG-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KWA-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-KWA-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-NAS-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-NAS-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-NIG-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-NIG-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-PLA-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-PLA-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-TAR-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | WARNING  | 21_flooding | Station STA-TAR-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:48:24 | INFO     | 21_flooding | RP rainfall estimated: 20 stations | Gumbel: 0 | Factor approximation: 20
+2026-11-05 13:48:25 | INFO     | 21_flooding | G46 Flood Frequency (community) saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G46_FloodFrequency_Community.csv | Mean FL_Score: nan
+2026-11-05 13:48:25 | INFO     | 21_flooding | 21_flooding complete
+2026-11-05 13:49:11 | INFO     | 21_flooding | ============================================================
+2026-11-05 13:49:11 | INFO     | 21_flooding |   21_FLOODING — Multi-Return-Period Flood Model
+2026-11-05 13:49:11 | INFO     | 21_flooding | ============================================================
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-BEN-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-BEN-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-GOM-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-GOM-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KAD-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KAD-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KEB-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KEB-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KOG-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KOG-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KWA-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-KWA-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-NAS-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-NAS-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-NIG-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-NIG-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-PLA-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-PLA-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-TAR-01: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | WARNING  | 21_flooding | Station STA-TAR-02: only 1 annual maxima — using RP_FACTORS approximation
+2026-11-05 13:49:11 | INFO     | 21_flooding | RP rainfall estimated: 20 stations | Gumbel: 0 | Factor approximation: 20
+2026-11-05 13:49:12 | INFO     | 21_flooding | G46 Flood Frequency (community) saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G46_FloodFrequency_Community.csv | Mean FL_Score: nan
+2026-11-05 13:49:12 | INFO     | 21_flooding | 21_flooding complete

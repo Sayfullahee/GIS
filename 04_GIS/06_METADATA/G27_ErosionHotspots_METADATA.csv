@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G27
+Layer_Name,Erosion Hotspots
+Layer_Type,Raster (density/index surface) and/or Vector-Polygon (hotspot zones)
+Geometry_Type,Raster and/or Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Method-dependent — see HAZARD_MODEL_DECISIONS.csv HMD03
+Source_ID,G26 (derived) + G10 G15 G09 (environmental drivers)
+Source_Dataset,"Derived from G26 Erosion Sites + terrain and land cover drivers"
+Provider,Project GIS/Analysis team
+Acquisition_Date,N/A (derived product)
+Source_Version,Derived from G26 v1.0
+Coverage,10 study states (only states with sufficient G26 point density)
+Processing_Method,"Method determined by HAZARD_MODEL_DECISIONS.csv HMD03. Minimum sample requirements must be met before any spatial method is applied. Approved methods (in order of preference given sample density): (A) Severity-weighted kernel density estimation (KDE) — recommended where >= 20 sites per analysis zone; (B) Simple KDE — where 10-19 sites; (C) Spatial statistics (cluster detection) — where >= 30 sites; (D) Point mapping only — where < 10 sites. Environmental drivers (slope G10; land cover G15; flow accumulation G14) used to contextualise but NOT to generate synthetic hotspots without observed data."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (scipy / sklearn / geopandas / PySAL) / QGIS (SAGA / GDAL)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (only areas with sufficient sample density)
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,Derived from G26 (project data)
+Restrictions,None
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G26 (must be CLEAN — minimum density threshold must be met), G10 (slope), G14 (flow accumulation), G15 (land cover)"
+Derived_Layers,"G30 (erosion exposure), G31 (hazard index component)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,"GeoTIFF (density raster) + GeoPackage (hotspot zone polygons)"
+File_Name,"G27_ErosionHotspots_[method]_v1_0.tif | G27_ErosionHotspots_[method]_v1_0.gpkg"
+File_Size_MB,TBD
+Attribute_Count,N/A (raster) / 8 (hotspot zone polygons)
+Feature_Count,N/A (raster) / TBD (zones)
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from G26 survey dates
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_17_Erosion_Sites, MAP_18_Erosion_Severity, MAP_19_Erosion_Hotspots"
+Notes,"CRITICAL RULE: No spatial statistical method may be applied merely because it is available. The minimum sample density threshold (see HAZARD_MODEL_DECISIONS.csv HMD03) must be assessed per state/zone BEFORE choosing the method. Method must be pre-specified and documented. Results must state the method used and its limitations. Where sample density is insufficient produce a point map only — do not interpolate."

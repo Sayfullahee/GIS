@@ -1,0 +1,15 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G37-Q01,Dependency,G35 G36 all CLEAN; G31-G34 all CLEAN,Check PROCESSING_STATUS.csv,All upstream QC_Status = CLEAN,Do not compute G37 until all upstream layers CLEAN,Yes,Pending
+G37-Q02,Score consistency,H/E/V/C/R scores in G37 match corresponding scores in G31-G35,Cross-check by Community_ID,"H_Score matches G31; E_Score matches G32; V_Score matches G33; C_Score matches G34; R_Score matches G35 for every Community_ID",Regenerate G37 from latest CLEAN G35/G36; do not manually edit scores,Yes,Pending
+G37-Q03,Formula,Priority_Score = 0.70*R_Score + 0.30*IND10,Calculation check,|Priority_Score - (0.70*R_Score + 0.30*IND10)| < 0.01 for all records where IND10 available,Recompute; check missing IND10 handling,Yes,Pending
+G37-Q04,Coverage,One record per community,Count check,G37 count = G35 CLEAN count,Investigate,Yes,Pending
+G37-Q05,Rank,Priority_Rank unique within study area,Distinct count,No duplicate Priority_Rank values,Investigate tie-breaking rule in RISK_MODEL_SPEC.md,Yes,Pending
+G37-Q06,Tier,Priority_Tier values 1-4 only,Value check,All values in {1, 2, 3, 4},Flag invalid values,Yes,Pending
+G37-Q07,Data confidence,Data_Confidence populated for all records,Null check,Zero nulls in Data_Confidence,Populate based on completeness flags,Yes,Pending
+G37-Q08,Data confidence,Low confidence communities have Data_Confidence_Note,Conditional check,Data_Confidence_Note not null when Data_Confidence = Low,Populate explanation for all Low confidence records,No,Pending
+G37-Q09,Explainability,All component scores retained alongside priority rank,Schema check,H/E/V/C/R/IND10/completeness fields all present and populated,Ensure no stripping of underlying scores in published output,Yes,Pending
+G37-Q10,Traceability,Risk_Model_Version populated,Null check,Zero nulls in Risk_Model_Version,Populate; required for every published output,Yes,Pending
+G37-Q11,Prohibition,Priority rank not described as automatic intervention mandate,Text review,No publication describes tier as automatic intervention order — must use language like 'priority for investigation' or 'evidence base for prioritisation',Review all map labels and reports,Yes,Pending
+G37-Q12,Sensitivity,Top-20 communities checked across baseline and sensitivity models,Cross-check G35 S1/S2,Communities in Tier 1 under baseline that change to Tier 2+ under S1 or S2 identified and documented,Document in sensitivity analysis report; flag for additional field verification,No,Pending
+G37-Q13,Privacy,No household-level data in G37,Content check,No Household_ID or household attribute in G37,Remove any household-level data; G37 is community-level only,Yes,Pending
+G37-Q14,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending

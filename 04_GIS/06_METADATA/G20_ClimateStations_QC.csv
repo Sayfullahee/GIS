@@ -1,0 +1,14 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G20-Q01,Structure,All required fields present,Schema check,All 11 fields present,Add missing fields,Yes,Pending
+G20-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Station_ID / Station_Name / State_Code / Latitude / Longitude / Source / Active_Status,Flag and resolve,Yes,Pending
+G20-Q03,Uniqueness,No duplicate Station_ID,Distinct count,Count distinct = count total,Investigate and resolve; Station_ID must be permanent,Yes,Pending
+G20-Q04,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv (or adjacent states for buffer stations),Flag unresolved,Yes,Pending
+G20-Q05,Coordinate,Latitude within extended Nigeria bounds,Range check,All values 3.5–14.5 (extended for 100km buffer stations),Flag outliers,Yes,Pending
+G20-Q06,Coordinate,Longitude within extended Nigeria bounds,Range check,All values 2.0–15.5,Flag outliers,Yes,Pending
+G20-Q07,Spatial,Station within study area or 100km buffer,Buffer check vs G01,All stations within 100km of nearest G01 study state boundary,Flag distant stations; verify if relevant for interpolation,No,Pending (requires G01)
+G20-Q08,Elevation,Station elevation consistent with DEM,Cross-check vs G09,|G20 Elevation_m - G09 DEM value at station| < 50m,Flag large discrepancies; may indicate coordinate error,No,Pending (requires G09)
+G20-Q09,Coverage,Minimum station density per study state,Count active stations by state,At least 1 active station per study state; flag states with < 2,Document data gap; note interpolation method implications for G22/G23,Yes,Pending
+G20-Q10,Active status,Active_Status allowed values,Value check,All values in {Yes / No / Unknown},Flag invalid values,Yes,Pending
+G20-Q11,Logical,Record_Start_Year plausible,Range check,If present: >= 1900 and <= current year,Flag out-of-range,No,Pending
+G20-Q12,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC011 present and complete; data agreement documented,Update SOURCE_REGISTER.csv; document NiMet data agreement,No,Pending
+G20-Q13,Linkage,All DB05 Station_IDs resolve to G20,Reverse check after DB05 built,Every DB05 Station_ID exists in G20,Register missing stations in G20 before DB05 records can be validated,Yes,Pending (requires DB05)

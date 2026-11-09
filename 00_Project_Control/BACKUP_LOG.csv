@@ -1,0 +1,3 @@
+Backup_Date,Backup_Type,Tier,Size_GB,Duration_min,Restricted_Data_Included,Encrypted,Verified,Verification_Method,Verified_By,Issues,Notes
+2026-10-02,Initial full backup,Local,TBD,TBD,Separate encrypted,Yes,Pending,File restore test,TBD,,Baseline v1.0 — all Phase 1-10 files
+2026-10-14,PostGIS Central DB Dump,Local (09_Archive),0.09,1,Separate restricted,Yes,Verified,pg_dump SQL verification,DBA/GIS Team,None,PostGIS 17 + 3.5 complete schema & data dump (fewcam_postgis_backup_v4.1.sql)

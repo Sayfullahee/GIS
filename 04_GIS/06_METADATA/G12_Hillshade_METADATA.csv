@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G12
+Layer_Name,Hillshade
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Same as G09 DEM (inherited)
+Source_ID,G09 (derived)
+Source_Dataset,Derived from G09 DEM
+Provider,Project GIS team
+Acquisition_Date,N/A (derived product)
+Source_Version,Derived from G09 v1.0
+Coverage,Same as G09
+Processing_Method,"Compute hillshade from G09 CLEAN DEM using GDAL gdaldem hillshade. Parameters: Azimuth = 315 degrees (NW illumination); Altitude = 45 degrees. See TERRAIN_PROCESSING_DECISIONS.csv DEC06. Output: byte raster (0–255) representing shaded relief."
+Processing_Date,YYYY-MM-DD
+Processing_Software,GDAL gdaldem / QGIS 3.x
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived from G09 source licence
+Restrictions,Same as G09
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G09 (must be CLEAN)
+Derived_Layers,None (visualisation product only — not used as analytical input)
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Byte / UInt8)
+File_Name,G12_Hillshade_az315_alt45_v1_0.tif
+File_Size_MB,TBD
+Attribute_Count,N/A (raster)
+Feature_Count,N/A
+Bounding_Box_W,Same as G09
+Bounding_Box_E,Same as G09
+Bounding_Box_S,Same as G09
+Bounding_Box_N,Same as G09
+Data_Date,Derived from G09
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_07_Terrain_Elevation, MAP_08_Hillshade — used as base layer in all terrain and risk maps for visual context"
+Notes,"Hillshade is a VISUALISATION LAYER ONLY. It must not be used as an analytical input to any indicator, index, or risk model. It is used as a background layer in map compositions to improve terrain readability. Azimuth 315 / altitude 45 are conventional standards — see DEC06 in TERRAIN_PROCESSING_DECISIONS.csv."

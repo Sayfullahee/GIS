@@ -1,0 +1,13 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G10-Q01,Dependency,G09 DEM has QC_Status = CLEAN before slope computed,Check PROCESSING_STATUS.csv,G09 QC_Status = CLEAN,Do not compute slope from unvalidated DEM,Yes,Pending
+G10-Q02,Unit,Slope unit documented and matches TERRAIN_PROCESSING_DECISIONS.csv,Metadata check,Slope unit recorded in TERRAIN_PROCESSING_DECISIONS.csv; filename matches unit,Record unit decision before computing; regenerate if wrong unit used,Yes,Pending
+G10-Q03,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G10-Q04,Resolution,Pixel size matches G09,gdalinfo comparison,Pixel size identical to G09 (tolerance ±0.000001),Recompute from G09 CLEAN layer,Yes,Pending
+G10-Q05,Range — degrees,If unit = degrees: all values 0–90,Raster statistics,Min >= 0; Max <= 90,Flag values outside range; likely computation error or nodata issue,Yes,Pending
+G10-Q06,Range — percent,If unit = percent: all values >= 0,Raster statistics,Min >= 0 (no theoretical maximum for percent slope but flag > 6000%),Flag extreme values,Yes,Pending
+G10-Q07,NoData,NoData value set and matches G09 nodata,gdalinfo,NoData value set; matches G09 nodata mask,Set nodata to match G09,Yes,Pending
+G10-Q08,Spatial pattern,Flat areas (slope ~0) correspond to river valleys and floodplains,Visual overlay with G05,River valley pixels have lower slope values than surrounding terrain; not an exact test,Flag systematic errors where rivers show high slope,No,Pending (requires G05)
+G10-Q09,Spatial pattern,High slope areas consistent with known topography in study states,Visual check against reference maps,Highland zones in Cross River / Ebonyi / Enugu / Kogi show elevated slopes,Flag anomalous flat zones in highland areas,No,Pending
+G10-Q10,Extent,Raster extent matches G09,Bounding box comparison,Extents identical (tolerance ±1 pixel),Recompute from G09 CLEAN,Yes,Pending
+G10-Q11,Erosion relevance,Slope values at DB03 erosion site locations are plausible,Sample slope at erosion site coordinates (after DB03 CLEAN),>80% of active gully sites have slope > 2 degrees,Flag sites with slope = 0 (possible flat terrain or GPS error),No,Pending (requires DB03 CLEAN)
+G10-Q12,Reproducibility,Same G09 input + same script + same parameters = same output,Re-run and compare,Output raster MD5 matches,Document all parameters in script; fix non-deterministic steps,No,Pending

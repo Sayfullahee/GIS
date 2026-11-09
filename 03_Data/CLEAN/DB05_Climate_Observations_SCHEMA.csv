@@ -1,0 +1,30 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Default,Allowed_Values,Description,QC_Rule,Privacy_Level
+Climate_ID,Text,18,Yes,Yes,No,,Yes,,Format: CLM-[StationID6]-[YYYYMMDD]-[Seq2] e.g. CLM-NIM001-20260101-01,Permanent climate observation identifier,No duplicates; no nulls; format must follow pattern,Level 2
+Station_ID,Text,10,Yes,No,Yes,G20 Station_ID,No,,Must exist in G20,Parent climate station identifier — links every observation to a permanent station,Must resolve to G20 Station_ID; no nulls; station must be registered in G20 before observations can be entered,Level 2
+Station_Name,Text,100,Yes,No,No,,No,,Any text,Station name — carried from G20; do not edit here,Must match G20 Station_Name for corresponding Station_ID; no nulls,Level 2
+Observation_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date of observation — daily record,No nulls; valid date; not future; >= 1950-01-01 for historical records,Level 2
+Observation_Period,Text,10,Yes,No,No,,No,,"Daily, Monthly, Annual, Event",Time period this record represents,No nulls; allowed values only; must be consistent with actual date granularity,Level 2
+State_Code,Text,6,Yes,No,Yes,LKP_States.csv State_Code,No,,See LKP_States.csv,State where station is located — from G20,Must resolve to LKP_States.csv; consistent with G20,Level 2
+Latitude,Double,,Yes,No,No,,No,,4.0 to 14.0,Station latitude — from G20; do not change per observation,Must match G20 Latitude for same Station_ID,Level 2
+Longitude,Double,,Yes,No,No,,No,,2.5 to 15.0,Station longitude — from G20; do not change per observation,Must match G20 Longitude for same Station_ID,Level 2
+Rainfall_mm,Double,,No,No,No,,No,,>=0 or NULL,Total rainfall in millimetres for the observation period,If present must be >=0; flag daily values >200mm (verify with source); NULL if not recorded — not 0,Level 2
+Rainfall_QC_Flag,Text,5,No,No,No,,No,,"OK, EST, SUS, MISS",QC flag for Rainfall_mm: OK=verified; EST=estimated; SUS=suspect; MISS=missing,Allowed values only; required if Rainfall_mm is populated,Level 2
+Temperature_Max_C,Double,,No,No,No,,No,,-5 to 55 or NULL,Maximum temperature in degrees Celsius for the observation period,If present must be -5–55; flag >45°C (possible sensor error),Level 2
+Temperature_Min_C,Double,,No,No,No,,No,,-5 to 55 or NULL,Minimum temperature in degrees Celsius,If present must be -5–55; must be <= Temperature_Max_C,Level 2
+Temperature_Mean_C,Double,,No,No,No,,No,,-5 to 55 or NULL,Mean temperature in degrees Celsius,If present must be -5–55; must be between Temperature_Min_C and Temperature_Max_C,Level 2
+Temperature_QC_Flag,Text,5,No,No,No,,No,,"OK, EST, SUS, MISS",QC flag for temperature fields,Allowed values only,Level 2
+Humidity_Pct,Double,,No,No,No,,No,,0 to 100 or NULL,Relative humidity as percentage,If present must be 0–100,Level 2
+Wind_Speed_ms,Double,,No,No,No,,No,,>=0 or NULL,Wind speed in metres per second,If present must be >=0; flag >50 m/s,Level 2
+Extreme_Rainfall_Flag,Text,3,No,No,No,,No,,"Yes, No",Whether this observation period recorded extreme rainfall event (project-defined threshold),Allowed values only; threshold must be documented in INDICATOR_REGISTER.csv IND01,Level 2
+Extreme_Rainfall_Threshold_mm,Double,,No,No,No,,No,,>0 or NULL,Rainfall threshold used to define extreme event for this record,Required if Extreme_Rainfall_Flag = Yes; must be documented and consistent,Level 2
+Dry_Spell_Days,Integer,,No,No,No,,No,,>=0 or NULL,Number of consecutive dry days preceding this observation,If present must be >=0,Level 2
+Drought_Indicator,Text,10,No,No,No,,No,,"None, Mild, Moderate, Severe, Extreme, Unknown",Drought classification for this period (based on approved drought index),Allowed values only; document which drought index was used,Level 2
+Source,Text,200,Yes,No,No,,No,,Any text,Data source organisation — e.g. NiMet / ECMWF / ERA5,No nulls,Level 2
+Source_Dataset,Text,200,No,No,No,,No,,Any text or NULL,Specific dataset name within source,Free text,Level 2
+Source_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date data was obtained from source,No nulls; valid date,Level 2
+Unit_Standard,Text,3,Yes,No,No,,No,,SI,Unit system used — must be SI throughout,No nulls; must be SI; document any conversions applied,Level 2
+QC_Status,Text,12,Yes,No,Yes,LKP_QC_Status.csv QC_Status_Code,No,RAW,See LKP_QC_Status.csv,Processing status,Must resolve to LKP_QC_Status.csv,Level 2
+Record_Created,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date record entered,Auto-populated; no nulls,Level 2
+Record_Modified,Date,,No,No,No,,No,,YYYY-MM-DD or NULL,Date record last modified,Auto-populated on update,Level 2
+Data_Version,Text,10,Yes,No,No,,No,,e.g. v1.0,Data version,No nulls,Level 2
+Notes,Text,500,No,No,No,,No,,Any text or NULL,Notes on data quality or special circumstances,Free text,Level 2

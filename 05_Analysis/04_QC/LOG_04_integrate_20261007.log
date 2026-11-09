@@ -1,0 +1,45 @@
+2026-10-07 16:51:40 | WARNING  | 04_integrate | geopandas not installed — spatial join functions will be skipped. Install with: pip install geopandas
+2026-10-07 17:01:13 | WARNING  | 04_integrate | geopandas not installed — spatial join functions will be skipped. Install with: pip install geopandas
+2026-10-07 17:01:13 | INFO     | 04_integrate | ============================================================
+2026-10-07 17:01:13 | INFO     | 04_integrate |   04_INTEGRATE — Spatial Joins and DB-to-GIS Sync
+2026-10-07 17:01:13 | INFO     | 04_integrate | ============================================================
+2026-10-07 17:01:13 | INFO     | 04_integrate | Hydropower distance derived for 50 communities
+2026-10-07 17:01:13 | INFO     | 04_integrate | SJ11: Community_ID assigned to 100 infrastructure items
+2026-10-07 17:01:13 | INFO     | 04_integrate | SJ12: Community_ID assigned to 75 erosion sites
+2026-10-07 17:01:13 | WARNING  | 04_integrate | Skipping GIS sync for G03 — geopandas not available
+2026-10-07 17:01:13 | WARNING  | 04_integrate | Skipping GIS sync for G26 — geopandas not available
+2026-10-07 17:01:13 | WARNING  | 04_integrate | Skipping GIS sync for G19 — geopandas not available
+2026-10-07 17:01:13 | INFO     | 04_integrate | 04_integrate complete
+2026-10-07 17:02:44 | WARNING  | 04_integrate | geopandas not installed — spatial join functions will be skipped. Install with: pip install geopandas
+2026-10-07 17:02:44 | INFO     | 04_integrate | ============================================================
+2026-10-07 17:02:44 | INFO     | 04_integrate |   04_INTEGRATE — Spatial Joins and DB-to-GIS Sync
+2026-10-07 17:02:44 | INFO     | 04_integrate | ============================================================
+2026-10-07 17:02:44 | INFO     | 04_integrate | Hydropower distance derived for 50 communities
+2026-10-07 17:02:45 | INFO     | 04_integrate | SJ11: Community_ID assigned to 100 infrastructure items
+2026-10-07 17:02:45 | INFO     | 04_integrate | SJ12: Community_ID assigned to 75 erosion sites
+2026-10-07 17:02:45 | WARNING  | 04_integrate | Skipping GIS sync for G03 — geopandas not available
+2026-10-07 17:02:45 | WARNING  | 04_integrate | Skipping GIS sync for G26 — geopandas not available
+2026-10-07 17:02:45 | WARNING  | 04_integrate | Skipping GIS sync for G19 — geopandas not available
+2026-10-07 17:02:45 | INFO     | 04_integrate | 04_integrate complete
+2026-10-07 17:05:05 | WARNING  | 04_integrate | geopandas not installed — spatial join functions will be skipped. Install with: pip install geopandas
+2026-10-07 17:05:05 | INFO     | 04_integrate | ============================================================
+2026-10-07 17:05:05 | INFO     | 04_integrate |   04_INTEGRATE — Spatial Joins and DB-to-GIS Sync
+2026-10-07 17:05:05 | INFO     | 04_integrate | ============================================================
+2026-10-07 17:05:05 | INFO     | 04_integrate | Hydropower distance derived for 50 communities
+2026-10-07 17:05:05 | INFO     | 04_integrate | SJ11: Community_ID assigned to 100 infrastructure items
+2026-10-07 17:05:05 | INFO     | 04_integrate | SJ12: Community_ID assigned to 75 erosion sites
+2026-10-07 17:05:05 | WARNING  | 04_integrate | Skipping GIS sync for G03 — geopandas not available
+2026-10-07 17:05:05 | WARNING  | 04_integrate | Skipping GIS sync for G26 — geopandas not available
+2026-10-07 17:05:05 | WARNING  | 04_integrate | Skipping GIS sync for G19 — geopandas not available
+2026-10-07 17:05:05 | INFO     | 04_integrate | 04_integrate complete
+2026-10-07 18:16:33 | WARNING  | 04_integrate | geopandas not installed — spatial join functions will be skipped. Install with: pip install geopandas
+2026-10-07 18:16:33 | INFO     | 04_integrate | ============================================================
+2026-10-07 18:16:33 | INFO     | 04_integrate |   04_INTEGRATE — Spatial Joins and DB-to-GIS Sync
+2026-10-07 18:16:33 | INFO     | 04_integrate | ============================================================
+2026-10-07 18:16:33 | INFO     | 04_integrate | Hydropower distance derived for 50 communities
+2026-10-07 18:16:33 | INFO     | 04_integrate | SJ11: Community_ID assigned to 100 infrastructure items
+2026-10-07 18:16:33 | INFO     | 04_integrate | SJ12: Community_ID assigned to 75 erosion sites
+2026-10-07 18:16:33 | WARNING  | 04_integrate | Skipping GIS sync for G03 — geopandas not available
+2026-10-07 18:16:33 | WARNING  | 04_integrate | Skipping GIS sync for G26 — geopandas not available
+2026-10-07 18:16:33 | WARNING  | 04_integrate | Skipping GIS sync for G19 — geopandas not available
+2026-10-07 18:16:33 | INFO     | 04_integrate | 04_integrate complete

@@ -1,0 +1,8 @@
+2026-10-13 16:47:14 | INFO     | 09_exposure | ============================================================
+2026-10-13 16:47:14 | INFO     | 09_exposure |   09_EXPOSURE — Exposure Index (G29, G30, G32)
+2026-10-13 16:47:14 | INFO     | 09_exposure | ============================================================
+2026-10-13 16:47:14 | WARNING  | 09_exposure | G24 zonal stats not found — flood exposure based on community data only
+2026-10-13 16:47:14 | INFO     | 09_exposure | G29 flood exposure saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G29_FloodExposure_community.csv (50 communities)
+2026-10-13 16:47:14 | INFO     | 09_exposure | G30 erosion exposure saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G30_ErosionExposure_community.csv
+2026-10-13 16:47:14 | INFO     | 09_exposure | G32 Exposure Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G32_ExposureIndex.csv | Mean E_Score: 21.7
+2026-10-13 16:47:14 | INFO     | 09_exposure | 09_exposure complete

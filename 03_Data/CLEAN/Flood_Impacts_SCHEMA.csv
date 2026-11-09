@@ -1,0 +1,15 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+impact_id,str,NO,IMP-2025-001,Verified field for Flood_Impacts
+flood_event_id,str,NO,FLD-0001,Verified field for Flood_Impacts
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Impacts
+state_code,str,NO,NG-NIG,Verified field for Flood_Impacts
+impact_category,str,NO,Agriculture,Verified field for Flood_Impacts
+asset_type,str,NO,Rice & Yam Farmland,Verified field for Flood_Impacts
+affected_count,int64,NO,145,Verified field for Flood_Impacts
+estimated_loss_ngn,float64,NO,185000000.0,Verified field for Flood_Impacts
+service_disruption_days,int64,NO,21,Verified field for Flood_Impacts
+assessed_at,str,NO,2025-10-15 11:00:00+01:00,Verified field for Flood_Impacts
+assessed_by,str,NO,SEMA Agricultural Assessment Team,Verified field for Flood_Impacts
+confidence,str,NO,High,Verified field for Flood_Impacts
+provenance_id,str,NO,PRV-NIG-IMP-2025,Verified field for Flood_Impacts
+notes,str,NO,Verified crop submergence damage across 450 hectares,Verified field for Flood_Impacts

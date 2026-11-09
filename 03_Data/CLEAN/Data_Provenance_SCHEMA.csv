@@ -1,0 +1,8 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Provenance_ID,Text,40,Yes,Yes,No,,Provenance unique ID
+Source_Name,Text,150,Yes,No,No,,Authoritative institution or survey
+Acquisition_Date,Date,10,Yes,No,No,,Date acquired
+Processing_Method,Text,500,Yes,No,No,,Processing transformations applied
+Software_Version,Text,100,Yes,No,No,,Software tools used
+Analyst_Name,Text,100,Yes,No,No,,Accountable officer
+Limitations,Text,500,No,No,No,,Known caveats and limitations

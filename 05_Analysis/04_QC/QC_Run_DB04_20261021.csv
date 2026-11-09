@@ -1,0 +1,13 @@
+check_id,category,description,status,critical,details
+Q01,Structure,All required fields present,PASS,True,
+Q02,Completeness,No nulls in required fields,PASS,True,
+Q03,Uniqueness,No duplicate Observation_ID,PASS,True,
+Q04,Referential integrity,Operating_Status resolves to Status_Code,PASS,True,
+Q04b,Referential integrity,State_Code resolves to State_Code,PASS,True,
+Q05,Coordinate,Coordinates within bounds and not swapped,PASS,True,
+Q07,Temporal,Observation_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 2010-01-01: 0
+Q07,Temporal,Source_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 2000-01-01: 0
+Q09a,Range,"Generation_MWh in [0, None]",PASS,False,Below 0: 0; Above None: 0
+Q09b,Range,"Reservoir_Level_m in [0, None]",PASS,False,Below 0: 0; Above None: 0
+Q09c,Range,"River_Discharge_m3s in [0, None]",PASS,False,Below 0: 0; Above None: 0
+Q10,Missing vs zero,NULL used for not-recorded values — not 0,PASS,True,

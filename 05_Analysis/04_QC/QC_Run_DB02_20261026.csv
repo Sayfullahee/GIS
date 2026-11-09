@@ -1,0 +1,12 @@
+check_id,category,description,status,critical,details
+Q01,Structure,All required fields present,PASS,True,
+Q02,Completeness,No nulls in required fields,PASS,True,
+Q03,Uniqueness,No duplicate Household_ID,PASS,True,
+Q04,Referential integrity,Community_ID resolves to Community_ID,PASS,True,
+Q19,Consent,All Consent_Given = Yes,PASS,True,0 records without consent — must be quarantined
+Q07,Temporal,Survey_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 2026-01-01: 0
+Q05,Coordinate,Coordinates within bounds and not swapped,PASS,True,
+Q09a,Range,"HH_Size in [1, 30]",PASS,False,Below 1: 0; Above 30: 0
+Q09b,Range,"HH_Head_Age in [15, 100]",PASS,False,Below 15: 0; Above 100: 0
+Q10,Missing vs zero,NULL used for not-recorded values — not 0,PASS,True,
+Q11,Privacy,GPS coordinates not published from DB02,PASS,True,Reminder: DB02 Lat/Lon must never appear in Level 1/2 outputs

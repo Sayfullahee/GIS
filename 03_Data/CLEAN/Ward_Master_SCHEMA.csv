@@ -1,0 +1,14 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Ward_ID,Text,30,Yes,Yes,No,,Permanent Ward identifier
+Ward_Name,Text,100,Yes,No,No,,Official Ward name
+LGA_Code,Text,10,Yes,No,Yes,LKP_LGAs.csv LGA_Code,Parent LGA code
+LGA_Name,Text,60,Yes,No,No,,Parent LGA name
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code prefix
+Boundary_Version,Text,30,Yes,No,No,,Boundary source version
+Validity_Start,Date,10,Yes,No,No,,Valid start date
+Validity_End,Date,10,No,No,No,,Valid end date
+Centroid_Lat,Double,,Yes,No,No,,Ward centroid latitude
+Centroid_Lon,Double,,Yes,No,No,,Ward centroid longitude
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Lineage provenance reference
+Data_Version,Text,20,Yes,No,No,,Data version
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

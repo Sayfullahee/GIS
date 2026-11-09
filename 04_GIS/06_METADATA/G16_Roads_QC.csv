@@ -1,0 +1,16 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G16-Q01,Structure,All required fields present,Schema check,All 11 schema fields present,Add missing fields,Yes,Pending
+G16-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Road_ID / Road_Class_Code / Road_Class_Name / State_Code / Length_km / OSM_Extract_Date,Flag and resolve,Yes,Pending
+G16-Q03,Uniqueness,No duplicate Road_ID,Distinct count,Count distinct = count total,Investigate and resolve,Yes,Pending
+G16-Q04,Reference integrity,Road_Class_Code resolves to LKP_RoadHierarchy.csv,LEFT JOIN,All values in LKP_RoadHierarchy.csv,Flag unresolved; reclassify RC07 after review,Yes,Pending
+G16-Q05,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+G16-Q06,Geometry,No null geometries,Null check,Zero null geometries,Remove or investigate,Yes,Pending
+G16-Q07,Geometry,No invalid geometries,Validity check,All geometries valid,Run ST_MakeValid; document,Yes,Pending
+G16-Q08,Geometry,No zero-length segments,Length check,All Length_km > 0,Remove zero-length artefacts,Yes,Pending
+G16-Q09,Geometry,No duplicate geometries (same road mapped twice),Overlap/duplicate check,No two segments share >90% of geometry within 1m tolerance,Investigate OSM duplicate ways; retain one; document,No,Pending
+G16-Q10,Coverage,Major federal highways present in all 10 study states,Visual check + query,At least one RC01 (Federal Highway) segment per study state,Flag missing states; check OSM completeness,Yes,Pending
+G16-Q11,Coverage,State capitals connected by road network,Connectivity check,All 10 state capitals accessible via road network in layer,Flag gaps; supplement from alternative sources,No,Pending
+G16-Q12,Attribute,RC07 (unknown class) minimised,Count RC07 records,RC07 < 5% of total segments,Reclassify RC07 records from OSM tags or imagery,No,Pending
+G16-Q13,Bridge flag,Bridges identified and flagged,Is_Bridge check,All bridge segments have Is_Bridge = Yes,Review segments crossing G05 river lines — flag untagged crossings,No,Pending (requires G05)
+G16-Q14,Attribution,ODbL attribution documented,SOURCE_REGISTER.csv check,SRC008 present; attribution statement recorded,Update SOURCE_REGISTER.csv,No,Pending
+G16-Q15,Temporal,OSM_Extract_Date consistent across all records from same extract,Value check,All records have same OSM_Extract_Date,Investigate inconsistency; record correct date,No,Pending

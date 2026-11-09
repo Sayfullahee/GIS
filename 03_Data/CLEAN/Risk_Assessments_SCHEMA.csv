@@ -1,0 +1,14 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Risk_ID,Text,40,Yes,Yes,No,,Risk assessment unique ID
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Community identifier
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code
+H_Hazard,Double,,Yes,No,No,,"Hazard component score [0, 100]"
+E_Exposure,Double,,Yes,No,No,,"Exposure component score [0, 100]"
+V_Vulnerability,Double,,Yes,No,No,,"Vulnerability component score [0, 100]"
+C_Criticality,Double,,Yes,No,No,,"Criticality component score [0, 100]"
+R_Composite_Risk,Double,,Yes,No,No,,Composite Risk score (0.35H + 0.25E + 0.25V + 0.15C)
+R_Multiplicative,Double,,Yes,No,No,,Multiplicative verification check
+Confidence_Rating,Text,20,Yes,No,No,,Data confidence rating
+Model_Version,Text,20,Yes,No,No,,Model algorithm version
+Ref_Bounds_ID,Text,30,Yes,No,No,,Reference bounds set ID
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "name": "G20_Climate_Stations_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.533,
+          9.613
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-NIG-001",
+        "Station_Name": "Minna Synoptic Weather Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-NIG",
+        "Elevation_m": 299.0,
+        "Latitude": 9.613,
+        "Longitude": 6.533,
+        "Operating_Since": "1975-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.199,
+          12.45
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-KEB-001",
+        "Station_Name": "Birnin Kebbi Met Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-KEB",
+        "Elevation_m": 220.0,
+        "Latitude": 12.45,
+        "Longitude": 4.199,
+        "Operating_Since": "1985-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.869,
+          9.87
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-PLA-001",
+        "Station_Name": "Jos Airport Meteorological Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-PLA",
+        "Elevation_m": 1290.0,
+        "Latitude": 9.87,
+        "Longitude": 8.869,
+        "Operating_Since": "1960-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.617,
+          7.7
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-BEN-001",
+        "Station_Name": "Makurdi Air Force Base Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-BEN",
+        "Elevation_m": 95.0,
+        "Latitude": 7.7,
+        "Longitude": 8.617,
+        "Operating_Since": "1972-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.733,
+          7.8
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-KOG-001",
+        "Station_Name": "Lokoja Confluence Climate Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-KOG",
+        "Elevation_m": 62.0,
+        "Latitude": 7.8,
+        "Longitude": 6.733,
+        "Operating_Since": "1965-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.583,
+          8.433
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-KWA-001",
+        "Station_Name": "Ilorin International Airport Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-KWA",
+        "Elevation_m": 307.0,
+        "Latitude": 8.433,
+        "Longitude": 4.583,
+        "Operating_Since": "1970-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.45,
+          10.6
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-KAD-001",
+        "Station_Name": "Kaduna Airport Weather Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-KAD",
+        "Elevation_m": 645.0,
+        "Latitude": 10.6,
+        "Longitude": 7.45,
+        "Operating_Since": "1962-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517,
+          8.483
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-NAS-001",
+        "Station_Name": "Lafia Agro-Meteorological Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-NAS",
+        "Elevation_m": 180.0,
+        "Latitude": 8.483,
+        "Longitude": 8.517,
+        "Operating_Since": "1998-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.367,
+          8.9
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-TAR-001",
+        "Station_Name": "Jalingo Airport Met Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-TAR",
+        "Elevation_m": 351.0,
+        "Latitude": 8.9,
+        "Longitude": 11.367,
+        "Operating_Since": "1995-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.167,
+          10.3
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIM-GOM-001",
+        "Station_Name": "Gombe Lawanti Airport Station",
+        "Operator": "NiMet",
+        "State_Code": "NG-GOM",
+        "Elevation_m": 480.0,
+        "Latitude": 10.3,
+        "Longitude": 11.167,
+        "Operating_Since": "2008-01-01",
+        "Status": "Active",
+        "Provenance_ID": "PRV-NIMET-2026-01",
+        "QC_Status": "CLEAN"
+      }
+    }
+  ]
+}

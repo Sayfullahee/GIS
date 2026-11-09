@@ -1,0 +1,8 @@
+Class_Code,Class_Label,NDVI_Trend_pct_per_yr,RUSLE_t_ha_yr,Description,Management_Response
+LD0,No Degradation,>= 0,<5,Stable or improving vegetation and soil; no intervention needed,Monitor
+LD1,Slight Degradation,"-0.1 to -0.5","5-10",Minor NDVI decline or low erosion; early warning,Preventive measures
+LD2,Moderate Degradation,"-0.5 to -1.0","10-50",Measurable productivity decline; visible erosion,Priority intervention
+LD3,Severe Degradation,"-1.0 to -2.0","50-200",Major vegetation loss; active gullying; significant soil loss,Urgent rehabilitation
+LD4,Extreme Degradation,< -2.0,> 200,Near-total vegetation cover loss; badland formation,Emergency response; may require relocation
+LDR,Recovering,> 0 (after prior decline),Declining,Improving after degradation event or intervention,Continue and monitor
+LDU,Unknown,NULL,NULL,Insufficient data to classify,Field survey required

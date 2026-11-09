@@ -1,0 +1,12 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+alert_area_id,str,NO,AREA-2026-NIG-001,Verified field for Flood_Alert_Areas
+alert_id,str,NO,ALT-2026-NIG-001,Verified field for Flood_Alert_Areas
+state_code,str,NO,NG-NIG,Verified field for Flood_Alert_Areas
+lga_id,str,NO,LGA-NIG-002,Verified field for Flood_Alert_Areas
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Alert_Areas
+affected_area_sqkm,float64,NO,24.5,Verified field for Flood_Alert_Areas
+exposed_population,int64,NO,4250,Verified field for Flood_Alert_Areas
+exposed_households,int64,NO,680,Verified field for Flood_Alert_Areas
+exposed_critical_assets,int64,NO,8,Verified field for Flood_Alert_Areas
+assessed_at,str,NO,2026-10-08 05:15:00+01:00,Verified field for Flood_Alert_Areas
+confidence,str,NO,High,Verified field for Flood_Alert_Areas

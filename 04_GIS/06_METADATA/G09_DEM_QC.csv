@@ -1,0 +1,16 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G09-Q01,Structure,Raster has exactly one band,gdalinfo band count,Band count = 1,Investigate multi-band source; extract correct band,Yes,Pending
+G09-Q02,CRS,CRS confirmed as EPSG:4326,gdalinfo / QGIS CRS check,CRS = EPSG:4326 WGS84 geographic,Reproject using gdalwarp -t_srs EPSG:4326; document,Yes,Pending
+G09-Q03,Resolution,Pixel size matches selected source resolution,gdalinfo pixel size,Pixel size matches documented source resolution (tolerance ±0.00001 degrees),Investigate; may indicate wrong source tile or resampling error,Yes,Pending
+G09-Q04,NoData,NoData value explicitly set and not 0,gdalinfo nodata,NoData value set; not 0,Set nodata value using gdal_translate -a_nodata [value],Yes,Pending
+G09-Q05,Extent,Raster covers study area + 50km buffer,Bounding box check vs study area,All 10 study states + 50km buffer fully within raster extent,Acquire additional tiles; re-mosaic,Yes,Pending
+G09-Q06,Range,Minimum elevation within plausible range,Raster statistics,Min >= -10m (coastal Niger Delta),Flag values < -10m; verify against coastal DEM data,Yes,Pending
+G09-Q07,Range,Maximum elevation within plausible range,Raster statistics,Max <= 2500m for Nigeria study area,Flag values > 2500m; check for tile artefacts or projection errors,Yes,Pending
+G09-Q08,NoData holes,No unexpected NoData holes within study area,Visual inspection + nodata cell count within study area,NoData cells within study area boundary < 0.1% of total cells,Fill gaps using gdal_fillnodata or acquire replacement tiles,Yes,Pending
+G09-Q09,Tile seams,No elevation discontinuities at tile boundaries,Profile line check across tile boundaries,Elevation difference at tile boundary < 5m,Re-mosaic with overlap; check source tile versions match,Yes,Pending
+G09-Q10,Hydrologic conditioning,Conditioning method documented,Metadata check,Hydrologic_Conditioning field populated in schema,Document conditioning method before any derivative computation,Yes,Pending
+G09-Q11,River consistency,DEM elevation generally decreasing downstream along G05 river network,Sample elevation at river nodes along major rivers,>=90% of river profile points show downstream decrease,Investigate anomalies; may indicate conditioning error or flat areas requiring special treatment,No,Pending (requires G05)
+G09-Q12,Reproducibility,Processing script produces same output from same inputs,Re-run script; compare outputs,MD5 hash of output raster matches,Document script version and parameters; fix any non-deterministic steps,No,Pending
+G09-Q13,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC005 or SRC006 present and complete,Update SOURCE_REGISTER.csv,No,Pending
+G09-Q14,Mosaic,All required tiles acquired and listed,Tile inventory check,Tile list in schema matches acquired files in 04_GIS/01_RAW/,Acquire missing tiles,Yes,Pending
+G09-Q15,Compression,Output file uses appropriate compression,gdalinfo,GeoTIFF with LZW or DEFLATE compression (not uncompressed for large rasters),Re-create with gdal_translate -co COMPRESS=LZW,No,Pending

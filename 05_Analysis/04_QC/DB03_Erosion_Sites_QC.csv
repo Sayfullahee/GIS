@@ -1,0 +1,26 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+DB03-Q01,Structure,All required fields present,Schema check,All 31 schema fields present,Add missing columns,Yes,Pending
+DB03-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Erosion_ID / Community_ID / Latitude / Longitude / GPS_Accuracy_m / Erosion_Type / Activity_Status / Severity_0_4 / Infrastructure_Threat / Observation_Date / Observed_By / Record_Created / Data_Version / QC_Status,Flag and return to field team,Yes,Pending
+DB03-Q03,Uniqueness,No duplicate Erosion_ID,Distinct count,Count distinct = count total,Investigate; resolve before proceeding,Yes,Pending
+DB03-Q04,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All Community_ID values exist in DB01,Flag unresolved; populate via SJ12 spatial join after G03 built,Yes,Pending
+DB03-Q05,Reference integrity,Erosion_Type resolves to LKP_ErosionType.csv,LEFT JOIN,All values in LKP_ErosionType.csv,Flag unresolved codes,Yes,Pending
+DB03-Q06,Reference integrity,Severity_0_4 resolves to LKP_ErosionSeverity.csv,LEFT JOIN,All values 0–4 in LKP_ErosionSeverity.csv,Flag out-of-range values,Yes,Pending
+DB03-Q07,Coordinate,Latitude within Nigeria bounds,Range check,All values 4.0–14.0,Flag outliers; verify with field records,Yes,Pending
+DB03-Q08,Coordinate,Longitude within Nigeria bounds,Range check,All values 2.5–15.0,Flag outliers,Yes,Pending
+DB03-Q09,Coordinate,Site within 10km of parent community,Distance check vs DB01,All sites within 10km of Community_ID centroid,Flag distant sites; verify community assignment via SJ12,No,Pending
+DB03-Q10,GPS,GPS_Accuracy_m positive and acceptable,Range check,>0; flag >30; reject >100,Return flagged records for re-survey,No (flag >30) / Yes (reject >100),Pending
+DB03-Q11,Logical,Activity_Status allowed values,Value check,All values in {Active / Inactive / Stabilised / Unknown},Flag invalid values,No,Pending
+DB03-Q12,Logical,Severity_0_4 is integer 0–4,Type and range check,All values are integer 0 1 2 3 or 4,Flag non-integer or out-of-range,Yes,Pending
+DB03-Q13,Logical,Dimension fields positive if present,Range check,Length_m / Width_m / Depth_m all >0 if not null,Flag zero or negative values,No,Pending
+DB03-Q14,Logical,Dimension plausibility — gully cannot be longer than 5km without verification,Range check,Flag Length_m > 5000,Manual verification required; not automatic rejection,No,Pending
+DB03-Q15,Logical,Depth cannot exceed Width (general rule for gullies),Logical cross-check,Flag records where Depth_m > Width_m,Verify with field photographs; may be valid for very narrow deep gullies,No,Pending
+DB03-Q16,Logical,Control_Condition = NA when Control_Present = No,Logical consistency,If Control_Present = No then Control_Condition = NA or NULL,Update Control_Condition to NA,No,Pending
+DB03-Q17,Logical,Infrastructure_Threat allowed values,Value check,All values in {Yes / No / Unknown},Flag invalid values,No,Pending
+DB03-Q18,Reference integrity,Infrastructure_Threatened_ID resolves to DB06 if present,LEFT JOIN after DB06 built,All non-null IDs resolve to DB06 Infrastructure_ID,Flag unresolved IDs; verify with field team,No (requires DB06),Pending
+DB03-Q19,Logical,Sediment_To_River allowed values,Value check,All non-null values in {Yes / No / Unknown},Flag invalid values,No,Pending
+DB03-Q20,Temporal,Observation_Date valid and not future,Date check,Valid date; >= 2026-01-01; not future,Flag invalid dates,Yes,Pending
+DB03-Q21,Missing data,Distinguish missing dimensions from zero,Field check,Length_m / Width_m / Depth_m are NULL when not measured — not 0,Correct 0 entries to NULL where not measured,Yes,Pending
+DB03-Q22,Spatial,Site falls within 10 study states,GIS check after G01 built,All site coordinates within G01 study states,Flag sites outside study area,Yes,Pending (requires G01)
+DB03-Q23,Hotspot readiness,Sufficient sites per state for hotspot analysis,Count by state,Flag states with < 10 erosion sites — kernel density/clustering unreliable below this threshold,Document data gap; use point mapping only below threshold,No,Pending
+DB03-Q24,Photo,Photo_ID has corresponding file if populated,File check in 02_Fieldwork/Photos/,All Photo_ID values have matching files,Flag missing photos; note in QC report,No,Pending
+DB03-Q25,Version,Data_Version populated,Null check,Zero nulls in Data_Version,Populate from processing log,No,Pending

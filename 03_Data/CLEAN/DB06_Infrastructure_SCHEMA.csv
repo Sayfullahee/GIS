@@ -1,0 +1,25 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Default,Allowed_Values,Description,QC_Rule,Privacy_Level
+Infrastructure_ID,Text,14,Yes,Yes,No,,Yes,,Format: INF-[StateCode2]-[Seq6] e.g. INF-AB-000001,Permanent infrastructure identifier — assigned by data manager; never changes,No duplicates; no nulls; format must follow pattern; stable across all updates,Level 2
+Community_ID,Text,12,Yes,No,Yes,DB01 Community_ID,No,,Must exist in DB01,Parent community identifier — assigned via spatial join (SJ11); verify with field records,Must resolve to DB01 Community_ID; no nulls,Level 2
+Infrastructure_Type,Text,10,Yes,No,Yes,LKP_InfrastructureType.csv Infra_Type_Code,No,,See LKP_InfrastructureType.csv,Infrastructure type code,No nulls; must resolve to LKP_InfrastructureType.csv,Level 2
+Description,Text,300,Yes,No,No,,No,,Any text,Descriptive name or label for this infrastructure item,No nulls; e.g. 'Owerri-Aba federal highway bridge at Otamiri River',Level 2
+Latitude,Double,,Yes,No,No,,No,,4.0 to 14.0,GPS latitude of infrastructure item in decimal degrees WGS84,No nulls; must be within Nigeria bounds; must be within 10km of parent community,Level 2
+Longitude,Double,,Yes,No,No,,No,,2.5 to 15.0,GPS longitude of infrastructure item in decimal degrees WGS84,No nulls; must be within Nigeria bounds,Level 2
+GPS_Accuracy_m,Double,,Yes,No,No,,No,,>0,GPS horizontal accuracy in metres,No nulls; flag >30m; reject >100m,Level 2
+Condition,Text,10,Yes,No,No,,No,,"Good, Fair, Poor, Critical, Unknown",Physical condition at time of observation,No nulls; allowed values only,Level 2
+Flood_Exposure,Text,3,Yes,No,No,,No,,"Yes, No, Unknown",Whether item is within flood hazard zone — field assessment,No nulls; allowed values only; to be updated by GIS analysis (G29),Level 2
+Erosion_Exposure,Text,3,Yes,No,No,,No,,"Yes, No, Unknown",Whether item is threatened by active erosion — field assessment,No nulls; allowed values only; to be updated by GIS analysis (G30),Level 2
+River_Distance_m,Double,,No,No,No,,No,,>=0 or NULL,Distance to nearest river in metres — calculated from G05 after GIS phase; do not manually enter,If present must be >=0; populated by GIS script,Level 2
+Damage_Severity,Integer,,No,No,No,,No,,0 to 4 or NULL,Damage severity on 0–4 scale consistent with LKP_ErosionSeverity scale (0=none; 4=critical),If present must be integer 0–4,Level 2
+Service_Disruption,Text,3,No,No,No,,No,,"Yes, No, Unknown, NULL",Whether this item's services were disrupted at time of observation,Allowed values only,Level 2
+Users_Affected,Integer,,No,No,No,,No,,>=0 or NULL,Estimated number of people whose services are affected by damage or disruption,If present must be >=0; NULL if not estimated,Level 2
+Repair_Status,Text,15,No,No,No,,No,,"No repair needed, Planned, In progress, Completed, Unknown, NULL",Status of repair works if applicable,Allowed values only,Level 2
+Critical_Service,Text,3,Yes,No,No,,No,,"Yes, No",Whether this infrastructure provides a critical service — from LKP_InfrastructureType.csv Critical_Service field; confirm in field,No nulls; allowed values only; must be consistent with LKP_InfrastructureType.csv,Level 2
+Observation_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date infrastructure item was observed in field,No nulls; valid date; >= 2026-01-01; not future,Level 2
+Photo_ID,Text,200,No,No,No,,No,,Comma-separated photo IDs or NULL,Reference IDs of site photographs,If present must have corresponding files in 02_Fieldwork/Photos/,Level 2
+Observed_By,Text,50,Yes,No,No,,No,,Any text,Field observer name or code,No nulls,Level 2
+Notes,Text,1000,No,No,No,,No,,Any text or NULL,Field notes including description of damage or threat,Review before publication,Level 2
+Record_Created,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date record entered,Auto-populated; no nulls,Level 2
+Record_Modified,Date,,No,No,No,,No,,YYYY-MM-DD or NULL,Date record last modified,Auto-populated on update,Level 2
+Data_Version,Text,10,Yes,No,No,,No,,e.g. v1.0,Data version,No nulls,Level 2
+QC_Status,Text,12,Yes,No,Yes,LKP_QC_Status.csv QC_Status_Code,No,RAW,See LKP_QC_Status.csv,Processing status,Must resolve to LKP_QC_Status.csv,Level 2

@@ -1,0 +1,26 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+DB06-Q01,Structure,All required fields present,Schema check,All 24 schema fields present,Add missing columns,Yes,Pending
+DB06-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Infrastructure_ID / Community_ID / Infrastructure_Type / Description / Latitude / Longitude / GPS_Accuracy_m / Condition / Flood_Exposure / Erosion_Exposure / Critical_Service / Observation_Date / Observed_By / Record_Created / Data_Version / QC_Status,Flag and return to field team,Yes,Pending
+DB06-Q03,Uniqueness,No duplicate Infrastructure_ID,Distinct count,Count distinct = count total,Investigate; resolve before proceeding,Yes,Pending
+DB06-Q04,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All Community_ID values exist in DB01,Flag unresolved; assign via SJ11 spatial join,Yes,Pending
+DB06-Q05,Reference integrity,Infrastructure_Type resolves to LKP_InfrastructureType.csv,LEFT JOIN,All values in LKP_InfrastructureType.csv,Flag unresolved codes; add to lookup if legitimate new type with approval,Yes,Pending
+DB06-Q06,Coordinate,Latitude within Nigeria bounds,Range check,All values 4.0–14.0,Flag outliers; verify with field records,Yes,Pending
+DB06-Q07,Coordinate,Longitude within Nigeria bounds,Range check,All values 2.5–15.0,Flag outliers,Yes,Pending
+DB06-Q08,Coordinate,Infrastructure within 10km of parent community,Distance check vs DB01,All items within 10km of Community_ID centroid,Flag distant items; verify community assignment,No,Pending
+DB06-Q09,GPS,GPS_Accuracy_m positive and acceptable,Range check,>0; flag >30; reject >100,Return flagged records for re-survey,No (flag >30) / Yes (reject >100),Pending
+DB06-Q10,Logical,Condition allowed values,Value check,All values in {Good / Fair / Poor / Critical / Unknown},Flag invalid values,No,Pending
+DB06-Q11,Logical,Flood_Exposure allowed values,Value check,All values in {Yes / No / Unknown},Flag invalid values,Yes,Pending
+DB06-Q12,Logical,Erosion_Exposure allowed values,Value check,All values in {Yes / No / Unknown},Flag invalid values,Yes,Pending
+DB06-Q13,Logical,Critical_Service allowed values,Value check,All values in {Yes / No},Flag invalid values,Yes,Pending
+DB06-Q14,Logical,Critical_Service consistent with LKP_InfrastructureType.csv,Cross-check,Critical_Service matches LKP_InfrastructureType.csv Critical_Service for same type,Flag inconsistencies; override only with documented justification,No,Pending
+DB06-Q15,Logical,Damage_Severity integer 0–4 if present,Range and type check,If present: integer 0–4,Flag out-of-range,No,Pending
+DB06-Q16,Logical,Users_Affected non-negative if present,Range check,If present: >= 0,Flag negatives,No,Pending
+DB06-Q17,Logical,Service_Disruption allowed values,Value check,All non-null values in {Yes / No / Unknown},Flag invalid values,No,Pending
+DB06-Q18,Logical,Repair_Status allowed values,Value check,All non-null values in {No repair needed / Planned / In progress / Completed / Unknown},Flag invalid values,No,Pending
+DB06-Q19,Logical,Repair_Status = No repair needed when Damage_Severity = 0,Conditional check,If Damage_Severity = 0 then Repair_Status = No repair needed or NULL,Flag inconsistencies,No,Pending
+DB06-Q20,Temporal,Observation_Date valid and not future,Date check,Valid date; >= 2026-01-01; not future,Flag invalid dates,Yes,Pending
+DB06-Q21,Spatial,Item falls within 10 study states,GIS check after G01,All coordinates within G01 study states,Flag items outside study area,Yes,Pending (requires G01)
+DB06-Q22,Spatial,Flood_Exposure field value cross-checked with G29 GIS analysis,GIS overlay after G29 built,Field assessment compared to G29 modelled flood exposure; flag significant disagreements,Update Flood_Exposure to GIS-validated value with change note; retain original field value in Notes,No,Pending (requires G29)
+DB06-Q23,Spatial,Erosion_Exposure field value cross-checked with G30,GIS overlay after G30 built,Field assessment compared to G30; flag disagreements,Update Erosion_Exposure to GIS-validated value with change note,No,Pending (requires G30)
+DB06-Q24,Photo,Photo_ID has corresponding file if populated,File check,All Photo_ID values have matching files in 02_Fieldwork/Photos/,Flag missing photos,No,Pending
+DB06-Q25,Coverage,All infrastructure types present for each state,Group count,Flag states with no roads / health / school / water infrastructure — likely survey gap,Document survey coverage gaps in QC report,No,Pending

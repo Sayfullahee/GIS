@@ -1,0 +1,10 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Audit_ID,BigInt,,Yes,Yes,No,,Audit entry primary key
+Table_Name,Text,100,Yes,No,No,,Target table modified
+Record_PK,Text,100,Yes,No,No,,Modified record primary key
+Column_Name,Text,100,Yes,No,No,,Modified column
+Original_Value,Text,500,No,No,No,,Value prior to correction
+Corrected_Value,Text,500,Yes,No,No,,Corrected clean value
+Reason,Text,500,Yes,No,No,,Justification for modification
+User_Name,Text,100,Yes,No,No,,Authorizing officer username
+Timestamp,Text,30,Yes,No,No,,Timestamp of modification

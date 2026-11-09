@@ -1,0 +1,21 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G29-Q01,Dependency,All upstream layers CLEAN,Check PROCESSING_STATUS.csv,G24 G03 G17 G16 G18 G19 all QC_Status = CLEAN; DB01 QC_Status = CLEAN,Do not compute exposure until all upstream layers pass QC,Yes,Pending
+G29-Q02,Exposure method,Exposure calculation method pre-specified in EXPOSURE_MODEL_DECISIONS.csv,Check EMD01 and EMD02,EMD01 and EMD02 approved before computation,Record decisions before running scripts,Yes,Pending
+G29-Q03,Coverage,One record per community in G03,Count check,G29 record count = G03 CLEAN community count,Investigate missing communities; regenerate,Yes,Pending
+G29-Q04,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending
+G29-Q05,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+G29-Q06,Logical,Pop_in_Moderate_Plus <= Population,Cross-field check,Pop_in_Moderate_Plus_Hazard <= Population for all records,Flag violations; investigate spatial intersection,Yes,Pending
+G29-Q07,Logical,Pop_in_High_Plus <= Pop_in_Moderate_Plus,Cross-field check,Pop_in_High_Plus_Hazard <= Pop_in_Moderate_Plus_Hazard,Flag violations,Yes,Pending
+G29-Q08,Logical,Buildings in hazard zone <= total buildings,Cross-field check,Buildings_in_Moderate_Plus_Hazard <= Buildings_Total,Flag violations,Yes,Pending
+G29-Q09,Range,IND05 score 0-100,Range check,All non-null IND05_Pop_Exposure values 0-100,Flag out-of-range; check normalisation,Yes,Pending
+G29-Q10,Range,IND06 score 0-100,Range check,All non-null IND06_Infra_Exposure values 0-100,Flag out-of-range; check normalisation,Yes,Pending
+G29-Q11,Range,Mean_Hazard_Score between 0 and 100,Range check,All non-null values 0-100,Flag; check G24 input,Yes,Pending
+G29-Q12,Range,Max_Hazard_Score >= Mean_Hazard_Score,Cross-field check,Max >= Mean for all records,Flag violations; investigate zonal statistics computation,No,Pending
+G29-Q13,Range,Pct_Area_High_Plus_Hazard between 0 and 100,Range check,All non-null values 0-100,Flag out-of-range,Yes,Pending
+G29-Q14,Missing data,NULL used for missing components — not 0,Field check,Pop_in_Moderate_Plus_Hazard NULL when DB01 Population NULL; not 0,Correct 0 entries to NULL where population not available,Yes,Pending
+G29-Q15,Completeness flag,Exposure_Data_Completeness populated,Null check,Zero nulls in Exposure_Data_Completeness,Populate based on component availability,Yes,Pending
+G29-Q16,Completeness flag,Exposure_Data_Completeness = Full for >= 70% of communities,Proportion check,Flag if < 70% of communities have Full completeness,Document data gaps; list communities with Minimal completeness,No,Pending
+G29-Q17,Separation,Exposure does not incorporate vulnerability,Content review,No vulnerability variable (income; adaptive capacity; social deprivation) included in G29 calculation,Remove any vulnerability component; it belongs in G33,Yes,Pending
+G29-Q18,Cross-check,Communities with high mean hazard score have higher exposure scores,Correlation check,Positive correlation between Mean_Hazard_Score and IND05_Pop_Exposure (r > 0.3),Flag near-zero or negative correlation; investigate population data or hazard model,No,Pending
+G29-Q19,Aggregation,LGA and state aggregations consistent with community totals,Sum check,Sum of community population-in-hazard-zone = LGA total; LGA sum = state total (within 1% rounding tolerance),Investigate aggregation scripts,No,Pending
+G29-Q20,Metadata,Input_Layers_Version and Computation_Date populated,Null check,Zero nulls in both fields,Populate before publication; required for traceability,Yes,Pending

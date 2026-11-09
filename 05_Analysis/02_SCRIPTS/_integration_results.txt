@@ -1,0 +1,501 @@
+
+[1m==============================================================
+  CHER-CDSS FULL INTEGRATION TEST
+  Python: 3.14.6  |  Date: 2026-10-15
+==============================================================[0m
+
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 1 â€” Generating Synthetic CLEAN Data[0m
+[1m[36m==============================================================[0m
+  [32mâœ“[0m  DB01 written: 30 communities
+  [32mâœ“[0m  DB03 written: 45 erosion sites
+  [32mâœ“[0m  DB06 written: 60 infrastructure items
+  [32mâœ“[0m  DB05 written: 1380 climate records (5 stations Ã— ~276 records)
+  [32mâœ“[0m  G20 written: 5 climate stations
+  [32mâœ“[0m  G25 written: 20 observed flood events
+  [32mâœ“[0m  DB08 written: 15 waste sites
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 2 â€” Running Pipeline Modules[0m
+[1m[36m==============================================================[0m
+
+  [05_climate] 05_climate.py â†’ DB05 temporal aggregation â†’ G21
+2026-10-15 11:37:57 | INFO     | 05_climate | ============================================================
+2026-10-15 11:37:57 | INFO     | 05_climate |   05_CLIMATE â€” Climate Data Processing
+2026-10-15 11:37:57 | INFO     | 05_climate | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 11:37:57 | INFO     | 05_climate | DB05 loaded: 1380 records from 5 stations
+2026-10-15 11:37:57 | INFO     | 05_climate | Extreme rainfall events flagged: 802 records > 100.0mm
+2026-10-15 11:37:57 | INFO     | 05_climate | Dry spell days computed
+2026-10-15 11:37:57 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv
+2026-10-15 11:37:57 | INFO     | 05_climate | Station summaries computed: 5 stations | period 2000â€“2026
+2026-10-15 11:37:57 | INFO     | 05_climate | G21 station summary saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G21_ClimateObservations_Summary.csv
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G21 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 05_climate | 05_climate complete
+  [32mâœ“[0m  05_climate completed without error
+
+  [06_flood] 06_flood.py â†’ IND01/IND02 flood indicators
+2026-10-15 11:37:57 | INFO     | 06_flood | ============================================================
+2026-10-15 11:37:57 | INFO     | 06_flood |   06_FLOOD â€” Flood Indicator Computation
+2026-10-15 11:37:57 | INFO     | 06_flood | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:37:57 | INFO     | 06_flood | G25 loaded: 20 flood events
+2026-10-15 11:37:57 | INFO     | 06_flood | IND01 computed: 30 communities
+2026-10-15 11:37:57 | INFO     | 06_flood | IND02 computed for 20 flood events
+2026-10-15 11:37:57 | INFO     | 06_flood | Flood indicators saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\Flood_Indicators_IND01_IND02.csv
+2026-10-15 11:37:57 | INFO     | 06_flood | 06_flood complete
+  [32mâœ“[0m  06_flood completed without error
+
+  [07_erosion] 07_erosion.py â†’ IND03/IND04 + G27 hotspots
+2026-10-15 11:37:57 | INFO     | 07_erosion | ============================================================
+2026-10-15 11:37:57 | INFO     | 07_erosion |   07_EROSION â€” Erosion Indicator Computation
+2026-10-15 11:37:57 | INFO     | 07_erosion | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB03']
+2026-10-15 11:37:57 | INFO     | 07_erosion | DB03 loaded: 45 erosion sites
+2026-10-15 11:37:57 | INFO     | 07_erosion | IND03 computed for 30 communities (from 45 erosion sites)
+2026-10-15 11:37:57 | INFO     | 07_erosion | IND04 computed
+2026-10-15 11:37:57 | INFO     | 07_erosion | State NG-AB: 4 active sites â†’ method: PointMapping
+2026-10-15 11:37:57 | INFO     | 07_erosion | State NG-AN: 8 active sites â†’ method: PointMapping
+2026-10-15 11:37:57 | INFO     | 07_erosion | State NG-KO: 4 active sites â†’ method: PointMapping
+2026-10-15 11:37:57 | INFO     | 07_erosion | State NG-EN: 4 active sites â†’ method: PointMapping
+2026-10-15 11:37:57 | INFO     | 07_erosion | State NG-DE: 4 active sites â†’ method: PointMapping
+2026-10-15 11:37:57 | INFO     | 07_erosion | G27 hotspot scores computed for 30 communities
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G27 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 07_erosion | Erosion indicators saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\Erosion_Indicators_IND03_IND04_G27.csv
+2026-10-15 11:37:57 | INFO     | 07_erosion | 07_erosion complete
+  [32mâœ“[0m  07_erosion completed without error
+
+  [08_hydropower] 08_hydropower.py â†’ IND07/IND08
+2026-10-15 11:37:57 | INFO     | 08_hydropower | ============================================================
+2026-10-15 11:37:57 | INFO     | 08_hydropower |   08_HYDROPOWER â€” Hydropower Indicator Computation
+2026-10-15 11:37:57 | INFO     | 08_hydropower | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB04']
+2026-10-15 11:37:57 | INFO     | 08_hydropower | DB04 loaded: 36 observations from 6 facilities
+2026-10-15 11:37:57 | INFO     | 08_hydropower | IND08 computed for 6 facilities
+2026-10-15 11:37:57 | WARNING  | 08_hydropower | G07 CLEAN CSV not found â€” G28 will lack coordinates
+2026-10-15 11:37:57 | INFO     | 08_hydropower | G28 summary saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G28_HydroObservations_Summary.csv
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G28 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 08_hydropower | IND07 derived from DB01 Electricity_Access (proxy)
+2026-10-15 11:37:57 | INFO     | 08_hydropower | IND07 saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\Hydro_Indicators_IND07_IND08.csv
+2026-10-15 11:37:57 | INFO     | 08_hydropower | IND08 saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\IND08_Hydropower_Disruption.csv
+2026-10-15 11:37:57 | INFO     | 08_hydropower | 08_hydropower complete
+  [32mâœ“[0m  08_hydropower completed without error
+
+  [09_exposure] 09_exposure.py â†’ G29/G30/G32 Exposure Index
+2026-10-15 11:37:57 | INFO     | 09_exposure | ============================================================
+2026-10-15 11:37:57 | INFO     | 09_exposure |   09_EXPOSURE â€” Exposure Index (G29, G30, G32)
+2026-10-15 11:37:57 | INFO     | 09_exposure | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03', 'DB06']
+2026-10-15 11:37:57 | WARNING  | 09_exposure | G24 zonal stats not found â€” flood exposure based on community data only
+2026-10-15 11:37:57 | INFO     | 09_exposure | G29 flood exposure saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G29_FloodExposure_community.csv (30 communities)
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G29 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 09_exposure | G30 erosion exposure saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G30_ErosionExposure_community.csv
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G30 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 09_exposure | G32 Exposure Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G32_ExposureIndex.csv | Mean E_Score: 26.2
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G32 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 09_exposure | 09_exposure complete
+  [32mâœ“[0m  09_exposure completed without error
+
+  [10_vulnerability] 10_vulnerability.py â†’ G33 Vulnerability Index
+2026-10-15 11:37:57 | INFO     | 10_vulnerability | ============================================================
+2026-10-15 11:37:57 | INFO     | 10_vulnerability |   10_VULNERABILITY â€” Vulnerability Index (G33)
+2026-10-15 11:37:57 | INFO     | 10_vulnerability | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:37:57 | INFO     | 10_vulnerability | IND09 computed: 30 communities
+2026-10-15 11:37:57 | INFO     | 10_vulnerability | DB02 aggregated to 50 communities (250 total households)
+2026-10-15 11:37:57 | INFO     | 10_vulnerability | G33 Vulnerability Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G33_VulnerabilityIndex.csv | Mean V_Score: 36.8
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G33 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 10_vulnerability | 10_vulnerability complete
+  [32mâœ“[0m  10_vulnerability completed without error
+
+  [11_criticality] 11_criticality.py â†’ G34 Criticality Index
+2026-10-15 11:37:57 | INFO     | 11_criticality | ============================================================
+2026-10-15 11:37:57 | INFO     | 11_criticality |   11_CRITICALITY â€” Criticality Index (G34)
+2026-10-15 11:37:57 | INFO     | 11_criticality | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 11:37:57 | INFO     | 11_criticality | G34 Criticality Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G34_CriticalityIndex.csv | Mean C_Score: 44.2
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G34 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 11_criticality | 11_criticality complete
+  [32mâœ“[0m  11_criticality completed without error
+
+  [12_hazard] 12_hazard.py â†’ G31 Hazard Index
+2026-10-15 11:37:57 | INFO     | 12_hazard | ============================================================
+2026-10-15 11:37:57 | INFO     | 12_hazard |   12_HAZARD â€” Hazard Index (G31)
+2026-10-15 11:37:57 | INFO     | 12_hazard | ============================================================
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03']
+2026-10-15 11:37:57 | INFO     | 12_hazard | G31 Hazard Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G31_HazardIndex.csv | Mean H_Score: 51.1
+2026-10-15 11:37:57 | INFO     | 12_hazard | G31 validation vs G25: 7/7 (100.0%) High-confidence events in Moderate+ hazard zones | Threshold: 70% | PASS
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G31 â†’ DERIVED
+2026-10-15 11:37:57 | INFO     | 12_hazard | 12_hazard complete
+  [32mâœ“[0m  12_hazard completed without error
+
+  [13_risk] 13_risk.py â†’ G35 Composite Risk
+2026-10-15 11:37:57 | INFO     | 13_risk | ============================================================
+2026-10-15 11:37:57 | INFO     | 13_risk |   13_RISK â€” Composite Risk Index (G35)
+2026-10-15 11:37:57 | INFO     | 13_risk | ============================================================
+2026-10-15 11:37:57 | INFO     | 13_risk | Formula verified â€” max discrepancy: 0.000000
+2026-10-15 11:37:57 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder â€” run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-15 11:37:57 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder â€” run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-15 11:37:57 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder â€” run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-15 11:38:04 | INFO     | 13_risk | Sensitivity rank correlations â€” S1: 0.951 | S2: 0.971
+2026-10-15 11:38:04 | INFO     | 13_risk | Communities changing risk class (baseline vs S1): 7/30 (23.3%)
+2026-10-15 11:38:04 | INFO     | 13_risk | G35 Composite Risk saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G35_CompositeRisk.csv | 30 communities | Mean R: 40.3 | High+VeryHigh: 6
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G35 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 13_risk | 13_risk complete
+  [32mâœ“[0m  13_risk completed without error
+
+  [14_adaptation] 14_adaptation.py â†’ G36 Adaptation
+2026-10-15 11:38:04 | INFO     | 14_adaptation | ============================================================
+2026-10-15 11:38:04 | INFO     | 14_adaptation |   14_ADAPTATION â€” Adaptation Inventory and Gap (G36)
+2026-10-15 11:38:04 | INFO     | 14_adaptation | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 11:38:04 | INFO     | 14_adaptation | IND09 computed: mean coverage = 0.14
+2026-10-15 11:38:04 | WARNING  | 14_adaptation | IND10 formula not yet approved in INDICATOR_REGISTER.csv â€” IND10 set to NULL. Approve formula before G37 Priority computation.
+2026-10-15 11:38:04 | INFO     | 14_adaptation | G36 Adaptation saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G36_Adaptation.csv | 30 communities | Mean IND09: 0.14
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G36 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 14_adaptation | 14_adaptation complete
+  [32mâœ“[0m  14_adaptation completed without error
+
+  [15_priority] 15_priority.py â†’ G37 Priority Areas
+2026-10-15 11:38:04 | INFO     | 15_priority | ============================================================
+2026-10-15 11:38:04 | INFO     | 15_priority |   15_PRIORITY â€” Priority Areas (G37)
+2026-10-15 11:38:04 | INFO     | 15_priority | ============================================================
+2026-10-15 11:38:04 | WARNING  | 15_priority | Priority tier thresholds use equal-interval placeholder â€” compute Jenks on baseline Priority_Score distribution and update thresholds in RISK_MODEL_SPEC.md Section 8 before publication.
+2026-10-15 11:38:04 | INFO     | 15_priority | Tier changes baseline vs S1: 0
+2026-10-15 11:38:04 | INFO     | 15_priority | G37 Priority Areas saved | 30 communities
+  Tier 1 (Highest): 0
+  Tier 2 (High):    10
+  Tier 3 (Moderate):15
+  Tier 4 (Lower):   5
+2026-10-15 11:38:04 | INFO     | 15_priority | Top-20 priority list saved: c:\xampp\htdocs\GIS\07_Decision_Support\03_Priority_Areas\G37_Top20_Priority_Communities.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G37 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 15_priority | 15_priority complete
+  [32mâœ“[0m  15_priority completed without error
+
+  [16_qc] 16_qc.py â†’ Cross-cutting QC checks
+2026-10-15 11:38:04 | INFO     | 16_qc | ============================================================
+2026-10-15 11:38:04 | INFO     | 16_qc |   16_QC â€” Cross-Cutting Quality Checks
+2026-10-15 11:38:04 | INFO     | 16_qc | ============================================================
+2026-10-15 11:38:04 | INFO     | 16_qc | Q11 Privacy check: PASS
+2026-10-15 11:38:04 | INFO     | 16_qc | PRIVACY_CHECK | 1 checks | 1 pass | 0 critical fail | 0 advisory flag | STATUS: CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Privacy_20261015.csv
+2026-10-15 11:38:04 | INFO     | 16_qc | PROVENANCE_CHECK | 1 checks | 1 pass | 0 critical fail | 0 advisory flag | STATUS: CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Provenance_20261015.csv
+2026-10-15 11:38:04 | INFO     | 16_qc | VERSION_CHECK | 1 checks | 1 pass | 0 critical fail | 0 advisory flag | STATUS: CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Version_20261015.csv
+2026-10-15 11:38:04 | INFO     | 16_qc | ENUMERATOR_QC | 1 checks | 1 pass | 0 critical fail | 0 advisory flag | STATUS: CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Enumerator_20261015.csv
+2026-10-15 11:38:04 | INFO     | 16_qc | CROSS_DB_CHECK | 1 checks | 0 pass | 0 critical fail | 1 advisory flag | STATUS: CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Cross_DB_20261015.csv
+2026-10-15 11:38:04 | INFO     | 16_qc | GEOM_SYNC_CHECK | 0 checks | 0 pass | 0 critical fail | 0 advisory flag | STATUS: CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Geometry_Sync_20261015.csv
+2026-10-15 11:38:04 | INFO     | 16_qc | 16_qc: all critical checks passed
+  [32mâœ“[0m  16_qc completed without error
+
+  [17_reports] 17_reports.py â†’ Community profiles + state tables
+2026-10-15 11:38:04 | INFO     | 17_reports | ============================================================
+2026-10-15 11:38:04 | INFO     | 17_reports |   17_REPORTS â€” Analytical Tables and Profiles
+2026-10-15 11:38:04 | INFO     | 17_reports | ============================================================
+2026-10-15 11:38:04 | INFO     | 17_reports | Community profile table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Community_Profiles.csv (30 communities)
+2026-10-15 11:38:04 | INFO     | 17_reports | State summary table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_State_Summaries.csv (5 states)
+2026-10-15 11:38:04 | INFO     | 17_reports | Descriptive statistics table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Descriptive_Statistics.csv
+2026-10-15 11:38:04 | INFO     | 17_reports | Risk distribution table: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Risk_Distribution_by_State.csv
+2026-10-15 11:38:04 | INFO     | 17_reports | Sensitivity summary: c:\xampp\htdocs\GIS\06_Reports\02_TABLES\TABLE_Sensitivity_Analysis.csv
+2026-10-15 11:38:04 | INFO     | 17_reports | 17_reports complete â€” tables saved to c:\xampp\htdocs\GIS\06_Reports\02_TABLES
+  Community profiles: 30 rows
+  State summaries:    5 rows
+  [32mâœ“[0m  17_reports completed without error
+
+  [18_maps] 18_maps.py â†’ Map register + GeoJSON export
+2026-10-15 11:38:04 | INFO     | 18_maps | ============================================================
+2026-10-15 11:38:04 | INFO     | 18_maps |   18_MAPS â€” Map Register and Export Preparation
+2026-10-15 11:38:04 | INFO     | 18_maps | ============================================================
+2026-10-15 11:38:04 | INFO     | 18_maps | Map register created: c:\xampp\htdocs\GIS\06_Reports\03_FIGURES\MAP_REGISTER.csv (27 maps planned)
+2026-10-15 11:38:04 | INFO     | 18_maps | Community map data exported: c:\xampp\htdocs\GIS\04_GIS\05_MAP_EXPORTS\Community_Risk_MapData_v1_0.csv (30 communities)
+2026-10-15 11:38:04 | INFO     | 18_maps | GeoJSON exported: c:\xampp\htdocs\GIS\04_GIS\05_MAP_EXPORTS\Community_Risk_MapData_v1_0.geojson
+2026-10-15 11:38:04 | INFO     | 18_maps | 18_maps complete.
+  MAP_REGISTER.csv: 27 maps registered in c:\xampp\htdocs\GIS\06_Reports\03_FIGURES
+  Community map data ready for QGIS in c:\xampp\htdocs\GIS\04_GIS\05_MAP_EXPORTS
+  NOTE: Final PDF map production requires QGIS Desktop with project templates in 04_GIS/04_PROJECTS/. Every map must pass cartographic element checklist before publication.
+  [32mâœ“[0m  18_maps completed without error
+
+  [20_climate_change] 20_climate_change.py â†’ CC_Score / G42
+2026-10-15 11:38:04 | INFO     | 20_climate_change | ============================================================
+2026-10-15 11:38:04 | INFO     | 20_climate_change |   20_CLIMATE_CHANGE â€” Climate Trend and Drought Indicators
+2026-10-15 11:38:04 | INFO     | 20_climate_change | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 11:38:04 | INFO     | 20_climate_change | Climate indicators computed: 5 stations | With rainfall trend: 5 | With drought freq: 5
+2026-10-15 11:38:04 | INFO     | 20_climate_change | Station indicators saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\ClimateChange_Station_Indicators.csv
+2026-10-15 11:38:04 | INFO     | 20_climate_change | G42 Climate Change Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G42_ClimateChangeIndex.csv | Mean CC_Score: 40.0
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G42 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 20_climate_change | 20_climate_change complete
+  [32mâœ“[0m  20_climate_change completed without error
+
+  [21_flooding] 21_flooding.py â†’ FL_Score / G46
+2026-10-15 11:38:04 | INFO     | 21_flooding | ============================================================
+2026-10-15 11:38:04 | INFO     | 21_flooding |   21_FLOODING â€” Multi-Return-Period Flood Model
+2026-10-15 11:38:04 | INFO     | 21_flooding | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05', 'DB01']
+2026-10-15 11:38:04 | INFO     | 21_flooding | RP rainfall estimated: 5 stations | Gumbel: 5 | Factor approximation: 0
+2026-10-15 11:38:04 | INFO     | 21_flooding | G46 Flood Frequency (community) saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G46_FloodFrequency_Community.csv | Mean FL_Score: 71.1
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G46 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 21_flooding | 21_flooding complete
+  [32mâœ“[0m  21_flooding completed without error
+
+  [22_land_degradation] 22_land_degradation.py â†’ LD_Score / G50
+2026-10-15 11:38:04 | INFO     | 22_land_degradation | ============================================================
+2026-10-15 11:38:04 | INFO     | 22_land_degradation |   22_LAND_DEGRADATION â€” NDVI Trend + RUSLE + LD Index (G50)
+2026-10-15 11:38:04 | INFO     | 22_land_degradation | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | WARNING  | 22_land_degradation | NDVI community stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\NDVI_Community_Stats.csv. Run remote sensing pipeline (GEE) to produce this file. IND15 will be NULL until available.
+2026-10-15 11:38:04 | WARNING  | 22_land_degradation | RUSLE stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\RUSLE_Community_Stats.csv. Run RUSLE raster computation (G49) to produce this file. IND16 will be NULL until available.
+2026-10-15 11:38:04 | INFO     | 22_land_degradation | G50 Land Degradation Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G50_LandDegradationIndex.csv | Mean LD_Score: nan | Completeness: Minimal
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G50 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 22_land_degradation | 22_land_degradation complete
+  [32mâœ“[0m  22_land_degradation completed without error
+
+  [23_deforestation] 23_deforestation.py â†’ DF_Score / G54
+2026-10-15 11:38:04 | INFO     | 23_deforestation | ============================================================
+2026-10-15 11:38:04 | INFO     | 23_deforestation |   23_DEFORESTATION â€” Hansen GFC + Deforestation Pressure (G54)
+2026-10-15 11:38:04 | INFO     | 23_deforestation | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | WARNING  | 23_deforestation | Forest community stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\Forest_Community_Stats.csv. Download Hansen GFC data and run remote sensing pipeline. IND17 and DF_Score will be NULL until available.
+2026-10-15 11:38:04 | WARNING  | 23_deforestation | No forest stats available â€” DF_Score will be NULL
+2026-10-15 11:38:04 | INFO     | 23_deforestation | G54 Deforestation Pressure Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G54_DeforestationPressureIndex.csv | Communities with data: 0/30
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G54 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 23_deforestation | 23_deforestation complete
+  [32mâœ“[0m  23_deforestation completed without error
+
+  [24_waste_pollution] 24_waste_pollution.py â†’ WP_Score / G58
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution | ============================================================
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution |   24_WASTE_POLLUTION â€” Waste Sites + Leachate + Exposure (G55, G58)
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution | DB08 loaded: 15 waste sites
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution | G55 saved: c:\xampp\htdocs\GIS\04_GIS\02_CLEAN\G55_WasteDumpSites_v1_0.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G55 â†’ CLEAN
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution | G58 Waste Pollution Exposure saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G58_WastePollutionExposure.csv | Mean WP_Score: 14.0 | Medical waste alerts: 0
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G58 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 24_waste_pollution | 24_waste_pollution complete
+  [32mâœ“[0m  24_waste_pollution completed without error
+
+  [25_biodiversity] 25_biodiversity.py â†’ BL_Score / G63
+2026-10-15 11:38:04 | INFO     | 25_biodiversity | ============================================================
+2026-10-15 11:38:04 | INFO     | 25_biodiversity |   25_BIODIVERSITY â€” Habitat Integrity + PA Coverage + BL Index (G63)
+2026-10-15 11:38:04 | INFO     | 25_biodiversity | ============================================================
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | WARNING  | 25_biodiversity | Habitat stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\Habitat_Community_Stats.csv. Build G59/G60/G61 and run zonal statistics to populate. IND20-IND22 will be NULL until available.
+2026-10-15 11:38:04 | WARNING  | 25_biodiversity | DB09 CLEAN not found â€” field biodiversity data unavailable
+2026-10-15 11:38:04 | INFO     | 25_biodiversity | G63 Biodiversity Loss Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G63_BiodiversityLossIndex.csv | Mean BL_Score: nan | Completeness: Minimal
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G63 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 25_biodiversity | 25_biodiversity complete
+  [32mâœ“[0m  25_biodiversity completed without error
+
+  [26_eri] 26_eri.py â†’ G64 ERI v2.0
+2026-10-15 11:38:04 | INFO     | 26_eri | ============================================================
+2026-10-15 11:38:04 | INFO     | 26_eri |   26_ERI â€” Environmental Risk Index v2.0 (G64)
+2026-10-15 11:38:04 | INFO     | 26_eri | ============================================================
+2026-10-15 11:38:04 | INFO     | 26_eri | All ERI weight sets verified: sum = 1.0 âœ“
+2026-10-15 11:38:04 | INFO     | 26_eri | ERI components loaded: 30 communities | Components available: ['G31', 'G32', 'G33', 'G34', 'G42', 'G50', 'G54', 'G58', 'G63']
+2026-10-15 11:38:04 | INFO     | 26_eri | Spearman rank correlation baseline vs S1: 0.978
+2026-10-15 11:38:04 | INFO     | 26_eri | Spearman rank correlation baseline vs S2: 0.961
+2026-10-15 11:38:04 | INFO     | 26_eri | Spearman rank correlation baseline vs S3: 0.972
+2026-10-15 11:38:04 | INFO     | 26_eri | ERI vs HEVC comparison: 0 communities newly elevated to High/Very High by environmental domains (ERI > HEVC by >=10 pts)
+2026-10-15 11:38:04 | INFO     | 26_eri | 
+=======================================================
+  ERI v2.0 COMPLETE
+=======================================================
+  Communities assessed:  30
+  Mean ERI Score:        39.2
+  High/Very High (ERI):  4
+  Missing >= 5 components: 0
+  Saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G64_EnvironmentalRiskIndex_ERI_v2.csv
+  Model version: ERI_Model_v2.0
+
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G64 â†’ DERIVED
+2026-10-15 11:38:04 | INFO     | 26_eri | 26_eri complete
+  [32mâœ“[0m  26_eri completed without error
+  [32mâœ“[0m  All 21 pipeline modules completed successfully
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 3 â€” Verifying Output Files[0m
+[1m[36m==============================================================[0m
+  [32mâœ“[0m  Output exists: G31_HazardIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G31_HazardIndex.csv
+  [32mâœ“[0m    Column 'H_Score' in G31_HazardIndex.csv
+  [32mâœ“[0m    Column 'Risk_Model_Version' in G31_HazardIndex.csv
+  [32mâœ“[0m  Output exists: G32_ExposureIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G32_ExposureIndex.csv
+  [32mâœ“[0m    Column 'E_Score' in G32_ExposureIndex.csv
+  [32mâœ“[0m  Output exists: G33_VulnerabilityIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G33_VulnerabilityIndex.csv
+  [32mâœ“[0m    Column 'V_Score' in G33_VulnerabilityIndex.csv
+  [32mâœ“[0m    Column 'Privacy_Compliant' in G33_VulnerabilityIndex.csv
+  [32mâœ“[0m  Output exists: G34_CriticalityIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G34_CriticalityIndex.csv
+  [32mâœ“[0m    Column 'C_Score' in G34_CriticalityIndex.csv
+  [32mâœ“[0m  Output exists: G35_CompositeRisk.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'H_Score' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'E_Score' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'V_Score' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'C_Score' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'R_Score' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'R_Class' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'Risk_Model_Version' in G35_CompositeRisk.csv
+  [32mâœ“[0m    Column 'Weight_Sum_Check' in G35_CompositeRisk.csv
+  [32mâœ“[0m  Output exists: G36_Adaptation.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G36_Adaptation.csv
+  [32mâœ“[0m    Column 'IND09_Adaptation_Coverage' in G36_Adaptation.csv
+  [32mâœ“[0m  Output exists: G37_PriorityAreas.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G37_PriorityAreas.csv
+  [32mâœ“[0m    Column 'Priority_Score' in G37_PriorityAreas.csv
+  [32mâœ“[0m    Column 'Priority_Tier' in G37_PriorityAreas.csv
+  [32mâœ“[0m    Column 'Priority_Rank' in G37_PriorityAreas.csv
+  [32mâœ“[0m    Column 'Data_Confidence' in G37_PriorityAreas.csv
+  [32mâœ“[0m  Output exists: G42_ClimateChangeIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G42_ClimateChangeIndex.csv
+  [32mâœ“[0m    Column 'CC_Score' in G42_ClimateChangeIndex.csv
+  [32mâœ“[0m  Output exists: G46_FloodFrequency_Community.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G46_FloodFrequency_Community.csv
+  [32mâœ“[0m    Column 'FL_Score' in G46_FloodFrequency_Community.csv
+  [32mâœ“[0m  Output exists: G50_LandDegradationIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G50_LandDegradationIndex.csv
+  [32mâœ“[0m    Column 'LD_Score' in G50_LandDegradationIndex.csv
+  [32mâœ“[0m  Output exists: G54_DeforestationPressureIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G54_DeforestationPressureIndex.csv
+  [32mâœ“[0m    Column 'DF_Score' in G54_DeforestationPressureIndex.csv
+  [32mâœ“[0m  Output exists: G58_WastePollutionExposure.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G58_WastePollutionExposure.csv
+  [32mâœ“[0m    Column 'WP_Score' in G58_WastePollutionExposure.csv
+  [32mâœ“[0m    Column 'IND18_Proximity_Norm' in G58_WastePollutionExposure.csv
+  [32mâœ“[0m  Output exists: G63_BiodiversityLossIndex.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G63_BiodiversityLossIndex.csv
+  [32mâœ“[0m    Column 'BL_Score' in G63_BiodiversityLossIndex.csv
+  [32mâœ“[0m  Output exists: G64_EnvironmentalRiskIndex_ERI_v2.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+  [32mâœ“[0m    Column 'ERI_Score' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+  [32mâœ“[0m    Column 'ERI_Class' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+  [32mâœ“[0m    Column 'ERI_Rank' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+  [32mâœ“[0m    Column 'ERI_Model_Version' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+  [32mâœ“[0m  Output exists: ClimateChange_Station_Indicators.csv (5 rows)
+  [32mâœ“[0m    Column 'Station_ID' in ClimateChange_Station_Indicators.csv
+  [32mâœ“[0m    Column 'IND11_Rainfall_Trend_mm_decade' in ClimateChange_Station_Indicators.csv
+  [32mâœ“[0m  Report output exists: TABLE_Community_Profiles.csv (30 rows)
+  [32mâœ“[0m    Column 'Community_ID' in TABLE_Community_Profiles.csv
+  [32mâœ“[0m  Report output exists: TABLE_State_Summaries.csv (5 rows)
+  [32mâœ“[0m    Column 'State_Code' in TABLE_State_Summaries.csv
+  [32mâœ“[0m  Report output exists: TABLE_Descriptive_Statistics.csv (8 rows)
+  [32mâœ“[0m    Column 'Variable' in TABLE_Descriptive_Statistics.csv
+  [32mâœ“[0m  Report output exists: TABLE_Risk_Distribution_by_State.csv (18 rows)
+  [32mâœ“[0m    Column 'State_Code' in TABLE_Risk_Distribution_by_State.csv
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 4 â€” Analytical Correctness[0m
+[1m[36m==============================================================[0m
+  [32mâœ“[0m  HEVC formula: |R âˆ’ (0.35H+0.25E+0.25V+0.15C)| < 0.01
+  [32mâœ“[0m  Weight sum = 1.0 for all records
+  [32mâœ“[0m  All R_Score values in [0, 100]
+  [32mâœ“[0m  Risk_Model_Version populated for all records
+  [32mâœ“[0m  R_Class contains only valid categories
+  [31mâœ—  FAIL: Priority_Rank is unique (no duplicates)[0m
+  [32mâœ“[0m  S1 R_Score_S1 populated
+  [32mâœ“[0m  S2 R_Score_S2 populated
+  [32mâœ“[0m  Baseline vs S1 Spearman correlation > 0.5 (got 0.951)
+  [32mâœ“[0m  ERI_Score in [0, 100] for all communities
+  [32mâœ“[0m  ERI_Model_Version = ERI_Model_v2.0
+  [32mâœ“[0m  ERI weight sum = 1.0
+  [32mâœ“[0m  S1/S2/S3 all computed in ERI
+  [31mâœ—  FAIL: ERI_Rank unique across all communities[0m
+  [32mâœ“[0m  ERI vs HEVC comparison column exists
+  [32mâœ“[0m  ERI vs HEVC Pearson correlation > 0.4 (got 0.987) (positive but different â€” environmental domains add new signal)
+  [32mâœ“[0m  IND04 normalised values all in [0, 100]
+  [32mâœ“[0m  IND03 normalised values all in [0, 100]
+  [32mâœ“[0m  Rainfall trend has expected sign (declining in synthetic data)
+  [32mâœ“[0m  Temperature trend has expected sign (warming in synthetic data)
+  [32mâœ“[0m  Drought frequency computed for all stations
+  [32mâœ“[0m  WP_Score in [0, 100]
+  [32mâœ“[0m  Communities near waste sites have IND18 > 0
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 5 â€” Privacy and Data Governance[0m
+[1m[36m==============================================================[0m
+  [32mâœ“[0m  No household-level columns in any output CSV
+  [32mâœ“[0m  G33 Privacy_Compliant = Yes for all records
+  [32mâœ“[0m  09_Archive directory exists (immutability infrastructure)
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 6 â€” Monitoring Logic (Change Detection Simulation)[0m
+[1m[36m==============================================================[0m
+  [32mâœ“[0m  New observation appended (not overwriting)
+  [32mâœ“[0m  Original records preserved exactly
+  [32mâœ“[0m  New dated record links to same site via base ID pattern
+  [32mâœ“[0m  Change detection: Î”Severity = +0 detected correctly
+  [32mâœ“[0m  EROSION_WORSENING flag triggered when Î”Severity â‰¥ 1
+  [32mâœ“[0m  Risk change detection: 9 communities worsened (Î”R â‰¥ 10)
+  [32mâœ“[0m  Risk change detection: 0 communities improved (Î”R â‰¤ -10)
+  [32mâœ“[0m  NEW_HIGH_RISK flag simulation: 0 communities newly elevated
+
+[1m[36m==============================================================[0m
+[1m[36m  STEP 7 â€” Pipeline Structure (Dry Run)[0m
+[1m[36m==============================================================[0m
+  [32mâœ“[0m  Pipeline has >= 25 steps (got 25)
+  [32mâœ“[0m  Pipeline contains step 20_climate_change
+  [32mâœ“[0m  Pipeline contains step 21_flooding
+  [32mâœ“[0m  Pipeline contains step 22_land_degradation
+  [32mâœ“[0m  Pipeline contains step 23_deforestation
+  [32mâœ“[0m  Pipeline contains step 24_waste_pollution
+  [32mâœ“[0m  Pipeline contains step 25_biodiversity
+  [32mâœ“[0m  Pipeline contains step 26_eri
+2026-10-15 11:38:05 | INFO     | run_pipeline | ============================================================
+2026-10-15 11:38:05 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE â€” EXECUTION PLAN
+2026-10-15 11:38:05 | INFO     | run_pipeline | ============================================================
+2026-10-15 11:38:05 | INFO     | run_pipeline | Run date:    2026-10-15
+2026-10-15 11:38:05 | INFO     | run_pipeline | Steps:       25/25 total
+2026-10-15 11:38:05 | INFO     | run_pipeline | Dry run:     True
+2026-10-15 11:38:05 | INFO     | run_pipeline | 
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [01] 01_ingest            â€” Register sources; ingest raw data files
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [02] 02_validate          â€” Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [03] 03_clean             â€” Consent gate; code standardisation; write CLEAN CSVs
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [04] 04_integrate         â€” SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [05] 05_climate           â€” Temporal aggregation; extreme events; G21 station summary
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [06] 06_flood             â€” IND01 flood frequency; IND02 flood severity
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [07] 07_erosion           â€” IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [08] 08_hydropower        â€” IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [09] 09_exposure          â€” Flood exposure; erosion exposure; E_Score 0-100
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [10] 10_vulnerability     â€” IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [11] 11_criticality       â€” IND08 NULL outside BUF004; C_Score 0-100
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [12] 12_hazard            â€” IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [13] 13_risk              â€” R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [14] 14_adaptation        â€” Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [15] 15_priority          â€” Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [16] 16_qc                â€” Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [17] 17_reports           â€” Community profiles; state summaries; descriptive stats; risk dist
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [18] 18_maps              â€” 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [19] 20_climate_change    â€” Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [20] 21_flooding          â€” Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [21] 22_land_degradation  â€” NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [22] 23_deforestation     â€” Hansen GFC IND17; deforestation pressure DF_Score
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [23] 24_waste_pollution   â€” DB08 waste sites; leachate IND18â€“19; WP_Score
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [24] 25_biodiversity      â€” Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-10-15 11:38:05 | INFO     | run_pipeline |   [25] 26_eri               â€” ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-10-15 11:38:05 | INFO     | run_pipeline | 
+2026-10-15 11:38:05 | INFO     | run_pipeline | DRY RUN â€” no modules executed.
+  [32mâœ“[0m  Dry run returns exit code 3
+  [32mâœ“[0m  PipelineCriticalError is raiseable and catchable
+
+[1m==============================================================
+  INTEGRATION TEST SUMMARY
+==============================================================[0m
+  Total checks:  142
+  [32mPassed:  140[0m
+  [31mFailed:  2[0m
+
+  Report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\INTEGRATION_TEST_REPORT.txt
+
+[1m[31m  âœ— 2 TEST(S) FAILED â€” review output above[0m
+
+    [31mÂ·[0m Priority_Rank is unique (no duplicates)
+    [31mÂ·[0m ERI_Rank unique across all communities
+

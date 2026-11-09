@@ -1,0 +1,12 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+drill_id,str,NO,DRL-2026-NIG-01,Verified field for Flood_Drills
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Drills
+state_code,str,NO,NG-NIG,Verified field for Flood_Drills
+drill_date,str,NO,2026-06-12,Verified field for Flood_Drills
+drill_type,str,NO,Evacuation Simulation,Verified field for Flood_Drills
+scenario_summary,str,NO,Rapid evacuation drill along marked highlands route simulating Shiroro peak discharge,Verified field for Flood_Drills
+participants_count,int64,NO,340,Verified field for Flood_Drills
+outcome,str,NO,Successful,Verified field for Flood_Drills
+lessons_learned,str,NO,Signage along eastern marsh trail requires replacement; megaphone audio reach optimal,Verified field for Flood_Drills
+facilitator_id,str,NO,FAC-SEMA-NIG-04,Verified field for Flood_Drills
+provenance_id,str,NO,PRV-NIG-DRILL-2026,Verified field for Flood_Drills

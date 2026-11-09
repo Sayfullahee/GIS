@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G09
+Layer_Name,Digital Elevation Model (DEM)
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,"Selected at implementation: HydroSHEDS 3 arc-second (~90m) OR Copernicus GLO-30 (30m) — decision must be recorded in TERRAIN_PROCESSING_DECISIONS.csv before processing begins"
+Source_ID,"SRC005 (HydroSHEDS) OR SRC006 (Copernicus) — one must be selected and documented"
+Source_Dataset,"HydroSHEDS Hydrologically Conditioned DEM OR Copernicus DEM GLO-30"
+Provider,"USGS/WWF (HydroSHEDS) OR ESA/Copernicus"
+Acquisition_Date,YYYY-MM-DD
+Source_Version,"HydroSHEDS v1 OR Copernicus GLO-30 2021"
+Coverage,Africa or Global (clip to study area + 50km buffer for complete drainage network)
+Processing_Method,"Step 1: Acquire source DEM for Africa/study region. Step 2: Mosaic tiles if multiple tiles required. Step 3: Clip to study area + 50km buffer. Step 4: Reproject to EPSG:4326 if not already. Step 5: Hydrologic conditioning if raw DEM selected (fill sinks; burn river network from G05). Step 6: Validate elevation range. Step 7: Produce CLEAN layer. Step 8: All derived terrain layers (G10-G14) computed from this single CLEAN DEM."
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / GDAL / Python (rasterio/numpy)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (with 50km buffer — required for complete drainage basin delineation)
+Reprojected,No (HydroSHEDS already WGS84; Copernicus GLO-30 already WGS84 — confirm before use)
+Hydrologic_Conditioned,"HydroSHEDS: already conditioned (use directly). Copernicus GLO-30: RAW DEM — conditioning required (fill sinks; breach depressions; optionally burn G05 river network). Document method used."
+License,"HydroSHEDS: free non-commercial use. Copernicus GLO-30: open licence (confirm current terms at acquisition)."
+Restrictions,Non-commercial use (HydroSHEDS); confirm Copernicus licence at acquisition
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G05 (rivers — used for hydrologic conditioning stream burning)
+Derived_Layers,"G10 (Slope), G11 (Aspect), G12 (Hillshade), G13 (Flow Direction), G14 (Flow Accumulation) — ALL derived from G09; G09 must pass QC before any derivative is computed"
+Storage_Location,04_GIS/01_RAW/ (source tiles) | 04_GIS/02_CLEAN/ (mosaicked/clipped/conditioned)
+File_Format,GeoTIFF (Float32)
+File_Name,G09_DEM_[source]_[resolution]_v1_0.tif (e.g. G09_DEM_HydroSHEDS_90m_v1_0.tif)
+File_Size_MB,TBD
+Attribute_Count,N/A (raster — single band)
+Feature_Count,N/A
+Bounding_Box_W,TBD (study area + 50km buffer)
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Source dataset date (HydroSHEDS circa 2008; Copernicus GLO-30 2021)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_07_Terrain_Elevation, MAP_08_Hillshade"
+Notes,"CRITICAL DECISION: DEM source selection (HydroSHEDS vs Copernicus GLO-30) must be made and documented BEFORE processing begins. This decision affects resolution of ALL derived terrain products (G10-G14) and the flood hazard model (G24). See TERRAIN_PROCESSING_DECISIONS.csv. HydroSHEDS is already hydrologically conditioned — preferred for hydrological analysis. Copernicus GLO-30 offers higher resolution but requires conditioning."

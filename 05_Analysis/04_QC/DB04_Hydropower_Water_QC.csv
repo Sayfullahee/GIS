@@ -1,0 +1,29 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+DB04-Q01,Structure,All required fields present,Schema check,All 34 schema fields present,Add missing columns,Yes,Pending
+DB04-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Observation_ID / Hydro_ID / Facility_Name / State_Code / LGA_Code / Latitude / Longitude / Observation_Date / Operating_Status / Monitoring_Source / Source_Date / Record_Created / Data_Version / QC_Status,Flag and resolve,Yes,Pending
+DB04-Q03,Uniqueness,No duplicate Observation_ID,Distinct count,Count distinct = count total,Investigate and resolve,Yes,Pending
+DB04-Q04,Reference integrity,Hydro_ID resolves to G07,LEFT JOIN check,All Hydro_ID values exist in G07,Flag unresolved; do not enter observations without a registered parent facility,Yes,Pending (requires G07)
+DB04-Q05,Consistency,Facility_Name matches G07 for same Hydro_ID,Cross-check G07,Facility_Name consistent with G07 Facility_Name for every Hydro_ID,Correct to match G07 canonical name,No,Pending
+DB04-Q06,Consistency,Coordinates match G07 for same Hydro_ID,Cross-check G07,Latitude and Longitude identical to G07 values for same Hydro_ID,Correct to G07 coordinates; do not alter facility location per observation,Yes,Pending
+DB04-Q07,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+DB04-Q08,Reference integrity,LGA_Code resolves to LKP_LGAs.csv and is consistent with State_Code,LEFT JOIN,All values in LKP_LGAs.csv; consistent with State_Code,Flag inconsistencies,Yes,Pending
+DB04-Q09,Temporal,Observation_Date valid,Date check,Valid date; not future; >= 2010-01-01,Flag invalid dates,Yes,Pending
+DB04-Q10,Temporal,Source_Date valid,Date check,Valid date; not future,Flag invalid dates,Yes,Pending
+DB04-Q11,Temporal,No duplicate Observation_Date for same Hydro_ID on same monitoring source,Duplicate check,Flag duplicate Hydro_ID + Observation_Date + Monitoring_Source combinations,Review with data provider; may be valid if multiple observation types on same date,No,Pending
+DB04-Q12,Range,Reservoir_Level_m non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB04-Q13,Range,River_Discharge_m3s non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB04-Q14,Range,Inflow_m3s non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB04-Q15,Range,Outflow_m3s non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB04-Q16,Range,Generation_MWh non-negative,Range check,All non-null values >= 0,Flag negatives,No,Pending
+DB04-Q17,Logical,Generation_Period_Days present when Generation_MWh present,Conditional check,Generation_Period_Days not null whenever Generation_MWh not null,Flag records missing Generation_Period_Days,No,Pending
+DB04-Q18,Logical,Generation_MWh plausible given Installed_MW and period,Calculation check,Generation_MWh <= Installed_MW * Generation_Period_Days * 24 (theoretical maximum),Flag implausible values; verify with operator,No,Pending
+DB04-Q19,Logical,Installed_MW matches G07 value for same Hydro_ID,Cross-check G07,If populated: Installed_MW consistent with G07 Installed_MW; flag discrepancy > 5%,Document discrepancy; update G07 if new authoritative value received,No,Pending
+DB04-Q20,Reference integrity,Operating_Status resolves to LKP_OperatingStatus.csv,LEFT JOIN,All values in LKP_OperatingStatus.csv,Flag unresolved,Yes,Pending
+DB04-Q21,Logical,Flood_Damage_Description present when Flood_Damage = Yes,Conditional check,Flood_Damage_Description not null when Flood_Damage = Yes,Flag and request description from source,No,Pending
+DB04-Q22,Logical,Disruption_Cause present when Operational_Disruption = Yes,Conditional check,Disruption_Cause not null when Operational_Disruption = Yes,Flag and request cause,No,Pending
+DB04-Q23,Logical,Community_Impact_Description present when Community_Impact = Yes,Conditional check,Community_Impact_Description not null when Community_Impact = Yes,Flag and request description,No,Pending
+DB04-Q24,Logical,Sedimentation allowed values,Value check,All non-null values in {None / Low / Moderate / High / Critical / Unknown},Flag invalid values,No,Pending
+DB04-Q25,Logical,Erosion_Severity 0–4 if present,Range check,All non-null values are integer 0–4,Flag invalid values,No,Pending
+DB04-Q26,Missing data,NULL used for not-reported generation — not zero,Field check,Generation_MWh is NULL when not reported — not 0; zero only when confirmed zero generation,Correct 0 entries to NULL where not reported; add Generation_MWh_Confirmed_Zero flag if needed,Yes,Pending
+DB04-Q27,Time series,No impossible jumps in Reservoir_Level between consecutive observations,Sequential comparison per Hydro_ID,Flag month-on-month changes > 50% of mean level,Review with operator or monitoring source; may be valid following extreme events,No,Pending
+DB04-Q28,Time series,Generation series plausible — no impossible spikes,Sequential comparison per Hydro_ID,Flag daily-equivalent generation > 2x installed capacity,Verify with operator,No,Pending

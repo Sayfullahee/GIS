@@ -1,0 +1,32 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Default,Allowed_Values,Description,QC_Rule,Privacy_Level
+Erosion_ID,Text,14,Yes,Yes,No,,Yes,,Format: ERO-[StateCode2]-[Seq6] e.g. ERO-AB-000001,Permanent erosion site identifier — assigned by data manager; never changes,No duplicates; no nulls; format must follow pattern; stable across all updates,Level 2
+Community_ID,Text,12,Yes,No,Yes,DB01 Community_ID,No,,Must exist in DB01,Nearest community identifier — assigned via spatial join (SJ12); not manually entered,Must resolve to DB01 Community_ID; no nulls; populated after spatial join,Level 2
+Latitude,Double,,Yes,No,No,,No,,4.0 to 14.0,GPS latitude of erosion site centroid or head-scarp in decimal degrees WGS84,No nulls; must be within Nigeria bounds; must be within 10km of parent community,Level 2
+Longitude,Double,,Yes,No,No,,No,,2.5 to 15.0,GPS longitude of erosion site centroid or head-scarp in decimal degrees WGS84,No nulls; must be within Nigeria bounds,Level 2
+GPS_Accuracy_m,Double,,Yes,No,No,,No,,>0,GPS horizontal accuracy in metres,No nulls; flag >30m; reject >100m,Level 2
+Erosion_Type,Text,6,Yes,No,Yes,LKP_ErosionType.csv Erosion_Type_Code,No,,See LKP_ErosionType.csv,Primary erosion type code,No nulls; must resolve to LKP_ErosionType.csv,Level 2
+Activity_Status,Text,8,Yes,No,No,,No,,"Active, Inactive, Stabilised, Unknown",Whether erosion site is currently active,No nulls; allowed values only,Level 2
+Severity_0_4,Integer,,Yes,No,Yes,LKP_ErosionSeverity.csv Severity_Code,No,,0 to 4,Erosion severity on 0–4 scale,No nulls; must be 0–4 integer; must resolve to LKP_ErosionSeverity.csv,Level 2
+Length_m,Double,,No,No,No,,No,,>0 or NULL,Erosion feature length in metres (longest axis),If present must be >0; flag >5000m for verification; NULL if not measured,Level 2
+Width_m,Double,,No,No,No,,No,,>0 or NULL,Erosion feature width in metres (widest point),If present must be >0; flag >1000m; NULL if not measured,Level 2
+Depth_m,Double,,No,No,No,,No,,>0 or NULL,Erosion feature depth in metres (deepest point),If present must be >0; flag >50m for verification; NULL if not measured,Level 2
+River_Distance_m,Double,,No,No,No,,No,,>=0 or NULL,Distance from erosion site to nearest river in metres,If present must be >=0; populated from GIS (SJ04 variant); NULL if not calculated,Level 2
+Slope,Text,10,No,No,No,,No,,"Flat (<2%), Gentle (2-5%), Moderate (5-15%), Steep (15-30%), Very Steep (>30%), Unknown",General slope class at erosion site,Allowed values only; NULL permitted,Level 2
+Soil,Text,100,No,No,No,,No,,Any text or NULL,Predominant soil type at site (field observation),Free text; standardise in CLEAN version,Level 2
+Vegetation,Text,100,No,No,No,,No,,Any text or NULL,Vegetation cover at site (field observation),Free text; standardise in CLEAN version,Level 2
+Drainage,Text,100,No,No,No,,No,,Any text or NULL,Drainage condition at site (field observation),Free text; standardise in CLEAN version,Level 2
+Land_Use,Text,100,No,No,No,,No,,Any text or NULL,Land use at or adjacent to erosion site,Free text; standardise in CLEAN version,Level 2
+Infrastructure_Threat,Text,3,Yes,No,No,,No,,"Yes, No, Unknown",Whether erosion threatens identifiable infrastructure,No nulls; allowed values only,Level 2
+Infrastructure_Threatened_ID,Text,200,No,No,No,,No,,Comma-separated Infrastructure_IDs or NULL,IDs of infrastructure items threatened — linked to DB06,If present must resolve to DB06 Infrastructure_ID values; populated after DB06 built,Level 2
+Sediment_To_River,Text,3,No,No,No,,No,,"Yes, No, Unknown, NULL",Whether erosion site delivers sediment directly to river,Allowed values only,Level 2
+Control_Present,Text,3,No,No,No,,No,,"Yes, No, Unknown",Whether any erosion control measures are present at site,Allowed values only,Level 2
+Control_Type,Text,200,No,No,No,,No,,Any text or NULL,Description of control measures if present,Free text,Level 2
+Control_Condition,Text,10,No,No,No,,No,,"Good, Fair, Poor, Failed, NA, Unknown",Condition of control measures if present,Allowed values only; NA if Control_Present = No,Level 2
+Observation_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date erosion site was observed/measured in field,No nulls; valid date; must be >= 2026-01-01; not future,Level 2
+Photo_ID,Text,200,No,No,No,,No,,Comma-separated photo IDs or NULL,Reference IDs of site photographs,If present must have corresponding files in 02_Fieldwork/Photos/,Level 2
+Observed_By,Text,50,Yes,No,No,,No,,Any text,Field observer name or code,No nulls; used for QC,Level 2
+Notes,Text,1000,No,No,No,,No,,Any text or NULL,Field team notes,Review before publication,Level 2
+Record_Created,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date record entered into database,Auto-populated; no nulls,Level 2
+Record_Modified,Date,,No,No,No,,No,,YYYY-MM-DD or NULL,Date record last modified,Auto-populated on update,Level 2
+Data_Version,Text,10,Yes,No,No,,No,,e.g. v1.0,Data version,No nulls,Level 2
+QC_Status,Text,12,Yes,No,Yes,LKP_QC_Status.csv QC_Status_Code,No,RAW,See LKP_QC_Status.csv,Processing status,Must resolve to LKP_QC_Status.csv,Level 2

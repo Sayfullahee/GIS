@@ -1,0 +1,17 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Intervention_ID,Text,40,Yes,Yes,No,,Intervention permanent ID
+Project_Title,Text,200,Yes,No,No,,Official project title
+Project_Category,Text,60,Yes,No,No,,Intervention type category
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Target community ID
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code
+Budget_NGN,Double,,Yes,No,No,,Contract budget value in Nigerian Naira
+Status,Text,50,Yes,No,No,,Execution status
+Start_Date,Date,10,No,No,No,,Project commencement date
+Completion_Date,Date,10,No,No,No,,Handover completion date
+Risk_Before,Double,,Yes,No,No,,Pre-project baseline risk score (0-100)
+Risk_After,Double,,No,No,No,,Post-project measured risk score (0-100)
+IES_Score_Pct,Double,,No,No,No,,Intervention Effectiveness Score percentage
+Residual_Risk,Double,,Yes,No,No,,Remaining residual risk score
+Data_Confidence,Text,20,Yes,No,No,,Confidence classification
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Lineage provenance reference
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

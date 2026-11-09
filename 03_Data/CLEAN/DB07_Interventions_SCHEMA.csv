@@ -1,0 +1,31 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Unique,Description,QC_Rule,Privacy_Level
+Intervention_ID,Text,16,Yes,Yes,Yes,Permanent intervention identifier — format: INT-YYYY-NNNN e.g. INT-2026-0001,No duplicates; no nulls; stable once assigned,Level 2
+Community_ID,Text,12,Yes,No,No,FK → DB01 Community Master,Must resolve to DB01; no nulls,Level 2
+State_Code,Text,6,Yes,No,No,FK → LKP_States.csv,Must resolve to LKP_States.csv,Level 2
+LGA_Code,Text,10,Yes,No,No,FK → LKP_LGAs.csv,Must resolve to LKP_LGAs.csv; consistent with State_Code,Level 2
+Domain_Code,Text,4,Yes,No,No,Environmental domain code — FK → LKP_EnvironmentalDomains.csv,Must resolve to LKP_EnvironmentalDomains.csv,Level 2
+Intervention_Type,Text,30,Yes,No,No,"Erosion control / Flood barrier / Drainage / Reforestation / Waste remediation / Habitat restoration / Climate adaptation / Livelihood / Other",Allowed values only,Level 2
+Description,Text,500,Yes,No,No,What was done — specific physical description,No nulls,Level 2
+Problem_Addressed,Text,300,Yes,No,No,Specific problem targeted (link to asset ID where applicable),No nulls,Level 2
+Linked_Asset_ID,Text,200,No,No,No,ID of erosion site / infrastructure / waste site / habitat directly targeted — comma-separated if multiple,If present must resolve to relevant DB record,Level 2
+Start_Date,Date,,Yes,No,No,Date intervention began YYYY-MM-DD,No nulls; valid date; not future,Level 2
+End_Date,Date,,No,No,No,Date intervention was completed YYYY-MM-DD,If present must be >= Start_Date,Level 2
+Status,Text,15,Yes,No,No,"Planned / In progress / Completed / Cancelled / On hold",Allowed values only,Level 2
+Implementing_Unit,Text,100,Yes,No,No,N-HYPPADEC unit or organisation responsible,No nulls,Level 2
+Partners,Text,300,No,No,No,Co-implementing organisations (comma-separated),Free text,Level 2
+Budget_NGN,Double,,No,No,No,Approved budget in Nigerian Naira,If present must be > 0,Level 2
+Expenditure_NGN,Double,,No,No,No,Actual expenditure to date in Nigerian Naira,If present must be >= 0 and <= Budget_NGN,Level 2
+Beneficiaries_Count,Integer,,No,No,No,Estimated number of people directly benefiting,If present must be >= 0,Level 2
+Before_Condition,Text,500,No,No,No,Documented condition before intervention (reference to DB record date),Free text; cross-reference with pre-intervention DB03/DB06/DB08 observation,Level 2
+After_Condition,Text,500,No,No,No,Documented condition after intervention (reference to post-intervention observation),Free text; populated after intervention completion and re-survey,Level 2
+Before_Risk_Score,Double,,No,No,No,Community R_Score or ERI score at time of intervention,If present: 0-100; from G35 or G64 output,Level 2
+After_Risk_Score,Double,,No,No,No,Community R_Score or ERI score at follow-up,If present: 0-100; computed from re-run pipeline,Level 2
+IES_Score,Double,,No,No,No,"Intervention Effectiveness Score = (Risk_before − Risk_after) / Risk_before × 100",If present: computed not manually entered; NULL if Risk_before = 0; see IES validity rules,Level 2
+Before_Photo_ID,Text,200,No,No,No,Reference IDs of pre-intervention photographs,If present must have corresponding files in 02_Fieldwork/Photos/,Level 2
+After_Photo_ID,Text,200,No,No,No,Reference IDs of post-intervention photographs,If present must have corresponding files,Level 2
+Outcome_Measured,Text,3,No,No,No,"Yes, No, Pending",Whether a measurable outcome has been documented; allowed values only,Level 2
+Outcome_Summary,Text,1000,No,No,No,Summary of measured outcome — what changed; by how much; over what period,No narrative from intervention implementation; must reference field data,Level 2
+Record_Created,Date,,Yes,No,No,Date record was created YYYY-MM-DD,Auto-populated; no nulls,Level 2
+Record_Modified,Date,,No,No,No,Date record was last modified,Auto-populated on update,Level 2
+Data_Version,Text,10,Yes,No,No,Data version e.g. v1.0,No nulls,Level 2
+QC_Status,Text,12,Yes,No,No,Processing status,Must resolve to LKP_QC_Status.csv,Level 2

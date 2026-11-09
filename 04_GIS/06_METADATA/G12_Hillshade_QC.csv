@@ -1,0 +1,10 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G12-Q01,Dependency,G09 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,G09 QC_Status = CLEAN,Do not compute from unvalidated DEM,Yes,Pending
+G12-Q02,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G12-Q03,Data type,Output is Byte (UInt8) raster,gdalinfo,Data type = Byte; values 0–255,Regenerate with correct output type,No,Pending
+G12-Q04,Range,All values 0–255,Raster statistics,Min >= 0; Max <= 255,Flag out-of-range; regenerate,Yes,Pending
+G12-Q05,Parameters,Azimuth and altitude match DEC06,Metadata check,Azimuth = 315; Altitude = 45 (or documented alternative with justification),Regenerate with correct parameters if wrong values used,No,Pending
+G12-Q06,Visual,Terrain features visually recognisable,Visual inspection in GIS,Major terrain features (river valleys; ridges; highlands) visible and oriented correctly,Flag if terrain appears flat or inverted; check DEM source and parameters,No,Pending
+G12-Q07,Extent,Raster extent matches G09,Bounding box comparison,Extents identical (tolerance ±1 pixel),Recompute,Yes,Pending
+G12-Q08,NoData,NoData value set,gdalinfo,NoData value set,Set nodata to match G09 mask,No,Pending
+G12-Q09,Analytical use,Hillshade not used as analytical input,Script review,No reference to G12 in analytical scripts (05_climate.py through 15_priority.py),Remove any analytical use; hillshade is visualisation only,Yes,Pending

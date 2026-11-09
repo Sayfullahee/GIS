@@ -1,0 +1,15 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G08-Q01,Structure,All required fields present,Schema check,All required fields present,Add missing fields,Yes,Pending
+G08-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Reservoir_ID / Hydro_ID / State_Code / Delineation_Method / Delineation_Date / Source,Flag and resolve,Yes,Pending
+G08-Q03,Uniqueness,No duplicate Reservoir_ID,Distinct count,Count distinct = count total,Resolve duplicates,Yes,Pending
+G08-Q04,Reference integrity,Hydro_ID resolves to G07,Cross-check G07,All Hydro_ID values exist in G07,Flag unresolved Hydro_ID; do not create reservoir without parent facility,Yes,Pending
+G08-Q05,Reference integrity,State_Code resolves to G01 and matches G07 State_Code,Cross-check,State_Code in G01; consistent with parent G07 record,Flag inconsistencies,Yes,Pending
+G08-Q06,Spatial,Reservoir polygon within 5km of parent facility point,Buffer check,All Reservoir_ID polygon within 5km of its G07 Hydro_ID point,Flag distant associations; verify parent-child assignment,Yes,Pending
+G08-Q07,Spatial,Reservoir polygon within expected state boundary,Point-in-polygon using centroid,Reservoir centroid within correct G01 state polygon,Flag outliers,Yes,Pending
+G08-Q08,Spatial,Reservoir does not overlap another reservoir,Overlap check,No two reservoir polygons overlap >0.01 sqkm,Investigate and resolve; cascade systems may have adjacent reservoirs,No,Pending
+G08-Q09,Elevation,Reservoir elevation consistent with DEM,Overlay with G09 DEM (when available),Reservoir polygon elevation range plausible (within 100m of expected impoundment elevation from facility records),Flag inconsistencies,No,Pending (requires G09)
+G08-Q10,Area,Area_sqkm plausible if populated,Range check,If present: 0 < Area_sqkm < 5000 for study area context,Flag very large values; verify source,No,Pending
+G08-Q11,Geometry,No null geometries,Null check,Zero null geometries,Fix or remove,Yes,Pending
+G08-Q12,Geometry,No invalid geometries,Validity check,All geometries valid,Run ST_MakeValid,Yes,Pending
+G08-Q13,Documentation,Delineation method documented for every reservoir,Field check,Delineation_Method populated for all records,Update from processing records,No,Pending
+G08-Q14,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC012 present and complete,Update SOURCE_REGISTER.csv,No,Pending

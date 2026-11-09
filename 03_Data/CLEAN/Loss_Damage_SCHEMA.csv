@@ -1,0 +1,13 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Loss_ID,Text,40,Yes,Yes,No,,Loss record primary key
+Hazard_Type,Text,50,Yes,No,No,,"Inducing hazard (Flood, Erosion)"
+Linked_Event_ID,Text,40,No,No,No,,Linked disaster event identifier
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Impacted community
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code
+Asset_Or_Livelihood_Type,Text,100,Yes,No,No,,Specific asset or livelihood damaged
+Physical_Quantity,Double,,Yes,No,No,,Physical count or area lost
+Unit,Text,30,Yes,No,No,,Measurement unit
+Financial_Loss_NGN,Double,,Yes,No,No,,Valuated economic loss in Nigerian Naira
+Confidence_Rating,Text,20,Yes,No,No,,Data confidence rating
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Lineage provenance reference
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

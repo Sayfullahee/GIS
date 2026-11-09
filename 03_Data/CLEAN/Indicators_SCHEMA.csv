@@ -1,0 +1,9 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Indicator_Entry_ID,Text,40,Yes,Yes,No,,Indicator observation entry ID
+Indicator_ID,Text,30,Yes,No,Yes,REFERENCE_BOUNDS_REGISTER.csv,Indicator code
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Community ID
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code
+Raw_Value,Double,,Yes,No,No,,Measured raw value in native units
+Normalized_Value,Double,,Yes,No,No,,"Clamped normalized score [0, 100]"
+Period,Text,20,Yes,No,No,,Reporting period
+Method_Version,Text,20,Yes,No,No,,Methodology version

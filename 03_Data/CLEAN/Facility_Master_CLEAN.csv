@@ -1,0 +1,9 @@
+Facility_ID,Facility_Name,Facility_Type,Installed_Capacity_MW,Operator,Status,State_Code,LGA,Linked_Basin,Latitude,Longitude,Commissioned_Year,Provenance_ID,QC_Status
+FAC-HYD-NIG-001,Kainji Hydroelectric Power Station,Hydropower Dam,760.0,Mainstream Energy Solutions Ltd,Operational,NG-NIG,Borgu,Lower Niger Basin,9.870278,4.603333,1968,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-NIG-002,Jebba Hydroelectric Power Station,Hydropower Dam,578.4,Mainstream Energy Solutions Ltd,Operational,NG-NIG,Mokwa,Lower Niger Basin,9.135278,4.790556,1985,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-NIG-003,Shiroro Hydroelectric Power Station,Hydropower Dam,600.0,North-South Power Co Ltd,Operational,NG-NIG,Shiroro,Kaduna River Basin,9.976389,6.834444,1990,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-NIG-004,Zungeru Hydroelectric Power Station,Hydropower Dam,700.0,Penstock Energy Ltd,Operational,NG-NIG,Wushishi,Kaduna River Basin,9.896667,6.305278,2023,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-GOM-001,Dadin Kowa Hydroelectric Power Station,Hydropower Dam,40.0,Mabon Hydro,Operational,NG-GOM,Yamaltu/Deba,Gongola River Basin,10.318611,11.516111,2021,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-TAR-001,Kashimbila Multi-Purpose Dam,Hydropower Dam,40.0,Federal Ministry of Water Resources,Operational,NG-TAR,Takum,Katsina-Ala Basin,7.183333,9.983333,2019,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-KAD-001,Gurara Phase I Hydroelectric Station,Hydropower Dam,30.0,Federal Ministry of Water Resources,Operational,NG-KAD,Kachia,Gurara Basin,9.458333,7.416667,2020,PRV-FMWR-2026-01,CLEAN
+FAC-HYD-PLA-001,Kurra Falls Hydropower Station,Hydropower Plant,18.0,NESCO Ltd,Operational,NG-PLA,Barkin Ladi,Benue Tributary Basin,9.4,8.866667,1929,PRV-FMWR-2026-01,CLEAN

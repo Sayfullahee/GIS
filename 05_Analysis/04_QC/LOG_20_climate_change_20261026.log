@@ -1,0 +1,12 @@
+2026-10-26 10:59:13 | INFO     | 20_climate_change | ============================================================
+2026-10-26 10:59:13 | INFO     | 20_climate_change |   20_CLIMATE_CHANGE — Climate Trend and Drought Indicators
+2026-10-26 10:59:13 | INFO     | 20_climate_change | ============================================================
+2026-10-26 10:59:13 | INFO     | 20_climate_change | Climate indicators computed: 5 stations | With rainfall trend: 5 | With drought freq: 5
+2026-10-26 10:59:13 | INFO     | 20_climate_change | Station indicators saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\ClimateChange_Station_Indicators.csv
+2026-10-26 10:59:13 | INFO     | 20_climate_change | G42 Climate Change Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G42_ClimateChangeIndex.csv | Mean CC_Score: 40.0
+2026-10-26 10:59:13 | INFO     | 20_climate_change | 20_climate_change complete
+2026-10-26 11:02:40 | INFO     | 20_climate_change | ============================================================
+2026-10-26 11:02:40 | INFO     | 20_climate_change |   20_CLIMATE_CHANGE — Climate Trend and Drought Indicators
+2026-10-26 11:02:40 | INFO     | 20_climate_change | ============================================================
+2026-10-26 11:02:40 | WARNING  | 20_climate_change | No daily DB05 records found
+2026-10-26 11:02:40 | WARNING  | 20_climate_change | DB01 or station data unavailable — G42 community index skipped

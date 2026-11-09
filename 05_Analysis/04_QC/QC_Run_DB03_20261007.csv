@@ -1,0 +1,15 @@
+check_id,category,description,status,critical,details
+Q01,Structure,All required fields present,PASS,True,
+Q02,Completeness,No nulls in required fields,PASS,True,
+Q03,Uniqueness,No duplicate Erosion_ID,PASS,True,
+Q04a,Referential integrity,Erosion_Type resolves to Erosion_Type_Code,PASS,True,
+Q04b,Referential integrity,Severity_0_4 is integer 0-4,PASS,True,0 invalid severity values
+Q05,Coordinate,Coordinates within bounds and not swapped,PASS,True,
+GPS,GPS,GPS_Accuracy_m acceptable,PASS,False,Flag (>30m): 0; Reject (>100m): 0
+Q07,Temporal,Observation_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 2026-01-01: 0
+Q08a,Logical,Activity_Status allowed values,PASS,False,
+Q08b,Logical,Infrastructure_Threat allowed values,PASS,False,
+Q09a,Range,"Length_m in [0.1, 10000]",PASS,False,Below 0.1: 0; Above 10000: 0
+Q09b,Range,"Width_m in [0.1, 2000]",PASS,False,Below 0.1: 0; Above 2000: 0
+Q09c,Range,"Depth_m in [0.1, 100]",PASS,False,Below 0.1: 0; Above 100: 0
+Q10,Missing vs zero,NULL used for not-recorded values — not 0,PASS,True,

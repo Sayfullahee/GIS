@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G16
+Layer_Name,Roads
+Layer_Type,Vector-Line
+Geometry_Type,Line
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,OSM/Geofabrik (varies by road class; major roads well-mapped; rural tracks may be incomplete)
+Source_ID,SRC008
+Source_Dataset,OpenStreetMap Nigeria via Geofabrik
+Provider,OpenStreetMap contributors / Geofabrik
+Acquisition_Date,YYYY-MM-DD (OSM is continuously updated — record exact download date)
+Source_Version,Geofabrik extract date YYYY-MM-DD
+Coverage,Nigeria (clip to study area + 10km buffer)
+Processing_Method,"Step 1: Download Nigeria OSM extract from Geofabrik (https://download.geofabrik.de/africa/nigeria.html). Step 2: Extract roads layer (gis_osm_roads_free_1.shp or equivalent). Step 3: Filter to road features (highway tag). Step 4: Classify into project hierarchy (see LKP_RoadHierarchy.csv). Step 5: Clip to study area + 10km buffer. Step 6: Validate geometry. Step 7: Remove duplicates. Step 8: Assign Road_ID."
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python (geopandas / osmium)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (+ 10km buffer)
+Reprojected,No (OSM data distributed as WGS84)
+Hydrologic_Conditioned,N/A
+License,ODbL 1.0 (OpenStreetMap) — attribution required
+Restrictions,Attribution required: © OpenStreetMap contributors
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G01 (state clip boundary)
+Derived_Layers,"G29 (flood exposure — road exposure), G30 (erosion exposure — road exposure), G32 (exposure index)"
+Storage_Location,04_GIS/01_RAW/ (Geofabrik extract) | 04_GIS/02_CLEAN/ (classified and validated)
+File_Format,GeoPackage preferred
+File_Name,G16_Roads_OSM_[YYYYMMDD]_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,8
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,OSM extract date — YYYY-MM-DD
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_10_Infrastructure, MAP_11_Exposure"
+Notes,"OSM road completeness varies by area. Federal and state highways are generally well-mapped. Rural tracks and community roads may be incomplete — supplement with field observations (DB06 ROAD* types) where critical. Record OSM extract date precisely — OSM data changes continuously. ODbL attribution is mandatory."

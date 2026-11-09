@@ -1,0 +1,146 @@
+CHER-CDSS Integration Test Report
+Date: 2026-10-26
+Total: 142  Passed: 140  Failed: 2
+
+[PASS] DB01 written: 30 communities
+[PASS] DB03 written: 45 erosion sites
+[PASS] DB06 written: 60 infrastructure items
+[PASS] DB05 written: 1380 climate records (5 stations × ~276 records)
+[PASS] G20 written: 5 climate stations
+[PASS] G25 written: 20 observed flood events
+[PASS] DB08 written: 15 waste sites
+[PASS] 05_climate completed without error
+[PASS] 06_flood completed without error
+[PASS] 07_erosion completed without error
+[PASS] 08_hydropower completed without error
+[PASS] 09_exposure completed without error
+[PASS] 10_vulnerability completed without error
+[PASS] 11_criticality completed without error
+[PASS] 12_hazard completed without error
+[PASS] 13_risk completed without error
+[PASS] 14_adaptation completed without error
+[PASS] 15_priority completed without error
+[PASS] 16_qc completed without error
+[PASS] 17_reports completed without error
+[PASS] 18_maps completed without error
+[PASS] 20_climate_change completed without error
+[PASS] 21_flooding completed without error
+[PASS] 22_land_degradation completed without error
+[PASS] 23_deforestation completed without error
+[PASS] 24_waste_pollution completed without error
+[PASS] 25_biodiversity completed without error
+[PASS] 26_eri completed without error
+[PASS] All 21 pipeline modules completed successfully
+[PASS] Output exists: G31_HazardIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G31_HazardIndex.csv
+[PASS]   Column 'H_Score' in G31_HazardIndex.csv
+[PASS]   Column 'Risk_Model_Version' in G31_HazardIndex.csv
+[PASS] Output exists: G32_ExposureIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G32_ExposureIndex.csv
+[PASS]   Column 'E_Score' in G32_ExposureIndex.csv
+[PASS] Output exists: G33_VulnerabilityIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G33_VulnerabilityIndex.csv
+[PASS]   Column 'V_Score' in G33_VulnerabilityIndex.csv
+[PASS]   Column 'Privacy_Compliant' in G33_VulnerabilityIndex.csv
+[PASS] Output exists: G34_CriticalityIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G34_CriticalityIndex.csv
+[PASS]   Column 'C_Score' in G34_CriticalityIndex.csv
+[PASS] Output exists: G35_CompositeRisk.csv (30 rows)
+[PASS]   Column 'Community_ID' in G35_CompositeRisk.csv
+[PASS]   Column 'H_Score' in G35_CompositeRisk.csv
+[PASS]   Column 'E_Score' in G35_CompositeRisk.csv
+[PASS]   Column 'V_Score' in G35_CompositeRisk.csv
+[PASS]   Column 'C_Score' in G35_CompositeRisk.csv
+[PASS]   Column 'R_Score' in G35_CompositeRisk.csv
+[PASS]   Column 'R_Class' in G35_CompositeRisk.csv
+[PASS]   Column 'Risk_Model_Version' in G35_CompositeRisk.csv
+[PASS]   Column 'Weight_Sum_Check' in G35_CompositeRisk.csv
+[PASS] Output exists: G36_Adaptation.csv (30 rows)
+[PASS]   Column 'Community_ID' in G36_Adaptation.csv
+[PASS]   Column 'IND09_Adaptation_Coverage' in G36_Adaptation.csv
+[PASS] Output exists: G37_PriorityAreas.csv (30 rows)
+[PASS]   Column 'Community_ID' in G37_PriorityAreas.csv
+[PASS]   Column 'Priority_Score' in G37_PriorityAreas.csv
+[PASS]   Column 'Priority_Tier' in G37_PriorityAreas.csv
+[PASS]   Column 'Priority_Rank' in G37_PriorityAreas.csv
+[PASS]   Column 'Data_Confidence' in G37_PriorityAreas.csv
+[PASS] Output exists: G42_ClimateChangeIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G42_ClimateChangeIndex.csv
+[PASS]   Column 'CC_Score' in G42_ClimateChangeIndex.csv
+[PASS] Output exists: G46_FloodFrequency_Community.csv (30 rows)
+[PASS]   Column 'Community_ID' in G46_FloodFrequency_Community.csv
+[PASS]   Column 'FL_Score' in G46_FloodFrequency_Community.csv
+[PASS] Output exists: G50_LandDegradationIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G50_LandDegradationIndex.csv
+[PASS]   Column 'LD_Score' in G50_LandDegradationIndex.csv
+[PASS] Output exists: G54_DeforestationPressureIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G54_DeforestationPressureIndex.csv
+[PASS]   Column 'DF_Score' in G54_DeforestationPressureIndex.csv
+[PASS] Output exists: G58_WastePollutionExposure.csv (30 rows)
+[PASS]   Column 'Community_ID' in G58_WastePollutionExposure.csv
+[PASS]   Column 'WP_Score' in G58_WastePollutionExposure.csv
+[PASS]   Column 'IND18_Proximity_Norm' in G58_WastePollutionExposure.csv
+[PASS] Output exists: G63_BiodiversityLossIndex.csv (30 rows)
+[PASS]   Column 'Community_ID' in G63_BiodiversityLossIndex.csv
+[PASS]   Column 'BL_Score' in G63_BiodiversityLossIndex.csv
+[PASS] Output exists: G64_EnvironmentalRiskIndex_ERI_v2.csv (30 rows)
+[PASS]   Column 'Community_ID' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+[PASS]   Column 'ERI_Score' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+[PASS]   Column 'ERI_Class' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+[PASS]   Column 'ERI_Rank' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+[PASS]   Column 'ERI_Model_Version' in G64_EnvironmentalRiskIndex_ERI_v2.csv
+[PASS] Output exists: ClimateChange_Station_Indicators.csv (5 rows)
+[PASS]   Column 'Station_ID' in ClimateChange_Station_Indicators.csv
+[PASS]   Column 'IND11_Rainfall_Trend_mm_decade' in ClimateChange_Station_Indicators.csv
+[PASS] Report output exists: TABLE_Community_Profiles.csv (30 rows)
+[PASS]   Column 'Community_ID' in TABLE_Community_Profiles.csv
+[PASS] Report output exists: TABLE_State_Summaries.csv (5 rows)
+[PASS]   Column 'State_Code' in TABLE_State_Summaries.csv
+[PASS] Report output exists: TABLE_Descriptive_Statistics.csv (8 rows)
+[PASS]   Column 'Variable' in TABLE_Descriptive_Statistics.csv
+[PASS] Report output exists: TABLE_Risk_Distribution_by_State.csv (18 rows)
+[PASS]   Column 'State_Code' in TABLE_Risk_Distribution_by_State.csv
+[PASS] HEVC formula: |R − (0.35H+0.25E+0.25V+0.15C)| < 0.01
+[PASS] Weight sum = 1.0 for all records
+[PASS] All R_Score values in [0, 100]
+[PASS] Risk_Model_Version populated for all records
+[PASS] R_Class contains only valid categories
+[FAIL] Priority_Rank is unique (no duplicates)
+[PASS] S1 R_Score_S1 populated
+[PASS] S2 R_Score_S2 populated
+[PASS] Baseline vs S1 Spearman correlation > 0.5 (got 0.951)
+[PASS] ERI_Score in [0, 100] for all communities
+[PASS] ERI_Model_Version = ERI_Model_v2.0
+[PASS] ERI weight sum = 1.0
+[PASS] S1/S2/S3 all computed in ERI
+[FAIL] ERI_Rank unique across all communities
+[PASS] ERI vs HEVC comparison column exists
+[PASS] ERI vs HEVC Pearson correlation > 0.4 (got 0.987) (positive but different — environmental domains add new signal)
+[PASS] IND04 normalised values all in [0, 100]
+[PASS] IND03 normalised values all in [0, 100]
+[PASS] Rainfall trend has expected sign (declining in synthetic data)
+[PASS] Temperature trend has expected sign (warming in synthetic data)
+[PASS] Drought frequency computed for all stations
+[PASS] WP_Score in [0, 100]
+[PASS] Communities near waste sites have IND18 > 0
+[PASS] No household-level columns in any output CSV
+[PASS] G33 Privacy_Compliant = Yes for all records
+[PASS] 09_Archive directory exists (immutability infrastructure)
+[PASS] New observation appended (not overwriting)
+[PASS] Original records preserved exactly
+[PASS] New dated record links to same site via base ID pattern
+[PASS] Change detection: ΔSeverity = +0 detected correctly
+[PASS] EROSION_WORSENING flag triggered when ΔSeverity ≥ 1
+[PASS] Risk change detection: 9 communities worsened (ΔR ≥ 10)
+[PASS] Risk change detection: 0 communities improved (ΔR ≤ -10)
+[PASS] NEW_HIGH_RISK flag simulation: 0 communities newly elevated
+[PASS] Pipeline has >= 25 steps (got 25)
+[PASS] Pipeline contains step 20_climate_change
+[PASS] Pipeline contains step 21_flooding
+[PASS] Pipeline contains step 22_land_degradation
+[PASS] Pipeline contains step 23_deforestation
+[PASS] Pipeline contains step 24_waste_pollution
+[PASS] Pipeline contains step 25_biodiversity
+[PASS] Pipeline contains step 26_eri
+[PASS] Dry run returns exit code 3
+[PASS] PipelineCriticalError is raiseable and catchable

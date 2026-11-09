@@ -1,0 +1,12 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Security_Event_ID,Text,40,Yes,Yes,No,,Development impact event primary key
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Linked community
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State code
+Event_Date,Date,10,Yes,No,No,,Observation recording date
+Impact_Type,Text,80,Yes,No,No,,Category of development impact
+Displaced_Persons_Count,Integer,,Yes,No,No,,Estimated count of environmentally displaced persons
+Farm_Access_Restricted,Boolean,,Yes,No,No,,Whether farming transit corridors are restricted
+Project_Delay_Days,Integer,,Yes,No,No,,Days of civil project implementation delay
+Confidence_Rating,Text,20,Yes,No,No,,Data confidence rating
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Lineage provenance reference
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

@@ -1,0 +1,432 @@
+{
+  "type": "FeatureCollection",
+  "name": "G21_ClimateObservations_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52,
+          7.73
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-BEN-01",
+        "Station_Name": "Benue Central Met Station",
+        "State_Code": "NG-BEN",
+        "Latitude": 7.73,
+        "Longitude": 8.52,
+        "Rainfall_Mean_mm": 116.38333333333334,
+        "Rainfall_Max_mm": 259.1,
+        "Temp_Max_Mean_C": 33.75,
+        "Temp_Min_Mean_C": 21.983333333333334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.32,
+          7.98
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-BEN-02",
+        "Station_Name": "Benue Agricultural Outpost",
+        "State_Code": "NG-BEN",
+        "Latitude": 7.98,
+        "Longitude": 8.32,
+        "Rainfall_Mean_mm": 139.35,
+        "Rainfall_Max_mm": 301.3,
+        "Temp_Max_Mean_C": 33.56666666666667,
+        "Temp_Min_Mean_C": 21.033333333333335
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.17,
+          10.28
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-GOM-01",
+        "Station_Name": "Gombe Central Met Station",
+        "State_Code": "NG-GOM",
+        "Latitude": 10.28,
+        "Longitude": 11.17,
+        "Rainfall_Mean_mm": 119.96666666666668,
+        "Rainfall_Max_mm": 279.3,
+        "Temp_Max_Mean_C": 33.199999999999996,
+        "Temp_Min_Mean_C": 20.766666666666666
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.97,
+          10.53
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-GOM-02",
+        "Station_Name": "Gombe Agricultural Outpost",
+        "State_Code": "NG-GOM",
+        "Latitude": 10.53,
+        "Longitude": 10.97,
+        "Rainfall_Mean_mm": 119.2,
+        "Rainfall_Max_mm": 237.8,
+        "Temp_Max_Mean_C": 32.949999999999996,
+        "Temp_Min_Mean_C": 20.891666666666666
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.44,
+          10.52
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KAD-01",
+        "Station_Name": "Kaduna Central Met Station",
+        "State_Code": "NG-KAD",
+        "Latitude": 10.52,
+        "Longitude": 7.44,
+        "Rainfall_Mean_mm": 136.33333333333334,
+        "Rainfall_Max_mm": 288.2,
+        "Temp_Max_Mean_C": 32.88333333333333,
+        "Temp_Min_Mean_C": 21.71666666666667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.24,
+          10.77
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KAD-02",
+        "Station_Name": "Kaduna Agricultural Outpost",
+        "State_Code": "NG-KAD",
+        "Latitude": 10.77,
+        "Longitude": 7.24,
+        "Rainfall_Mean_mm": 108.47500000000001,
+        "Rainfall_Max_mm": 220.1,
+        "Temp_Max_Mean_C": 33.38333333333333,
+        "Temp_Min_Mean_C": 21.400000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2,
+          11.5
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KEB-01",
+        "Station_Name": "Kebbi Central Met Station",
+        "State_Code": "NG-KEB",
+        "Latitude": 11.5,
+        "Longitude": 4.2,
+        "Rainfall_Mean_mm": 130.58333333333334,
+        "Rainfall_Max_mm": 283.4,
+        "Temp_Max_Mean_C": 33.38333333333333,
+        "Temp_Min_Mean_C": 20.625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0,
+          11.75
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KEB-02",
+        "Station_Name": "Kebbi Agricultural Outpost",
+        "State_Code": "NG-KEB",
+        "Latitude": 11.75,
+        "Longitude": 4.0,
+        "Rainfall_Mean_mm": 163.66666666666666,
+        "Rainfall_Max_mm": 305.6,
+        "Temp_Max_Mean_C": 33.525,
+        "Temp_Min_Mean_C": 21.575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.74,
+          7.8
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KOG-01",
+        "Station_Name": "Kogi Central Met Station",
+        "State_Code": "NG-KOG",
+        "Latitude": 7.8,
+        "Longitude": 6.74,
+        "Rainfall_Mean_mm": 140.4,
+        "Rainfall_Max_mm": 296.5,
+        "Temp_Max_Mean_C": 33.958333333333336,
+        "Temp_Min_Mean_C": 21.150000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.54,
+          8.05
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KOG-02",
+        "Station_Name": "Kogi Agricultural Outpost",
+        "State_Code": "NG-KOG",
+        "Latitude": 8.05,
+        "Longitude": 6.54,
+        "Rainfall_Mean_mm": 116.00833333333334,
+        "Rainfall_Max_mm": 298.5,
+        "Temp_Max_Mean_C": 33.5,
+        "Temp_Min_Mean_C": 21.558333333333334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.54,
+          8.49
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KWA-01",
+        "Station_Name": "Kwara Central Met Station",
+        "State_Code": "NG-KWA",
+        "Latitude": 8.49,
+        "Longitude": 4.54,
+        "Rainfall_Mean_mm": 135.21666666666667,
+        "Rainfall_Max_mm": 297.0,
+        "Temp_Max_Mean_C": 32.15833333333333,
+        "Temp_Min_Mean_C": 21.424999999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.34,
+          8.74
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-KWA-02",
+        "Station_Name": "Kwara Agricultural Outpost",
+        "State_Code": "NG-KWA",
+        "Latitude": 8.74,
+        "Longitude": 4.34,
+        "Rainfall_Mean_mm": 94.95,
+        "Rainfall_Max_mm": 260.6,
+        "Temp_Max_Mean_C": 33.458333333333336,
+        "Temp_Min_Mean_C": 21.291666666666668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52,
+          8.54
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NAS-01",
+        "Station_Name": "Nasarawa Central Met Station",
+        "State_Code": "NG-NAS",
+        "Latitude": 8.54,
+        "Longitude": 8.52,
+        "Rainfall_Mean_mm": 140.41666666666666,
+        "Rainfall_Max_mm": 309.2,
+        "Temp_Max_Mean_C": 33.916666666666664,
+        "Temp_Min_Mean_C": 21.625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.32,
+          8.79
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NAS-02",
+        "Station_Name": "Nasarawa Agricultural Outpost",
+        "State_Code": "NG-NAS",
+        "Latitude": 8.79,
+        "Longitude": 8.32,
+        "Rainfall_Mean_mm": 118.325,
+        "Rainfall_Max_mm": 277.7,
+        "Temp_Max_Mean_C": 33.99166666666667,
+        "Temp_Min_Mean_C": 20.441666666666666
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.55,
+          9.61
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIG-01",
+        "Station_Name": "Niger Central Met Station",
+        "State_Code": "NG-NIG",
+        "Latitude": 9.61,
+        "Longitude": 6.55,
+        "Rainfall_Mean_mm": 137.81666666666666,
+        "Rainfall_Max_mm": 281.6,
+        "Temp_Max_Mean_C": 33.15,
+        "Temp_Min_Mean_C": 21.158333333333335
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.35,
+          9.86
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-NIG-02",
+        "Station_Name": "Niger Agricultural Outpost",
+        "State_Code": "NG-NIG",
+        "Latitude": 9.86,
+        "Longitude": 6.35,
+        "Rainfall_Mean_mm": 149.90833333333333,
+        "Rainfall_Max_mm": 288.3,
+        "Temp_Max_Mean_C": 34.208333333333336,
+        "Temp_Min_Mean_C": 20.400000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.89,
+          9.92
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-PLA-01",
+        "Station_Name": "Plateau Central Met Station",
+        "State_Code": "NG-PLA",
+        "Latitude": 9.92,
+        "Longitude": 8.89,
+        "Rainfall_Mean_mm": 120.00833333333333,
+        "Rainfall_Max_mm": 275.8,
+        "Temp_Max_Mean_C": 33.208333333333336,
+        "Temp_Min_Mean_C": 20.675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.69,
+          10.17
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-PLA-02",
+        "Station_Name": "Plateau Agricultural Outpost",
+        "State_Code": "NG-PLA",
+        "Latitude": 10.17,
+        "Longitude": 8.69,
+        "Rainfall_Mean_mm": 134.075,
+        "Rainfall_Max_mm": 259.2,
+        "Temp_Max_Mean_C": 33.09166666666667,
+        "Temp_Min_Mean_C": 20.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.36,
+          8.89
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-TAR-01",
+        "Station_Name": "Taraba Central Met Station",
+        "State_Code": "NG-TAR",
+        "Latitude": 8.89,
+        "Longitude": 11.36,
+        "Rainfall_Mean_mm": 123.85833333333333,
+        "Rainfall_Max_mm": 308.1,
+        "Temp_Max_Mean_C": 32.53333333333333,
+        "Temp_Min_Mean_C": 21.041666666666668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.16,
+          9.14
+        ]
+      },
+      "properties": {
+        "Station_ID": "STA-TAR-02",
+        "Station_Name": "Taraba Agricultural Outpost",
+        "State_Code": "NG-TAR",
+        "Latitude": 9.14,
+        "Longitude": 11.16,
+        "Rainfall_Mean_mm": 117.85000000000001,
+        "Rainfall_Max_mm": 296.5,
+        "Temp_Max_Mean_C": 33.275,
+        "Temp_Min_Mean_C": 21.066666666666666
+      }
+    }
+  ]
+}

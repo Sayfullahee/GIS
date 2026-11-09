@@ -1,0 +1,13 @@
+Field_Name,Data_Type,Required,Primary_Key,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Community identifier,No duplicates; no nulls; resolves to DB01
+State_Code,Text(6),Yes,No,State code,Resolves to LKP_States.csv
+LGA_Code,Text(10),Yes,No,LGA code,Resolves to LKP_LGAs.csv
+IND05_Pop_Exposure_Norm,Double,No,No,Normalised population exposure score 0-100 (from G29),If present: 0-100
+IND06_Flood_Infra_Exposure_Norm,Double,No,No,Normalised infrastructure exposure (flood component) score 0-100 (from G29),If present: 0-100
+IND06_Erosion_Infra_Exposure_Norm,Double,No,No,Normalised infrastructure exposure (erosion component) score 0-100 (from G30),If present: 0-100
+E_Score,Double,Yes,No,Exposure Index score 0-100,No nulls; 0-100; weighted per RISK_MODEL_SPEC.md
+E_Missing_Components,Integer,No,No,Count of missing indicator components,If present: 0-3
+E_Data_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",No nulls
+Risk_Model_Version,Text(20),Yes,No,Risk model version,No nulls; matches RISK_MODEL_SPEC.md
+Computation_Date,Date,Yes,No,Computation date,No nulls
+geometry,Polygon,Yes,No,Community boundary,No null geometries

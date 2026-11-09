@@ -1,0 +1,3012 @@
+{
+  "type": "FeatureCollection",
+  "name": "G19_Field_Infrastructure_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.86013,
+          9.525143
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000001",
+        "Community_ID": "COM-NIG-001-0001",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Gurara Central Settlement 1",
+        "Latitude": 9.525143,
+        "Longitude": 6.86013,
+        "GPS_Accuracy_m": 8.6,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.238252,
+          9.712015
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000002",
+        "Community_ID": "COM-NIG-002-0002",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Mokwa Central Settlement 2",
+        "Latitude": 9.712015,
+        "Longitude": 6.238252,
+        "GPS_Accuracy_m": 5.7,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.629053,
+          9.464493
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000003",
+        "Community_ID": "COM-NIG-003-0003",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Agaie Central Settlement 3",
+        "Latitude": 9.464493,
+        "Longitude": 6.629053,
+        "GPS_Accuracy_m": 4.3,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.615864,
+          9.293642
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000004",
+        "Community_ID": "COM-NIG-004-0004",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Tafa Central Settlement 4",
+        "Latitude": 9.293642,
+        "Longitude": 6.615864,
+        "GPS_Accuracy_m": 4.3,
+        "Condition": "Critical",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.670199,
+          9.43292
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000005",
+        "Community_ID": "COM-NIG-005-0005",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Lapai Central Settlement 5",
+        "Latitude": 9.43292,
+        "Longitude": 6.670199,
+        "GPS_Accuracy_m": 4.6,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.862923,
+          11.55412
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000006",
+        "Community_ID": "COM-KEB-001-0006",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Aleiro Central Settlement 1",
+        "Latitude": 11.55412,
+        "Longitude": 3.862923,
+        "GPS_Accuracy_m": 5.3,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.069558,
+          11.177373
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000007",
+        "Community_ID": "COM-KEB-002-0007",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Suru Central Settlement 2",
+        "Latitude": 11.177373,
+        "Longitude": 4.069558,
+        "GPS_Accuracy_m": 7.7,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.868817,
+          11.264565
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000008",
+        "Community_ID": "COM-KEB-003-0008",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Sakaba Central Settlement 3",
+        "Latitude": 11.264565,
+        "Longitude": 3.868817,
+        "GPS_Accuracy_m": 3.0,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.093078,
+          11.196574
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000009",
+        "Community_ID": "COM-KEB-004-0009",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Arewa Dandi Central Settlement 4",
+        "Latitude": 11.196574,
+        "Longitude": 4.093078,
+        "GPS_Accuracy_m": 5.6,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.037793,
+          11.564857
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000010",
+        "Community_ID": "COM-KEB-005-0010",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Fakai Central Settlement 5",
+        "Latitude": 11.564857,
+        "Longitude": 4.037793,
+        "GPS_Accuracy_m": 8.3,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.843536,
+          9.942483
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000011",
+        "Community_ID": "COM-PLA-001-0011",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Barkin Ladi Central Settlement 1",
+        "Latitude": 9.942483,
+        "Longitude": 8.843536,
+        "GPS_Accuracy_m": 4.9,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.07603,
+          9.851486
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000012",
+        "Community_ID": "COM-PLA-002-0012",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Bassa Central Settlement 2",
+        "Latitude": 9.851486,
+        "Longitude": 9.07603,
+        "GPS_Accuracy_m": 3.8,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.691996,
+          9.891961
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000013",
+        "Community_ID": "COM-PLA-003-0013",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Jos South Central Settlement 3",
+        "Latitude": 9.891961,
+        "Longitude": 8.691996,
+        "GPS_Accuracy_m": 9.0,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.11123,
+          9.868168
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000014",
+        "Community_ID": "COM-PLA-004-0014",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Shendam Central Settlement 4",
+        "Latitude": 9.868168,
+        "Longitude": 9.11123,
+        "GPS_Accuracy_m": 3.4,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.693073,
+          9.686201
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000015",
+        "Community_ID": "COM-PLA-005-0015",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Mikang Central Settlement 5",
+        "Latitude": 9.686201,
+        "Longitude": 8.693073,
+        "GPS_Accuracy_m": 3.8,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.201765,
+          7.578233
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000016",
+        "Community_ID": "COM-BEN-001-0016",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Ohimini Central Settlement 1",
+        "Latitude": 7.578233,
+        "Longitude": 8.201765,
+        "GPS_Accuracy_m": 7.1,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.548073,
+          7.699547
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000017",
+        "Community_ID": "COM-BEN-002-0017",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Konshisha Central Settlement 2",
+        "Latitude": 7.699547,
+        "Longitude": 8.548073,
+        "GPS_Accuracy_m": 3.5,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.242168,
+          7.761645
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000018",
+        "Community_ID": "COM-BEN-003-0018",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Ado Central Settlement 3",
+        "Latitude": 7.761645,
+        "Longitude": 8.242168,
+        "GPS_Accuracy_m": 4.6,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.404785,
+          7.942205
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000019",
+        "Community_ID": "COM-BEN-004-0019",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Katsina-Ala Central Settlement 4",
+        "Latitude": 7.942205,
+        "Longitude": 8.404785,
+        "GPS_Accuracy_m": 5.5,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.788761,
+          8.034445
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000020",
+        "Community_ID": "COM-BEN-005-0020",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Okpokwu Central Settlement 5",
+        "Latitude": 8.034445,
+        "Longitude": 8.788761,
+        "GPS_Accuracy_m": 4.9,
+        "Condition": "Critical",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.005127,
+          7.844759
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000021",
+        "Community_ID": "COM-KOG-001-0021",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Adavi Central Settlement 1",
+        "Latitude": 7.844759,
+        "Longitude": 7.005127,
+        "GPS_Accuracy_m": 3.0,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.941059,
+          8.105651
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000022",
+        "Community_ID": "COM-KOG-002-0022",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Olamaboro Central Settlement 2",
+        "Latitude": 8.105651,
+        "Longitude": 6.941059,
+        "GPS_Accuracy_m": 6.1,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.844583,
+          7.926191
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000023",
+        "Community_ID": "COM-KOG-003-0023",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Okehi Central Settlement 3",
+        "Latitude": 7.926191,
+        "Longitude": 6.844583,
+        "GPS_Accuracy_m": 4.3,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.76153,
+          7.660831
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000024",
+        "Community_ID": "COM-KOG-004-0024",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Ajaokuta Central Settlement 4",
+        "Latitude": 7.660831,
+        "Longitude": 6.76153,
+        "GPS_Accuracy_m": 3.3,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.737441,
+          8.002115
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000025",
+        "Community_ID": "COM-KOG-005-0025",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Ijumu Central Settlement 5",
+        "Latitude": 8.002115,
+        "Longitude": 6.737441,
+        "GPS_Accuracy_m": 8.2,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.518649,
+          8.840736
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000026",
+        "Community_ID": "COM-KWA-001-0026",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Asa Central Settlement 1",
+        "Latitude": 8.840736,
+        "Longitude": 4.518649,
+        "GPS_Accuracy_m": 6.3,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.392042,
+          8.731279
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000027",
+        "Community_ID": "COM-KWA-002-0027",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Baruten Central Settlement 2",
+        "Latitude": 8.731279,
+        "Longitude": 4.392042,
+        "GPS_Accuracy_m": 7.4,
+        "Condition": "Critical",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.328754,
+          8.187445
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000028",
+        "Community_ID": "COM-KWA-003-0028",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Ilorin East Central Settlement 3",
+        "Latitude": 8.187445,
+        "Longitude": 4.328754,
+        "GPS_Accuracy_m": 8.0,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.401571,
+          8.388395
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000029",
+        "Community_ID": "COM-KWA-004-0029",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Oyun Central Settlement 4",
+        "Latitude": 8.388395,
+        "Longitude": 4.401571,
+        "GPS_Accuracy_m": 5.1,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.460191,
+          8.185897
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000030",
+        "Community_ID": "COM-KWA-005-0030",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Oke Ero Central Settlement 5",
+        "Latitude": 8.185897,
+        "Longitude": 4.460191,
+        "GPS_Accuracy_m": 8.3,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.291491,
+          10.542673
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000031",
+        "Community_ID": "COM-KAD-001-0031",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Kudan Central Settlement 1",
+        "Latitude": 10.542673,
+        "Longitude": 7.291491,
+        "GPS_Accuracy_m": 3.3,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.757316,
+          10.360783
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000032",
+        "Community_ID": "COM-KAD-002-0032",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Kaduna South Central Settlement 2",
+        "Latitude": 10.360783,
+        "Longitude": 7.757316,
+        "GPS_Accuracy_m": 3.2,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.308416,
+          10.531502
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000033",
+        "Community_ID": "COM-KAD-003-0033",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Birnin Gwari Central Settlement 3",
+        "Latitude": 10.531502,
+        "Longitude": 7.308416,
+        "GPS_Accuracy_m": 5.1,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.133494,
+          10.652092
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000034",
+        "Community_ID": "COM-KAD-004-0034",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Kaduna North Central Settlement 4",
+        "Latitude": 10.652092,
+        "Longitude": 7.133494,
+        "GPS_Accuracy_m": 5.6,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.481355,
+          10.688903
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000035",
+        "Community_ID": "COM-KAD-005-0035",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Makarfi Central Settlement 5",
+        "Latitude": 10.688903,
+        "Longitude": 7.481355,
+        "GPS_Accuracy_m": 3.1,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.380572,
+          8.251489
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000036",
+        "Community_ID": "COM-NAS-001-0036",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Toto Central Settlement 1",
+        "Latitude": 8.251489,
+        "Longitude": 8.380572,
+        "GPS_Accuracy_m": 6.6,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.600514,
+          8.464025
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000037",
+        "Community_ID": "COM-NAS-002-0037",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Nasarawa Egon Central Settlement 2",
+        "Latitude": 8.464025,
+        "Longitude": 8.600514,
+        "GPS_Accuracy_m": 6.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.833025,
+          8.856553
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000038",
+        "Community_ID": "COM-NAS-003-0038",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Akwanga Central Settlement 3",
+        "Latitude": 8.856553,
+        "Longitude": 8.833025,
+        "GPS_Accuracy_m": 3.4,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.753575,
+          8.620023
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000039",
+        "Community_ID": "COM-NAS-004-0039",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Nasarawa Central Settlement 4",
+        "Latitude": 8.620023,
+        "Longitude": 8.753575,
+        "GPS_Accuracy_m": 8.3,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.383391,
+          8.245149
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000040",
+        "Community_ID": "COM-NAS-005-0040",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Keffi Central Settlement 5",
+        "Latitude": 8.245149,
+        "Longitude": 8.383391,
+        "GPS_Accuracy_m": 3.9,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.581298,
+          9.053831
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000041",
+        "Community_ID": "COM-TAR-001-0041",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Ardo Kola Central Settlement 1",
+        "Latitude": 9.053831,
+        "Longitude": 11.581298,
+        "GPS_Accuracy_m": 7.0,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.619991,
+          8.941403
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000042",
+        "Community_ID": "COM-TAR-002-0042",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Bali Central Settlement 2",
+        "Latitude": 8.941403,
+        "Longitude": 11.619991,
+        "GPS_Accuracy_m": 7.2,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.212014,
+          8.822671
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000043",
+        "Community_ID": "COM-TAR-003-0043",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Ibi Central Settlement 3",
+        "Latitude": 8.822671,
+        "Longitude": 11.212014,
+        "GPS_Accuracy_m": 5.5,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.070754,
+          8.875675
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000044",
+        "Community_ID": "COM-TAR-004-0044",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Yorro Central Settlement 4",
+        "Latitude": 8.875675,
+        "Longitude": 11.070754,
+        "GPS_Accuracy_m": 5.9,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.054776,
+          8.889551
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000045",
+        "Community_ID": "COM-TAR-005-0045",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Wukari Central Settlement 5",
+        "Latitude": 8.889551,
+        "Longitude": 11.054776,
+        "GPS_Accuracy_m": 7.8,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.408777,
+          10.542928
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000046",
+        "Community_ID": "COM-GOM-001-0046",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Gombe Central Settlement 1",
+        "Latitude": 10.542928,
+        "Longitude": 11.408777,
+        "GPS_Accuracy_m": 3.1,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.086246,
+          10.192924
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000047",
+        "Community_ID": "COM-GOM-002-0047",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Akko Central Settlement 2",
+        "Latitude": 10.192924,
+        "Longitude": 11.086246,
+        "GPS_Accuracy_m": 8.2,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.003936,
+          10.430591
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000048",
+        "Community_ID": "COM-GOM-003-0048",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Shongom Central Settlement 3",
+        "Latitude": 10.430591,
+        "Longitude": 11.003936,
+        "GPS_Accuracy_m": 7.7,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.338389,
+          10.386557
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000049",
+        "Community_ID": "COM-GOM-004-0049",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Yamaltu/Deba Central Settlement 4",
+        "Latitude": 10.386557,
+        "Longitude": 11.338389,
+        "GPS_Accuracy_m": 6.5,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.200837,
+          10.619657
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000050",
+        "Community_ID": "COM-GOM-005-0050",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Billiri Central Settlement 5",
+        "Latitude": 10.619657,
+        "Longitude": 11.200837,
+        "GPS_Accuracy_m": 3.8,
+        "Condition": "Critical",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.869193,
+          9.513027
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000051",
+        "Community_ID": "COM-NIG-001-0001",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Gurara Central Settlement 1",
+        "Latitude": 9.513027,
+        "Longitude": 6.869193,
+        "GPS_Accuracy_m": 8.0,
+        "Condition": "Critical",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245757,
+          9.708147
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000052",
+        "Community_ID": "COM-NIG-002-0002",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Mokwa Central Settlement 2",
+        "Latitude": 9.708147,
+        "Longitude": 6.245757,
+        "GPS_Accuracy_m": 6.0,
+        "Condition": "Critical",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.631195,
+          9.471745
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000053",
+        "Community_ID": "COM-NIG-003-0003",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Agaie Central Settlement 3",
+        "Latitude": 9.471745,
+        "Longitude": 6.631195,
+        "GPS_Accuracy_m": 4.8,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.621736,
+          9.282788
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000054",
+        "Community_ID": "COM-NIG-004-0004",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Tafa Central Settlement 4",
+        "Latitude": 9.282788,
+        "Longitude": 6.621736,
+        "GPS_Accuracy_m": 3.6,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.684756,
+          9.436606
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NIG-000055",
+        "Community_ID": "COM-NIG-005-0005",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Lapai Central Settlement 5",
+        "Latitude": 9.436606,
+        "Longitude": 6.684756,
+        "GPS_Accuracy_m": 7.9,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.881696,
+          11.550715
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000056",
+        "Community_ID": "COM-KEB-001-0006",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Aleiro Central Settlement 1",
+        "Latitude": 11.550715,
+        "Longitude": 3.881696,
+        "GPS_Accuracy_m": 5.3,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.069352,
+          11.174419
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000057",
+        "Community_ID": "COM-KEB-002-0007",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Suru Central Settlement 2",
+        "Latitude": 11.174419,
+        "Longitude": 4.069352,
+        "GPS_Accuracy_m": 5.4,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.868771,
+          11.257003
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000058",
+        "Community_ID": "COM-KEB-003-0008",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Sakaba Central Settlement 3",
+        "Latitude": 11.257003,
+        "Longitude": 3.868771,
+        "GPS_Accuracy_m": 4.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.100707,
+          11.198197
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000059",
+        "Community_ID": "COM-KEB-004-0009",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Arewa Dandi Central Settlement 4",
+        "Latitude": 11.198197,
+        "Longitude": 4.100707,
+        "GPS_Accuracy_m": 7.2,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.045637,
+          11.568678
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KEB-000060",
+        "Community_ID": "COM-KEB-005-0010",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Fakai Central Settlement 5",
+        "Latitude": 11.568678,
+        "Longitude": 4.045637,
+        "GPS_Accuracy_m": 4.5,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.849173,
+          9.934432
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000061",
+        "Community_ID": "COM-PLA-001-0011",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Barkin Ladi Central Settlement 1",
+        "Latitude": 9.934432,
+        "Longitude": 8.849173,
+        "GPS_Accuracy_m": 7.7,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.065037,
+          9.862618
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000062",
+        "Community_ID": "COM-PLA-002-0012",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Bassa Central Settlement 2",
+        "Latitude": 9.862618,
+        "Longitude": 9.065037,
+        "GPS_Accuracy_m": 4.4,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.693379,
+          9.890595
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000063",
+        "Community_ID": "COM-PLA-003-0013",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Jos South Central Settlement 3",
+        "Latitude": 9.890595,
+        "Longitude": 8.693379,
+        "GPS_Accuracy_m": 4.8,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.115648,
+          9.874405
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000064",
+        "Community_ID": "COM-PLA-004-0014",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Shendam Central Settlement 4",
+        "Latitude": 9.874405,
+        "Longitude": 9.115648,
+        "GPS_Accuracy_m": 5.8,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.689048,
+          9.678766
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-PLA-000065",
+        "Community_ID": "COM-PLA-005-0015",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Mikang Central Settlement 5",
+        "Latitude": 9.678766,
+        "Longitude": 8.689048,
+        "GPS_Accuracy_m": 4.6,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.19888,
+          7.58136
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000066",
+        "Community_ID": "COM-BEN-001-0016",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Ohimini Central Settlement 1",
+        "Latitude": 7.58136,
+        "Longitude": 8.19888,
+        "GPS_Accuracy_m": 8.9,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.564898,
+          7.686162
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000067",
+        "Community_ID": "COM-BEN-002-0017",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Konshisha Central Settlement 2",
+        "Latitude": 7.686162,
+        "Longitude": 8.564898,
+        "GPS_Accuracy_m": 9.0,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.229949,
+          7.760451
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000068",
+        "Community_ID": "COM-BEN-003-0018",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Ado Central Settlement 3",
+        "Latitude": 7.760451,
+        "Longitude": 8.229949,
+        "GPS_Accuracy_m": 6.2,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.42357,
+          7.955133
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000069",
+        "Community_ID": "COM-BEN-004-0019",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Katsina-Ala Central Settlement 4",
+        "Latitude": 7.955133,
+        "Longitude": 8.42357,
+        "GPS_Accuracy_m": 8.8,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.78766,
+          8.035899
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-BEN-000070",
+        "Community_ID": "COM-BEN-005-0020",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Okpokwu Central Settlement 5",
+        "Latitude": 8.035899,
+        "Longitude": 8.78766,
+        "GPS_Accuracy_m": 6.3,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.00944,
+          7.837165
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000071",
+        "Community_ID": "COM-KOG-001-0021",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Adavi Central Settlement 1",
+        "Latitude": 7.837165,
+        "Longitude": 7.00944,
+        "GPS_Accuracy_m": 7.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.933059,
+          8.096478
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000072",
+        "Community_ID": "COM-KOG-002-0022",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Olamaboro Central Settlement 2",
+        "Latitude": 8.096478,
+        "Longitude": 6.933059,
+        "GPS_Accuracy_m": 3.6,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.853826,
+          7.943148
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000073",
+        "Community_ID": "COM-KOG-003-0023",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Okehi Central Settlement 3",
+        "Latitude": 7.943148,
+        "Longitude": 6.853826,
+        "GPS_Accuracy_m": 8.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.772107,
+          7.667923
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000074",
+        "Community_ID": "COM-KOG-004-0024",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Ajaokuta Central Settlement 4",
+        "Latitude": 7.667923,
+        "Longitude": 6.772107,
+        "GPS_Accuracy_m": 5.7,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.734553,
+          8.010978
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KOG-000075",
+        "Community_ID": "COM-KOG-005-0025",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Ijumu Central Settlement 5",
+        "Latitude": 8.010978,
+        "Longitude": 6.734553,
+        "GPS_Accuracy_m": 4.6,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.526324,
+          8.828409
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000076",
+        "Community_ID": "COM-KWA-001-0026",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Asa Central Settlement 1",
+        "Latitude": 8.828409,
+        "Longitude": 4.526324,
+        "GPS_Accuracy_m": 4.0,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.398513,
+          8.727869
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000077",
+        "Community_ID": "COM-KWA-002-0027",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Baruten Central Settlement 2",
+        "Latitude": 8.727869,
+        "Longitude": 4.398513,
+        "GPS_Accuracy_m": 3.3,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.328573,
+          8.181263
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000078",
+        "Community_ID": "COM-KWA-003-0028",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Ilorin East Central Settlement 3",
+        "Latitude": 8.181263,
+        "Longitude": 4.328573,
+        "GPS_Accuracy_m": 4.8,
+        "Condition": "Fair",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.397369,
+          8.395212
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000079",
+        "Community_ID": "COM-KWA-004-0029",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Oyun Central Settlement 4",
+        "Latitude": 8.395212,
+        "Longitude": 4.397369,
+        "GPS_Accuracy_m": 8.3,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.46518,
+          8.197058
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KWA-000080",
+        "Community_ID": "COM-KWA-005-0030",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Oke Ero Central Settlement 5",
+        "Latitude": 8.197058,
+        "Longitude": 4.46518,
+        "GPS_Accuracy_m": 4.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.284594,
+          10.549901
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000081",
+        "Community_ID": "COM-KAD-001-0031",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Kudan Central Settlement 1",
+        "Latitude": 10.549901,
+        "Longitude": 7.284594,
+        "GPS_Accuracy_m": 7.7,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.761815,
+          10.357276
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000082",
+        "Community_ID": "COM-KAD-002-0032",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Kaduna South Central Settlement 2",
+        "Latitude": 10.357276,
+        "Longitude": 7.761815,
+        "GPS_Accuracy_m": 4.9,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.313953,
+          10.527924
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000083",
+        "Community_ID": "COM-KAD-003-0033",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Birnin Gwari Central Settlement 3",
+        "Latitude": 10.527924,
+        "Longitude": 7.313953,
+        "GPS_Accuracy_m": 7.8,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.140649,
+          10.650403
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000084",
+        "Community_ID": "COM-KAD-004-0034",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Kaduna North Central Settlement 4",
+        "Latitude": 10.650403,
+        "Longitude": 7.140649,
+        "GPS_Accuracy_m": 3.9,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.474885,
+          10.688887
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-KAD-000085",
+        "Community_ID": "COM-KAD-005-0035",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Makarfi Central Settlement 5",
+        "Latitude": 10.688887,
+        "Longitude": 7.474885,
+        "GPS_Accuracy_m": 4.4,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.390197,
+          8.252941
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000086",
+        "Community_ID": "COM-NAS-001-0036",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Toto Central Settlement 1",
+        "Latitude": 8.252941,
+        "Longitude": 8.390197,
+        "GPS_Accuracy_m": 3.7,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.600282,
+          8.462739
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000087",
+        "Community_ID": "COM-NAS-002-0037",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Nasarawa Egon Central Settlement 2",
+        "Latitude": 8.462739,
+        "Longitude": 8.600282,
+        "GPS_Accuracy_m": 8.0,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.824964,
+          8.849547
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000088",
+        "Community_ID": "COM-NAS-003-0038",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Akwanga Central Settlement 3",
+        "Latitude": 8.849547,
+        "Longitude": 8.824964,
+        "GPS_Accuracy_m": 6.0,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.753007,
+          8.622521
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000089",
+        "Community_ID": "COM-NAS-004-0039",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Nasarawa Central Settlement 4",
+        "Latitude": 8.622521,
+        "Longitude": 8.753007,
+        "GPS_Accuracy_m": 3.1,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.386576,
+          8.247158
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-NAS-000090",
+        "Community_ID": "COM-NAS-005-0040",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Keffi Central Settlement 5",
+        "Latitude": 8.247158,
+        "Longitude": 8.386576,
+        "GPS_Accuracy_m": 5.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.578934,
+          9.060942
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000091",
+        "Community_ID": "COM-TAR-001-0041",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Ardo Kola Central Settlement 1",
+        "Latitude": 9.060942,
+        "Longitude": 11.578934,
+        "GPS_Accuracy_m": 4.7,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.614458,
+          8.947241
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000092",
+        "Community_ID": "COM-TAR-002-0042",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Bali Central Settlement 2",
+        "Latitude": 8.947241,
+        "Longitude": 11.614458,
+        "GPS_Accuracy_m": 3.9,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.220305,
+          8.807616
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000093",
+        "Community_ID": "COM-TAR-003-0043",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Ibi Central Settlement 3",
+        "Latitude": 8.807616,
+        "Longitude": 11.220305,
+        "GPS_Accuracy_m": 8.1,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.063711,
+          8.892789
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000094",
+        "Community_ID": "COM-TAR-004-0044",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Yorro Central Settlement 4",
+        "Latitude": 8.892789,
+        "Longitude": 11.063711,
+        "GPS_Accuracy_m": 3.0,
+        "Condition": "Good",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0507,
+          8.88716
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-TAR-000095",
+        "Community_ID": "COM-TAR-005-0045",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Wukari Central Settlement 5",
+        "Latitude": 8.88716,
+        "Longitude": 11.0507,
+        "GPS_Accuracy_m": 4.5,
+        "Condition": "Critical",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.412493,
+          10.545159
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000096",
+        "Community_ID": "COM-GOM-001-0046",
+        "Infrastructure_Type": "HEALTH_C",
+        "Description": "Critical community asset in Gombe Central Settlement 1",
+        "Latitude": 10.545159,
+        "Longitude": 11.412493,
+        "GPS_Accuracy_m": 8.4,
+        "Condition": "Poor",
+        "Flood_Exposure": "No",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 1,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.076058,
+          10.191014
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000097",
+        "Community_ID": "COM-GOM-002-0047",
+        "Infrastructure_Type": "SCHOOL_P",
+        "Description": "Critical community asset in Akko Central Settlement 2",
+        "Latitude": 10.191014,
+        "Longitude": 11.076058,
+        "GPS_Accuracy_m": 5.7,
+        "Condition": "Fair",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "No",
+        "Damage_Severity": 3,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 1",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.000037,
+          10.43324
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000098",
+        "Community_ID": "COM-GOM-003-0048",
+        "Infrastructure_Type": "BRIDGE",
+        "Description": "Critical community asset in Shongom Central Settlement 3",
+        "Latitude": 10.43324,
+        "Longitude": 11.000037,
+        "GPS_Accuracy_m": 7.1,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 2",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.346046,
+          10.375629
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000099",
+        "Community_ID": "COM-GOM-004-0049",
+        "Infrastructure_Type": "WATER_B",
+        "Description": "Critical community asset in Yamaltu/Deba Central Settlement 4",
+        "Latitude": 10.375629,
+        "Longitude": 11.346046,
+        "GPS_Accuracy_m": 8.6,
+        "Condition": "Poor",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "Yes",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 0,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 3",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.212652,
+          10.610248
+        ]
+      },
+      "properties": {
+        "Infrastructure_ID": "INF-GOM-000100",
+        "Community_ID": "COM-GOM-005-0050",
+        "Infrastructure_Type": "ROAD_FED",
+        "Description": "Critical community asset in Billiri Central Settlement 5",
+        "Latitude": 10.610248,
+        "Longitude": 11.212652,
+        "GPS_Accuracy_m": 5.0,
+        "Condition": "Good",
+        "Flood_Exposure": "Yes",
+        "Erosion_Exposure": "No",
+        "Critical_Service": "Yes",
+        "Damage_Severity": 2,
+        "Observation_Date": "2026-06-25",
+        "Observed_By": "Infrastructure Survey Team 4",
+        "Record_Created": "2026-06-25",
+        "Data_Version": "v1.0",
+        "QC_Status": "CLEAN",
+        "Record_Modified": "2026-10-21"
+      }
+    }
+  ]
+}

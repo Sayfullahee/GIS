@@ -1,0 +1,10 @@
+2026-10-26 11:02:32 | INFO     | 04_integrate | ============================================================
+2026-10-26 11:02:32 | INFO     | 04_integrate |   04_INTEGRATE — Spatial Joins and DB-to-GIS Sync
+2026-10-26 11:02:32 | INFO     | 04_integrate | ============================================================
+2026-10-26 11:02:33 | INFO     | 04_integrate | Hydropower distance derived for 1616 communities
+2026-10-26 11:02:35 | INFO     | 04_integrate | SJ11: Community_ID assigned to 100 infrastructure items
+2026-10-26 11:02:37 | INFO     | 04_integrate | SJ12: Community_ID assigned to 75 erosion sites
+2026-10-26 11:02:37 | INFO     | 04_integrate | GIS layer synced: G03 → c:\xampp\htdocs\GIS\04_GIS\02_CLEAN\G03_Communities_v1_0.gpkg (1616 features)
+2026-10-26 11:02:37 | INFO     | 04_integrate | GIS layer synced: G26 → c:\xampp\htdocs\GIS\04_GIS\02_CLEAN\G26_ErosionSites_v1_0.gpkg (75 features)
+2026-10-26 11:02:37 | INFO     | 04_integrate | GIS layer synced: G19 → c:\xampp\htdocs\GIS\04_GIS\02_CLEAN\G19_FieldInfrastructure_v1_0.gpkg (100 features)
+2026-10-26 11:02:37 | INFO     | 04_integrate | 04_integrate complete

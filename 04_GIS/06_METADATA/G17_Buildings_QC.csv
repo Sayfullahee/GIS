@@ -1,0 +1,15 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G17-Q01,Structure,All required fields present,Schema check,All 8 schema fields present,Add missing fields,Yes,Pending
+G17-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Building_ID / State_Code / OSM_Extract_Date,Flag and resolve,Yes,Pending
+G17-Q03,Uniqueness,No duplicate Building_ID,Distinct count,Count distinct = count total,Investigate and resolve,Yes,Pending
+G17-Q04,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+G17-Q05,Geometry,No null geometries,Null check,Zero null geometries,Remove or investigate,Yes,Pending
+G17-Q06,Geometry,No invalid geometries,Validity check,All geometries valid,Run ST_MakeValid; document,Yes,Pending
+G17-Q07,Geometry,No zero-area polygons,Area check,All Area_sqm > 0,Remove zero-area artefacts,Yes,Pending
+G17-Q08,Geometry,No heavily overlapping footprints,Overlap check,No two buildings share >50% of footprint area,Flag overlaps; likely digitising error or duplicate import,No,Pending
+G17-Q09,Coverage,Building count per community plausible,Compare to population (DB01),Flag communities with Population > 500 but building count = 0,Document data gap; apply population-density exposure method for these communities,No,Pending (requires DB01 CLEAN)
+G17-Q10,Coverage,Urban centres have higher building density,Density check,Building density (buildings/km²) higher in state capitals than rural communities,Flag anomalies; may indicate incomplete OSM mapping in urban areas,No,Pending (requires G03)
+G17-Q11,Building type,Building_Type allowed values,Value check,All non-null values in allowed set,Flag invalid values; recode to unknown if unresolvable,No,Pending
+G17-Q12,Spatial,All buildings within study state boundaries,Point-in-polygon using centroid vs G01,All building centroids within G01 study state polygons,Flag outliers; check clip extent,Yes,Pending (requires G01)
+G17-Q13,Attribution,ODbL attribution documented,SOURCE_REGISTER.csv check,SRC009 present and complete,Update SOURCE_REGISTER.csv,No,Pending
+G17-Q14,Data gap flag,Communities with insufficient building coverage flagged,Coverage assessment,Flag communities where building footprint coverage < 20% of estimated settlement area,Document gap; note alternative exposure method in QC report,No,Pending (requires G03)

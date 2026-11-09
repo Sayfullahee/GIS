@@ -1,0 +1,18 @@
+Indicator_ID,Indicator_Name,Component,Direction,Min_Ref,Max_Ref,Unit,Transform,Winsorized_Percentiles,Rationale,Baseline_Version,Frozen_Date
+IND01,Flood Frequency,Hazard,Positive,0.0,10.0,events/decade,log1p,0-99th,Theoretical range 0 to 10 events per decade; log1p applied,Baseline_2026,2026-10-01
+IND02,Flood Severity,Hazard,Positive,0.0,5.0,scale 0-5,none,fixed_scale,Standard flood severity scale 0 (none) to 5 (extreme),Baseline_2026,2026-10-01
+IND03,Erosion Severity,Hazard,Positive,0.0,4.0,scale 0-4,none,fixed_scale,Standard field erosion severity classification 0 to 4 (DEC01),Baseline_2026,2026-10-01
+IND04,River Proximity,Hazard,Inverse,0.0,5000.0,metres,none,fixed_bound,Buffer threshold BUF001/BUF007: 0m (adjacent) to 5000m (safe),Baseline_2026,2026-10-01
+IND05,Population Exposure,Exposure,Positive,0.0,10000.0,persons,log1p,1-99th,Community population exposed; winsorised upper bound at 10000,Baseline_2026,2026-10-01
+IND06a,Infrastructure Flood Exposure,Exposure,Positive,0.0,50.0,facilities,none,0-99th,Count of critical assets in flood zone; clipped at 50,Baseline_2026,2026-10-01
+IND06b,Infrastructure Erosion Threat,Exposure,Positive,0.0,25.0,facilities,none,0-99th,Count of assets within 100m erosion threat buffer,Baseline_2026,2026-10-01
+IND06c,Critical Infrastructure Count,Criticality,Positive,0.0,30.0,facilities,none,0-99th,Count of critical service facilities (hospitals water roads),Baseline_2026,2026-10-01
+IND07,Electricity Disruption Rate,Vulnerability_Criticality,Positive,0.0,100.0,percent,none,fixed_scale,Reported percentage of year with service outage (0-100%),Baseline_2026,2026-10-01
+IND08,Hydropower Disruption Severity,Criticality,Positive,0.0,100.0,index 0-100,none,fixed_scale,Operational disruption rating; NULL outside BUF004 (10km),Baseline_2026,2026-10-01
+IND09,Adaptation Coverage,Vulnerability,Inverse,0.0,100.0,percent,none,fixed_scale,Percentage of needed adaptation measures implemented (0-100%),Baseline_2026,2026-10-01
+IND10,Livelihood Sensitivity Index,Vulnerability,Positive,0.0,100.0,index 0-100,none,fixed_scale,Proportion of households dependent on rainfed farming/fishing,Baseline_2026,2026-10-01
+COMP_H,Hazard Index,Hazard,Positive,0.0,100.0,score 0-100,none,fixed_scale,Composite Hazard Index frozen reference bounds,Baseline_2026,2026-10-01
+COMP_E,Exposure Index,Exposure,Positive,0.0,100.0,score 0-100,none,fixed_scale,Composite Exposure Index frozen reference bounds,Baseline_2026,2026-10-01
+COMP_V,Vulnerability Index,Vulnerability,Positive,0.0,100.0,score 0-100,none,fixed_scale,Composite Vulnerability Index frozen reference bounds,Baseline_2026,2026-10-01
+COMP_C,Criticality Index,Criticality,Positive,0.0,100.0,score 0-100,none,fixed_scale,Composite Criticality Index frozen reference bounds,Baseline_2026,2026-10-01
+COMP_R,Composite Risk,Risk,Positive,0.0,100.0,score 0-100,none,fixed_scale,Composite Risk Score frozen reference bounds,Baseline_2026,2026-10-01

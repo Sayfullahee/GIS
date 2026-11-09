@@ -1,0 +1,18 @@
+check_id,category,description,status,critical,details
+Q01,Structure,All required fields present,PASS,True,
+Q02,Completeness,No nulls in required fields,PASS,True,
+Q03,Uniqueness,No duplicate Community_ID,PASS,True,
+Q04a,Referential integrity,State_Code resolves to State_Code,PASS,True,
+Q04b,Referential integrity,LGA_Code resolves to LGA_Code,PASS,True,
+Q04c,Referential integrity,State_Code/LGA_Code consistent,PASS,True,
+Q05,Coordinate,Coordinates within bounds and not swapped,PASS,True,
+GPS,GPS,GPS_Accuracy_m acceptable,PASS,False,Flag (>30m): 8; Reject (>100m): 0
+Q07,Temporal,Survey_Date valid dates,PASS,True,Invalid: 0; Future: 0; Before 2026-01-01: 0
+Q17a,Referential integrity,Livelihood resolves to Livelihood_Code,PASS,False,
+Q17b,Referential integrity,Water_Source resolves to Water_Source_Code,PASS,False,
+Q17c,Referential integrity,Adaptation_Status resolves to Adaptation_Code,PASS,False,
+Q08a,Logical,Electricity_Access allowed values,PASS,False,
+Q08b,Logical,Flood_Experience allowed values,PASS,False,
+Q08c,Logical,Erosion_Presence allowed values,PASS,False,
+Q09a,Range,"Population in [1, 100000]",PASS,False,Below 1: 0; Above 100000: 0
+Q11,Privacy,No Household_ID in DB01,PASS,True,

@@ -1,0 +1,9 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+LGA_Code,Text(10),Yes,Yes,No,Yes,See LKP_LGAs.csv,Project LGA identifier,Must resolve to LKP_LGAs.csv; no duplicates; no nulls
+LGA_Name,Text(60),Yes,No,No,No,See LKP_LGAs.csv,Official LGA name,Must match LKP_LGAs.csv LGA_Name; some states have same-named LGAs in different states — validate pair LGA_Code+State_Code
+State_Code,Text(6),Yes,No,Yes,No,See LKP_States.csv,Parent state project identifier,Must resolve to G01 State_Code and LKP_States.csv
+State_Name,Text(50),Yes,No,No,No,See LKP_States.csv,Parent state official name,Must be consistent with State_Code
+adm2_pcode,Text(12),Yes,No,No,Yes,OCHA p-codes e.g. NG001001,OCHA administrative 2 p-code,No duplicates; must follow OCHA format
+adm1_pcode,Text(10),Yes,No,Yes,No,OCHA p-codes e.g. NG001,Parent state OCHA p-code,Must resolve to G01 adm1_pcode
+area_sqkm,Double,Yes,No,No,No,>0,Polygon area in square kilometres,Must be >0; recalculate from geometry; flag >5% difference from source attribute
+geometry,Polygon,Yes,No,No,No,Valid polygon or multipolygon,LGA boundary geometry,"No null geometries; no self-intersections; each LGA must be spatially contained within exactly one state polygon (G01); no gaps between adjacent LGAs within same state >0.001 sqkm"

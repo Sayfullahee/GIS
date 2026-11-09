@@ -1,0 +1,15 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Facility_ID,Text,30,Yes,Yes,No,,Permanent facility identifier
+Facility_Name,Text,150,Yes,No,No,,Official facility name
+Facility_Type,Text,50,Yes,No,No,,"Classification (Dam, Plant, etc)"
+Installed_Capacity_MW,Double,,No,No,No,,Installed rated capacity in MW
+Operator,Text,150,Yes,No,No,,Operating concessionaire or agency
+Status,Text,50,Yes,No,No,,Operational condition
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,Host state code
+LGA,Text,60,No,No,No,,Host LGA
+Linked_Basin,Text,100,No,No,No,,Hydrographic catchment basin
+Latitude,Double,,Yes,No,No,,WGS84 latitude
+Longitude,Double,,Yes,No,No,,WGS84 longitude
+Commissioned_Year,Integer,,No,No,No,,Year first commissioned
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Source provenance reference
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

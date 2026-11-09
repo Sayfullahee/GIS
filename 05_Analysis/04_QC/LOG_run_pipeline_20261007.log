@@ -1,0 +1,1031 @@
+2026-10-07 15:59:16 | INFO     | run_pipeline | ============================================================
+2026-10-07 15:59:16 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 15:59:16 | INFO     | run_pipeline | ============================================================
+2026-10-07 15:59:16 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 15:59:16 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 15:59:16 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 15:59:16 | INFO     | run_pipeline | 
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 15:59:16 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 15:59:16 | INFO     | run_pipeline | 
+2026-10-07 15:59:16 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 16:21:41 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:21:41 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 16:21:41 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:21:41 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 16:21:41 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 16:21:41 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 16:21:41 | INFO     | run_pipeline | 
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 16:21:41 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 16:21:41 | INFO     | run_pipeline | 
+2026-10-07 16:21:41 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 16:23:02 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:23:02 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 16:23:02 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:23:02 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 16:23:02 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 16:23:02 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 16:23:02 | INFO     | run_pipeline | 
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 16:23:02 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 16:23:02 | INFO     | run_pipeline | 
+2026-10-07 16:23:02 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 16:44:55 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:44:55 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 16:44:55 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:44:55 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 16:44:55 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 16:44:55 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 16:44:55 | INFO     | run_pipeline | 
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 16:44:55 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 16:44:55 | INFO     | run_pipeline | 
+2026-10-07 16:44:55 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 16:48:10 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:48:10 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 16:48:10 | INFO     | run_pipeline | ============================================================
+2026-10-07 16:48:10 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 16:48:10 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 16:48:10 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 16:48:10 | INFO     | run_pipeline | 
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 16:48:10 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 16:48:10 | INFO     | run_pipeline | 
+2026-10-07 16:48:10 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 17:01:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:12 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:01:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:12 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:01:12 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 17:01:12 | INFO     | run_pipeline | Dry run:     False
+2026-10-07 17:01:12 | INFO     | run_pipeline | 
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:01:12 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:01:12 | INFO     | run_pipeline | 
+2026-10-07 17:01:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:12 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-10-07 17:01:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:12 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:12 | INFO     | run_pipeline | STEP: 01_ingest — Register sources; ingest raw data files
+2026-10-07 17:01:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 01_ingest (0.5s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 02_validate — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 02_validate (0.2s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 03_clean — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 03_clean (0.1s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 04_integrate — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 04_integrate (0.3s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 05_climate — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 05_climate (0.0s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 06_flood — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 06_flood (0.0s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 07_erosion — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | ✓ PASSED: 07_erosion (0.1s)
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | STEP: 08_hydropower — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | ERROR    | run_pipeline | 
+UNHANDLED EXCEPTION in 08_hydropower:
+2026-10-07 17:01:13 | ERROR    | run_pipeline | Traceback (most recent call last):
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Sedimentation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\run_pipeline.py", line 148, in run
+    step.module_fn()
+    ~~~~~~~~~~~~~~^^
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\run_pipeline.py", line 238, in _exec
+    getattr(mod, fn_name)()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\08_hydropower.py", line 237, in run_all
+    ind08_df = compute_ind08(df)
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\08_hydropower.py", line 100, in compute_ind08
+    df["_sedimentation_num"] = df["Sedimentation"].map(SEDIMENTATION_ORDER).fillna(0)
+                               ~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Sedimentation'
+
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-10-07 17:01:13 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:01:13 | INFO     | run_pipeline |   Total elapsed:  1.3s (0.0 min)
+2026-10-07 17:01:13 | INFO     | run_pipeline |   Steps passed:   7
+2026-10-07 17:01:13 | INFO     | run_pipeline |   Steps failed:   1
+2026-10-07 17:01:13 | INFO     | run_pipeline |   Steps pending:  10
+2026-10-07 17:01:13 | INFO     | run_pipeline | 
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 01_ingest            PASSED     0.5s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 02_validate          PASSED     0.2s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 03_clean             PASSED     0.1s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 04_integrate         PASSED     0.3s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 05_climate           PASSED     0.0s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 06_flood             PASSED     0.0s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✓ 07_erosion           PASSED     0.1s
+2026-10-07 17:01:13 | INFO     | run_pipeline |   ✗ 08_hydropower        FAILED     0.0s
+2026-10-07 17:01:13 | INFO     | run_pipeline |       ↳ 'Sedimentation'
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 09_exposure          PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 10_vulnerability     PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 11_criticality       PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 12_hazard            PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 13_risk              PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 14_adaptation        PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 15_priority          PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 16_qc                PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 17_reports           PENDING    —
+2026-10-07 17:01:13 | INFO     | run_pipeline |   · 18_maps              PENDING    —
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:02:44 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 17:02:44 | INFO     | run_pipeline | Dry run:     False
+2026-10-07 17:02:44 | INFO     | run_pipeline | 
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:02:44 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:02:44 | INFO     | run_pipeline | 
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | STEP: 01_ingest — Register sources; ingest raw data files
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | ✓ PASSED: 01_ingest (0.5s)
+2026-10-07 17:02:44 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | STEP: 02_validate — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | ✓ PASSED: 02_validate (0.2s)
+2026-10-07 17:02:44 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | STEP: 03_clean — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | ✓ PASSED: 03_clean (0.1s)
+2026-10-07 17:02:44 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:44 | INFO     | run_pipeline | STEP: 04_integrate — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:02:44 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | ✓ PASSED: 04_integrate (0.3s)
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | STEP: 05_climate — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:02:45 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | ✓ PASSED: 05_climate (0.0s)
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | STEP: 06_flood — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:02:45 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | ✓ PASSED: 06_flood (0.0s)
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | STEP: 07_erosion — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:02:45 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | ✓ PASSED: 07_erosion (0.1s)
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | STEP: 08_hydropower — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:02:45 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | ✓ PASSED: 08_hydropower (0.1s)
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | STEP: 09_exposure — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:02:45 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | ERROR    | run_pipeline | 
+UNHANDLED EXCEPTION in 09_exposure:
+2026-10-07 17:02:45 | ERROR    | run_pipeline | Traceback (most recent call last):
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Active_Erosion_Sites_Count'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\run_pipeline.py", line 148, in run
+    step.module_fn()
+    ~~~~~~~~~~~~~~^^
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\run_pipeline.py", line 238, in _exec
+    getattr(mod, fn_name)()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\09_exposure.py", line 316, in run_all
+    g30 = compute_g30_erosion_exposure(community_df, erosion_df, infra_df)
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\09_exposure.py", line 177, in compute_g30_erosion_exposure
+    result["Active_Erosion_Sites_Count"]  = result["Active_Erosion_Sites_Count"].fillna(0)
+                                            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Active_Erosion_Sites_Count'
+
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-10-07 17:02:45 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:02:45 | INFO     | run_pipeline |   Total elapsed:  1.3s (0.0 min)
+2026-10-07 17:02:45 | INFO     | run_pipeline |   Steps passed:   8
+2026-10-07 17:02:45 | INFO     | run_pipeline |   Steps failed:   1
+2026-10-07 17:02:45 | INFO     | run_pipeline |   Steps pending:  9
+2026-10-07 17:02:45 | INFO     | run_pipeline | 
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 01_ingest            PASSED     0.5s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 02_validate          PASSED     0.2s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 03_clean             PASSED     0.1s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 04_integrate         PASSED     0.3s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 05_climate           PASSED     0.0s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 06_flood             PASSED     0.0s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 07_erosion           PASSED     0.1s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✓ 08_hydropower        PASSED     0.1s
+2026-10-07 17:02:45 | INFO     | run_pipeline |   ✗ 09_exposure          FAILED     0.0s
+2026-10-07 17:02:45 | INFO     | run_pipeline |       ↳ 'Active_Erosion_Sites_Count'
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 10_vulnerability     PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 11_criticality       PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 12_hazard            PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 13_risk              PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 14_adaptation        PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 15_priority          PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 16_qc                PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 17_reports           PENDING    —
+2026-10-07 17:02:45 | INFO     | run_pipeline |   · 18_maps              PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:03:20 | INFO     | run_pipeline | Steps:       10/18 total
+2026-10-07 17:03:20 | INFO     | run_pipeline | Dry run:     False
+2026-10-07 17:03:20 | INFO     | run_pipeline | 
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [01] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [02] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [03] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [04] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [05] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [06] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [07] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [08] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [09] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:03:20 | INFO     | run_pipeline |   [10] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:03:20 | INFO     | run_pipeline | 
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline | STEP: 09_exposure — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline | ✓ PASSED: 09_exposure (0.5s)
+2026-10-07 17:03:20 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline | STEP: 10_vulnerability — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | ERROR    | run_pipeline | 
+UNHANDLED EXCEPTION in 10_vulnerability:
+2026-10-07 17:03:20 | ERROR    | run_pipeline | Traceback (most recent call last):
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\run_pipeline.py", line 148, in run
+    step.module_fn()
+    ~~~~~~~~~~~~~~^^
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\run_pipeline.py", line 238, in _exec
+    getattr(mod, fn_name)()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\10_vulnerability.py", line 282, in run_all
+    db02_agg = aggregate_db02_to_community()
+  File "C:\xampp\htdocs\GIS\05_Analysis\02_SCRIPTS\10_vulnerability.py", line 130, in aggregate_db02_to_community
+    .agg(
+     ~~~^
+        HH_Flood_Loss_Rate    = ("Flood_Affected",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        HH_Count              = ("Household_ID", "count"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\groupby\generic.py", line 2291, in aggregate
+    result = op.agg()
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\apply.py", line 294, in agg
+    return self.agg_dict_like()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\apply.py", line 511, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\apply.py", line 1677, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+                                ~~~~~~~~~~~~~~~~~~~~~~^
+        op_name, selected_obj, selection, kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\apply.py", line 550, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+  File "C:\Users\ahmad\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\core\apply.py", line 762, in normalize_dictlike_arg
+    raise KeyError(f"Label(s) {list(cols)} do not exist")
+KeyError: "Label(s) ['Displacement_Flood', 'Flood_Affected'] do not exist"
+
+2026-10-07 17:03:20 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-10-07 17:03:20 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:03:20 | INFO     | run_pipeline |   Total elapsed:  0.5s (0.0 min)
+2026-10-07 17:03:20 | INFO     | run_pipeline |   Steps passed:   1
+2026-10-07 17:03:20 | INFO     | run_pipeline |   Steps failed:   1
+2026-10-07 17:03:20 | INFO     | run_pipeline |   Steps pending:  8
+2026-10-07 17:03:20 | INFO     | run_pipeline | 
+2026-10-07 17:03:20 | INFO     | run_pipeline |   ✓ 09_exposure          PASSED     0.5s
+2026-10-07 17:03:20 | INFO     | run_pipeline |   ✗ 10_vulnerability     FAILED     0.0s
+2026-10-07 17:03:20 | INFO     | run_pipeline |       ↳ "Label(s) ['Displacement_Flood', 'Flood_Affected'] do not exist"
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 11_criticality       PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 12_hazard            PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 13_risk              PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 14_adaptation        PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 15_priority          PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 16_qc                PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 17_reports           PENDING    —
+2026-10-07 17:03:20 | INFO     | run_pipeline |   · 18_maps              PENDING    —
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:04:36 | INFO     | run_pipeline | Steps:       9/18 total
+2026-10-07 17:04:36 | INFO     | run_pipeline | Dry run:     False
+2026-10-07 17:04:36 | INFO     | run_pipeline | 
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [01] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [02] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [03] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [04] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [05] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [06] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [07] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [08] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:04:36 | INFO     | run_pipeline |   [09] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:04:36 | INFO     | run_pipeline | 
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | STEP: 10_vulnerability — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | ✓ PASSED: 10_vulnerability (0.4s)
+2026-10-07 17:04:36 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | STEP: 11_criticality — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | ✓ PASSED: 11_criticality (0.1s)
+2026-10-07 17:04:36 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | STEP: 12_hazard — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | ✓ PASSED: 12_hazard (0.0s)
+2026-10-07 17:04:36 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:36 | INFO     | run_pipeline | STEP: 13_risk — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:04:36 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | ✓ PASSED: 13_risk (0.6s)
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | STEP: 14_adaptation — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:04:37 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | ✓ PASSED: 14_adaptation (0.1s)
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | STEP: 15_priority — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:04:37 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | ✓ PASSED: 15_priority (0.1s)
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | STEP: 16_qc — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:04:37 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | ✓ PASSED: 16_qc (0.1s)
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | STEP: 17_reports — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:04:37 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | ✓ PASSED: 17_reports (0.1s)
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | STEP: 18_maps — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:04:37 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | ✓ PASSED: 18_maps (0.0s)
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-10-07 17:04:37 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:04:37 | INFO     | run_pipeline |   Total elapsed:  1.4s (0.0 min)
+2026-10-07 17:04:37 | INFO     | run_pipeline |   Steps passed:   9
+2026-10-07 17:04:37 | INFO     | run_pipeline |   Steps failed:   0
+2026-10-07 17:04:37 | INFO     | run_pipeline |   Steps pending:  0
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 10_vulnerability     PASSED     0.4s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 11_criticality       PASSED     0.1s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 12_hazard            PASSED     0.0s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 13_risk              PASSED     0.6s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 14_adaptation        PASSED     0.1s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 15_priority          PASSED     0.1s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 16_qc                PASSED     0.1s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 17_reports           PASSED     0.1s
+2026-10-07 17:04:37 | INFO     | run_pipeline |   ✓ 18_maps              PASSED     0.0s
+2026-10-07 17:04:37 | INFO     | run_pipeline | 
+✓ PIPELINE COMPLETE — all steps passed.
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:05:04 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 17:05:04 | INFO     | run_pipeline | Dry run:     False
+2026-10-07 17:05:04 | INFO     | run_pipeline | 
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:05:04 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:05:04 | INFO     | run_pipeline | 
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | STEP: 01_ingest — Register sources; ingest raw data files
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | ✓ PASSED: 01_ingest (0.5s)
+2026-10-07 17:05:04 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | STEP: 02_validate — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | ✓ PASSED: 02_validate (0.2s)
+2026-10-07 17:05:04 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:04 | INFO     | run_pipeline | STEP: 03_clean — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:05:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 03_clean (0.1s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 04_integrate — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 04_integrate (0.3s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 05_climate — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 05_climate (0.0s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 06_flood — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 06_flood (0.0s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 07_erosion — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 07_erosion (0.1s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 08_hydropower — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 08_hydropower (0.0s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 09_exposure — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 09_exposure (0.1s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 10_vulnerability — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 10_vulnerability (0.1s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 11_criticality — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 11_criticality (0.0s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 12_hazard — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | ✓ PASSED: 12_hazard (0.0s)
+2026-10-07 17:05:05 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:05 | INFO     | run_pipeline | STEP: 13_risk — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:05:05 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | ✓ PASSED: 13_risk (0.7s)
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | STEP: 14_adaptation — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:05:06 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | ✓ PASSED: 14_adaptation (0.1s)
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | STEP: 15_priority — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:05:06 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | ✓ PASSED: 15_priority (0.1s)
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | STEP: 16_qc — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:05:06 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | ✓ PASSED: 16_qc (0.1s)
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | STEP: 17_reports — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:05:06 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | ✓ PASSED: 17_reports (0.1s)
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | STEP: 18_maps — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:05:06 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | ✓ PASSED: 18_maps (0.0s)
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-10-07 17:05:06 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:06 | INFO     | run_pipeline |   Total elapsed:  2.4s (0.0 min)
+2026-10-07 17:05:06 | INFO     | run_pipeline |   Steps passed:   18
+2026-10-07 17:05:06 | INFO     | run_pipeline |   Steps failed:   0
+2026-10-07 17:05:06 | INFO     | run_pipeline |   Steps pending:  0
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 01_ingest            PASSED     0.5s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 02_validate          PASSED     0.2s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 03_clean             PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 04_integrate         PASSED     0.3s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 05_climate           PASSED     0.0s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 06_flood             PASSED     0.0s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 07_erosion           PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 08_hydropower        PASSED     0.0s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 09_exposure          PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 10_vulnerability     PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 11_criticality       PASSED     0.0s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 12_hazard            PASSED     0.0s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 13_risk              PASSED     0.7s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 14_adaptation        PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 15_priority          PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 16_qc                PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 17_reports           PASSED     0.1s
+2026-10-07 17:05:06 | INFO     | run_pipeline |   ✓ 18_maps              PASSED     0.0s
+2026-10-07 17:05:06 | INFO     | run_pipeline | 
+✓ PIPELINE COMPLETE — all steps passed.
+2026-10-07 17:05:30 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:30 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:05:30 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:05:30 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:05:30 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 17:05:30 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 17:05:30 | INFO     | run_pipeline | 
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:05:30 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:05:30 | INFO     | run_pipeline | 
+2026-10-07 17:05:30 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 17:29:22 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:29:22 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 17:29:22 | INFO     | run_pipeline | ============================================================
+2026-10-07 17:29:22 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 17:29:22 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 17:29:22 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 17:29:22 | INFO     | run_pipeline | 
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 17:29:22 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 17:29:22 | INFO     | run_pipeline | 
+2026-10-07 17:29:22 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 18:06:31 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:06:31 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 18:06:31 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:06:31 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 18:06:31 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 18:06:31 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 18:06:31 | INFO     | run_pipeline | 
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 18:06:31 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 18:06:31 | INFO     | run_pipeline | 
+2026-10-07 18:06:31 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 18:13:22 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:13:22 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 18:13:22 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:13:22 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 18:13:22 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 18:13:22 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 18:13:22 | INFO     | run_pipeline | 
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 18:13:22 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 18:13:22 | INFO     | run_pipeline | 
+2026-10-07 18:13:22 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 18:16:32 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:32 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 18:16:32 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:32 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 18:16:32 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 18:16:32 | INFO     | run_pipeline | Dry run:     False
+2026-10-07 18:16:32 | INFO     | run_pipeline | 
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 18:16:32 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 18:16:32 | INFO     | run_pipeline | 
+2026-10-07 18:16:32 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:32 | INFO     | run_pipeline |   PIPELINE EXECUTION
+2026-10-07 18:16:32 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:32 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:32 | INFO     | run_pipeline | STEP: 01_ingest — Register sources; ingest raw data files
+2026-10-07 18:16:32 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 01_ingest (0.5s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 02_validate — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 02_validate (0.1s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 03_clean — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 03_clean (0.1s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 04_integrate — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 04_integrate (0.3s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 05_climate — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 05_climate (0.0s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 06_flood — IND01 flood frequency; IND02 flood severity
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 06_flood (0.0s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 07_erosion — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 07_erosion (0.1s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 08_hydropower — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 08_hydropower (0.0s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 09_exposure — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 09_exposure (0.1s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 10_vulnerability — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | ✓ PASSED: 10_vulnerability (0.1s)
+2026-10-07 18:16:33 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:33 | INFO     | run_pipeline | STEP: 11_criticality — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 18:16:33 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 11_criticality (0.1s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 12_hazard — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 12_hazard (0.0s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 13_risk — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 13_risk (0.6s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 14_adaptation — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 14_adaptation (0.0s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 15_priority — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 15_priority (0.0s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 16_qc — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 16_qc (0.1s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 17_reports — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 17_reports (0.1s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | STEP: 18_maps — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | ✓ PASSED: 18_maps (0.0s)
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline | PIPELINE SUMMARY
+2026-10-07 18:16:34 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:16:34 | INFO     | run_pipeline |   Total elapsed:  2.3s (0.0 min)
+2026-10-07 18:16:34 | INFO     | run_pipeline |   Steps passed:   18
+2026-10-07 18:16:34 | INFO     | run_pipeline |   Steps failed:   0
+2026-10-07 18:16:34 | INFO     | run_pipeline |   Steps pending:  0
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 01_ingest            PASSED     0.5s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 02_validate          PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 03_clean             PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 04_integrate         PASSED     0.3s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 05_climate           PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 06_flood             PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 07_erosion           PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 08_hydropower        PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 09_exposure          PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 10_vulnerability     PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 11_criticality       PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 12_hazard            PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 13_risk              PASSED     0.6s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 14_adaptation        PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 15_priority          PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 16_qc                PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 17_reports           PASSED     0.1s
+2026-10-07 18:16:34 | INFO     | run_pipeline |   ✓ 18_maps              PASSED     0.0s
+2026-10-07 18:16:34 | INFO     | run_pipeline | 
+✓ PIPELINE COMPLETE — all steps passed.
+2026-10-07 18:31:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:31:04 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 18:31:04 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:31:04 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 18:31:04 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 18:31:04 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 18:31:04 | INFO     | run_pipeline | 
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 18:31:04 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 18:31:04 | INFO     | run_pipeline | 
+2026-10-07 18:31:04 | INFO     | run_pipeline | DRY RUN — no modules executed.
+2026-10-07 18:38:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:38:12 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE — EXECUTION PLAN
+2026-10-07 18:38:12 | INFO     | run_pipeline | ============================================================
+2026-10-07 18:38:12 | INFO     | run_pipeline | Run date:    2026-10-07
+2026-10-07 18:38:12 | INFO     | run_pipeline | Steps:       18/18 total
+2026-10-07 18:38:12 | INFO     | run_pipeline | Dry run:     True
+2026-10-07 18:38:12 | INFO     | run_pipeline | 
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [01] 01_ingest            — Register sources; ingest raw data files
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [02] 02_validate          — Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [03] 03_clean             — Consent gate; code standardisation; write CLEAN CSVs
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [04] 04_integrate         — SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [05] 05_climate           — Temporal aggregation; extreme events; G21 station summary
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [06] 06_flood             — IND01 flood frequency; IND02 flood severity
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [07] 07_erosion           — IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [08] 08_hydropower        — IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [09] 09_exposure          — Flood exposure; erosion exposure; E_Score 0-100
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [10] 10_vulnerability     — IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [11] 11_criticality       — IND08 NULL outside BUF004; C_Score 0-100
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [12] 12_hazard            — IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [13] 13_risk              — R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [14] 14_adaptation        — Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [15] 15_priority          — Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [16] 16_qc                — Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [17] 17_reports           — Community profiles; state summaries; descriptive stats; risk dist
+2026-10-07 18:38:12 | INFO     | run_pipeline |   [18] 18_maps              — 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-07 18:38:12 | INFO     | run_pipeline | 
+2026-10-07 18:38:12 | INFO     | run_pipeline | DRY RUN — no modules executed.

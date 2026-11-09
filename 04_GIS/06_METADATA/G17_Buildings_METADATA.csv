@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G17
+Layer_Name,Buildings
+Layer_Type,Vector-Polygon
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,OSM building footprints (completeness varies by settlement density)
+Source_ID,SRC009
+Source_Dataset,OpenStreetMap Nigeria via Geofabrik + approved building datasets where available
+Provider,OpenStreetMap contributors / Geofabrik
+Acquisition_Date,YYYY-MM-DD
+Source_Version,Geofabrik extract date YYYY-MM-DD
+Coverage,Nigeria (clip to study area + 5km buffer)
+Processing_Method,"Step 1: Download Nigeria OSM extract from Geofabrik. Step 2: Extract buildings layer (gis_osm_buildings_a_free_1.shp). Step 3: Clip to study area + 5km buffer. Step 4: Validate geometry. Step 5: Remove duplicates. Step 6: Classify building type where OSM tags available. Step 7: Aggregate to community level where individual footprints are too sparse. Step 8: Assign Building_ID."
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python (geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (+ 5km buffer)
+Reprojected,No (OSM WGS84)
+Hydrologic_Conditioned,N/A
+License,ODbL 1.0 (OpenStreetMap) — attribution required
+Restrictions,Attribution required: © OpenStreetMap contributors
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G01 (state clip)
+Derived_Layers,"G29 (flood exposure — building count/area in flood zone), G30 (erosion exposure), G32 (exposure index)"
+Storage_Location,04_GIS/01_RAW/ | 04_GIS/02_CLEAN/
+File_Format,GeoPackage preferred
+File_Name,G17_Buildings_OSM_[YYYYMMDD]_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,7
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,OSM extract date YYYY-MM-DD
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_10_Infrastructure, MAP_11_Exposure"
+Notes,"OSM building completeness is highly variable — urban centres (Onitsha, Calabar, Benin City) generally well-mapped; rural communities may have zero or very few digitised footprints. Where OSM building coverage is <20% of estimated community settlement area, flag as data gap and use community population density approach for exposure estimation instead. ODbL attribution mandatory."

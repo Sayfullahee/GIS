@@ -1,0 +1,3762 @@
+{
+  "type": "FeatureCollection",
+  "name": "G04_Households_Restricted_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.867457,
+          9.526472
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-001-0001",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.872611412954424,
+          9.527951906917606
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-001-0001",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.867864892280477,
+          9.517810559490359
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-001-0001",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.86124636002418,
+          9.5187400225102
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-001-0001",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8589915925140765,
+          9.516549069137408
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-001-0001",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.240378227176011,
+          9.71229998655639
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-002-0002",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243502753505403,
+          9.718306510859952
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-002-0002",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.237093959796156,
+          9.718574706763029
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-002-0002",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24279907473987,
+          9.717102499898575
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-002-0002",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.239503355455724,
+          9.715459609214346
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-002-0002",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.630446936667332,
+          9.45841478541277
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-003-0003",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.625279029380348,
+          9.459095277093965
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-003-0003",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627296281245998,
+          9.466910561876198
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-003-0003",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.63076050111048,
+          9.469133340344351
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-003-0003",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.629774822067084,
+          9.459415211654623
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-003-0003",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6257148635204715,
+          9.294277936261423
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-004-0004",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.628912290050004,
+          9.29326602155903
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-004-0004",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627196807524361,
+          9.291280509985846
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-004-0004",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.619317038259685,
+          9.290254950124732
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-004-0004",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.624187631628989,
+          9.29230011385456
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-004-0004",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.676431835752183,
+          9.426865246185441
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-005-0005",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6769999669156075,
+          9.422961812219327
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-005-0005",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.680161446072129,
+          9.425752117520815
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-005-0005",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6794813387874745,
+          9.422937500939
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-005-0005",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.68043026491398,
+          9.430963537022011
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NIG-005-0005",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.873726944749707,
+          11.550676608435591
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-001-0006",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.877650675351439,
+          11.551202757966987
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-001-0006",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8737601277852134,
+          11.545054583573798
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-001-0006",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.868623717364924,
+          11.547909182401058
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-001-0006",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.871416098347361,
+          11.543696827410932
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-001-0006",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.075631905127722,
+          11.182698754349662
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-002-0007",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.077977887064031,
+          11.183034227073414
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-002-0007",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.074460280043725,
+          11.188498670081518
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-002-0007",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.084238735580322,
+          11.181497169758332
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-002-0007",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.07842224805836,
+          11.179358289175646
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-002-0007",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8643554519915115,
+          11.261954923384726
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-003-0008",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8546786634396706,
+          11.262882108931118
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-003-0008",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.856814385599929,
+          11.268699242155837
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-003-0008",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8588291057361284,
+          11.270662220932142
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-003-0008",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8665143861588525,
+          11.268558928797079
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-003-0008",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.101367339481438,
+          11.204150185815044
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-004-0009",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.097467131993586,
+          11.19935798216743
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-004-0009",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.097908435356254,
+          11.196798044055035
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-004-0009",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.094673675772114,
+          11.208146339904562
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-004-0009",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1017241057753155,
+          11.207241529925943
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-004-0009",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.048003710573602,
+          11.562126965966453
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-005-0010",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.048782365042947,
+          11.561199466165345
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-005-0010",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0414447193682355,
+          11.560321993592549
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-005-0010",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.040775236016029,
+          11.561374566981593
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-005-0010",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.035109742041722,
+          11.565128777631232
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KEB-005-0010",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.836819875438888,
+          9.938122898085476
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-001-0011",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.84370468752753,
+          9.938093462590441
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-001-0011",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.838669882776122,
+          9.938210027657613
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-001-0011",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.840831775450546,
+          9.929187151641363
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-001-0011",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.834895632853446,
+          9.92992407050141
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-001-0011",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.064343734479923,
+          9.854852380268786
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-002-0012",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.06655734699374,
+          9.857101660323169
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-002-0012",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.066585494265743,
+          9.864086600480908
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-002-0012",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.072794617944252,
+          9.859886540406347
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-002-0012",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.072868214021417,
+          9.859179759331072
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-002-0012",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.691234568136695,
+          9.887783761058754
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-003-0013",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.694857646689975,
+          9.884931695092186
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-003-0013",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.691603457910052,
+          9.89178252148697
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-003-0013",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.688456067100908,
+          9.895560689744746
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-003-0013",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.69413107811459,
+          9.894948571691287
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-003-0013",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.11461448603847,
+          9.864533638446286
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-004-0014",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.110645346537929,
+          9.861315057632101
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-004-0014",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.114798440063074,
+          9.867573690600633
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-004-0014",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.106761216957933,
+          9.870646429067488
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-004-0014",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.11526364555865,
+          9.871223171139166
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-004-0014",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.693396672044674,
+          9.69057895760926
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-005-0015",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.695958163959762,
+          9.6866879318155
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-005-0015",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.692629470088285,
+          9.689363248235178
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-005-0015",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.687666684129338,
+          9.680849421845318
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-005-0015",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.687490561218596,
+          9.685539152025493
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-PLA-005-0015",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.196184655093772,
+          7.578938253809174
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-001-0016",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.200588322910695,
+          7.5828929939933225
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-001-0016",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.202782560475741,
+          7.577226074904806
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-001-0016",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.194176935367961,
+          7.572079590720264
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-001-0016",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.192906661993877,
+          7.579874087159627
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-001-0016",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55249533403823,
+          7.696423838268482
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-002-0017",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.557933336017177,
+          7.700523057946064
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-002-0017",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5547856863473,
+          7.696008033093647
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-002-0017",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.558956093383301,
+          7.69618462035392
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-002-0017",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55594157096022,
+          7.691664929513237
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-002-0017",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.233439773140155,
+          7.748266870069818
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-003-0018",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.227496624658988,
+          7.757187904665151
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-003-0018",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.231711546490109,
+          7.760490251002796
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-003-0018",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.232140194908201,
+          7.757228119851085
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-003-0018",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.231611208217439,
+          7.758952531134825
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-003-0018",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.415304989990801,
+          7.9431937791516125
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-004-0019",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.418924962535254,
+          7.942633897617216
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-004-0019",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.408347601791153,
+          7.945169666656269
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-004-0019",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.412454153576189,
+          7.944150286104559
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-004-0019",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.415379244043596,
+          7.94868737810001
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-004-0019",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.781210785144209,
+          8.025254520682985
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-005-0020",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.791709763236303,
+          8.029818708652126
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-005-0020",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.787860823217082,
+          8.02909255739021
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-005-0020",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.782311854384028,
+          8.022325135264126
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-005-0020",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.786134379497442,
+          8.02828846264118
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-BEN-005-0020",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.003251903076671,
+          7.845701956616863
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-001-0021",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.004750077361535,
+          7.845932014609365
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-001-0021",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.009476480374075,
+          7.84261175711109
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-001-0021",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.005367965894327,
+          7.840706307330339
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-001-0021",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.007082132790512,
+          7.840343395967746
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-001-0021",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.932039394149387,
+          8.10792212285229
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-002-0022",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.942535572499757,
+          8.10999145965272
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-002-0022",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.941567345233682,
+          8.107691338746124
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-002-0022",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.941732455516253,
+          8.105248528793302
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-002-0022",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9400602278199095,
+          8.101758993463172
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-002-0022",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.851117271965745,
+          7.926508937560056
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-003-0023",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8466423456541685,
+          7.937319367042564
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-003-0023",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.848595013186899,
+          7.939731907313333
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-003-0023",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.84938745428232,
+          7.934618799908651
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-003-0023",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.847228941166044,
+          7.938981561837677
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-003-0023",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770216306002075,
+          7.6649155705843395
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-004-0024",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770121984180093,
+          7.666702223428113
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-004-0024",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7672829061771935,
+          7.667071708409899
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-004-0024",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770354143492868,
+          7.661654388261587
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-004-0024",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.766477787695686,
+          7.670780413962218
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-004-0024",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.748208833552637,
+          8.009136542911579
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-005-0025",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.745766445674171,
+          8.006028009172399
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-005-0025",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.741012139461689,
+          8.004424698726844
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-005-0025",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.744139289527931,
+          8.007210093279925
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-005-0025",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.740044939039333,
+          8.007890671386207
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KOG-005-0025",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.520903878622434,
+          8.838203143536433
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-001-0026",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.514961972477021,
+          8.843103952417458
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-001-0026",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.517719890201728,
+          8.83381307730609
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-001-0026",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.516215113131506,
+          8.83287331253424
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-001-0026",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.523010579823884,
+          8.833654683432052
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-001-0026",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.39779668214944,
+          8.738714126008635
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-002-0027",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.38913618983859,
+          8.740068626451327
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-002-0027",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.398856250761439,
+          8.73640377021732
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-002-0027",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.400553897268643,
+          8.74129561666121
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-002-0027",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.39540777444938,
+          8.735229513393444
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-002-0027",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.338053106058312,
+          8.188107736494576
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-003-0028",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.333194700379831,
+          8.183964355281512
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-003-0028",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3323914566363255,
+          8.191678496147892
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-003-0028",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.339499843221497,
+          8.191304946679148
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-003-0028",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.337016240393674,
+          8.192961892304233
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-003-0028",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.394366718978321,
+          8.388087559277988
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-004-0029",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.394545514096119,
+          8.39181683291477
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-004-0029",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.394823614978498,
+          8.390199970279138
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-004-0029",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.390777963917379,
+          8.393331507576049
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-004-0029",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.395845935218305,
+          8.393903442203097
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-004-0029",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.473678235486135,
+          8.194881590121126
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-005-0030",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.466766407519366,
+          8.186369878310225
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-005-0030",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.473988132065649,
+          8.1900375907425
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-005-0030",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.469978999817028,
+          8.182660921072912
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-005-0030",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.466757054055716,
+          8.185996777149592
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KWA-005-0030",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.290499370711113,
+          10.553312752419433
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-001-0031",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.294895449644247,
+          10.55488006378913
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-001-0031",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.297326961571247,
+          10.546729132860674
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-001-0031",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.295314201742326,
+          10.548340890947568
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-001-0031",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.287585238988232,
+          10.550574756715545
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-001-0031",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.763038064051676,
+          10.360205515950591
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-002-0032",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.767778646143556,
+          10.366457956880684
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-002-0032",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7607443543713766,
+          10.358792492980086
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-002-0032",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.770490472289582,
+          10.364168583624961
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-002-0032",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76389555919514,
+          10.363928515662652
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-002-0032",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.316595275775137,
+          10.530736112061614
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-003-0033",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.318086776643268,
+          10.530198675733093
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-003-0033",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.31218764894762,
+          10.534789446688013
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-003-0033",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.314928269472465,
+          10.5377587012147
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-003-0033",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.31937579833407,
+          10.529774326379131
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-003-0033",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.130038391838349,
+          10.654485989190993
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-004-0034",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.131605874691185,
+          10.653160621622868
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-004-0034",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.128618349439384,
+          10.652599934222515
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-004-0034",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1244144801336775,
+          10.653792591727306
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-004-0034",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.130568000396968,
+          10.656709488558487
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-004-0034",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.47994194836649,
+          10.692398984256357
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-005-0035",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.478288772603831,
+          10.683403315806286
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-005-0035",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.476206977420547,
+          10.680297346979941
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-005-0035",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4725895684012595,
+          10.685455419178792
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-005-0035",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.473665614077246,
+          10.685692692660373
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-KAD-005-0035",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.387914596214467,
+          8.262103452657042
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-001-0036",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.392834256708241,
+          8.256248481760982
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-001-0036",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.391799769363331,
+          8.25732023693441
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-001-0036",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.392386726007413,
+          8.256366683703112
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-001-0036",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.389779166501716,
+          8.248983511842038
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-001-0036",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.594596542092798,
+          8.469681619792826
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-002-0037",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.601363645799646,
+          8.471681392026271
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-002-0037",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.600907656802299,
+          8.468087599884116
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-002-0037",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.602107041224718,
+          8.473024588932882
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-002-0037",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.605058753149871,
+          8.464039595877905
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-002-0037",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.831807863540284,
+          8.84810098439635
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-003-0038",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.829505928187334,
+          8.849130565883291
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-003-0038",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.831208486929823,
+          8.851161498450026
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-003-0038",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.825152428992965,
+          8.857633108781744
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-003-0038",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.830274953861004,
+          8.850918334670403
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-003-0038",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.749454397836042,
+          8.629459920575055
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-004-0039",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.742897725645385,
+          8.62755761982037
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-004-0039",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.746294184927043,
+          8.625188330882189
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-004-0039",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.744555630276134,
+          8.628554641796528
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-004-0039",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.745590841012195,
+          8.629403387786823
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-004-0039",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.397167364003982,
+          8.240506868093759
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-005-0040",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.39534059016671,
+          8.237356399373237
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-005-0040",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.396024417528759,
+          8.237744344407057
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-005-0040",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.394424264225007,
+          8.233903514215092
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-005-0040",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.388382603491797,
+          8.23483512286244
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-NAS-005-0040",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.572062108108357,
+          9.05546956302502
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-001-0041",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.570623329247844,
+          9.05857624888274
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-001-0041",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.571775255220599,
+          9.060266036126354
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-001-0041",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575427929100501,
+          9.049166782736785
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-001-0041",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57397136107794,
+          9.049322917931173
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-001-0041",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.619778307476697,
+          8.94597831222998
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-002-0042",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.614681074290623,
+          8.942653310990561
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-002-0042",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.611934084917378,
+          8.94956210952233
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-002-0042",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.617634203790573,
+          8.948509354178704
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-002-0042",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.617408399925298,
+          8.948815031576132
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-002-0042",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.223009155555028,
+          8.806358367580454
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-003-0043",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.214502856438449,
+          8.808150602202677
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-003-0043",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.213404958718609,
+          8.813098582707457
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-003-0043",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.219444688140541,
+          8.81177808287586
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-003-0043",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.21983159835413,
+          8.814500134241262
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-003-0043",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.074139736865872,
+          8.888770352075673
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-004-0044",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.067122175465036,
+          8.88199404474809
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-004-0044",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.069024755171759,
+          8.886953073945643
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-004-0044",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.06969942641801,
+          8.887735589087029
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-004-0044",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.06410275577552,
+          8.890248716198947
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-004-0044",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.046774196137463,
+          8.890745255512616
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-005-0045",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.048748816393637,
+          8.88481140648903
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-005-0045",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.04790085251465,
+          8.888123304756233
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-005-0045",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.04606316045581,
+          8.87961822498353
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-005-0045",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.052805137007905,
+          8.879923446945247
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-TAR-005-0045",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.400568715365987,
+          10.53530195810319
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-001-0046",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.401979668548522,
+          10.541673334063
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-001-0046",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.407163175791212,
+          10.54003862225917
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-001-0046",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.413720869187456,
+          10.532417834736314
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-001-0046",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.406797887109198,
+          10.530745017741749
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-001-0046",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07842280738784,
+          10.192529912175065
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-002-0047",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.077755947430726,
+          10.195611418656688
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-002-0047",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.075729369830304,
+          10.193367948309346
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-002-0047",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.077446217845411,
+          10.194472256171817
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-002-0047",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081391450073609,
+          10.190894900501617
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-002-0047",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.998717759922968,
+          10.425669404583084
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-003-0048",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.988376703731689,
+          10.424182619626258
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-003-0048",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.988431126390655,
+          10.42249270053961
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-003-0048",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.993839971660458,
+          10.42585335396061
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-003-0048",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.999382072043824,
+          10.421594755168549
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-003-0048",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.346681335464764,
+          10.388171343916605
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-004-0049",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.343828885139828,
+          10.378275367174988
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-004-0049",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.337043364277445,
+          10.383135208881162
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-004-0049",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.34424597195343,
+          10.378499173172315
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-004-0049",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342118391101966,
+          10.386778711140783
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-004-0049",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.207831362310316,
+          10.613477066439584
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-005-0050",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.213414279998869,
+          10.620543932675508
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-005-0050",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.210153421556509,
+          10.615118387392176
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-005-0050",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.206969256357665,
+          10.612942644544837
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-005-0050",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.20379651041967,
+          10.614032606105937
+        ]
+      },
+      "properties": {
+        "Community_ID": "COM-GOM-005-0050",
+        "Privacy_Status": "Level 3 Restricted (Coordinates Jittered)",
+        "Survey_Year": 2026
+      }
+    }
+  ]
+}

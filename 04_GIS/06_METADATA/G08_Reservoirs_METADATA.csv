@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G08
+Layer_Name,Reservoirs
+Layer_Type,Vector-Polygon
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Source-dependent (authoritative facility data / satellite imagery / field observation)
+Source_ID,SRC012 (facility data) + satellite/environmental datasets where appropriate
+Source_Dataset,"N-HYPPADEC facility records, satellite imagery, field observations"
+Provider,N-HYPPADEC / Remote Sensing / Project Field Team
+Acquisition_Date,YYYY-MM-DD
+Source_Version,Baseline 2026
+Coverage,10 N-HYPPADEC study states (reservoir polygons for known hydropower facilities)
+Processing_Method,"Compile reservoir extents from authoritative facility data; supplement with satellite imagery delineation where authoritative boundaries unavailable; field observations for monitoring zones; link each reservoir polygon to parent Hydro_ID (G07); validate that reservoir polygon is spatially consistent with facility point location"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python / Remote sensing software
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Project compilation
+Restrictions,None at polygon level
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G07 (parent facility) | G01 (state validation) | G09 (DEM — elevation consistency check)
+Derived_Layers,"G08 supports G24 (flood hazard — reservoir breach scenario), G29 (flood exposure downstream)"
+Storage_Location,04_GIS/01_RAW/ | 04_GIS/02_CLEAN/
+File_Format,GeoPackage preferred
+File_Name,G08_Reservoirs_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,9
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,YYYY-MM-DD
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_06_Hydropower
+Notes,"Each reservoir polygon must link to exactly one Hydro_ID. Where reservoir extent is uncertain use minimum confirmed extent and document uncertainty. Include monitoring zone buffer as separate attribute (not separate polygon). Reservoir extents change with water level — document water level / season at time of delineation."

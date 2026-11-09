@@ -1,0 +1,12 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+State_Code,Text(6),Yes,Yes,No,Yes,NG-AB | NG-AN | NG-CR | NG-DE | NG-EB | NG-ED | NG-EN | NG-IM | NG-KO | NG-ON (study states),Project state identifier — must match LKP_States.csv,Must resolve to LKP_States.csv; no duplicates; no nulls
+State_Name,Text(50),Yes,No,No,Yes,See LKP_States.csv,Official state name,Must match LKP_States.csv State_Name exactly
+adm1_pcode,Text(10),Yes,No,No,Yes,OCHA p-codes e.g. NG001,OCHA administrative 1 p-code,Must follow OCHA p-code format; no duplicates
+adm0_pcode,Text(5),Yes,No,No,No,NG,Country p-code,Must equal NG for all records
+area_sqkm,Double,Yes,No,No,No,>0,Polygon area in square kilometres,Must be >0; recalculate from geometry and compare to source value; flag if >5% difference
+valid_on,Date,No,No,No,No,YYYY-MM-DD,Date boundary version became valid,If populated must be valid date
+valid_to,Date,No,No,No,No,YYYY-MM-DD or NULL,Date boundary version was superseded (NULL if current),If populated must be >= valid_on
+version,Text(10),Yes,No,No,No,e.g. 2023,Source dataset version,Must be populated
+center_lat,Double,Yes,No,No,No,-90 to 90,Centroid latitude (decimal degrees WGS84),Must fall within polygon bounds; 4-7°N for southern states; 7-14°N for northern
+center_lon,Double,Yes,No,No,No,-180 to 180,Centroid longitude (decimal degrees WGS84),Must fall within Nigeria extent (2.7E to 14.7E)
+geometry,Polygon,Yes,No,No,No,Valid polygon or multipolygon,State boundary geometry,No null geometries; no self-intersections; no duplicate polygons; all features must close

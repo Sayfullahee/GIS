@@ -1,0 +1,19 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G01-Q01,Structure,All required fields present,Check column names against schema,All 10 schema fields present,Add missing fields; flag for review,Yes,Pending
+G01-Q02,Completeness,No null values in required fields,Count nulls per required field,Zero nulls in State_Code / State_Name / adm1_pcode / adm0_pcode / area_sqkm / version / center_lat / center_lon,Identify source of null; fill or flag,Yes,Pending
+G01-Q03,Uniqueness,No duplicate State_Code values,Count distinct vs total,Count distinct = count total,Remove true duplicates after review; flag if ambiguous,Yes,Pending
+G01-Q04,Uniqueness,No duplicate adm1_pcode values,Count distinct vs total,Count distinct = count total,Remove true duplicates after review,Yes,Pending
+G01-Q05,Reference integrity,All 10 study states present,Cross-check against LKP_States.csv,All 10 State_Code values from LKP_States.csv found,Identify missing states; acquire complete source,Yes,Pending
+G01-Q06,Reference integrity,State_Name matches LKP_States.csv,String comparison,Exact match for all 10 study states,Flag mismatches; correct to official name,Yes,Pending
+G01-Q07,Geometry,No null geometries,Check geometry field,Zero null geometries,Identify and fix or remove null geometry records,Yes,Pending
+G01-Q08,Geometry,No invalid/self-intersecting geometries,Run geometry validity check,All geometries valid,Run ST_MakeValid or equivalent; document fix,Yes,Pending
+G01-Q09,Geometry,No duplicate polygon features,Spatial overlap check,No two state polygons overlap significantly (>0.01 sqkm),Investigate and resolve overlap,Yes,Pending
+G01-Q10,Geometry,All polygons close (no open rings),Topology check,Zero open ring errors,Fix topology; re-validate,Yes,Pending
+G01-Q11,Coordinate,All centroids within Nigeria extent,Check center_lat / center_lon bounds,All center_lat between 4.0 and 14.0; all center_lon between 2.5 and 15.0,Flag outliers; re-calculate centroids,Yes,Pending
+G01-Q12,Coordinate,CRS confirmed as EPSG:4326,Check layer CRS,CRS = EPSG:4326 (WGS84 geographic),Reproject to EPSG:4326; document,Yes,Pending
+G01-Q13,Area,area_sqkm is positive and plausible,Compare to known state areas,area_sqkm > 0; no state > 80000 sqkm; no state < 1000 sqkm for Nigeria,Flag implausible values; recalculate from geometry,No,Pending
+G01-Q14,Area,Calculated area within 5% of source attribute,Recalculate from geometry; compare,|calculated - attribute| / attribute <= 0.05,Update area_sqkm from geometry; document,No,Pending
+G01-Q15,Adjacency,States share boundaries without gaps or overlaps,Topology check between state polygons,No gaps > 0.001 sqkm; no overlaps > 0.01 sqkm,Document and resolve boundary discrepancies using official source,No,Pending
+G01-Q16,Coverage,Study area (10 states) fully covered,Visual and spatial check,All 10 target states represented with complete geometry,Acquire missing/incomplete state geometry,Yes,Pending
+G01-Q17,Source,Source version documented,Check metadata,Source_Version field populated in metadata,Update metadata with confirmed source version,No,Pending
+G01-Q18,Provenance,Source record exists in SOURCE_REGISTER.csv,Cross-check SOURCE_REGISTER.csv,SRC001 record present and complete,Update SOURCE_REGISTER.csv,No,Pending

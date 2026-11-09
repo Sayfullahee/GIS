@@ -1,0 +1,17 @@
+Field_Name,Data_Type,Max_Length,Required,Description,QC_Rule,Domain
+Climate_Trend_ID,Text,18,Yes,Permanent trend record ID — format: CLT-[StationID6]-[YYYY],No duplicates; no nulls,Climate Change
+Station_ID,Text,10,Yes,FK → G20 Climate Stations,Must resolve to G20,Climate Change
+Trend_Period_Start,Integer,,Yes,First year of trend calculation (e.g. 1991),>= 1950; < Trend_Period_End,Climate Change
+Trend_Period_End,Integer,,Yes,Last year of trend calculation,<= current year; > Trend_Period_Start,Climate Change
+Rainfall_Trend_mm_per_decade,Double,,No,Linear regression slope for annual rainfall in mm/decade,NULL if insufficient data (< 10 years); flag if |slope| > 200,Climate Change
+Rainfall_Trend_Pvalue,Double,,No,p-value for rainfall trend significance,If present: 0-1; flag if > 0.10 (not significant),Climate Change
+Temperature_Trend_C_per_decade,Double,,No,Linear regression slope for mean temperature in °C/decade,NULL if insufficient data; flag if |slope| > 1.0,Climate Change
+Temperature_Trend_Pvalue,Double,,No,p-value for temperature trend,If present: 0-1,Climate Change
+SPI_Drought_Frequency,Double,,No,"Proportion of months with SPI < -1.5 (moderate-severe drought); SPI = Standardised Precipitation Index",0-1 proportion; NULL if < 10yr record,Climate Change
+SPEI_Drought_Frequency,Double,,No,"Proportion of months with SPEI < -1.5; SPEI = Standardised Precipitation Evapotranspiration Index",0-1 proportion,Climate Change
+Extreme_Rainfall_Days_per_Year,Double,,No,Mean annual count of days with rainfall > 95th percentile,>= 0; NULL if insufficient data,Climate Change
+Dry_Spell_Mean_Duration_days,Double,,No,Mean length of consecutive dry spell periods (< 1mm/day),>= 0,Climate Change
+Computation_Date,Date,,Yes,Date trend was computed,Not future; >= 2026-01-01,Climate Change
+Method,Text,200,Yes,"Trend method used — e.g. OLS linear regression; Mann-Kendall",No nulls; document software and version,Climate Change
+Data_Version,Text,10,Yes,Data version,No nulls,Climate Change
+QC_Status,Text,12,Yes,Processing status,Must resolve to LKP_QC_Status.csv,Climate Change

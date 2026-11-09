@@ -1,0 +1,20 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+trigger_id,str,NO,TRIG-2026-001,Verified field for Flood_Alert_Triggers
+alert_id,str,NO,ALT-2026-NIG-001,Verified field for Flood_Alert_Triggers
+source_type,str,NO,river_gauge,Verified field for Flood_Alert_Triggers
+source_name,str,NO,Shiroro Downstream Telemetric River Gauge,Verified field for Flood_Alert_Triggers
+source_record_id,str,NO,GAUGE-NIG-001,Verified field for Flood_Alert_Triggers
+observed_at,str,NO,2026-10-08 04:30:00+01:00,Verified field for Flood_Alert_Triggers
+recorded_at,str,NO,2026-10-08 04:35:00+01:00,Verified field for Flood_Alert_Triggers
+observed_value,float64,NO,78.5,Verified field for Flood_Alert_Triggers
+threshold_value,float64,NO,70.0,Verified field for Flood_Alert_Triggers
+unit,str,NO,stage_index,Verified field for Flood_Alert_Triggers
+rule_id,str,NO,RULE-RIV-STAGE2,Verified field for Flood_Alert_Triggers
+rule_version,str,NO,v4.1,Verified field for Flood_Alert_Triggers
+confidence,str,NO,High,Verified field for Flood_Alert_Triggers
+qc_status,str,NO,CLEAN,Verified field for Flood_Alert_Triggers
+qc_by,str,NO,SEMA_Tech_Lead,Verified field for Flood_Alert_Triggers
+qc_at,str,NO,2026-10-08 05:00:00+01:00,Verified field for Flood_Alert_Triggers
+qc_reason,str,NO,Automated telemetry verified with secondary acoustic gauge,Verified field for Flood_Alert_Triggers
+provenance_id,str,NO,PRV-NIG-GAUGE-01,Verified field for Flood_Alert_Triggers
+evidence_note,str,NO,Stage level surpassed 70.0 index threshold by 8.5 units,Verified field for Flood_Alert_Triggers

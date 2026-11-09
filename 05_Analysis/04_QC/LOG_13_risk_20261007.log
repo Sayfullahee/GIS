@@ -1,0 +1,33 @@
+2026-10-07 17:04:36 | INFO     | 13_risk | ============================================================
+2026-10-07 17:04:36 | INFO     | 13_risk |   13_RISK — Composite Risk Index (G35)
+2026-10-07 17:04:36 | INFO     | 13_risk | ============================================================
+2026-10-07 17:04:37 | INFO     | 13_risk | Formula verified — max discrepancy: 0.000000
+2026-10-07 17:04:37 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 17:04:37 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 17:04:37 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 17:04:37 | INFO     | 13_risk | Sensitivity rank correlations — S1: 0.926 | S2: 0.991
+2026-10-07 17:04:37 | INFO     | 13_risk | Communities changing risk class (baseline vs S1): 13/50 (26.0%)
+2026-10-07 17:04:37 | INFO     | 13_risk | G35 Composite Risk saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G35_CompositeRisk.csv | 50 communities | Mean R: 42.6 | High+VeryHigh: 7
+2026-10-07 17:04:37 | INFO     | 13_risk | 13_risk complete
+2026-10-07 17:05:05 | INFO     | 13_risk | ============================================================
+2026-10-07 17:05:05 | INFO     | 13_risk |   13_RISK — Composite Risk Index (G35)
+2026-10-07 17:05:05 | INFO     | 13_risk | ============================================================
+2026-10-07 17:05:05 | INFO     | 13_risk | Formula verified — max discrepancy: 0.000000
+2026-10-07 17:05:05 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 17:05:05 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 17:05:05 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 17:05:06 | INFO     | 13_risk | Sensitivity rank correlations — S1: 0.926 | S2: 0.991
+2026-10-07 17:05:06 | INFO     | 13_risk | Communities changing risk class (baseline vs S1): 13/50 (26.0%)
+2026-10-07 17:05:06 | INFO     | 13_risk | G35 Composite Risk saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G35_CompositeRisk.csv | 50 communities | Mean R: 42.6 | High+VeryHigh: 7
+2026-10-07 17:05:06 | INFO     | 13_risk | 13_risk complete
+2026-10-07 18:16:34 | INFO     | 13_risk | ============================================================
+2026-10-07 18:16:34 | INFO     | 13_risk |   13_RISK — Composite Risk Index (G35)
+2026-10-07 18:16:34 | INFO     | 13_risk | ============================================================
+2026-10-07 18:16:34 | INFO     | 13_risk | Formula verified — max discrepancy: 0.000000
+2026-10-07 18:16:34 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 18:16:34 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 18:16:34 | WARNING  | 13_risk | Using equal-interval thresholds as placeholder — run Jenks classification on baseline distribution and record thresholds in RISK_MODEL_SPEC.md Section 6 before publication.
+2026-10-07 18:16:34 | INFO     | 13_risk | Sensitivity rank correlations — S1: 0.926 | S2: 0.991
+2026-10-07 18:16:34 | INFO     | 13_risk | Communities changing risk class (baseline vs S1): 13/50 (26.0%)
+2026-10-07 18:16:34 | INFO     | 13_risk | G35 Composite Risk saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G35_CompositeRisk.csv | 50 communities | Mean R: 42.6 | High+VeryHigh: 7
+2026-10-07 18:16:34 | INFO     | 13_risk | 13_risk complete

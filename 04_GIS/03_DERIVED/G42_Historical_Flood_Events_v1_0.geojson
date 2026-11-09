@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "name": "G42_Historical_Flood_Events_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0,
+              7.0
+            ],
+            [
+              8.0,
+              7.0
+            ],
+            [
+              8.0,
+              9.5
+            ],
+            [
+              5.0,
+              9.5
+            ],
+            [
+              5.0,
+              7.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FL-HIST-2012-001",
+        "Event_Name": "2012 Nigeria Megaflood Inundation",
+        "Year": 2012,
+        "Confidence": "Verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.4,
+              7.2
+            ],
+            [
+              7.2,
+              7.2
+            ],
+            [
+              7.2,
+              8.2
+            ],
+            [
+              6.4,
+              8.2
+            ],
+            [
+              6.4,
+              7.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FL-HIST-2022-001",
+        "Event_Name": "2022 Confluence Flash Surge",
+        "Year": 2022,
+        "Confidence": "Verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6,
+              9.2
+            ],
+            [
+              5.4,
+              9.2
+            ],
+            [
+              5.4,
+              10.0
+            ],
+            [
+              4.6,
+              10.0
+            ],
+            [
+              4.6,
+              9.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FL-HIST-2024-001",
+        "Event_Name": "2024 Pulse Dam Release Footprint",
+        "Year": 2024,
+        "Confidence": "Verified"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G03
+Layer_Name,Communities
+Layer_Type,Vector-Point
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,GPS point (accuracy recorded per point in GPS_Accuracy_m)
+Source_ID,SRC013
+Source_Dataset,Field Community Survey (Project Primary Collection)
+Provider,Project Team
+Acquisition_Date,YYYY-MM-DD (ongoing — survey-round basis)
+Source_Version,Baseline 2026
+Coverage,10 N-HYPPADEC study states
+Processing_Method,"Import DB01 Community Master; extract Longitude (X) and Latitude (Y); assign CRS EPSG:4326; spatial validate against G01 (state) and G02 (LGA); flag points outside expected administrative areas; assign permanent Community_ID; publish CLEAN point layer"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (all points must fall within 10 study states)
+Reprojected,No (GPS collected in WGS84)
+Hydrologic_Conditioned,N/A
+License,Project data (internal)
+Restrictions,None for community-level points (household locations are separate restricted layer G04)
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,DB01 (source data) | G01 (state validation) | G02 (LGA validation)
+Derived_Layers,"G03 is the spatial anchor for G29, G30, G31, G32, G33, G34, G35, G36, G37"
+Storage_Location,04_GIS/01_RAW/ (from field GPS) | 04_GIS/02_CLEAN/ (validated points)
+File_Format,GeoPackage preferred
+File_Name,G03_Communities_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,20
+Feature_Count,TBD (sample size determined by research design)
+Bounding_Box_W,TBD after field survey
+Bounding_Box_E,TBD after field survey
+Bounding_Box_S,TBD after field survey
+Bounding_Box_N,TBD after field survey
+Data_Date,YYYY-MM-DD (survey date)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_02_Community_Sampling, MAP_03_Community_Risk"
+Notes,"Community_ID is permanent — must not change once assigned. Every derived risk output links back to Community_ID. GPS_Accuracy_m must be recorded for every point."

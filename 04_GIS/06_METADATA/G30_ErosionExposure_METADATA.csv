@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G30
+Layer_Name,Erosion Exposure
+Layer_Type,Vector-Polygon (community aggregation) + Vector-Point (asset-level)
+Geometry_Type,Polygon and Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon level + individual asset point level
+Source_ID,"G26 (erosion sites), G27 (erosion hotspots), G19 (field infrastructure), G03 (communities), G16 (roads), G17 (buildings)"
+Source_Dataset,Multi-input derived product
+Provider,Project GIS/Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from upstream CLEAN layers
+Coverage,10 study states
+Processing_Method,"Concept: Erosion Exposure = Assets/Population within erosion threat zone. Unlike flood exposure (area-based), erosion exposure is proximity-based — assets within a documented threat distance of active erosion sites are considered exposed. Steps: Step 1: Confirm all upstream layers CLEAN. Step 2: Apply BUF003 (100m buffer around active erosion sites from G26) to define threat zone. Step 3: Identify assets (G19 infrastructure; G16 roads; G17 buildings; G03 communities) within threat zone. Step 4: Supplement with G27 hotspot zones where site density permits. Step 5: Per community: count exposed assets by type. Step 6: Compute IND06 erosion component. Step 7: Aggregate to community/LGA/state. Step 8: Update DB06 Erosion_Exposure field for validated items. Step 9: Publish CLEAN layer."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (geopandas / shapely) / QGIS
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,Derived from source layer licences
+Restrictions,None (community-level aggregation)
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G26 (CLEAN — erosion sites), G27 (CLEAN where available), G19 (CLEAN — field infrastructure), G03 (CLEAN — communities), G16 (CLEAN — roads), G17 (CLEAN — buildings)"
+Derived_Layers,"G32 (exposure index — erosion component), G35 (composite risk), IND06 (infrastructure exposure — erosion component)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage preferred
+File_Name,"G30_ErosionExposure_community_v1_0.gpkg | G30_ErosionExposure_assets_v1_0.gpkg"
+File_Size_MB,TBD
+Attribute_Count,18 (community layer)
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from upstream layer dates
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_11_Exposure, MAP_17_Erosion_Sites, MAP_20_Risk (input)"
+Notes,"Erosion exposure uses proximity-based logic (buffer BUF003 = 100m from active sites) rather than G24-style area overlay. Only Activity_Status = Active erosion sites from G26 are used for the primary threat buffer — inactive and stabilised sites contribute to historical context only. G27 hotspot zones used as supplementary exposure indicator where site density permits hotspot analysis. Threat buffer distance (BUF003 = 100m) must not be changed without updating BUFFER_RULES.csv and re-running the analysis."

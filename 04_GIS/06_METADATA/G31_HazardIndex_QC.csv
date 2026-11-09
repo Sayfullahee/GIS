@@ -1,0 +1,13 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G31-Q01,Dependency,G24 G26 DB01 all CLEAN; INDICATOR_REGISTER IND01-IND04 approved,Check PROCESSING_STATUS.csv + INDICATOR_REGISTER,All upstream CLEAN; all indicators approved,Do not compute until all upstream pass QC,Yes,Pending
+G31-Q02,Model spec,RISK_MODEL_SPEC.md approved before computation,Check approval record,Approval signatures present in RISK_MODEL_SPEC.md Section 11,Obtain PI approval before computation,Yes,Pending
+G31-Q03,Coverage,One record per community,Count check,G31 count = DB01 CLEAN community count,Investigate missing communities,Yes,Pending
+G31-Q04,Range,H_Score 0-100,Range check,All H_Score values 0-100,Investigate normalisation; check indicator inputs,Yes,Pending
+G31-Q05,Range,All normalised indicator scores 0-100 if present,Range check,All IND01_Norm through IND04_Norm values 0-100 where not null,Investigate normalisation inputs,Yes,Pending
+G31-Q06,Formula,H_Score = weighted sum of available normalised indicators,Calculation check,H_Score consistent with weighted sum of non-null indicator scores per RISK_MODEL_SPEC.md Section 3,Recompute; check weight application,Yes,Pending
+G31-Q07,Missing data,NULL used for missing indicators — not 0,Field check,Missing indicator scores are NULL — not 0,Correct 0 entries to NULL; flag H_Missing_Components,Yes,Pending
+G31-Q08,Completeness,H_Data_Completeness populated correctly,Cross-check,Full where 4 indicators available; Partial 2-3; Minimal 1,Update completeness flag,Yes,Pending
+G31-Q09,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending
+G31-Q10,Metadata,Risk_Model_Version and Computation_Date populated,Null check,Zero nulls in both fields,Populate before publication,Yes,Pending
+G31-Q11,IND04 inversion,River proximity correctly inverted — closer = higher hazard,Sample check,IND04 scores higher for communities closer to G05 rivers,Flag if correlation is reversed; check inversion formula,Yes,Pending
+G31-Q12,IND09 inversion (not applicable to G31),Confirm IND09 is NOT in G31,Schema check,No IND09 field in G31 — IND09 belongs in G33,Remove if present,Yes,Pending

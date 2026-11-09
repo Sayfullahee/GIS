@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G11
+Layer_Name,Aspect
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Same as G09 DEM (inherited)
+Source_ID,G09 (derived)
+Source_Dataset,Derived from G09 DEM
+Provider,Project GIS team
+Acquisition_Date,N/A (derived product)
+Source_Version,Derived from G09 v1.0
+Coverage,Same as G09
+Processing_Method,"Compute aspect from G09 CLEAN DEM using GDAL gdaldem aspect OR QGIS raster terrain analysis. Convention: 0/360 = North; 90 = East; 180 = South; 270 = West. Flat areas assigned -1 or 9999 (nodata) — document which convention is used. Algorithm: Horn (1981) consistent with G10 slope."
+Processing_Date,YYYY-MM-DD
+Processing_Software,GDAL gdaldem / QGIS 3.x / Python
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (same extent as G09)
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived from G09 source licence
+Restrictions,Same as G09
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G09 (must be CLEAN)
+Derived_Layers,"G24 (flood hazard — aspect used for solar-driven drying/wetting), G27 (erosion aspect analysis)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Float32)
+File_Name,G11_Aspect_v1_0.tif
+File_Size_MB,TBD
+Attribute_Count,N/A (raster)
+Feature_Count,N/A
+Bounding_Box_W,Same as G09
+Bounding_Box_E,Same as G09
+Bounding_Box_S,Same as G09
+Bounding_Box_N,Same as G09
+Data_Date,Derived from G09
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_07_Terrain_Aspect
+Notes,"Aspect is used primarily for terrain characterisation and as an input to solar radiation / evapotranspiration estimates. In the Nigeria study context aspect-driven moisture differences are secondary to slope and flow accumulation for hazard modelling. Convention for flat areas (-1 vs 9999) must be consistent and documented."

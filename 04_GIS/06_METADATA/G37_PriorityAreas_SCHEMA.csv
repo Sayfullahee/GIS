@@ -1,0 +1,24 @@
+Field_Name,Data_Type,Required,Primary_Key,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Community identifier,No duplicates; no nulls; resolves to DB01
+Community,Text(100),Yes,No,Community name,No nulls
+State_Code,Text(6),Yes,No,State code,Resolves to LKP_States.csv
+LGA_Code,Text(10),Yes,No,LGA code,Resolves to LKP_LGAs.csv
+H_Score,Double,Yes,No,Hazard Index score 0-100,No nulls; matches G31
+E_Score,Double,Yes,No,Exposure Index score 0-100,No nulls; matches G32
+V_Score,Double,Yes,No,Vulnerability Index score 0-100,No nulls; matches G33
+C_Score,Double,Yes,No,Criticality Index score 0-100,No nulls; matches G34
+R_Score,Double,Yes,No,Composite Risk score 0-100,No nulls; matches G35
+R_Class,Text(10),Yes,No,"Very Low, Low, Moderate, High, Very High",No nulls; matches G35 classification
+IND10_Adaptation_Gap,Double,No,No,Adaptation Gap score 0-100,If present: 0-100; from G36
+Priority_Score,Double,Yes,No,"Combined priority score incorporating R_Score + IND10 + Data_Confidence_Weight — 0-100. See RISK_MODEL_SPEC.md Section 9.",No nulls; 0-100
+Priority_Tier,Integer,Yes,No,"Priority tier: 1=Highest, 2=High, 3=Moderate, 4=Lower priority",No nulls; 1-4 only
+Priority_Rank,Integer,Yes,No,Rank within study area (1 = highest priority community),No nulls; 1 to N; no duplicates
+Data_Confidence,Text(6),Yes,No,"High, Medium, Low",Overall data confidence for this community's scores; no nulls
+Data_Confidence_Note,Text(500),No,No,Explanation of data confidence rating — what data is missing or uncertain,Populate for Low and Medium confidence communities
+H_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",From G31; no nulls
+E_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",From G32; no nulls
+V_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",From G33; no nulls
+C_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",From G34; no nulls
+Risk_Model_Version,Text(20),Yes,No,Risk model version — mandatory on every output,No nulls
+Computation_Date,Date,Yes,No,Computation date,No nulls
+geometry,Polygon,Yes,No,Community boundary,No null geometries

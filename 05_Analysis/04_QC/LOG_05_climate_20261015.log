@@ -1,0 +1,27 @@
+2026-10-15 08:34:16 | INFO     | 05_climate | ============================================================
+2026-10-15 08:34:16 | INFO     | 05_climate |   05_CLIMATE — Climate Data Processing
+2026-10-15 08:34:16 | INFO     | 05_climate | ============================================================
+2026-10-15 08:34:16 | INFO     | 05_climate | DB05 loaded: 1380 records from 5 stations
+2026-10-15 08:34:16 | INFO     | 05_climate | Extreme rainfall events flagged: 802 records > 100.0mm
+2026-10-15 08:34:16 | INFO     | 05_climate | Dry spell days computed
+2026-10-15 08:34:16 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv
+2026-10-15 10:13:03 | INFO     | 05_climate | ============================================================
+2026-10-15 10:13:03 | INFO     | 05_climate |   05_CLIMATE — Climate Data Processing
+2026-10-15 10:13:03 | INFO     | 05_climate | ============================================================
+2026-10-15 10:13:03 | INFO     | 05_climate | DB05 loaded: 1380 records from 5 stations
+2026-10-15 10:13:03 | INFO     | 05_climate | Extreme rainfall events flagged: 802 records > 100.0mm
+2026-10-15 10:13:03 | INFO     | 05_climate | Dry spell days computed
+2026-10-15 10:13:03 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv
+2026-10-15 10:13:03 | INFO     | 05_climate | Station summaries computed: 5 stations | period 2000–2026
+2026-10-15 10:13:03 | INFO     | 05_climate | G21 station summary saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G21_ClimateObservations_Summary.csv
+2026-10-15 10:13:03 | INFO     | 05_climate | 05_climate complete
+2026-10-15 11:37:57 | INFO     | 05_climate | ============================================================
+2026-10-15 11:37:57 | INFO     | 05_climate |   05_CLIMATE — Climate Data Processing
+2026-10-15 11:37:57 | INFO     | 05_climate | ============================================================
+2026-10-15 11:37:57 | INFO     | 05_climate | DB05 loaded: 1380 records from 5 stations
+2026-10-15 11:37:57 | INFO     | 05_climate | Extreme rainfall events flagged: 802 records > 100.0mm
+2026-10-15 11:37:57 | INFO     | 05_climate | Dry spell days computed
+2026-10-15 11:37:57 | INFO     | 05_climate | Processed DB05 saved: c:\xampp\htdocs\GIS\03_Data\CLEAN\DB05_Climate_Observations_PROCESSED.csv
+2026-10-15 11:37:57 | INFO     | 05_climate | Station summaries computed: 5 stations | period 2000–2026
+2026-10-15 11:37:57 | INFO     | 05_climate | G21 station summary saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G21_ClimateObservations_Summary.csv
+2026-10-15 11:37:57 | INFO     | 05_climate | 05_climate complete

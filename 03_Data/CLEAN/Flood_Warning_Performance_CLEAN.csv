@@ -1,0 +1,5 @@
+performance_id,alert_id,flood_event_id,evaluated_at,evaluated_by,lead_time_hours,recipient_count,reached_count,acknowledgement_count,hit_status,alerted_extent_sqkm,observed_extent_sqkm,high_risk_communities,communities_reached,audit_completeness_pct,confidence,publication_status
+PERF-2026-001,ALT-2026-NIG-001,FLD-0001,2026-10-09 18:00:00+01:00,Lead_Reviewer_SEMA,24.5,450,412,380,hit,28.5,24.2,12,11,95,High,approved
+PERF-2026-002,ALT-2026-BEN-001,FLD-0002,2026-10-10 12:00:00+01:00,Lead_Reviewer_SEMA,18.0,1200,1150,1050,hit,42.0,39.5,18,17,92,High,approved
+PERF-2026-003,ALT-2026-KOG-001,FLD-0003,2026-10-10 16:30:00+01:00,Lead_Reviewer_SEMA,14.5,350,310,285,hit,31.0,28.0,9,8,90,High,approved
+PERF-2026-004,ALT-2026-PLA-001,,2026-10-08 10:00:00+01:00,Lead_Reviewer_SEMA,0.0,150,140,110,false_alarm,15.0,0.0,4,4,88,Moderate,approved

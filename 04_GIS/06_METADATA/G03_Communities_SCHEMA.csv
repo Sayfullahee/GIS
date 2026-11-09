@@ -1,0 +1,22 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,Unique,Allowed_Values,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,No,Yes,Format: COM-SSLL-NNNN (SS=State code; LL=LGA code; NNNN=sequential),Permanent community identifier — never changes once assigned,No duplicates; no nulls; format must match pattern; must be stable across all updates
+Community,Text(100),Yes,No,No,No,,Community name as used locally,No nulls; flag duplicates for review (same name in same LGA is possible but requires verification)
+State_Code,Text(6),Yes,No,Yes,No,See LKP_States.csv,Parent state code,Must resolve to G01 State_Code
+State_Name,Text(50),Yes,No,No,No,See LKP_States.csv,Parent state name,Must be consistent with State_Code
+LGA_Code,Text(10),Yes,No,Yes,No,See LKP_LGAs.csv,Parent LGA code,Must resolve to G02 LGA_Code; must be consistent with State_Code
+LGA,Text(60),Yes,No,No,No,See LKP_LGAs.csv,Parent LGA name,Must be consistent with LGA_Code
+Latitude,Double,Yes,No,No,No,4.0 to 14.0,GPS latitude in decimal degrees WGS84,Must be within Nigeria bounds; must fall within stated State polygon (G01); must match Y coordinate of geometry
+Longitude,Double,Yes,No,No,No,2.5 to 15.0,GPS longitude in decimal degrees WGS84,Must be within Nigeria bounds; must fall within stated State polygon (G01); must match X coordinate of geometry
+GPS_Accuracy_m,Double,Yes,No,No,No,>0; flag if >30,GPS horizontal accuracy in metres,No nulls; flag if >30m (low accuracy); flag if >100m (unacceptable)
+Survey_Date,Date,Yes,No,No,No,YYYY-MM-DD; >= 2026-01-01,Date of community survey,No nulls; must be valid date; must not be future date
+Population,Integer,No,No,No,No,>0,Estimated community population,If present must be >0; flag if >50000 (verify); distinguish missing from zero
+Livelihood,Text(10),No,No,Yes,No,See LKP_Livelihood.csv,Primary livelihood code,Must resolve to LKP_Livelihood.csv if populated
+Electricity_Access,Text(3),No,No,No,No,Yes / No / Partial,Electricity access status,Allowed values only
+Water_Source,Text(5),No,No,Yes,No,See LKP_WaterSource.csv,Primary water source code,Must resolve to LKP_WaterSource.csv if populated
+Flood_Experience,Text(3),No,No,No,No,Yes / No / Unknown,Whether community has experienced flooding,Allowed values only
+Erosion_Presence,Text(3),No,No,No,No,Yes / No / Unknown,Whether erosion is present in community,Allowed values only
+Hydropower_Distance,Double,No,No,No,No,>=0,Distance to nearest hydropower facility in km,If present must be >=0; calculated from G07 — do not manually enter
+Adaptation_Status,Text(5),No,No,Yes,No,See LKP_AdaptationStatus.csv,Primary adaptation status code,Must resolve to LKP_AdaptationStatus.csv if populated
+Photo_ID,Text(50),No,No,No,No,,Reference ID for community photo record,If populated must have corresponding photo file in 02_Fieldwork/
+Notes,Text(500),No,No,No,No,,Free text notes from field team,No QC rule; review for sensitive information before publication
+geometry,Point,Yes,No,No,No,Valid point,Community GPS location (WGS84),No null geometries; X must equal Longitude; Y must equal Latitude; must fall within correct G01 state polygon and G02 LGA polygon

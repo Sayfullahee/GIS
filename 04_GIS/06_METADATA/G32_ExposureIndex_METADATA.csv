@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G32
+Layer_Name,Exposure Index
+Layer_Type,Vector-Polygon (community level)
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon
+Source_ID,"G29 (flood exposure), G30 (erosion exposure), IND05 (population exposure), IND06 (infrastructure exposure)"
+Source_Dataset,Multi-input derived product
+Provider,Project Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from upstream CLEAN layers
+Coverage,10 study states
+Processing_Method,"Standardise exposure indicators (IND05/IND06 from G29/G30) → normalise each to 0-100 → apply approved weights → weighted sum → E score 0-100 per community."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived product
+Restrictions,None
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G29 (CLEAN), G30 (CLEAN), INDICATOR_REGISTER.csv IND05-IND06 approved"
+Derived_Layers,"G35 (composite risk — E component with weight 0.25)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage
+File_Name,G32_ExposureIndex_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,11
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_22_Exposure_Index
+Notes,"E score feeds G35 with weight 0.25. Must include both flood (G29) and erosion (G30) exposure components. If only one component available flag as Partial and document. Exposure does NOT include vulnerability — confirmed by EXPOSURE_MODEL_DECISIONS.csv EMD06."

@@ -1,0 +1,33 @@
+State_Code,R_Class,Count,Total,Pct
+NG-BEN,High,1,27,3.7
+NG-BEN,Low,24,27,88.9
+NG-BEN,Moderate,2,27,7.4
+NG-GOM,Low,23,26,88.5
+NG-GOM,Moderate,2,26,7.7
+NG-GOM,Very Low,1,26,3.8
+NG-KAD,High,1,124,0.8
+NG-KAD,Low,120,124,96.8
+NG-KAD,Moderate,1,124,0.8
+NG-KAD,Very Low,2,124,1.6
+NG-KEB,Low,219,221,99.1
+NG-KEB,Very Low,2,221,0.9
+NG-KOG,Low,186,188,98.9
+NG-KOG,Moderate,1,188,0.5
+NG-KOG,Very Low,1,188,0.5
+NG-KWA,Low,462,464,99.6
+NG-KWA,Very Low,2,464,0.4
+NG-NAS,High,1,59,1.7
+NG-NAS,Low,56,59,94.9
+NG-NAS,Moderate,1,59,1.7
+NG-NAS,Very Low,1,59,1.7
+NG-NIG,High,1,406,0.2
+NG-NIG,Low,402,406,99.0
+NG-NIG,Moderate,2,406,0.5
+NG-NIG,Very Low,1,406,0.2
+NG-PLA,High,1,68,1.5
+NG-PLA,Low,65,68,95.6
+NG-PLA,Moderate,1,68,1.5
+NG-PLA,Very Low,1,68,1.5
+NG-TAR,Low,31,33,93.9
+NG-TAR,Moderate,1,33,3.0
+NG-TAR,Very Low,1,33,3.0

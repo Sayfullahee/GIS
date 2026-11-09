@@ -1,0 +1,12 @@
+Attribute,Type,Required,Description,QC_Rule
+Band_1_Values (raster),Float32,Yes,Flood hazard index value 0–100 per pixel (0 = lowest hazard; 100 = highest hazard),All valid cells 0–100; nodata value set; no nulls within study area boundary
+Nodata_Value,Float32,Yes,NoData value — must be explicitly set (e.g. -9999),Must be set; must not be 0 (0 = valid low hazard)
+Hazard_Zone_ID (polygon),Text(12),Yes,Unique polygon identifier Format: HZ-[StateCode2]-[Seq4],No duplicates; no nulls
+Hazard_Class (polygon),Text(10),Yes,Hazard classification: Very Low / Low / Moderate / High / Very High,Must use exactly these five classes; thresholds documented in HMD02
+Hazard_Score_Min (polygon),Double,Yes,Minimum raster index value within this polygon zone,Must be >= 0; consistent with class thresholds
+Hazard_Score_Max (polygon),Double,Yes,Maximum raster index value within this polygon zone,Must be <= 100; >= Hazard_Score_Min
+Hazard_Score_Mean (polygon),Double,Yes,Mean raster index value within this polygon zone,Must be between Hazard_Score_Min and Hazard_Score_Max
+Area_sqkm (polygon),Double,Yes,Polygon area in square kilometres,Must be > 0; recalculate from geometry
+Risk_Model_Version,Text(10),Yes,Version of hazard model used to produce this output — e.g. HazardModel_v1.0,No nulls; must match entry in HAZARD_MODEL_DECISIONS.csv HMD01; required on every published output
+Input_Layers_Version,Text(200),Yes,Versions of all input layers used (G05/G09/G10/G13/G14/G15/G22/G25) — comma-separated,No nulls; enables reproducibility audit
+Computation_Date,Date,Yes,Date G24 was computed — YYYY-MM-DD,No nulls; record in VERSION_LOG

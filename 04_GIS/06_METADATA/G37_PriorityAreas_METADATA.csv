@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G37
+Layer_Name,Priority Areas
+Layer_Type,Vector-Polygon (community level) + Vector-Polygon (priority zone aggregations)
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon (primary) + LGA/state aggregation (secondary)
+Source_ID,"G35 (composite risk), G31 (H), G32 (E), G33 (V), G34 (C), G36 (adaptation gap IND10), data confidence model"
+Source_Dataset,Multi-input derived product — all Decision Support layers
+Provider,Project Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from G31-G36 CLEAN versions
+Coverage,10 study states
+Processing_Method,"Priority = f(Composite Risk, Adaptation Gap, Data Confidence). Step 1: Start from G35 R_Score as primary ranking variable. Step 2: Apply adaptation gap modifier (IND10) — communities with high risk AND high adaptation gap rank higher than equally-risky communities with effective adaptation in place. Step 3: Weight by Data Confidence — lower confidence communities flagged but not excluded. Step 4: Classify into priority tiers (Tier 1/2/3/4). Step 5: Retain underlying scores for explainability — never publish a priority rank without the supporting H/E/V/C/R/AdaptGap scores. Step 6: Document priority classification method in RISK_MODEL_SPEC.md Section 9."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No
+Hydrologic_Conditioned,N/A
+License,Derived product
+Restrictions,None
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G35 (CLEAN), G36 (CLEAN), G31-G34 (CLEAN)"
+Derived_Layers,Final decision-support output — no derived layers
+Storage_Location,"04_GIS/03_DERIVED/ | 07_Decision_Support/03_Priority_Areas/"
+File_Format,"GeoPackage (community priority polygons) + CSV (tabular priority list) + PDF map"
+File_Name,"G37_PriorityAreas_v1_0.gpkg | G37_PriorityAreas_v1_0.csv"
+File_Size_MB,TBD
+Attribute_Count,20
+Feature_Count,TBD
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from G35/G36 dates
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_27_Priority_Areas (flagship decision-support output)"
+Notes,"G37 is the system's final decision-support output. Every priority rank must be EXPLAINABLE — traceable to H, E, V, C, R, AdaptGap scores and ultimately to the underlying data. A community should never receive a priority label without the analyst being able to explain why. The priority system is for DECISION SUPPORT — not automatic intervention. Human decision-makers use it as evidence. Tier 1 = highest priority for intervention or further investigation. Data confidence must be shown alongside priority rank — a Tier 1 community with Low data confidence needs field verification before intervention, not automatic action."

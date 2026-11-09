@@ -1,0 +1,16 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Priority_ID,Text,40,Yes,Yes,No,,Priority area entry ID
+Community_ID,Text,30,Yes,No,Yes,DB01_Community_Master_CLEAN.csv,Community ID
+Community,Text,100,No,No,No,,Community Name
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,State Code
+State_Name,Text,50,No,No,No,,State Name
+LGA_Code,Text,20,Yes,No,Yes,LKP_LGAs.csv LGA_Code,Local Government Area Code
+LGA,Text,60,Yes,No,No,,Local Government Area Name
+Composite_Risk,Double,,Yes,No,No,,Composite Risk score
+Adaptation_Gap,Double,,Yes,No,No,,Unmet adaptation deficit
+Priority_Score,Double,,Yes,No,No,,0.70 R + 0.30 IND10
+Priority_Tier,Text,30,Yes,No,No,,Prioritization tier
+Confidence_Rating,Text,20,Yes,No,No,,Data confidence rating
+Approval_Status,Text,50,Yes,No,No,,Steering approval status
+Approval_Date,Date,10,No,No,No,,Ratification date
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

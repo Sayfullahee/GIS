@@ -1,0 +1,372 @@
+{
+  "type": "FeatureCollection",
+  "name": "G12_Hillshade_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.5,
+              9.0
+            ],
+            [
+              7.3,
+              9.0
+            ],
+            [
+              7.3,
+              11.3
+            ],
+            [
+              4.5,
+              11.3
+            ],
+            [
+              4.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-NIG",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.6,
+              10.7
+            ],
+            [
+              5.3,
+              10.7
+            ],
+            [
+              5.3,
+              13.2
+            ],
+            [
+              3.6,
+              13.2
+            ],
+            [
+              3.6,
+              10.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KEB",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              8.4
+            ],
+            [
+              10.2,
+              8.4
+            ],
+            [
+              10.2,
+              10.3
+            ],
+            [
+              8.4,
+              10.3
+            ],
+            [
+              8.4,
+              8.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-PLA",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6,
+              6.5
+            ],
+            [
+              10.0,
+              6.5
+            ],
+            [
+              10.0,
+              8.2
+            ],
+            [
+              7.6,
+              8.2
+            ],
+            [
+              7.6,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-BEN",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.7,
+              6.5
+            ],
+            [
+              7.8,
+              6.5
+            ],
+            [
+              7.8,
+              8.7
+            ],
+            [
+              5.7,
+              8.7
+            ],
+            [
+              5.7,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KOG",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.8,
+              8.1
+            ],
+            [
+              5.9,
+              8.1
+            ],
+            [
+              5.9,
+              10.1
+            ],
+            [
+              3.8,
+              10.1
+            ],
+            [
+              3.8,
+              8.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KWA",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9,
+              9.1
+            ],
+            [
+              8.8,
+              9.1
+            ],
+            [
+              8.8,
+              11.5
+            ],
+            [
+              6.9,
+              11.5
+            ],
+            [
+              6.9,
+              9.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KAD",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9,
+              7.8
+            ],
+            [
+              9.3,
+              7.8
+            ],
+            [
+              9.3,
+              9.3
+            ],
+            [
+              6.9,
+              9.3
+            ],
+            [
+              6.9,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-NAS",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.2,
+              6.5
+            ],
+            [
+              11.9,
+              6.5
+            ],
+            [
+              11.9,
+              9.5
+            ],
+            [
+              9.2,
+              9.5
+            ],
+            [
+              9.2,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-TAR",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3,
+              9.5
+            ],
+            [
+              11.8,
+              9.5
+            ],
+            [
+              11.8,
+              11.4
+            ],
+            [
+              10.3,
+              11.4
+            ],
+            [
+              10.3,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-GOM",
+        "Azimuth": 315,
+        "Altitude": 45,
+        "Purpose": "Visualisation Only"
+      }
+    }
+  ]
+}

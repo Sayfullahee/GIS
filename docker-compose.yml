@@ -1,0 +1,120 @@
+# =============================================================================
+# CHER-CDSS Master Container Orchestration
+# Specification: Master Implementation Scaffold v4.1 (October 2026)
+# Services: PostgreSQL 16/PostGIS 3.4, GeoServer, MinIO S3, FastAPI/Web GIS
+# =============================================================================
+
+version: '3.8'
+
+services:
+  # ---------------------------------------------------------------------------
+  # 1. Central Relational & Spatial Database (PostgreSQL 16 + PostGIS 3.4)
+  # ---------------------------------------------------------------------------
+  postgis:
+    image: postgis/postgis:16-3.4
+    container_name: cher_cdss_postgis
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-cher_cdss}
+      POSTGRES_USER: ${POSTGRES_USER:-nhyppadec_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nhyppadec_secure_2026}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgis_data:/var/lib/postgresql/data
+      # Automatically initialize all 22 tables, schemas, constraints, and triggers
+      - ./03_Data/POSTGRESQL_DDL_v4.1.sql:/docker-entrypoint-initdb.d/01_init_v41.sql:ro
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-nhyppadec_admin} -d ${POSTGRES_DB:-cher_cdss}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - cher_cdss_net
+
+  # ---------------------------------------------------------------------------
+  # 2. Web Map Server (GeoServer for 37 GIS Layers WMS/WFS publication)
+  # ---------------------------------------------------------------------------
+  geoserver:
+    image: kartoza/geoserver:2.24.2
+    container_name: cher_cdss_geoserver
+    restart: unless-stopped
+    environment:
+      GEOSERVER_ADMIN_USER: ${GEOSERVER_ADMIN_USER:-admin}
+      GEOSERVER_ADMIN_PASSWORD: ${GEOSERVER_ADMIN_PASSWORD:-geoserver_nhyppadec_2026}
+      CORS_ENABLED: "true"
+      MAX_MEMORY: 2048M
+    volumes:
+      - geoserver_data:/opt/geoserver/data_dir
+      - ./04_GIS:/opt/geoserver/data_dir/nhyppadec_gis:ro
+    ports:
+      - "${GEOSERVER_PORT:-8080}:8080"
+    depends_on:
+      postgis:
+        condition: service_healthy
+    networks:
+      - cher_cdss_net
+
+  # ---------------------------------------------------------------------------
+  # 3. Raw Immutable Object Storage (MinIO S3-Compatible Storage)
+  # ---------------------------------------------------------------------------
+  minio:
+    image: minio/minio:latest
+    container_name: cher_cdss_minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-nhyppadec_minio_admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minio_secret_key_2026}
+    volumes:
+      - minio_data:/data
+    ports:
+      - "${MINIO_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - cher_cdss_net
+
+  # ---------------------------------------------------------------------------
+  # 4. CHER-CDSS Web GIS Dashboard & REST API Backend
+  # ---------------------------------------------------------------------------
+  cher_cdss_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cher_cdss_api
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-nhyppadec_admin}:${POSTGRES_PASSWORD:-nhyppadec_secure_2026}@postgis:5432/${POSTGRES_DB:-cher_cdss}
+      GEOSERVER_URL: http://geoserver:8080/geoserver
+      MINIO_ENDPOINT: minio:9000
+      APP_ENV: production
+    volumes:
+      - .:/app
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    depends_on:
+      postgis:
+        condition: service_healthy
+    networks:
+      - cher_cdss_net
+
+# ---------------------------------------------------------------------------
+# Named Volumes & Private Network
+# ---------------------------------------------------------------------------
+volumes:
+  postgis_data:
+    driver: local
+  geoserver_data:
+    driver: local
+  minio_data:
+    driver: local
+
+networks:
+  cher_cdss_net:
+    driver: bridge

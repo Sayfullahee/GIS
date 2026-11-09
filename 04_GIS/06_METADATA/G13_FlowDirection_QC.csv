@@ -1,0 +1,13 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G13-Q01,Dependency,G09 QC_Status = CLEAN and hydrologically conditioned,Check PROCESSING_STATUS.csv + G09 schema Hydrologic_Conditioning field,G09 QC_Status = CLEAN; Hydrologic_Conditioning != Not conditioned,Do not compute flow direction from raw unconditioned DEM,Yes,Pending
+G13-Q02,Algorithm,Flow direction algorithm documented in TERRAIN_PROCESSING_DECISIONS.csv,Metadata check,DEC03 decision recorded and applied,Record algorithm decision before computing,Yes,Pending
+G13-Q03,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G13-Q04,Resolution,Pixel size matches G09,gdalinfo,Pixel size identical to G09,Recompute from G09 CLEAN,Yes,Pending
+G13-Q05,Encoding,D8 encoding convention documented,Metadata + processing notes,D8 convention (1/2/4/8/16/32/64/128 or tool-specific) recorded in processing notes,Document before G14 computation — G14 must use same convention,Yes,Pending
+G13-Q06,Range,All cell values are valid D8 direction codes or nodata,Raster statistics + unique value check,"All non-nodata values in {1, 2, 4, 8, 16, 32, 64, 128}; no other values",Flag anomalous values; investigate flat or sink areas not resolved in conditioning,Yes,Pending
+G13-Q07,NoData,NoData value set,gdalinfo,NoData value set; matches G09 nodata mask extent,Set nodata value,Yes,Pending
+G13-Q08,Sink check,No internal sinks (undrained depressions) in study area,Identify cells that do not flow to boundary,Zero internal sinks within study state boundaries (sinks allowed at raster edges),Run sink-fill check on G09 before recomputing G13; document any legitimate sinks,Yes,Pending
+G13-Q09,Network consistency,Flow direction at G05 river locations consistent with river direction,Sample D8 values along major G05 river centrelines,>=90% of river pixels have flow direction consistent with downstream river direction,Flag inconsistencies; may indicate conditioning error or flat river gradient,No,Pending (requires G05)
+G13-Q10,Extent,Raster extent matches G09 (with buffer),Bounding box comparison,Extents identical,Recompute,Yes,Pending
+G13-Q11,Outflow,All drainage paths eventually reach study area boundary or ocean,Trace paths from random sample of cells,>=99% of cells drain to boundary; isolated loops = error,Identify and fix; likely indicates remaining sinks in DEM conditioning,Yes,Pending
+G13-Q12,Reproducibility,Same inputs + algorithm + parameters = same output,Re-run and compare,MD5 hash matches,Document all parameters; fix non-deterministic processing,No,Pending

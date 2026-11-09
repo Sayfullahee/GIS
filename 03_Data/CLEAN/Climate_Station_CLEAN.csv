@@ -1,0 +1,11 @@
+Station_ID,Station_Name,Operator,State_Code,Elevation_m,Latitude,Longitude,Operating_Since,Status,Provenance_ID,QC_Status
+STA-NIM-NIG-001,Minna Synoptic Weather Station,NiMet,NG-NIG,299.0,9.613,6.533,1975-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-KEB-001,Birnin Kebbi Met Station,NiMet,NG-KEB,220.0,12.45,4.199,1985-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-PLA-001,Jos Airport Meteorological Station,NiMet,NG-PLA,1290.0,9.87,8.869,1960-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-BEN-001,Makurdi Air Force Base Station,NiMet,NG-BEN,95.0,7.7,8.617,1972-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-KOG-001,Lokoja Confluence Climate Station,NiMet,NG-KOG,62.0,7.8,6.733,1965-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-KWA-001,Ilorin International Airport Station,NiMet,NG-KWA,307.0,8.433,4.583,1970-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-KAD-001,Kaduna Airport Weather Station,NiMet,NG-KAD,645.0,10.6,7.45,1962-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-NAS-001,Lafia Agro-Meteorological Station,NiMet,NG-NAS,180.0,8.483,8.517,1998-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-TAR-001,Jalingo Airport Met Station,NiMet,NG-TAR,351.0,8.9,11.367,1995-01-01,Active,PRV-NIMET-2026-01,CLEAN
+STA-NIM-GOM-001,Gombe Lawanti Airport Station,NiMet,NG-GOM,480.0,10.3,11.167,2008-01-01,Active,PRV-NIMET-2026-01,CLEAN

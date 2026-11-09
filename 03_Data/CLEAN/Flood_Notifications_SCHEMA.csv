@@ -1,0 +1,13 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+notification_id,str,NO,NOTIF-2026-001,Verified field for Flood_Notifications
+alert_id,str,NO,ALT-2026-NIG-001,Verified field for Flood_Notifications
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Notifications
+channel,str,NO,sms,Verified field for Flood_Notifications
+language_code,str,NO,ha,Verified field for Flood_Notifications
+message_version,str,NO,SMS-WATCH-v4.1,Verified field for Flood_Notifications
+sent_at,str,NO,2026-10-08 06:05:00+01:00,Verified field for Flood_Notifications
+delivery_status,str,NO,sent,Verified field for Flood_Notifications
+recipient_count,int64,NO,450,Verified field for Flood_Notifications
+reached_count,int64,NO,412,Verified field for Flood_Notifications
+provider_reference,str,NO,TELCO-NG-SMS-8841,Verified field for Flood_Notifications
+sent_by,str,NO,FEW_Dispatch_Engine,Verified field for Flood_Notifications

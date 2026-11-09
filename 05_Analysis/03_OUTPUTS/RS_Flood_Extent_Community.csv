@@ -1,0 +1,36 @@
+Event_ID,Community_ID,Community,State_Code,State_Name,LGA,Event_Date,SAR_Sensor,Radar_Polarization,Inundated_Area_Km2,Observed_Depth_M,Duration_Days,Exposed_Population,SAR_Severity_Score,Ground_Truth_Confidence,QC_Status
+FLD-0001,COM-NIG-001-0001,Gurara Central Settlement 1,NG-NIG,Niger,Gurara,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,13.4,1.55,23,3149,54.2,High,CLEAN
+FLD-0002,COM-NIG-002-0002,Mokwa Central Settlement 2,NG-NIG,Niger,Mokwa,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,21.3,0.83,6,2590,28.72,Medium,CLEAN
+FLD-0003,COM-NIG-004-0004,Tafa Central Settlement 4,NG-NIG,Niger,Tafa,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,6.4,1.33,16,1744,39.6,High,CLEAN
+FLD-0004,COM-NIG-005-0005,Lapai Central Settlement 5,NG-NIG,Niger,Lapai,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,15.4,2.02,21,1974,59.13,High,CLEAN
+FLD-0005,COM-KEB-001-0006,Aleiro Central Settlement 1,NG-KEB,Kebbi,Aleiro,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,7.3,2.4,16,2100,54.32,Medium,CLEAN
+FLD-0006,COM-KEB-004-0009,Arewa Dandi Central Settlement 4,NG-KEB,Kebbi,Arewa Dandi,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,15.6,2.88,24,4264,74.2,Medium,CLEAN
+FLD-0007,COM-PLA-001-0011,Barkin Ladi Central Settlement 1,NG-PLA,Plateau,Barkin Ladi,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,14.4,1.12,12,4426,36.13,Medium,CLEAN
+FLD-0008,COM-PLA-004-0014,Shendam Central Settlement 4,NG-PLA,Plateau,Shendam,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,7.1,1.37,26,1849,52.15,Medium,CLEAN
+FLD-0009,COM-BEN-001-0016,Ohimini Central Settlement 1,NG-BEN,Benue,Ohimini,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,21.1,2.45,20,2371,66.55,High,CLEAN
+FLD-0010,COM-BEN-005-0020,Okpokwu Central Settlement 5,NG-BEN,Benue,Okpokwu,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,15.4,1.56,19,3930,50.67,High,CLEAN
+FLD-0011,COM-KOG-003-0023,Okehi Central Settlement 3,NG-KOG,Kogi,Okehi,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,17.3,0.74,19,4463,40.68,High,CLEAN
+FLD-0012,COM-KOG-005-0025,Ijumu Central Settlement 5,NG-KOG,Kogi,Ijumu,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,19.5,2.28,25,5520,69.32,Low,CLEAN
+FLD-0013,COM-KWA-002-0027,Baruten Central Settlement 2,NG-KWA,Kwara,Baruten,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,7.7,1.08,26,502,48.58,High,CLEAN
+FLD-0014,COM-KWA-004-0029,Oyun Central Settlement 4,NG-KWA,Kwara,Oyun,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,13.7,1.56,16,1893,46.32,High,CLEAN
+FLD-0015,COM-KWA-005-0030,Oke Ero Central Settlement 5,NG-KWA,Kwara,Oke Ero,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,8.0,1.69,26,1072,56.87,High,CLEAN
+FLD-0016,COM-KAD-001-0031,Kudan Central Settlement 1,NG-KAD,Kaduna,Kudan,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,8.8,2.5,22,2501,63.4,High,CLEAN
+FLD-0017,COM-KAD-002-0032,Kaduna South Central Settlement 2,NG-KAD,Kaduna,Kaduna South,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,16.8,2.21,12,3945,51.87,Medium,CLEAN
+FLD-0018,COM-KAD-003-0033,Birnin Gwari Central Settlement 3,NG-KAD,Kaduna,Birnin Gwari,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,10.5,2.0,16,2268,50.58,Low,CLEAN
+FLD-0019,COM-KAD-005-0035,Makarfi Central Settlement 5,NG-KAD,Kaduna,Makarfi,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,5.2,0.74,12,1577,26.47,High,CLEAN
+FLD-0020,COM-NAS-001-0036,Toto Central Settlement 1,NG-NAS,Nasarawa,Toto,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,3.4,1.74,9,775,35.4,High,CLEAN
+FLD-0021,COM-NAS-002-0037,Nasarawa Egon Central Settlement 2,NG-NAS,Nasarawa,Nasarawa Egon,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,13.3,2.77,26,1861,73.92,High,CLEAN
+FLD-0022,COM-NAS-003-0038,Akwanga Central Settlement 3,NG-NAS,Nasarawa,Akwanga,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,8.9,2.04,20,550,54.98,High,CLEAN
+FLD-0023,COM-NAS-004-0039,Nasarawa Central Settlement 4,NG-NAS,Nasarawa,Nasarawa,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,7.1,2.66,7,1686,47.18,High,CLEAN
+FLD-0024,COM-NAS-005-0040,Keffi Central Settlement 5,NG-NAS,Nasarawa,Keffi,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,13.7,1.95,19,4254,55.02,Medium,CLEAN
+FLD-0025,COM-TAR-001-0041,Ardo Kola Central Settlement 1,NG-TAR,Taraba,Ardo Kola,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,8.2,2.7,4,1134,44.77,High,CLEAN
+FLD-0026,COM-TAR-002-0042,Bali Central Settlement 2,NG-TAR,Taraba,Bali,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,9.4,1.06,26,1798,49.17,High,CLEAN
+FLD-0027,COM-TAR-003-0043,Ibi Central Settlement 3,NG-TAR,Taraba,Ibi,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,14.1,1.95,9,3931,43.55,High,CLEAN
+FLD-0028,COM-GOM-002-0047,Akko Central Settlement 2,NG-GOM,Gombe,Akko,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,12.1,2.26,13,556,51.35,High,CLEAN
+FLD-0029,COM-GOM-003-0048,Shongom Central Settlement 3,NG-GOM,Gombe,Shongom,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,13.9,1.52,12,2364,41.22,High,CLEAN
+FLD-0030,COM-GOM-004-0049,Yamaltu/Deba Central Settlement 4,NG-GOM,Gombe,Yamaltu/Deba,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,7.5,2.14,12,793,46.28,High,CLEAN
+FLD-0031,COM-GOM-005-0050,Billiri Central Settlement 5,NG-GOM,Gombe,Billiri,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,16.0,0.95,23,3558,47.5,High,CLEAN
+FLD-0032,COM-NIG-001-0001,Gurara Central Settlement 1,NG-NIG,Niger,Gurara,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,18.2,2.12,5,4277,43.2,High,CLEAN
+FLD-0033,COM-NIG-002-0002,Mokwa Central Settlement 2,NG-NIG,Niger,Mokwa,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,2.5,0.91,6,304,20.38,High,CLEAN
+FLD-0034,COM-NIG-004-0004,Tafa Central Settlement 4,NG-NIG,Niger,Tafa,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,6.0,0.92,14,1635,31.6,High,CLEAN
+FLD-0035,COM-NIG-005-0005,Lapai Central Settlement 5,NG-NIG,Niger,Lapai,2025-09-14,Sentinel-1 C-Band SAR GRD,VV + VH,15.3,1.08,16,1962,40.72,Low,CLEAN

@@ -1,0 +1,15 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G18-Q01,Structure,All required fields present,Schema check,All 11 fields present,Add missing fields,Yes,Pending
+G18-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in POI_ID / POI_Class_Code / State_Code / LGA_Code / Critical_Service / Source / Latitude / Longitude,Flag and resolve,Yes,Pending
+G18-Q03,Uniqueness,No duplicate POI_ID,Distinct count,Count distinct = count total,Resolve duplicates,Yes,Pending
+G18-Q04,Reference integrity,POI_Class_Code resolves to LKP_POIClasses.csv,LEFT JOIN,All values in LKP_POIClasses.csv,Flag unresolved,Yes,Pending
+G18-Q05,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+G18-Q06,Reference integrity,LGA_Code resolves to LKP_LGAs.csv,LEFT JOIN,All values in LKP_LGAs.csv; consistent with State_Code,Flag inconsistencies,Yes,Pending
+G18-Q07,Coordinate,Latitude within bounds,Range check,All values 4.0–14.0,Flag outliers,Yes,Pending
+G18-Q08,Coordinate,Longitude within bounds,Range check,All values 2.5–15.0,Flag outliers,Yes,Pending
+G18-Q09,Spatial,POI within stated state,Point-in-polygon G01,100% within correct state polygon,Flag mismatches,Yes,Pending (requires G01)
+G18-Q10,Logical,Critical_Service consistent with POI_Class_Code,Cross-check LKP_POIClasses.csv,Critical_Service matches LKP_POIClasses.csv for same class,Flag inconsistencies; override only with documented justification,No,Pending
+G18-Q11,Duplicate,No same-location duplicates from different sources,Distance check,No two POIs of same class within 50m of each other,Investigate; likely same facility from multiple sources — merge and note combined source,No,Pending
+G18-Q12,Coverage,All study communities have at least one health and one school POI,Count by Community_ID,Flag communities with no health facility or no school within 5km,Document gap; note in community profile,No,Pending (requires G03)
+G18-Q13,Source,Source allowed values,Value check,All values in {OSM / Official / Field / Combined},Flag invalid values,No,Pending
+G18-Q14,Attribution,OSM attribution documented,SOURCE_REGISTER.csv,SRC009 present and complete,Update SOURCE_REGISTER.csv,No,Pending

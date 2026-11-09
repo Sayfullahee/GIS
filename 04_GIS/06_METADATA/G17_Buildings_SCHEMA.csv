@@ -1,0 +1,9 @@
+Field_Name,Data_Type,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Allowed_Values,Description,QC_Rule
+Building_ID,Text(14),Yes,Yes,No,,Yes,Format: BLD-[StateCode2]-[Seq6],Project building identifier,No duplicates; no nulls
+OSM_ID,Text(20),No,No,No,,No,,Original OSM feature ID,Retain for traceability
+Building_Type,Text(20),No,No,No,,No,"residential, commercial, industrial, religious, school, hospital, government, mixed, unknown",Building type from OSM tags or field supplement,Allowed values only; default unknown if OSM tag absent
+State_Code,Text(6),Yes,No,Yes,LKP_States.csv,No,See LKP_States.csv,State where building is located,Must resolve to LKP_States.csv
+Community_ID,Text(12),No,No,Yes,DB01 Community_ID,No,,Nearest community — assigned via spatial join to G03,If populated must resolve to DB01; populated by integration script
+Area_sqm,Double,No,No,No,,No,>0,Building footprint area in square metres calculated from geometry,If populated must be >0; recalculate from geometry and compare
+OSM_Extract_Date,Date,Yes,No,No,,No,YYYY-MM-DD,Date of OSM extract,No nulls; consistent across extract
+geometry,Polygon,Yes,No,No,,No,Valid polygon,Building footprint geometry (WGS84),No null geometries; no invalid geometries; no self-intersections; no overlapping footprints within same community

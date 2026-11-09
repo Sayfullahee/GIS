@@ -1,0 +1,345 @@
+Version,Date,Author,Asset_ID,Asset_Type,Change_Type,Description,Previous_Version,Status,Notes
+v1.0,2026-10-02,System,ALL,Project,INITIAL,"Phase 1 foundation build: directory structure, lookup tables, registers, indicator register, processing status tracker",,Active,Baseline project control files created
+v2.0,2026-10-02,System,G01,GIS Layer,PHASE2,Phase 2: Metadata + schema + QC checklist created for G01 Nigeria State Boundaries,v0.0,Active,04_GIS/06_METADATA/G01_*
+v2.0,2026-10-02,System,G02,GIS Layer,PHASE2,Phase 2: Metadata + schema + QC checklist created for G02 Nigeria LGA Boundaries,v0.0,Active,04_GIS/06_METADATA/G02_*
+v2.0,2026-10-02,System,G03,GIS Layer,PHASE2,Phase 2: Metadata + schema + QC checklist created for G03 Communities,v0.0,Active,04_GIS/06_METADATA/G03_*
+v2.0,2026-10-02,System,G04,GIS Layer,PHASE2,Phase 2: Metadata + privacy protocol created for G04 Households (Restricted),v0.0,Active,04_GIS/06_METADATA/G04_*
+v2.0,2026-10-02,System,G05,GIS Layer,PHASE2,Phase 2: Metadata + schema + QC checklist created for G05 Rivers (HydroRIVERS),v0.0,Active,04_GIS/06_METADATA/G05_*
+v2.0,2026-10-02,System,G06,GIS Layer,PHASE2,Phase 2: Metadata + schema created for G06 HydroBasins,v0.0,Active,04_GIS/06_METADATA/G06_*
+v2.0,2026-10-02,System,G07,GIS Layer,PHASE2,Phase 2: Metadata + schema + QC checklist created for G07 Hydropower Facilities,v0.0,Active,04_GIS/06_METADATA/G07_*
+v2.0,2026-10-02,System,G08,GIS Layer,PHASE2,Phase 2: Metadata + schema + QC checklist created for G08 Reservoirs,v0.0,Active,04_GIS/06_METADATA/G08_*
+v2.0,2026-10-02,System,SPATIAL_JOIN_RULES,Control,PHASE2,Phase 2: Spatial join rules register created with 12 join rules (SJ01-SJ12),v0.0,Active,00_Project_Control/SPATIAL_JOIN_RULES.csv
+v2.0,2026-10-02,System,GIS_METADATA_TEMPLATE,Control,PHASE2,Phase 2: Standard GIS metadata template created for all 37 layers,v0.0,Active,04_GIS/06_METADATA/GIS_METADATA_TEMPLATE.csv
+v3.0,2026-10-02,System,DB01,Database,PHASE3,Phase 3: Schema (24 fields) + QC checklist (26 checks) + entry template created for DB01 Community Master,v0.0,Active,03_Data/CLEAN/DB01_Community_Master_SCHEMA.csv | 05_Analysis/04_QC/DB01_Community_Master_QC.csv | 03_Data/RAW/DB01_Community_Master_ENTRY_TEMPLATE.csv
+v3.0,2026-10-02,System,DB02,Database,PHASE3,Phase 3: Schema (35 fields) + QC checklist (28 checks) created for DB02 Household Survey — all fields RESTRICTED,v0.0,Active,03_Data/CLEAN/DB02_Household_Survey_SCHEMA.csv | 05_Analysis/04_QC/DB02_Household_Survey_QC.csv
+v3.0,2026-10-02,System,DB03,Database,PHASE3,Phase 3: Schema (31 fields) + QC checklist (25 checks) + entry template created for DB03 Erosion Sites,v0.0,Active,03_Data/CLEAN/DB03_Erosion_Sites_SCHEMA.csv | 05_Analysis/04_QC/DB03_Erosion_Sites_QC.csv | 03_Data/RAW/DB03_Erosion_Sites_ENTRY_TEMPLATE.csv
+v3.0,2026-10-02,System,DB04,Database,PHASE3,Phase 3: Schema (34 fields) + QC checklist (28 checks) created for DB04 Hydropower/Water Observations,v0.0,Active,03_Data/CLEAN/DB04_Hydropower_Water_SCHEMA.csv | 05_Analysis/04_QC/DB04_Hydropower_Water_QC.csv
+v3.0,2026-10-02,System,DB05,Database,PHASE3,Phase 3: Schema (29 fields) + QC checklist (29 checks) created for DB05 Climate Observations,v0.0,Active,03_Data/CLEAN/DB05_Climate_Observations_SCHEMA.csv | 05_Analysis/04_QC/DB05_Climate_Observations_QC.csv
+v3.0,2026-10-02,System,DB06,Database,PHASE3,Phase 3: Schema (24 fields) + QC checklist (25 checks) + entry template created for DB06 Infrastructure,v0.0,Active,03_Data/CLEAN/DB06_Infrastructure_SCHEMA.csv | 05_Analysis/04_QC/DB06_Infrastructure_QC.csv | 03_Data/RAW/DB06_Infrastructure_ENTRY_TEMPLATE.csv
+v3.0,2026-10-02,System,RELATIONAL_MODEL,Control,PHASE3,Phase 3: Relational model created — 23 relationships documented with cardinality and enforcement rules,v0.0,Active,03_Data/LOOKUPS/RELATIONAL_MODEL.csv | 03_Data/LOOKUPS/RELATIONAL_MODEL_NARRATIVE.md
+v3.0,2026-10-02,System,DB_QC_PIPELINE,Control,PHASE3,Phase 3: QC pipeline summary created — 20 checks (Q01-Q20) with critical/advisory classification and script responsibility matrix,v0.0,Active,05_Analysis/04_QC/DB_QC_PIPELINE_SUMMARY.csv | 05_Analysis/04_QC/DB_QC_PIPELINE_NARRATIVE.md
+v4.0,2026-10-02,System,G09,GIS Layer,PHASE4,Phase 4: Metadata + schema (14 attrs) + QC (15 checks) created for G09 DEM; DEM source decision (DEC01) pending,v0.0,Active,04_GIS/06_METADATA/G09_DEM_*
+v4.0,2026-10-02,System,G10,GIS Layer,PHASE4,Phase 4: Metadata + QC (12 checks) created for G10 Slope; slope unit fixed as DEGREES (DEC02),v0.0,Active,04_GIS/06_METADATA/G10_Slope_*
+v4.0,2026-10-02,System,G11,GIS Layer,PHASE4,Phase 4: Metadata + QC (9 checks) created for G11 Aspect,v0.0,Active,04_GIS/06_METADATA/G11_Aspect_*
+v4.0,2026-10-02,System,G12,GIS Layer,PHASE4,Phase 4: Metadata + QC (9 checks) created for G12 Hillshade — visualisation only; not analytical input,v0.0,Active,04_GIS/06_METADATA/G12_Hillshade_*
+v4.0,2026-10-02,System,G13,GIS Layer,PHASE4,Phase 4: Metadata + QC (12 checks) created for G13 Flow Direction; D8 algorithm recommended (DEC03 pending),v0.0,Active,04_GIS/06_METADATA/G13_FlowDirection_*
+v4.0,2026-10-02,System,G14,GIS Layer,PHASE4,Phase 4: Metadata + QC (12 checks) created for G14 Flow Accumulation,v0.0,Active,04_GIS/06_METADATA/G14_FlowAccumulation_*
+v4.0,2026-10-02,System,G15,GIS Layer,PHASE4,Phase 4: Metadata + QC (16 checks) + LKP_LandCoverClasses.csv (11 classes) created for G15 Land Cover,v0.0,Active,04_GIS/06_METADATA/G15_LandCover_* | 03_Data/LOOKUPS/LKP_LandCoverClasses.csv
+v4.0,2026-10-02,System,TERRAIN_PIPELINE_SPEC,Control,PHASE4,Phase 4: Terrain processing pipeline specification created (11 steps T01-T11; GDAL commands; software requirements; QC gates),v0.0,Active,05_Analysis/02_SCRIPTS/TERRAIN_PIPELINE_SPEC.md
+v4.0,2026-10-02,System,TERRAIN_PROCESSING_DECISIONS,Control,PHASE4,Phase 4: Terrain processing decisions register created (DEC01-DEC06); DEC02 slope=degrees and DEC05 WorldCover and DEC06 hillshade fixed,v0.0,Active,00_Project_Control/TERRAIN_PROCESSING_DECISIONS.csv
+v5.0,2026-10-02,System,G16,GIS Layer,PHASE5,Phase 5: Metadata + schema (11 fields) + QC (15 checks) + LKP_RoadHierarchy.csv (7 classes) created for G16 Roads,v0.0,Active,04_GIS/06_METADATA/G16_Roads_* | 03_Data/LOOKUPS/LKP_RoadHierarchy.csv
+v5.0,2026-10-02,System,G17,GIS Layer,PHASE5,Phase 5: Metadata + schema (8 fields) + QC (14 checks) created for G17 Buildings,v0.0,Active,04_GIS/06_METADATA/G17_Buildings_*
+v5.0,2026-10-02,System,G18,GIS Layer,PHASE5,Phase 5: Metadata + schema (11 fields) + QC (14 checks) + LKP_POIClasses.csv (19 classes) created for G18 POI,v0.0,Active,04_GIS/06_METADATA/G18_POI_* | 03_Data/LOOKUPS/LKP_POIClasses.csv
+v5.0,2026-10-02,System,G19,GIS Layer,PHASE5,Phase 5: Metadata + QC (12 checks) created for G19 Field Infrastructure — derived from DB06; never edit directly,v0.0,Active,04_GIS/06_METADATA/G19_FieldInfrastructure_*
+v5.0,2026-10-02,System,G20,GIS Layer,PHASE5,Phase 5: Metadata + schema (11 fields) + QC (13 checks) created for G20 Climate Stations,v0.0,Active,04_GIS/06_METADATA/G20_ClimateStations_*
+v5.0,2026-10-02,System,G21,GIS Layer,PHASE5,Phase 5: Metadata + QC (11 checks) created for G21 Climate Observations — derived from DB05 aggregation joined to G20,v0.0,Active,04_GIS/06_METADATA/G21_ClimateObservations_*
+v5.0,2026-10-02,System,G22,GIS Layer,PHASE5,Phase 5: Metadata + QC (13 checks) created for G22 Rainfall Surface; CHIRPS recommended; method pre-specification enforced,v0.0,Active,04_GIS/06_METADATA/G22_RainfallSurface_*
+v5.0,2026-10-02,System,G23,GIS Layer,PHASE5,Phase 5: Metadata + QC (14 checks) created for G23 Temperature Surface; lapse-rate correction documented,v0.0,Active,04_GIS/06_METADATA/G23_TemperatureSurface_*
+v5.0,2026-10-02,System,CLIMATE_INTERPOLATION_DECISIONS,Control,PHASE5,Phase 5: Climate interpolation decisions register created (CLD01-CLD04) — method selection; cross-validation; lapse-rate; output resolution,v0.0,Active,00_Project_Control/CLIMATE_INTERPOLATION_DECISIONS.csv
+v6.0,2026-10-02,System,G25,GIS Layer,PHASE6,Phase 6: Metadata + schema (14 fields) + QC (16 checks) created for G25 Observed Floods; Confidence rating field enforced,v0.0,Active,04_GIS/06_METADATA/G25_ObservedFloods_*
+v6.0,2026-10-02,System,G26,GIS Layer,PHASE6,Phase 6: Metadata + QC (15 checks) created for G26 Erosion Sites GIS — derived from DB03; never edit directly,v0.0,Active,04_GIS/06_METADATA/G26_ErosionSites_*
+v6.0,2026-10-02,System,G27,GIS Layer,PHASE6,Phase 6: Metadata + QC (11 checks) created for G27 Erosion Hotspots; tiered method rule enforced per sample density,v0.0,Active,04_GIS/06_METADATA/G27_ErosionHotspots_*
+v6.0,2026-10-02,System,G28,GIS Layer,PHASE6,Phase 6: Metadata + QC (11 checks) created for G28 Hydro/Water Observations — derived from DB04,v0.0,Active,04_GIS/06_METADATA/G28_HydroObservations_*
+v6.0,2026-10-02,System,G24,GIS Layer,PHASE6,Phase 6: Metadata + schema (11 attrs) + QC (16 checks) created for G24 Flood Hazard; built last in dependency order,v0.0,Active,04_GIS/06_METADATA/G24_FloodHazard_*
+v6.0,2026-10-02,System,HAZARD_MODEL_DECISIONS,Control,PHASE6,Phase 6: Hazard model decisions register created (HMD01-HMD06) — input weights; classification; hotspot method; validation threshold; normalisation; distance inversion,v0.0,Active,00_Project_Control/HAZARD_MODEL_DECISIONS.csv
+v7.0,2026-10-02,System,G29,GIS Layer,PHASE7,Phase 7: Metadata + schema (20 fields) + QC (20 checks) created for G29 Flood Exposure; area-overlay method; vulnerability exclusion enforced,v0.0,Active,04_GIS/06_METADATA/G29_FloodExposure_*
+v7.0,2026-10-02,System,G30,GIS Layer,PHASE7,Phase 7: Metadata + schema (19 fields) + QC (18 checks) created for G30 Erosion Exposure; proximity buffer method (BUF003); active sites only,v0.0,Active,04_GIS/06_METADATA/G30_ErosionExposure_*
+v7.0,2026-10-02,System,EXPOSURE_MODEL_DECISIONS,Control,PHASE7,Phase 7: Exposure model decisions register created (EMD01-EMD06) — normalisation; infrastructure weights; severity weighting; completeness threshold; aggregation unit; vulnerability separation rule,v0.0,Active,00_Project_Control/EXPOSURE_MODEL_DECISIONS.csv
+v8.0,2026-10-02,System,G31,GIS Layer,PHASE8,Phase 8: Metadata + schema (12 fields) + QC (12 checks) created for G31 Hazard Index,v0.0,Active,04_GIS/06_METADATA/G31_HazardIndex_*
+v8.0,2026-10-02,System,G32,GIS Layer,PHASE8,Phase 8: Metadata + schema (11 fields) + QC (10 checks) created for G32 Exposure Index; vulnerability exclusion enforced,v0.0,Active,04_GIS/06_METADATA/G32_ExposureIndex_*
+v8.0,2026-10-02,System,G33,GIS Layer,PHASE8,Phase 8: Metadata + schema (15 fields) + QC (12 checks) created for G33 Vulnerability Index; IND09 inverted; Privacy_Compliant field mandatory,v0.0,Active,04_GIS/06_METADATA/G33_VulnerabilityIndex_*
+v8.0,2026-10-02,System,G34,GIS Layer,PHASE8,Phase 8: Metadata + schema (14 fields) + QC (11 checks) created for G34 Criticality Index; IND08 NULL outside BUF004,v0.0,Active,04_GIS/06_METADATA/G34_CriticalityIndex_*
+v8.0,2026-10-02,System,G35,GIS Layer,PHASE8,Phase 8: Metadata + schema (32 fields) + QC (17 checks) created for G35 Composite Risk; R=0.35H+0.25E+0.25V+0.15C; S1 and S2 sensitivity models pre-specified,v0.0,Active,04_GIS/06_METADATA/G35_CompositeRisk_*
+v8.0,2026-10-02,System,G36,GIS Layer,PHASE8,Phase 8: Metadata + schema (15 fields) + QC (10 checks) created for G36 Adaptation,v0.0,Active,04_GIS/06_METADATA/G36_Adaptation_*
+v8.0,2026-10-02,System,G37,GIS Layer,PHASE8,Phase 8: Metadata + schema (22 fields) + QC (14 checks) created for G37 Priority Areas; explainability and traceability rules enforced,v0.0,Active,04_GIS/06_METADATA/G37_PriorityAreas_*
+v8.0,2026-10-02,System,RISK_MODEL_SPEC,Control,PHASE8,Phase 8: Full risk model specification created — formula; component indices; normalisation; missing data rules; classification thresholds; sensitivity models S1 and S2; priority scoring; traceability chain; approval record,v1.0,Active,07_Decision_Support/01_Risk/RISK_MODEL_SPEC.md
+v9.0,2026-10-02,System,PIPELINE_SCRIPTS,Scripts,PHASE9,Phase 9: 22 Python scripts created in 05_Analysis/02_SCRIPTS/ — config.py + logger.py + qc_utils.py + 01_ingest.py through 18_maps.py + run_pipeline.py,v0.0,Active,05_Analysis/02_SCRIPTS/
+v9.0,2026-10-02,System,config.py,Script,PHASE9,Phase 9: Central configuration — all project paths / constants / risk weights / buffer distances / QC status codes,v0.0,Active,05_Analysis/02_SCRIPTS/config.py
+v9.0,2026-10-02,System,logger.py,Script,PHASE9,Phase 9: Timestamped file+console logging for all pipeline modules,v0.0,Active,05_Analysis/02_SCRIPTS/logger.py
+v9.0,2026-10-02,System,qc_utils.py,Script,PHASE9,Phase 9: Shared QC functions (Q01-Q10) + QCReport class + PROCESSING_STATUS updater + VERSION_LOG appender,v0.0,Active,05_Analysis/02_SCRIPTS/qc_utils.py
+v9.0,2026-10-02,System,01_ingest.py,Script,PHASE9,Phase 9: Source registration; file/CSV ingestion; batch manifest ingestion,v0.0,Active,05_Analysis/02_SCRIPTS/01_ingest.py
+v9.0,2026-10-02,System,02_validate.py,Script,PHASE9,Phase 9: DB01-DB06 structural/referential/coordinate/temporal/logical QC; PipelineCriticalError halt on failure,v0.0,Active,05_Analysis/02_SCRIPTS/02_validate.py
+v9.0,2026-10-02,System,03_clean.py,Script,PHASE9,Phase 9: Consent gate; code standardisation; CLEAN promotion; writes to 03_Data/CLEAN/,v0.0,Active,05_Analysis/02_SCRIPTS/03_clean.py
+v9.0,2026-10-02,System,04_integrate.py,Script,PHASE9,Phase 9: SJ01-SJ12 spatial joins; hydropower distance; DB-to-GIS sync (G03/G19/G26),v0.0,Active,05_Analysis/02_SCRIPTS/04_integrate.py
+v9.0,2026-10-02,System,05_climate.py,Script,PHASE9,Phase 9: Climate temporal aggregation; extreme rainfall flags; dry spells; G21 station summary,v0.0,Active,05_Analysis/02_SCRIPTS/05_climate.py
+v9.0,2026-10-02,System,06_flood.py,Script,PHASE9,Phase 9: IND01 flood frequency; IND02 flood severity with confidence weighting,v0.0,Active,05_Analysis/02_SCRIPTS/06_flood.py
+v9.0,2026-10-02,System,07_erosion.py,Script,PHASE9,Phase 9: IND03 erosion severity; IND04 river proximity (inverted); G27 tiered hotspot method,v0.0,Active,05_Analysis/02_SCRIPTS/07_erosion.py
+v9.0,2026-10-02,System,08_hydropower.py,Script,PHASE9,Phase 9: IND07 electricity disruption; IND08 hydropower disruption; G28 facility summary,v0.0,Active,05_Analysis/02_SCRIPTS/08_hydropower.py
+v9.0,2026-10-02,System,09_exposure.py,Script,PHASE9,Phase 9: G29 flood exposure; G30 erosion exposure (BUF003); G32 Exposure Index with EMD01-03 weights,v0.0,Active,05_Analysis/02_SCRIPTS/09_exposure.py
+v9.0,2026-10-02,System,10_vulnerability.py,Script,PHASE9,Phase 9: IND09 inverted; DB02 aggregated (privacy gate); G33 Vulnerability Index,v0.0,Active,05_Analysis/02_SCRIPTS/10_vulnerability.py
+v9.0,2026-10-02,System,11_criticality.py,Script,PHASE9,Phase 9: IND08 NULL outside BUF004; critical service count; G34 Criticality Index,v0.0,Active,05_Analysis/02_SCRIPTS/11_criticality.py
+v9.0,2026-10-02,System,12_hazard.py,Script,PHASE9,Phase 9: G31 Hazard Index; G25 validation gate (70% threshold); PipelineCriticalError on fail,v0.0,Active,05_Analysis/02_SCRIPTS/12_hazard.py
+v9.0,2026-10-02,System,13_risk.py,Script,PHASE9,Phase 9: G35 Composite Risk R=0.35H+0.25E+0.25V+0.15C; formula verify; S1/S2 sensitivity; rank correlation,v0.0,Active,05_Analysis/02_SCRIPTS/13_risk.py
+v9.0,2026-10-02,System,14_adaptation.py,Script,PHASE9,Phase 9: G36 adaptation inventory; IND09 raw 0-1; IND10 formula approval gate,v0.0,Active,05_Analysis/02_SCRIPTS/14_adaptation.py
+v9.0,2026-10-02,System,15_priority.py,Script,PHASE9,Phase 9: G37 Priority Areas; 0.70R+0.30IND10; tier/rank; data confidence; top-20 list,v0.0,Active,05_Analysis/02_SCRIPTS/15_priority.py
+v9.0,2026-10-02,System,16_qc.py,Script,PHASE9,Phase 9: Q11-Q20 cross-cutting QC — privacy / provenance / version / enumerator / cross-DB / geom sync,v0.0,Active,05_Analysis/02_SCRIPTS/16_qc.py
+v9.0,2026-10-02,System,17_reports.py,Script,PHASE9,Phase 9: Community profiles; state summaries; descriptive stats; risk distribution; sensitivity summary,v0.0,Active,05_Analysis/02_SCRIPTS/17_reports.py
+v9.0,2026-10-02,System,18_maps.py,Script,PHASE9,Phase 9: 27-map register; QGIS-ready GeoJSON export; cartographic element checklists,v0.0,Active,05_Analysis/02_SCRIPTS/18_maps.py
+v9.0,2026-10-02,System,run_pipeline.py,Script,PHASE9,Phase 9: Master controller — 18-step dependency-ordered execution; PipelineCriticalError halt; --from/--only/--dry-run/--list CLI; exit codes 0/1/2/3,v0.0,Active,05_Analysis/02_SCRIPTS/run_pipeline.py
+v10.0,2026-10-02,System,MAP_PRODUCTION_STANDARD,Control,PHASE10,Phase 10: Map production standard — 11 mandatory elements; colour standards; cartographic checklist; risk language rules,v0.0,Active,04_GIS/05_MAP_EXPORTS/MAP_PRODUCTION_STANDARD.md
+v10.0,2026-10-02,System,COMMUNITY_PROFILE_TEMPLATE,Control,PHASE10,Phase 10: Community profile template — 10 sections from identification through full traceability chain,v0.0,Active,06_Reports/01_DRAFTS/COMMUNITY_PROFILE_TEMPLATE.md
+v10.0,2026-10-02,System,STATE_PROFILE_TEMPLATE,Control,PHASE10,Phase 10: State profile template — 9 sections; aggregated risk distribution; sensitivity analysis; priority tiers,v0.0,Active,06_Reports/01_DRAFTS/STATE_PROFILE_TEMPLATE.md
+v10.0,2026-10-02,System,REPORT_VERSIONING_PROCEDURE,Control,PHASE10,Phase 10: Report versioning — 5 stages Draft→Final→Archived; naming convention; publication checklist; annual report structure; climate evidence brief,v0.0,Active,06_Reports/REPORT_VERSIONING_PROCEDURE.md
+v10.0,2026-10-02,System,MONITORING_LOGIC,Control,PHASE10,Phase 10: Monitoring logic — change detection thresholds; 17-flag alert system; status labels; monitoring schedule; longitudinal examples,v0.0,Active,08_Updates/MONITORING_LOGIC.md
+v10.0,2026-10-02,System,UPDATE_OPERATION_PROCEDURE,Control,PHASE10,Phase 10: Update operation procedure — 10-step workflow; permanent ID rules; per-domain update rules; prohibited actions,v0.0,Active,08_Updates/UPDATE_OPERATION_PROCEDURE.md
+v10.0,2026-10-02,System,UPDATE_LOG,Control,PHASE10,Phase 10: UPDATE_LOG.csv initialised with baseline entry UPD-2026-001,v0.0,Active,08_Updates/UPDATE_LOG.csv
+v10.0,2026-10-02,System,BACKUP_ARCHITECTURE,Control,PHASE10,Phase 10: Backup architecture — 4 tiers; verification checklists; access levels; credential management; Git rules; disaster recovery,v0.0,Active,00_Project_Control/BACKUP_ARCHITECTURE.md
+v10.0,2026-10-02,System,BACKUP_LOG,Control,PHASE10,Phase 10: BACKUP_LOG.csv initialised,v0.0,Active,00_Project_Control/BACKUP_LOG.csv
+v10.0,2026-10-02,System,SYSTEM_ACCEPTANCE_TESTS,Control,PHASE10,Phase 10: System acceptance tests — all 10 tests with Python code; pass criteria; sub-test checklists; sign-off record,v0.0,Active,00_Project_Control/SYSTEM_ACCEPTANCE_TESTS.md
+v10.0,2026-10-02,System,CHER_CDSS_UPGRADE,Control,PHASE10,Phase 10: CHER-CDSS institutional upgrade notes — PostgreSQL migration; KoboToolbox; intervention module; dashboard; remote sensing; 15-action roadmap,v0.0,Active,00_Project_Control/CHER_CDSS_INSTITUTIONAL_UPGRADE_NOTES.md
+v10.0,2026-10-02,System,ALL_PHASES,Project,COMPLETE,All 10 phases complete — full N-HYPPADEC/CHER-CDSS baseline system built; 175 files across 31 directories; 22 Python scripts; 37 GIS layers specified; 6 databases defined,v1.0,Active,c:/xampp/htdocs/GIS/
+v4.1,2026-10-07,System,CHER_CDSS_SCAFFOLD_V4.1,Control,UPGRADE,CHER-CDSS Advanced Master Implementation Scaffold v4.1 adoption: 10 confirmed N-HYPPADEC states; 37 GIS layers; 22 core tables; reference bounds; IES validity; Section 44 RACI matrix,v1.0,Active,Authoritative Master Implementation Blueprint v4.1 established
+Baseline_2026,2026-10-07,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-07,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 50 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-07,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 50 communities; Tier 1: 1,,Active,
+Baseline_2026,2026-10-07,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-07,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 50 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-07,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 50 communities; Tier 1: 1,,Active,
+v4.1,2026-10-07,pipeline,REPORTS,Documentation,PUBLISH,Annual State of Climate Resilience Report 2026 and Data & Methodology Catalogue published,,Active,
+Baseline_2026,2026-10-07,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-07,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-07,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 50 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-07,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 50 communities,,Active,
+Baseline_2026,2026-10-07,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 50 communities; Tier 1: 1,,Active,
+v4.1,2026-10-07,QA_Automation,ACCEPTANCE,System,VALIDATION,All 10 System Acceptance Tests verified and passed (Tests 1-10); System Fully Accepted for production baseline,Baseline_2026,Active,SYSTEM_ACCEPTANCE_TESTS.md updated
+Baseline_2026,2026-10-08,pipeline,MRV,Decision Support,EVALUATE,Intervention MRV portfolio evaluated: 20 projects; Mean IES: 32.4%,,Active,
+Baseline_2026,2026-10-08,pipeline,G15,GIS Layer,DERIVE,"Remote Sensing 10-state analytics complete; Total SAR Inundation: 2,882.9 km²",,Active,
+Baseline_2026,2026-10-08,pipeline,GIS_LAYERS,GIS Layer,PUBLISH,All 37 GIS layers populated and published in 04_GIS/02_CLEAN and 04_GIS/03_DERIVED as QGIS-ready GeoJSON,,Active,04_GIS/02_CLEAN and 04_GIS/03_DERIVED
+Baseline_2026,2026-10-08,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-08,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-08,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-08,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-08,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-08,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-08,pipeline,G15,GIS Layer,DERIVE,"Remote Sensing 10-state analytics complete; Total SAR Inundation: 2,882.9 km²",,Active,
+Baseline_2026,2026-10-08,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-08,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-08,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-08,pipeline,G15,GIS Layer,DERIVE,"Remote Sensing 10-state analytics complete; Total SAR Inundation: 2,882.9 km²",,Active,
+Baseline_2026,2026-10-08,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-08,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-08,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-08,pipeline,G15,GIS Layer,DERIVE,"Remote Sensing 10-state analytics complete; Total SAR Inundation: 2,882.9 km²",,Active,
+Baseline_2026,2026-10-08,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-08,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-08,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-08,pipeline,G15,GIS Layer,DERIVE,"Remote Sensing 10-state analytics complete; Total SAR Inundation: 2,882.9 km²",,Active,
+Baseline_2026,2026-10-13,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-13,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-13,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-13,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-13,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-13,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-13,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-13,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-13,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 50 communities,,Active,
+Baseline_2026,2026-10-13,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 50 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-13,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 50 communities,,Active,
+Baseline_2026,2026-10-13,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 50 communities,,Active,
+Baseline_2026,2026-10-13,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 50 communities; Tier 1: 1,,Active,
+Baseline_2026,2026-10-13,pipeline,MRV,Decision Support,EVALUATE,Intervention MRV portfolio evaluated: 20 projects; Mean IES: 32.4%,,Active,
+Baseline_2026,2026-10-13,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-13,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-13,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-13,pipeline,G15,GIS Layer,DERIVE,"Remote Sensing 10-state analytics complete; Total SAR Inundation: 2,882.9 km²",,Active,
+Baseline_2026,2026-10-13,pipeline,G25,GIS Layer,DERIVE,Sentinel-1 SAR flood extents processed: 35 inundation zones,,Active,
+Baseline_2026,2026-10-13,pipeline,G26,GIS Layer,DERIVE,Multi-temporal riverbank retreat computed: 75 monitored sites,,Active,
+Baseline_2026,2026-10-13,pipeline,G29,GIS Layer,DERIVE,Agricultural shock exposure evaluated: 50 communities,,Active,
+Baseline_2026,2026-10-14,migration,PostGIS,Database,CLEAN,"PostGIS database fully migrated and seeded across all 34 authoritative tables (lookups, clean, derived, audit) with validated geometries and referential integrity",,Active,
+v2.0,2026-10-14,System,ENVIRONMENTAL_DOMAINS_EXTENSION,Control,EXTEND,v2.0: Six new environmental domains added — Climate Change; Flooding upgraded; Land Degradation; Deforestation; Waste Pollution; Biodiversity Loss,v1.0,Active,00_Project_Control/ENVIRONMENTAL_DOMAINS_EXTENSION.md
+v2.0,2026-10-14,System,DB07,Database,EXTEND,v2.0: DB07 Intervention Tracking schema created — 30 fields; IES formula; links to all six domains,v0.0,Active,03_Data/CLEAN/DB07_Interventions_SCHEMA.csv
+v2.0,2026-10-14,System,DB08,Database,EXTEND,v2.0: DB08 Waste Pollution Sites schema created — 31 fields; leachate evidence; burning; water source proximity,v0.0,Active,03_Data/CLEAN/DB08_WastePollutionSites_SCHEMA.csv
+v2.0,2026-10-14,System,DB09,Database,EXTEND,v2.0: DB09 Biodiversity Observations schema created — 34 fields; habitat assessment; species counts; NDVI extraction,v0.0,Active,03_Data/CLEAN/DB09_BiodiversityObservations_SCHEMA.csv
+v2.0,2026-10-14,System,G38_G42,GIS Layers,EXTEND,v2.0: G38-G42 Climate Change layers specified — rainfall trend; temperature trend; drought frequency; projections; CC index,v0.0,Active,04_GIS/06_METADATA/G38_G42_ClimateChange_METADATA.csv
+v2.0,2026-10-14,System,G43_G46,GIS Layers,EXTEND,v2.0: G43-G46 Flood upgrade layers specified — 2yr/10yr/100yr RP inundation; multi-period composite FL_Score,v0.0,Active,04_GIS/06_METADATA/G43_G46_Flooding_METADATA.csv
+v2.0,2026-10-14,System,G47_G50,GIS Layers,EXTEND,v2.0: G47-G50 Land Degradation layers specified — NDVI time series; NDVI trend; RUSLE soil loss; LD_Score,v0.0,Active,04_GIS/06_METADATA/G47_G50_LandDegradation_METADATA.csv
+v2.0,2026-10-14,System,G51_G54,GIS Layers,EXTEND,v2.0: G51-G54 Deforestation layers specified — Hansen GFC baseline/current/change; deforestation pressure DF_Score,v0.0,Active,04_GIS/06_METADATA/G51_G54_Deforestation_METADATA.csv
+v2.0,2026-10-14,System,G55_G58,GIS Layers,EXTEND,v2.0: G55-G58 Waste Pollution layers specified — dump sites; leachate zones; burning; WP exposure WP_Score,v0.0,Active,04_GIS/06_METADATA/G55_G58_WastePollution_METADATA.csv
+v2.0,2026-10-14,System,G59_G63,GIS Layers,EXTEND,v2.0: G59-G63 Biodiversity layers specified — protected areas; habitat integrity; riparian corridor; ecosystem services; BL_Score,v0.0,Active,04_GIS/06_METADATA/G59_G63_Biodiversity_METADATA.csv
+v2.0,2026-10-14,System,G64,GIS Layer,EXTEND,v2.0: G64 ERI v2.0 specified — nine-component Environmental Risk Index; sensitivity models S1/S2/S3; backward compatible with G35,v0.0,Active,04_GIS/06_METADATA/G64_EnvironmentalRiskIndex_METADATA.csv
+v2.0,2026-10-14,System,20_climate_change,Script,EXTEND,v2.0: 20_climate_change.py — SPI drought; OLS trend IND11/IND12/IND13; CC_Score per community,v0.0,Active,05_Analysis/02_SCRIPTS/20_climate_change.py
+v2.0,2026-10-14,System,21_flooding,Script,EXTEND,v2.0: 21_flooding.py — Gumbel RP rainfall; HAND flood model IND14; FL_Score; G46 community layer,v0.0,Active,05_Analysis/02_SCRIPTS/21_flooding.py
+v2.0,2026-10-14,System,22_land_degradation,Script,EXTEND,v2.0: 22_land_degradation.py — NDVI trend IND15; RUSLE IND16; LD_Score G50,v0.0,Active,05_Analysis/02_SCRIPTS/22_land_degradation.py
+v2.0,2026-10-14,System,23_deforestation,Script,EXTEND,v2.0: 23_deforestation.py — Hansen GFC IND17; deforestation pressure DF_Score G54,v0.0,Active,05_Analysis/02_SCRIPTS/23_deforestation.py
+v2.0,2026-10-14,System,24_waste_pollution,Script,EXTEND,v2.0: 24_waste_pollution.py — DB08 sync; leachate IND18/IND19; WP_Score G58,v0.0,Active,05_Analysis/02_SCRIPTS/24_waste_pollution.py
+v2.0,2026-10-14,System,25_biodiversity,Script,EXTEND,v2.0: 25_biodiversity.py — habitat integrity IND20; PA gap IND21; ecosystem services IND22; BL_Score G63,v0.0,Active,05_Analysis/02_SCRIPTS/25_biodiversity.py
+v2.0,2026-10-14,System,26_eri,Script,EXTEND,v2.0: 26_eri.py — ERI=0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL; S1/S2/S3; G64,v0.0,Active,05_Analysis/02_SCRIPTS/26_eri.py
+v2.0,2026-10-14,System,LKP_LOOKUPS_V2,Lookups,EXTEND,v2.0: New lookup tables — LKP_EnvironmentalDomains; LKP_DroughtClasses; LKP_LandDegradationClasses; LKP_WasteSiteTypes; LKP_HabitatTypes,v0.0,Active,03_Data/LOOKUPS/
+v2.0,2026-10-14,System,SOURCES_V2,Sources,EXTEND,v2.0: Sources SRC018-SRC030 registered — CHIRPS; CORDEX; Hansen GFC; JRC; Sentinel-2; Landsat; WDPA; Sentinel-5P; RUSLE,v0.0,Active,00_Project_Control/SOURCE_REGISTER.csv
+Baseline_2026,2026-10-14,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 30 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-14,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 30 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-10-14,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 30 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-10-14,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-14,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-14,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-14,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+Baseline_2026,2026-10-14,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 30 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-14,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 30 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-10-14,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 30 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-10-14,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-14,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-14,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-14,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-14,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+Baseline_2026,2026-10-15,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 30 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-15,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 30 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 30 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-10-15,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+Baseline_2026,2026-10-15,pipeline,G21,GIS Layer,DERIVE,G21 station summary computed from DB05: 5 stations,,Active,
+Baseline_2026,2026-10-15,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 30 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-15,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 30 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 30 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-10-15,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+Baseline_2026,2026-10-15,pipeline,G21,GIS Layer,DERIVE,G21 station summary computed from DB05: 5 stations,,Active,
+Baseline_2026,2026-10-15,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 30 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-15,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 30 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 30 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-10-15,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+Baseline_2026,2026-10-15,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-15,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-15,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-15,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+v4.1,2026-10-21,System,LKP_ENV_PROBLEMS,Lookups,EXTEND,v4.1: Integrated 12 Canonical National Environmental Problems from National Environmental Survey photo legend and incorporated Adamawa State as an extended regional/basin state (deforestation and erosion verified from photo),v4.0,Active,03_Data/LOOKUPS/
+v4.1,2026-10-21,System,G65_EnvironmentalProblems,GIS Layer,INGEST,G65 Environmental Problems spatial layer and photo standard legend integrated into Web GIS dashboard with 40 verified occurrences,,Active,04_GIS/03_DERIVED/
+Baseline_2026,2026-10-21,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 50 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 1616 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-21,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-26,pipeline,G21,GIS Layer,DERIVE,G21 station summary computed from DB05: 5 stations,,Active,
+Baseline_2026,2026-10-26,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 30 communities; G25 validation: PASS,,Active,
+Baseline_2026,2026-10-26,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 30 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-10-26,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 30 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-10-26,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-26,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 30 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 30 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-10-26,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 30 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-10-26,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 30 communities; Mean ERI=39.2; High+VH=4,,Active,
+Baseline_2026,2026-10-26,pipeline,DB01,Database,CLEAN,DB01 promoted to CLEAN: 1616 records,,Active,
+Baseline_2026,2026-10-26,pipeline,DB02,Database,CLEAN,DB02 promoted to CLEAN (RESTRICTED): 250 consented records,,Active,
+Baseline_2026,2026-10-26,pipeline,DB03,Database,CLEAN,DB03 promoted to CLEAN: 75 records,,Active,
+Baseline_2026,2026-10-26,pipeline,DB04,Database,CLEAN,DB04 promoted to CLEAN: 36 records,,Active,
+Baseline_2026,2026-10-26,pipeline,DB05,Database,CLEAN,DB05 promoted to CLEAN: 240 records,,Active,
+Baseline_2026,2026-10-26,pipeline,DB06,Database,CLEAN,DB06 promoted to CLEAN: 100 records,,Active,
+Baseline_2026,2026-10-26,pipeline,G21,GIS Layer,DERIVE,G21 station summary computed from DB05: 20 stations,,Active,
+Baseline_2026,2026-10-26,pipeline,G32,GIS Layer,DERIVE,G32 Exposure Index computed: 1616 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G33,GIS Layer,DERIVE,G33 Vulnerability Index computed: 1616 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G34,GIS Layer,DERIVE,G34 Criticality Index computed: 1616 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G31,GIS Layer,DERIVE,G31 Hazard Index computed: 1616 communities; G25 validation: SKIPPED,,Active,
+Baseline_2026,2026-10-26,pipeline,G35,GIS Layer,DERIVE,G35 Composite Risk computed (Risk_Model_v4.1): 1616 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G36,GIS Layer,DERIVE,G36 Adaptation computed: 1616 communities,,Active,
+Baseline_2026,2026-10-26,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 1616 communities; Tier 1: 0,,Active,
+Baseline_2026,2026-11-05,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 1616 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-11-05,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 1616 communities,,Active,
+Baseline_2026,2026-11-05,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 1616 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-11-05,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 1616 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-11-05,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 1646 communities; Mean ERI=25.7; High+VH=10,,Active,
+Baseline_2026,2026-11-05,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 1616 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-11-05,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 1616 communities,,Active,
+Baseline_2026,2026-11-05,pipeline,G42,GIS Layer,DERIVE,G42 Climate Change Index computed: 1616 communities,,Active,
+Baseline_2026,2026-11-05,pipeline,G46,GIS Layer,DERIVE,G46 Flood Frequency computed: 1616 communities (community-level; rasters pending),,Active,
+Baseline_2026,2026-11-05,pipeline,G50,GIS Layer,DERIVE,G50 Land Degradation Index computed: 1616 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-11-05,pipeline,G54,GIS Layer,DERIVE,G54 Deforestation Index computed: 1616 communities,,Active,
+Baseline_2026,2026-11-05,pipeline,G58,GIS Layer,DERIVE,G58 Waste Pollution Exposure computed: 1616 communities; medical alerts: 0,,Active,
+Baseline_2026,2026-11-05,pipeline,G63,GIS Layer,DERIVE,G63 Biodiversity Loss Index computed: 1616 communities; completeness: Minimal,,Active,
+Baseline_2026,2026-11-05,pipeline,G64,GIS Layer,DERIVE,G64 ERI v2.0 computed (ERI_Model_v2.0): 1616 communities; Mean ERI=25.4; High+VH=4,,Active,
+Baseline_2026,2026-11-05,pipeline,G37,GIS Layer,DERIVE,G37 Priority Areas computed: 1616 communities; Tier 1: 0,,Active,

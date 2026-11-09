@@ -1,0 +1,7452 @@
+{
+  "type": "FeatureCollection",
+  "name": "G02_Nigeria_LGAs_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.3500000000000005,
+              9.600000000000001
+            ],
+            [
+              5.55,
+              9.600000000000001
+            ],
+            [
+              5.55,
+              9.8
+            ],
+            [
+              5.3500000000000005,
+              9.8
+            ],
+            [
+              5.3500000000000005,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-001",
+        "LGA_Name": "Agaie",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.500000000000001,
+              9.600000000000001
+            ],
+            [
+              5.7,
+              9.600000000000001
+            ],
+            [
+              5.7,
+              9.8
+            ],
+            [
+              5.500000000000001,
+              9.8
+            ],
+            [
+              5.500000000000001,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-002",
+        "LGA_Name": "Agwara",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.65,
+              9.600000000000001
+            ],
+            [
+              5.85,
+              9.600000000000001
+            ],
+            [
+              5.85,
+              9.8
+            ],
+            [
+              5.65,
+              9.8
+            ],
+            [
+              5.65,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-003",
+        "LGA_Name": "Bida",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.800000000000001,
+              9.600000000000001
+            ],
+            [
+              6.0,
+              9.600000000000001
+            ],
+            [
+              6.0,
+              9.8
+            ],
+            [
+              5.800000000000001,
+              9.8
+            ],
+            [
+              5.800000000000001,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-004",
+        "LGA_Name": "Borgu",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.950000000000001,
+              9.600000000000001
+            ],
+            [
+              6.15,
+              9.600000000000001
+            ],
+            [
+              6.15,
+              9.8
+            ],
+            [
+              5.950000000000001,
+              9.8
+            ],
+            [
+              5.950000000000001,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-005",
+        "LGA_Name": "Bosso",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.1000000000000005,
+              9.600000000000001
+            ],
+            [
+              6.3,
+              9.600000000000001
+            ],
+            [
+              6.3,
+              9.8
+            ],
+            [
+              6.1000000000000005,
+              9.8
+            ],
+            [
+              6.1000000000000005,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-006",
+        "LGA_Name": "Chanchaga",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.250000000000001,
+              9.600000000000001
+            ],
+            [
+              6.45,
+              9.600000000000001
+            ],
+            [
+              6.45,
+              9.8
+            ],
+            [
+              6.250000000000001,
+              9.8
+            ],
+            [
+              6.250000000000001,
+              9.600000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-007",
+        "LGA_Name": "Edati",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.3500000000000005,
+              9.75
+            ],
+            [
+              5.55,
+              9.75
+            ],
+            [
+              5.55,
+              9.95
+            ],
+            [
+              5.3500000000000005,
+              9.95
+            ],
+            [
+              5.3500000000000005,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-008",
+        "LGA_Name": "Gbako",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.500000000000001,
+              9.75
+            ],
+            [
+              5.7,
+              9.75
+            ],
+            [
+              5.7,
+              9.95
+            ],
+            [
+              5.500000000000001,
+              9.95
+            ],
+            [
+              5.500000000000001,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-009",
+        "LGA_Name": "Gurara",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.65,
+              9.75
+            ],
+            [
+              5.85,
+              9.75
+            ],
+            [
+              5.85,
+              9.95
+            ],
+            [
+              5.65,
+              9.95
+            ],
+            [
+              5.65,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-010",
+        "LGA_Name": "Katcha",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.800000000000001,
+              9.75
+            ],
+            [
+              6.0,
+              9.75
+            ],
+            [
+              6.0,
+              9.95
+            ],
+            [
+              5.800000000000001,
+              9.95
+            ],
+            [
+              5.800000000000001,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-011",
+        "LGA_Name": "Kontagora",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.950000000000001,
+              9.75
+            ],
+            [
+              6.15,
+              9.75
+            ],
+            [
+              6.15,
+              9.95
+            ],
+            [
+              5.950000000000001,
+              9.95
+            ],
+            [
+              5.950000000000001,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-012",
+        "LGA_Name": "Lapai",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.1000000000000005,
+              9.75
+            ],
+            [
+              6.3,
+              9.75
+            ],
+            [
+              6.3,
+              9.95
+            ],
+            [
+              6.1000000000000005,
+              9.95
+            ],
+            [
+              6.1000000000000005,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-013",
+        "LGA_Name": "Lavun",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.250000000000001,
+              9.75
+            ],
+            [
+              6.45,
+              9.75
+            ],
+            [
+              6.45,
+              9.95
+            ],
+            [
+              6.250000000000001,
+              9.95
+            ],
+            [
+              6.250000000000001,
+              9.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-014",
+        "LGA_Name": "Magama",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.3500000000000005,
+              9.9
+            ],
+            [
+              5.55,
+              9.9
+            ],
+            [
+              5.55,
+              10.1
+            ],
+            [
+              5.3500000000000005,
+              10.1
+            ],
+            [
+              5.3500000000000005,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-015",
+        "LGA_Name": "Mariga",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.500000000000001,
+              9.9
+            ],
+            [
+              5.7,
+              9.9
+            ],
+            [
+              5.7,
+              10.1
+            ],
+            [
+              5.500000000000001,
+              10.1
+            ],
+            [
+              5.500000000000001,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-016",
+        "LGA_Name": "Mashegu",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.65,
+              9.9
+            ],
+            [
+              5.85,
+              9.9
+            ],
+            [
+              5.85,
+              10.1
+            ],
+            [
+              5.65,
+              10.1
+            ],
+            [
+              5.65,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-017",
+        "LGA_Name": "Mokwa",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.800000000000001,
+              9.9
+            ],
+            [
+              6.0,
+              9.9
+            ],
+            [
+              6.0,
+              10.1
+            ],
+            [
+              5.800000000000001,
+              10.1
+            ],
+            [
+              5.800000000000001,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-018",
+        "LGA_Name": "Muya",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.950000000000001,
+              9.9
+            ],
+            [
+              6.15,
+              9.9
+            ],
+            [
+              6.15,
+              10.1
+            ],
+            [
+              5.950000000000001,
+              10.1
+            ],
+            [
+              5.950000000000001,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-019",
+        "LGA_Name": "Paikoro",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.1000000000000005,
+              9.9
+            ],
+            [
+              6.3,
+              9.9
+            ],
+            [
+              6.3,
+              10.1
+            ],
+            [
+              6.1000000000000005,
+              10.1
+            ],
+            [
+              6.1000000000000005,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-020",
+        "LGA_Name": "Rafi",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.250000000000001,
+              9.9
+            ],
+            [
+              6.45,
+              9.9
+            ],
+            [
+              6.45,
+              10.1
+            ],
+            [
+              6.250000000000001,
+              10.1
+            ],
+            [
+              6.250000000000001,
+              9.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-021",
+        "LGA_Name": "Rijau",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.3500000000000005,
+              10.05
+            ],
+            [
+              5.55,
+              10.05
+            ],
+            [
+              5.55,
+              10.25
+            ],
+            [
+              5.3500000000000005,
+              10.25
+            ],
+            [
+              5.3500000000000005,
+              10.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-022",
+        "LGA_Name": "Shiroro",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.500000000000001,
+              10.05
+            ],
+            [
+              5.7,
+              10.05
+            ],
+            [
+              5.7,
+              10.25
+            ],
+            [
+              5.500000000000001,
+              10.25
+            ],
+            [
+              5.500000000000001,
+              10.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-023",
+        "LGA_Name": "Suleja",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.65,
+              10.05
+            ],
+            [
+              5.85,
+              10.05
+            ],
+            [
+              5.85,
+              10.25
+            ],
+            [
+              5.65,
+              10.25
+            ],
+            [
+              5.65,
+              10.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-024",
+        "LGA_Name": "Tafa",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.800000000000001,
+              10.05
+            ],
+            [
+              6.0,
+              10.05
+            ],
+            [
+              6.0,
+              10.25
+            ],
+            [
+              5.800000000000001,
+              10.25
+            ],
+            [
+              5.800000000000001,
+              10.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NIG-025",
+        "LGA_Name": "Wushishi",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.500000000000001,
+              11.85
+            ],
+            [
+              4.7,
+              11.85
+            ],
+            [
+              4.7,
+              12.049999999999999
+            ],
+            [
+              4.500000000000001,
+              12.049999999999999
+            ],
+            [
+              4.500000000000001,
+              11.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-001",
+        "LGA_Name": "Aleiro",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.65,
+              11.85
+            ],
+            [
+              4.85,
+              11.85
+            ],
+            [
+              4.85,
+              12.049999999999999
+            ],
+            [
+              4.65,
+              12.049999999999999
+            ],
+            [
+              4.65,
+              11.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-002",
+        "LGA_Name": "Arewa Dandi",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.800000000000001,
+              11.85
+            ],
+            [
+              5.0,
+              11.85
+            ],
+            [
+              5.0,
+              12.049999999999999
+            ],
+            [
+              4.800000000000001,
+              12.049999999999999
+            ],
+            [
+              4.800000000000001,
+              11.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-003",
+        "LGA_Name": "Argungu",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.9,
+              12.0
+            ],
+            [
+              4.1,
+              12.0
+            ],
+            [
+              4.1,
+              12.2
+            ],
+            [
+              3.9,
+              12.2
+            ],
+            [
+              3.9,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-004",
+        "LGA_Name": "Augie",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.050000000000001,
+              12.0
+            ],
+            [
+              4.25,
+              12.0
+            ],
+            [
+              4.25,
+              12.2
+            ],
+            [
+              4.050000000000001,
+              12.2
+            ],
+            [
+              4.050000000000001,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-005",
+        "LGA_Name": "Bagudo",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.2,
+              12.0
+            ],
+            [
+              4.3999999999999995,
+              12.0
+            ],
+            [
+              4.3999999999999995,
+              12.2
+            ],
+            [
+              4.2,
+              12.2
+            ],
+            [
+              4.2,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-006",
+        "LGA_Name": "Birnin Kebbi",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3500000000000005,
+              12.0
+            ],
+            [
+              4.55,
+              12.0
+            ],
+            [
+              4.55,
+              12.2
+            ],
+            [
+              4.3500000000000005,
+              12.2
+            ],
+            [
+              4.3500000000000005,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-007",
+        "LGA_Name": "Bunza",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.500000000000001,
+              12.0
+            ],
+            [
+              4.7,
+              12.0
+            ],
+            [
+              4.7,
+              12.2
+            ],
+            [
+              4.500000000000001,
+              12.2
+            ],
+            [
+              4.500000000000001,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-008",
+        "LGA_Name": "Dandi",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.65,
+              12.0
+            ],
+            [
+              4.85,
+              12.0
+            ],
+            [
+              4.85,
+              12.2
+            ],
+            [
+              4.65,
+              12.2
+            ],
+            [
+              4.65,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-009",
+        "LGA_Name": "Fakai",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.800000000000001,
+              12.0
+            ],
+            [
+              5.0,
+              12.0
+            ],
+            [
+              5.0,
+              12.2
+            ],
+            [
+              4.800000000000001,
+              12.2
+            ],
+            [
+              4.800000000000001,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-010",
+        "LGA_Name": "Gwandu",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.9,
+              12.15
+            ],
+            [
+              4.1,
+              12.15
+            ],
+            [
+              4.1,
+              12.35
+            ],
+            [
+              3.9,
+              12.35
+            ],
+            [
+              3.9,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-011",
+        "LGA_Name": "Jega",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.050000000000001,
+              12.15
+            ],
+            [
+              4.25,
+              12.15
+            ],
+            [
+              4.25,
+              12.35
+            ],
+            [
+              4.050000000000001,
+              12.35
+            ],
+            [
+              4.050000000000001,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-012",
+        "LGA_Name": "Kalgo",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.2,
+              12.15
+            ],
+            [
+              4.3999999999999995,
+              12.15
+            ],
+            [
+              4.3999999999999995,
+              12.35
+            ],
+            [
+              4.2,
+              12.35
+            ],
+            [
+              4.2,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-013",
+        "LGA_Name": "Koko/Besse",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3500000000000005,
+              12.15
+            ],
+            [
+              4.55,
+              12.15
+            ],
+            [
+              4.55,
+              12.35
+            ],
+            [
+              4.3500000000000005,
+              12.35
+            ],
+            [
+              4.3500000000000005,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-014",
+        "LGA_Name": "Maiyama",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.500000000000001,
+              12.15
+            ],
+            [
+              4.7,
+              12.15
+            ],
+            [
+              4.7,
+              12.35
+            ],
+            [
+              4.500000000000001,
+              12.35
+            ],
+            [
+              4.500000000000001,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-015",
+        "LGA_Name": "Ngaski",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.65,
+              12.15
+            ],
+            [
+              4.85,
+              12.15
+            ],
+            [
+              4.85,
+              12.35
+            ],
+            [
+              4.65,
+              12.35
+            ],
+            [
+              4.65,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-016",
+        "LGA_Name": "Sakaba",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.800000000000001,
+              12.15
+            ],
+            [
+              5.0,
+              12.15
+            ],
+            [
+              5.0,
+              12.35
+            ],
+            [
+              4.800000000000001,
+              12.35
+            ],
+            [
+              4.800000000000001,
+              12.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-017",
+        "LGA_Name": "Shanga",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.9,
+              12.299999999999999
+            ],
+            [
+              4.1,
+              12.299999999999999
+            ],
+            [
+              4.1,
+              12.499999999999998
+            ],
+            [
+              3.9,
+              12.499999999999998
+            ],
+            [
+              3.9,
+              12.299999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-018",
+        "LGA_Name": "Suru",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.050000000000001,
+              12.299999999999999
+            ],
+            [
+              4.25,
+              12.299999999999999
+            ],
+            [
+              4.25,
+              12.499999999999998
+            ],
+            [
+              4.050000000000001,
+              12.499999999999998
+            ],
+            [
+              4.050000000000001,
+              12.299999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-019",
+        "LGA_Name": "Danko/Wasagu",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.2,
+              12.299999999999999
+            ],
+            [
+              4.3999999999999995,
+              12.299999999999999
+            ],
+            [
+              4.3999999999999995,
+              12.499999999999998
+            ],
+            [
+              4.2,
+              12.499999999999998
+            ],
+            [
+              4.2,
+              12.299999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-020",
+        "LGA_Name": "Yauri",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3500000000000005,
+              12.299999999999999
+            ],
+            [
+              4.55,
+              12.299999999999999
+            ],
+            [
+              4.55,
+              12.499999999999998
+            ],
+            [
+              4.3500000000000005,
+              12.499999999999998
+            ],
+            [
+              4.3500000000000005,
+              12.299999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KEB-021",
+        "LGA_Name": "Zuru",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.350000000000001,
+              9.700000000000001
+            ],
+            [
+              9.55,
+              9.700000000000001
+            ],
+            [
+              9.55,
+              9.9
+            ],
+            [
+              9.350000000000001,
+              9.9
+            ],
+            [
+              9.350000000000001,
+              9.700000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-001",
+        "LGA_Name": "Barkin Ladi",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.500000000000002,
+              9.700000000000001
+            ],
+            [
+              9.700000000000001,
+              9.700000000000001
+            ],
+            [
+              9.700000000000001,
+              9.9
+            ],
+            [
+              9.500000000000002,
+              9.9
+            ],
+            [
+              9.500000000000002,
+              9.700000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-002",
+        "LGA_Name": "Bassa",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.65,
+              9.700000000000001
+            ],
+            [
+              9.85,
+              9.700000000000001
+            ],
+            [
+              9.85,
+              9.9
+            ],
+            [
+              9.65,
+              9.9
+            ],
+            [
+              9.65,
+              9.700000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-003",
+        "LGA_Name": "Bokkos",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.750000000000002,
+              8.800000000000002
+            ],
+            [
+              8.950000000000001,
+              8.800000000000002
+            ],
+            [
+              8.950000000000001,
+              9.000000000000002
+            ],
+            [
+              8.750000000000002,
+              9.000000000000002
+            ],
+            [
+              8.750000000000002,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-004",
+        "LGA_Name": "Jos East",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.9,
+              8.800000000000002
+            ],
+            [
+              9.1,
+              8.800000000000002
+            ],
+            [
+              9.1,
+              9.000000000000002
+            ],
+            [
+              8.9,
+              9.000000000000002
+            ],
+            [
+              8.9,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-005",
+        "LGA_Name": "Jos North",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.05,
+              8.800000000000002
+            ],
+            [
+              9.25,
+              8.800000000000002
+            ],
+            [
+              9.25,
+              9.000000000000002
+            ],
+            [
+              9.05,
+              9.000000000000002
+            ],
+            [
+              9.05,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-006",
+        "LGA_Name": "Jos South",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.200000000000001,
+              8.800000000000002
+            ],
+            [
+              9.4,
+              8.800000000000002
+            ],
+            [
+              9.4,
+              9.000000000000002
+            ],
+            [
+              9.200000000000001,
+              9.000000000000002
+            ],
+            [
+              9.200000000000001,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-007",
+        "LGA_Name": "Kanam",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.350000000000001,
+              8.800000000000002
+            ],
+            [
+              9.55,
+              8.800000000000002
+            ],
+            [
+              9.55,
+              9.000000000000002
+            ],
+            [
+              9.350000000000001,
+              9.000000000000002
+            ],
+            [
+              9.350000000000001,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-008",
+        "LGA_Name": "Kanke",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.500000000000002,
+              8.800000000000002
+            ],
+            [
+              9.700000000000001,
+              8.800000000000002
+            ],
+            [
+              9.700000000000001,
+              9.000000000000002
+            ],
+            [
+              9.500000000000002,
+              9.000000000000002
+            ],
+            [
+              9.500000000000002,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-009",
+        "LGA_Name": "Langtang North",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.65,
+              8.800000000000002
+            ],
+            [
+              9.85,
+              8.800000000000002
+            ],
+            [
+              9.85,
+              9.000000000000002
+            ],
+            [
+              9.65,
+              9.000000000000002
+            ],
+            [
+              9.65,
+              8.800000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-010",
+        "LGA_Name": "Langtang South",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.750000000000002,
+              8.950000000000001
+            ],
+            [
+              8.950000000000001,
+              8.950000000000001
+            ],
+            [
+              8.950000000000001,
+              9.15
+            ],
+            [
+              8.750000000000002,
+              9.15
+            ],
+            [
+              8.750000000000002,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-011",
+        "LGA_Name": "Mangu",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.9,
+              8.950000000000001
+            ],
+            [
+              9.1,
+              8.950000000000001
+            ],
+            [
+              9.1,
+              9.15
+            ],
+            [
+              8.9,
+              9.15
+            ],
+            [
+              8.9,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-012",
+        "LGA_Name": "Mikang",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.05,
+              8.950000000000001
+            ],
+            [
+              9.25,
+              8.950000000000001
+            ],
+            [
+              9.25,
+              9.15
+            ],
+            [
+              9.05,
+              9.15
+            ],
+            [
+              9.05,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-013",
+        "LGA_Name": "Pankshin",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.200000000000001,
+              8.950000000000001
+            ],
+            [
+              9.4,
+              8.950000000000001
+            ],
+            [
+              9.4,
+              9.15
+            ],
+            [
+              9.200000000000001,
+              9.15
+            ],
+            [
+              9.200000000000001,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-014",
+        "LGA_Name": "Qua'an Pan",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.350000000000001,
+              8.950000000000001
+            ],
+            [
+              9.55,
+              8.950000000000001
+            ],
+            [
+              9.55,
+              9.15
+            ],
+            [
+              9.350000000000001,
+              9.15
+            ],
+            [
+              9.350000000000001,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-015",
+        "LGA_Name": "Riyom",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.500000000000002,
+              8.950000000000001
+            ],
+            [
+              9.700000000000001,
+              8.950000000000001
+            ],
+            [
+              9.700000000000001,
+              9.15
+            ],
+            [
+              9.500000000000002,
+              9.15
+            ],
+            [
+              9.500000000000002,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-016",
+        "LGA_Name": "Shendam",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.65,
+              8.950000000000001
+            ],
+            [
+              9.85,
+              8.950000000000001
+            ],
+            [
+              9.85,
+              9.15
+            ],
+            [
+              9.65,
+              9.15
+            ],
+            [
+              9.65,
+              8.950000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-PLA-017",
+        "LGA_Name": "Wase",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.250000000000002,
+              7.1
+            ],
+            [
+              8.450000000000001,
+              7.1
+            ],
+            [
+              8.450000000000001,
+              7.299999999999999
+            ],
+            [
+              8.250000000000002,
+              7.299999999999999
+            ],
+            [
+              8.250000000000002,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-001",
+        "LGA_Name": "Ado",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              7.1
+            ],
+            [
+              8.6,
+              7.1
+            ],
+            [
+              8.6,
+              7.299999999999999
+            ],
+            [
+              8.4,
+              7.299999999999999
+            ],
+            [
+              8.4,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-002",
+        "LGA_Name": "Agatu",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.55,
+              7.1
+            ],
+            [
+              8.75,
+              7.1
+            ],
+            [
+              8.75,
+              7.299999999999999
+            ],
+            [
+              8.55,
+              7.299999999999999
+            ],
+            [
+              8.55,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-003",
+        "LGA_Name": "Apa",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.700000000000001,
+              7.1
+            ],
+            [
+              8.9,
+              7.1
+            ],
+            [
+              8.9,
+              7.299999999999999
+            ],
+            [
+              8.700000000000001,
+              7.299999999999999
+            ],
+            [
+              8.700000000000001,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-004",
+        "LGA_Name": "Buruku",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.850000000000001,
+              7.1
+            ],
+            [
+              9.05,
+              7.1
+            ],
+            [
+              9.05,
+              7.299999999999999
+            ],
+            [
+              8.850000000000001,
+              7.299999999999999
+            ],
+            [
+              8.850000000000001,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-005",
+        "LGA_Name": "Gboko",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.000000000000002,
+              7.1
+            ],
+            [
+              9.200000000000001,
+              7.1
+            ],
+            [
+              9.200000000000001,
+              7.299999999999999
+            ],
+            [
+              9.000000000000002,
+              7.299999999999999
+            ],
+            [
+              9.000000000000002,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-006",
+        "LGA_Name": "Guma",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.15,
+              7.1
+            ],
+            [
+              9.35,
+              7.1
+            ],
+            [
+              9.35,
+              7.299999999999999
+            ],
+            [
+              9.15,
+              7.299999999999999
+            ],
+            [
+              9.15,
+              7.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-007",
+        "LGA_Name": "Gwer East",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.250000000000002,
+              7.25
+            ],
+            [
+              8.450000000000001,
+              7.25
+            ],
+            [
+              8.450000000000001,
+              7.449999999999999
+            ],
+            [
+              8.250000000000002,
+              7.449999999999999
+            ],
+            [
+              8.250000000000002,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-008",
+        "LGA_Name": "Gwer West",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              7.25
+            ],
+            [
+              8.6,
+              7.25
+            ],
+            [
+              8.6,
+              7.449999999999999
+            ],
+            [
+              8.4,
+              7.449999999999999
+            ],
+            [
+              8.4,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-009",
+        "LGA_Name": "Katsina-Ala",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.55,
+              7.25
+            ],
+            [
+              8.75,
+              7.25
+            ],
+            [
+              8.75,
+              7.449999999999999
+            ],
+            [
+              8.55,
+              7.449999999999999
+            ],
+            [
+              8.55,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-010",
+        "LGA_Name": "Konshisha",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.700000000000001,
+              7.25
+            ],
+            [
+              8.9,
+              7.25
+            ],
+            [
+              8.9,
+              7.449999999999999
+            ],
+            [
+              8.700000000000001,
+              7.449999999999999
+            ],
+            [
+              8.700000000000001,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-011",
+        "LGA_Name": "Kwande",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.850000000000001,
+              7.25
+            ],
+            [
+              9.05,
+              7.25
+            ],
+            [
+              9.05,
+              7.449999999999999
+            ],
+            [
+              8.850000000000001,
+              7.449999999999999
+            ],
+            [
+              8.850000000000001,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-012",
+        "LGA_Name": "Logo",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.000000000000002,
+              7.25
+            ],
+            [
+              9.200000000000001,
+              7.25
+            ],
+            [
+              9.200000000000001,
+              7.449999999999999
+            ],
+            [
+              9.000000000000002,
+              7.449999999999999
+            ],
+            [
+              9.000000000000002,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-013",
+        "LGA_Name": "Makurdi",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.15,
+              7.25
+            ],
+            [
+              9.35,
+              7.25
+            ],
+            [
+              9.35,
+              7.449999999999999
+            ],
+            [
+              9.15,
+              7.449999999999999
+            ],
+            [
+              9.15,
+              7.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-014",
+        "LGA_Name": "Obi",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.250000000000002,
+              7.4
+            ],
+            [
+              8.450000000000001,
+              7.4
+            ],
+            [
+              8.450000000000001,
+              7.6
+            ],
+            [
+              8.250000000000002,
+              7.6
+            ],
+            [
+              8.250000000000002,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-015",
+        "LGA_Name": "Ogbadibo",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              7.4
+            ],
+            [
+              8.6,
+              7.4
+            ],
+            [
+              8.6,
+              7.6
+            ],
+            [
+              8.4,
+              7.6
+            ],
+            [
+              8.4,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-016",
+        "LGA_Name": "Ohimini",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.55,
+              7.4
+            ],
+            [
+              8.75,
+              7.4
+            ],
+            [
+              8.75,
+              7.6
+            ],
+            [
+              8.55,
+              7.6
+            ],
+            [
+              8.55,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-017",
+        "LGA_Name": "Oju",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.700000000000001,
+              7.4
+            ],
+            [
+              8.9,
+              7.4
+            ],
+            [
+              8.9,
+              7.6
+            ],
+            [
+              8.700000000000001,
+              7.6
+            ],
+            [
+              8.700000000000001,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-018",
+        "LGA_Name": "Okpokwu",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.850000000000001,
+              7.4
+            ],
+            [
+              9.05,
+              7.4
+            ],
+            [
+              9.05,
+              7.6
+            ],
+            [
+              8.850000000000001,
+              7.6
+            ],
+            [
+              8.850000000000001,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-019",
+        "LGA_Name": "Otukpo",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.000000000000002,
+              7.4
+            ],
+            [
+              9.200000000000001,
+              7.4
+            ],
+            [
+              9.200000000000001,
+              7.6
+            ],
+            [
+              9.000000000000002,
+              7.6
+            ],
+            [
+              9.000000000000002,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-020",
+        "LGA_Name": "Tarka",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.15,
+              7.4
+            ],
+            [
+              9.35,
+              7.4
+            ],
+            [
+              9.35,
+              7.6
+            ],
+            [
+              9.15,
+              7.6
+            ],
+            [
+              9.15,
+              7.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-021",
+        "LGA_Name": "Ukum",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.250000000000002,
+              7.55
+            ],
+            [
+              8.450000000000001,
+              7.55
+            ],
+            [
+              8.450000000000001,
+              7.749999999999999
+            ],
+            [
+              8.250000000000002,
+              7.749999999999999
+            ],
+            [
+              8.250000000000002,
+              7.55
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-022",
+        "LGA_Name": "Ushongo",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              7.55
+            ],
+            [
+              8.6,
+              7.55
+            ],
+            [
+              8.6,
+              7.749999999999999
+            ],
+            [
+              8.4,
+              7.749999999999999
+            ],
+            [
+              8.4,
+              7.55
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-BEN-023",
+        "LGA_Name": "Vandeikya",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5,
+              7.8
+            ],
+            [
+              6.699999999999999,
+              7.8
+            ],
+            [
+              6.699999999999999,
+              7.999999999999999
+            ],
+            [
+              6.5,
+              7.999999999999999
+            ],
+            [
+              6.5,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-001",
+        "LGA_Name": "Adavi",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.65,
+              7.8
+            ],
+            [
+              6.85,
+              7.8
+            ],
+            [
+              6.85,
+              7.999999999999999
+            ],
+            [
+              6.65,
+              7.999999999999999
+            ],
+            [
+              6.65,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-002",
+        "LGA_Name": "Ajaokuta",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.800000000000001,
+              7.8
+            ],
+            [
+              7.0,
+              7.8
+            ],
+            [
+              7.0,
+              7.999999999999999
+            ],
+            [
+              6.800000000000001,
+              7.999999999999999
+            ],
+            [
+              6.800000000000001,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-003",
+        "LGA_Name": "Ankpa",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.95,
+              7.8
+            ],
+            [
+              7.1499999999999995,
+              7.8
+            ],
+            [
+              7.1499999999999995,
+              7.999999999999999
+            ],
+            [
+              6.95,
+              7.999999999999999
+            ],
+            [
+              6.95,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-004",
+        "LGA_Name": "Bassa",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1000000000000005,
+              7.8
+            ],
+            [
+              7.3,
+              7.8
+            ],
+            [
+              7.3,
+              7.999999999999999
+            ],
+            [
+              7.1000000000000005,
+              7.999999999999999
+            ],
+            [
+              7.1000000000000005,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-005",
+        "LGA_Name": "Dekina",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2,
+              7.949999999999999
+            ],
+            [
+              6.3999999999999995,
+              7.949999999999999
+            ],
+            [
+              6.3999999999999995,
+              8.149999999999999
+            ],
+            [
+              6.2,
+              8.149999999999999
+            ],
+            [
+              6.2,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-006",
+        "LGA_Name": "Ibaji",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.3500000000000005,
+              7.949999999999999
+            ],
+            [
+              6.55,
+              7.949999999999999
+            ],
+            [
+              6.55,
+              8.149999999999999
+            ],
+            [
+              6.3500000000000005,
+              8.149999999999999
+            ],
+            [
+              6.3500000000000005,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-007",
+        "LGA_Name": "Idah",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5,
+              7.949999999999999
+            ],
+            [
+              6.699999999999999,
+              7.949999999999999
+            ],
+            [
+              6.699999999999999,
+              8.149999999999999
+            ],
+            [
+              6.5,
+              8.149999999999999
+            ],
+            [
+              6.5,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-008",
+        "LGA_Name": "Igalamela Odolu",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.65,
+              7.949999999999999
+            ],
+            [
+              6.85,
+              7.949999999999999
+            ],
+            [
+              6.85,
+              8.149999999999999
+            ],
+            [
+              6.65,
+              8.149999999999999
+            ],
+            [
+              6.65,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-009",
+        "LGA_Name": "Ijumu",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.800000000000001,
+              7.949999999999999
+            ],
+            [
+              7.0,
+              7.949999999999999
+            ],
+            [
+              7.0,
+              8.149999999999999
+            ],
+            [
+              6.800000000000001,
+              8.149999999999999
+            ],
+            [
+              6.800000000000001,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-010",
+        "LGA_Name": "Kabba/Bunu",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.95,
+              7.949999999999999
+            ],
+            [
+              7.1499999999999995,
+              7.949999999999999
+            ],
+            [
+              7.1499999999999995,
+              8.149999999999999
+            ],
+            [
+              6.95,
+              8.149999999999999
+            ],
+            [
+              6.95,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-011",
+        "LGA_Name": "Kogi Koton Karfe",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1000000000000005,
+              7.949999999999999
+            ],
+            [
+              7.3,
+              7.949999999999999
+            ],
+            [
+              7.3,
+              8.149999999999999
+            ],
+            [
+              7.1000000000000005,
+              8.149999999999999
+            ],
+            [
+              7.1000000000000005,
+              7.949999999999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-012",
+        "LGA_Name": "Lokoja",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2,
+              7.05
+            ],
+            [
+              6.3999999999999995,
+              7.05
+            ],
+            [
+              6.3999999999999995,
+              7.249999999999999
+            ],
+            [
+              6.2,
+              7.249999999999999
+            ],
+            [
+              6.2,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-013",
+        "LGA_Name": "Mopa Muro",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.3500000000000005,
+              7.05
+            ],
+            [
+              6.55,
+              7.05
+            ],
+            [
+              6.55,
+              7.249999999999999
+            ],
+            [
+              6.3500000000000005,
+              7.249999999999999
+            ],
+            [
+              6.3500000000000005,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-014",
+        "LGA_Name": "Ofu",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5,
+              7.05
+            ],
+            [
+              6.699999999999999,
+              7.05
+            ],
+            [
+              6.699999999999999,
+              7.249999999999999
+            ],
+            [
+              6.5,
+              7.249999999999999
+            ],
+            [
+              6.5,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-015",
+        "LGA_Name": "Ogori/Magongo",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.65,
+              7.05
+            ],
+            [
+              6.85,
+              7.05
+            ],
+            [
+              6.85,
+              7.249999999999999
+            ],
+            [
+              6.65,
+              7.249999999999999
+            ],
+            [
+              6.65,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-016",
+        "LGA_Name": "Okehi",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.800000000000001,
+              7.05
+            ],
+            [
+              7.0,
+              7.05
+            ],
+            [
+              7.0,
+              7.249999999999999
+            ],
+            [
+              6.800000000000001,
+              7.249999999999999
+            ],
+            [
+              6.800000000000001,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-017",
+        "LGA_Name": "Okene",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.95,
+              7.05
+            ],
+            [
+              7.1499999999999995,
+              7.05
+            ],
+            [
+              7.1499999999999995,
+              7.249999999999999
+            ],
+            [
+              6.95,
+              7.249999999999999
+            ],
+            [
+              6.95,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-018",
+        "LGA_Name": "Olamaboro",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.1000000000000005,
+              7.05
+            ],
+            [
+              7.3,
+              7.05
+            ],
+            [
+              7.3,
+              7.249999999999999
+            ],
+            [
+              7.1000000000000005,
+              7.249999999999999
+            ],
+            [
+              7.1000000000000005,
+              7.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-019",
+        "LGA_Name": "Omala",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2,
+              7.2
+            ],
+            [
+              6.3999999999999995,
+              7.2
+            ],
+            [
+              6.3999999999999995,
+              7.3999999999999995
+            ],
+            [
+              6.2,
+              7.3999999999999995
+            ],
+            [
+              6.2,
+              7.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-020",
+        "LGA_Name": "Yagba East",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.3500000000000005,
+              7.2
+            ],
+            [
+              6.55,
+              7.2
+            ],
+            [
+              6.55,
+              7.3999999999999995
+            ],
+            [
+              6.3500000000000005,
+              7.3999999999999995
+            ],
+            [
+              6.3500000000000005,
+              7.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KOG-021",
+        "LGA_Name": "Yagba West",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6,
+              8.7
+            ],
+            [
+              4.799999999999999,
+              8.7
+            ],
+            [
+              4.799999999999999,
+              8.899999999999999
+            ],
+            [
+              4.6,
+              8.899999999999999
+            ],
+            [
+              4.6,
+              8.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-001",
+        "LGA_Name": "Asa",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.75,
+              8.7
+            ],
+            [
+              4.949999999999999,
+              8.7
+            ],
+            [
+              4.949999999999999,
+              8.899999999999999
+            ],
+            [
+              4.75,
+              8.899999999999999
+            ],
+            [
+              4.75,
+              8.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-002",
+        "LGA_Name": "Baruten",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.9,
+              8.7
+            ],
+            [
+              5.1,
+              8.7
+            ],
+            [
+              5.1,
+              8.899999999999999
+            ],
+            [
+              4.9,
+              8.899999999999999
+            ],
+            [
+              4.9,
+              8.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-003",
+        "LGA_Name": "Edu",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.05,
+              8.7
+            ],
+            [
+              5.249999999999999,
+              8.7
+            ],
+            [
+              5.249999999999999,
+              8.899999999999999
+            ],
+            [
+              5.05,
+              8.899999999999999
+            ],
+            [
+              5.05,
+              8.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-004",
+        "LGA_Name": "Ekiti",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.2,
+              8.7
+            ],
+            [
+              5.3999999999999995,
+              8.7
+            ],
+            [
+              5.3999999999999995,
+              8.899999999999999
+            ],
+            [
+              5.2,
+              8.899999999999999
+            ],
+            [
+              5.2,
+              8.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-005",
+        "LGA_Name": "Ifelodun",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3,
+              8.85
+            ],
+            [
+              4.499999999999999,
+              8.85
+            ],
+            [
+              4.499999999999999,
+              9.049999999999999
+            ],
+            [
+              4.3,
+              9.049999999999999
+            ],
+            [
+              4.3,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-006",
+        "LGA_Name": "Ilorin East",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.45,
+              8.85
+            ],
+            [
+              4.6499999999999995,
+              8.85
+            ],
+            [
+              4.6499999999999995,
+              9.049999999999999
+            ],
+            [
+              4.45,
+              9.049999999999999
+            ],
+            [
+              4.45,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-007",
+        "LGA_Name": "Ilorin South",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6,
+              8.85
+            ],
+            [
+              4.799999999999999,
+              8.85
+            ],
+            [
+              4.799999999999999,
+              9.049999999999999
+            ],
+            [
+              4.6,
+              9.049999999999999
+            ],
+            [
+              4.6,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-008",
+        "LGA_Name": "Ilorin West",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.75,
+              8.85
+            ],
+            [
+              4.949999999999999,
+              8.85
+            ],
+            [
+              4.949999999999999,
+              9.049999999999999
+            ],
+            [
+              4.75,
+              9.049999999999999
+            ],
+            [
+              4.75,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-009",
+        "LGA_Name": "Irepodun",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.9,
+              8.85
+            ],
+            [
+              5.1,
+              8.85
+            ],
+            [
+              5.1,
+              9.049999999999999
+            ],
+            [
+              4.9,
+              9.049999999999999
+            ],
+            [
+              4.9,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-010",
+        "LGA_Name": "Isin",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.05,
+              8.85
+            ],
+            [
+              5.249999999999999,
+              8.85
+            ],
+            [
+              5.249999999999999,
+              9.049999999999999
+            ],
+            [
+              5.05,
+              9.049999999999999
+            ],
+            [
+              5.05,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-011",
+        "LGA_Name": "Kaiama",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.2,
+              8.85
+            ],
+            [
+              5.3999999999999995,
+              8.85
+            ],
+            [
+              5.3999999999999995,
+              9.049999999999999
+            ],
+            [
+              5.2,
+              9.049999999999999
+            ],
+            [
+              5.2,
+              8.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-012",
+        "LGA_Name": "Moro",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3,
+              9.0
+            ],
+            [
+              4.499999999999999,
+              9.0
+            ],
+            [
+              4.499999999999999,
+              9.2
+            ],
+            [
+              4.3,
+              9.2
+            ],
+            [
+              4.3,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-013",
+        "LGA_Name": "Offa",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.45,
+              9.0
+            ],
+            [
+              4.6499999999999995,
+              9.0
+            ],
+            [
+              4.6499999999999995,
+              9.2
+            ],
+            [
+              4.45,
+              9.2
+            ],
+            [
+              4.45,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-014",
+        "LGA_Name": "Oke Ero",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6,
+              9.0
+            ],
+            [
+              4.799999999999999,
+              9.0
+            ],
+            [
+              4.799999999999999,
+              9.2
+            ],
+            [
+              4.6,
+              9.2
+            ],
+            [
+              4.6,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-015",
+        "LGA_Name": "Oyun",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.75,
+              9.0
+            ],
+            [
+              4.949999999999999,
+              9.0
+            ],
+            [
+              4.949999999999999,
+              9.2
+            ],
+            [
+              4.75,
+              9.2
+            ],
+            [
+              4.75,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KWA-016",
+        "LGA_Name": "Pategi",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9,
+              10.200000000000001
+            ],
+            [
+              8.1,
+              10.200000000000001
+            ],
+            [
+              8.1,
+              10.4
+            ],
+            [
+              7.9,
+              10.4
+            ],
+            [
+              7.9,
+              10.200000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-001",
+        "LGA_Name": "Birnin Gwari",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.05,
+              10.200000000000001
+            ],
+            [
+              8.25,
+              10.200000000000001
+            ],
+            [
+              8.25,
+              10.4
+            ],
+            [
+              8.05,
+              10.4
+            ],
+            [
+              8.05,
+              10.200000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-002",
+        "LGA_Name": "Chikun",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.200000000000001,
+              10.200000000000001
+            ],
+            [
+              8.4,
+              10.200000000000001
+            ],
+            [
+              8.4,
+              10.4
+            ],
+            [
+              8.200000000000001,
+              10.4
+            ],
+            [
+              8.200000000000001,
+              10.200000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-003",
+        "LGA_Name": "Giwa",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.300000000000001,
+              10.350000000000001
+            ],
+            [
+              7.5,
+              10.350000000000001
+            ],
+            [
+              7.5,
+              10.55
+            ],
+            [
+              7.300000000000001,
+              10.55
+            ],
+            [
+              7.300000000000001,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-004",
+        "LGA_Name": "Igabi",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.450000000000001,
+              10.350000000000001
+            ],
+            [
+              7.65,
+              10.350000000000001
+            ],
+            [
+              7.65,
+              10.55
+            ],
+            [
+              7.450000000000001,
+              10.55
+            ],
+            [
+              7.450000000000001,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-005",
+        "LGA_Name": "Ikara",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6000000000000005,
+              10.350000000000001
+            ],
+            [
+              7.8,
+              10.350000000000001
+            ],
+            [
+              7.8,
+              10.55
+            ],
+            [
+              7.6000000000000005,
+              10.55
+            ],
+            [
+              7.6000000000000005,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-006",
+        "LGA_Name": "Jaba",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.750000000000001,
+              10.350000000000001
+            ],
+            [
+              7.95,
+              10.350000000000001
+            ],
+            [
+              7.95,
+              10.55
+            ],
+            [
+              7.750000000000001,
+              10.55
+            ],
+            [
+              7.750000000000001,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-007",
+        "LGA_Name": "Jema'a",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9,
+              10.350000000000001
+            ],
+            [
+              8.1,
+              10.350000000000001
+            ],
+            [
+              8.1,
+              10.55
+            ],
+            [
+              7.9,
+              10.55
+            ],
+            [
+              7.9,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-008",
+        "LGA_Name": "Kachia",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.05,
+              10.350000000000001
+            ],
+            [
+              8.25,
+              10.350000000000001
+            ],
+            [
+              8.25,
+              10.55
+            ],
+            [
+              8.05,
+              10.55
+            ],
+            [
+              8.05,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-009",
+        "LGA_Name": "Kaduna North",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.200000000000001,
+              10.350000000000001
+            ],
+            [
+              8.4,
+              10.350000000000001
+            ],
+            [
+              8.4,
+              10.55
+            ],
+            [
+              8.200000000000001,
+              10.55
+            ],
+            [
+              8.200000000000001,
+              10.350000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-010",
+        "LGA_Name": "Kaduna South",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.300000000000001,
+              10.500000000000002
+            ],
+            [
+              7.5,
+              10.500000000000002
+            ],
+            [
+              7.5,
+              10.700000000000001
+            ],
+            [
+              7.300000000000001,
+              10.700000000000001
+            ],
+            [
+              7.300000000000001,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-011",
+        "LGA_Name": "Kagarko",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.450000000000001,
+              10.500000000000002
+            ],
+            [
+              7.65,
+              10.500000000000002
+            ],
+            [
+              7.65,
+              10.700000000000001
+            ],
+            [
+              7.450000000000001,
+              10.700000000000001
+            ],
+            [
+              7.450000000000001,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-012",
+        "LGA_Name": "Kajuru",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6000000000000005,
+              10.500000000000002
+            ],
+            [
+              7.8,
+              10.500000000000002
+            ],
+            [
+              7.8,
+              10.700000000000001
+            ],
+            [
+              7.6000000000000005,
+              10.700000000000001
+            ],
+            [
+              7.6000000000000005,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-013",
+        "LGA_Name": "Kaura",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.750000000000001,
+              10.500000000000002
+            ],
+            [
+              7.95,
+              10.500000000000002
+            ],
+            [
+              7.95,
+              10.700000000000001
+            ],
+            [
+              7.750000000000001,
+              10.700000000000001
+            ],
+            [
+              7.750000000000001,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-014",
+        "LGA_Name": "Kauru",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9,
+              10.500000000000002
+            ],
+            [
+              8.1,
+              10.500000000000002
+            ],
+            [
+              8.1,
+              10.700000000000001
+            ],
+            [
+              7.9,
+              10.700000000000001
+            ],
+            [
+              7.9,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-015",
+        "LGA_Name": "Kubau",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.05,
+              10.500000000000002
+            ],
+            [
+              8.25,
+              10.500000000000002
+            ],
+            [
+              8.25,
+              10.700000000000001
+            ],
+            [
+              8.05,
+              10.700000000000001
+            ],
+            [
+              8.05,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-016",
+        "LGA_Name": "Kudan",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.200000000000001,
+              10.500000000000002
+            ],
+            [
+              8.4,
+              10.500000000000002
+            ],
+            [
+              8.4,
+              10.700000000000001
+            ],
+            [
+              8.200000000000001,
+              10.700000000000001
+            ],
+            [
+              8.200000000000001,
+              10.500000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-017",
+        "LGA_Name": "Lere",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.300000000000001,
+              10.65
+            ],
+            [
+              7.5,
+              10.65
+            ],
+            [
+              7.5,
+              10.85
+            ],
+            [
+              7.300000000000001,
+              10.85
+            ],
+            [
+              7.300000000000001,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-018",
+        "LGA_Name": "Makarfi",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.450000000000001,
+              10.65
+            ],
+            [
+              7.65,
+              10.65
+            ],
+            [
+              7.65,
+              10.85
+            ],
+            [
+              7.450000000000001,
+              10.85
+            ],
+            [
+              7.450000000000001,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-019",
+        "LGA_Name": "Sabon Gari",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6000000000000005,
+              10.65
+            ],
+            [
+              7.8,
+              10.65
+            ],
+            [
+              7.8,
+              10.85
+            ],
+            [
+              7.6000000000000005,
+              10.85
+            ],
+            [
+              7.6000000000000005,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-020",
+        "LGA_Name": "Sanga",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.750000000000001,
+              10.65
+            ],
+            [
+              7.95,
+              10.65
+            ],
+            [
+              7.95,
+              10.85
+            ],
+            [
+              7.750000000000001,
+              10.85
+            ],
+            [
+              7.750000000000001,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-021",
+        "LGA_Name": "Soba",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.9,
+              10.65
+            ],
+            [
+              8.1,
+              10.65
+            ],
+            [
+              8.1,
+              10.85
+            ],
+            [
+              7.9,
+              10.85
+            ],
+            [
+              7.9,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-022",
+        "LGA_Name": "Zangon Kataf",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.05,
+              10.65
+            ],
+            [
+              8.25,
+              10.65
+            ],
+            [
+              8.25,
+              10.85
+            ],
+            [
+              8.05,
+              10.85
+            ],
+            [
+              8.05,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-KAD-023",
+        "LGA_Name": "Zaria",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.450000000000001,
+              8.9
+            ],
+            [
+              8.65,
+              8.9
+            ],
+            [
+              8.65,
+              9.1
+            ],
+            [
+              8.450000000000001,
+              9.1
+            ],
+            [
+              8.450000000000001,
+              8.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-001",
+        "LGA_Name": "Akwanga",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.550000000000002,
+              8.000000000000002
+            ],
+            [
+              7.750000000000001,
+              8.000000000000002
+            ],
+            [
+              7.750000000000001,
+              8.200000000000001
+            ],
+            [
+              7.550000000000002,
+              8.200000000000001
+            ],
+            [
+              7.550000000000002,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-002",
+        "LGA_Name": "Awe",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.700000000000002,
+              8.000000000000002
+            ],
+            [
+              7.900000000000001,
+              8.000000000000002
+            ],
+            [
+              7.900000000000001,
+              8.200000000000001
+            ],
+            [
+              7.700000000000002,
+              8.200000000000001
+            ],
+            [
+              7.700000000000002,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-003",
+        "LGA_Name": "Doma",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.850000000000001,
+              8.000000000000002
+            ],
+            [
+              8.05,
+              8.000000000000002
+            ],
+            [
+              8.05,
+              8.200000000000001
+            ],
+            [
+              7.850000000000001,
+              8.200000000000001
+            ],
+            [
+              7.850000000000001,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-004",
+        "LGA_Name": "Karu",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.000000000000002,
+              8.000000000000002
+            ],
+            [
+              8.200000000000001,
+              8.000000000000002
+            ],
+            [
+              8.200000000000001,
+              8.200000000000001
+            ],
+            [
+              8.000000000000002,
+              8.200000000000001
+            ],
+            [
+              8.000000000000002,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-005",
+        "LGA_Name": "Keana",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.150000000000002,
+              8.000000000000002
+            ],
+            [
+              8.350000000000001,
+              8.000000000000002
+            ],
+            [
+              8.350000000000001,
+              8.200000000000001
+            ],
+            [
+              8.150000000000002,
+              8.200000000000001
+            ],
+            [
+              8.150000000000002,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-006",
+        "LGA_Name": "Keffi",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.300000000000002,
+              8.000000000000002
+            ],
+            [
+              8.500000000000002,
+              8.000000000000002
+            ],
+            [
+              8.500000000000002,
+              8.200000000000001
+            ],
+            [
+              8.300000000000002,
+              8.200000000000001
+            ],
+            [
+              8.300000000000002,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-007",
+        "LGA_Name": "Kokona",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.450000000000001,
+              8.000000000000002
+            ],
+            [
+              8.65,
+              8.000000000000002
+            ],
+            [
+              8.65,
+              8.200000000000001
+            ],
+            [
+              8.450000000000001,
+              8.200000000000001
+            ],
+            [
+              8.450000000000001,
+              8.000000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-008",
+        "LGA_Name": "Lafia",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.550000000000002,
+              8.15
+            ],
+            [
+              7.750000000000001,
+              8.15
+            ],
+            [
+              7.750000000000001,
+              8.35
+            ],
+            [
+              7.550000000000002,
+              8.35
+            ],
+            [
+              7.550000000000002,
+              8.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-009",
+        "LGA_Name": "Nasarawa",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.700000000000002,
+              8.15
+            ],
+            [
+              7.900000000000001,
+              8.15
+            ],
+            [
+              7.900000000000001,
+              8.35
+            ],
+            [
+              7.700000000000002,
+              8.35
+            ],
+            [
+              7.700000000000002,
+              8.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-010",
+        "LGA_Name": "Nasarawa Egon",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.850000000000001,
+              8.15
+            ],
+            [
+              8.05,
+              8.15
+            ],
+            [
+              8.05,
+              8.35
+            ],
+            [
+              7.850000000000001,
+              8.35
+            ],
+            [
+              7.850000000000001,
+              8.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-011",
+        "LGA_Name": "Obi",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.000000000000002,
+              8.15
+            ],
+            [
+              8.200000000000001,
+              8.15
+            ],
+            [
+              8.200000000000001,
+              8.35
+            ],
+            [
+              8.000000000000002,
+              8.35
+            ],
+            [
+              8.000000000000002,
+              8.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-012",
+        "LGA_Name": "Toto",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.150000000000002,
+              8.15
+            ],
+            [
+              8.350000000000001,
+              8.15
+            ],
+            [
+              8.350000000000001,
+              8.35
+            ],
+            [
+              8.150000000000002,
+              8.35
+            ],
+            [
+              8.150000000000002,
+              8.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-NAS-013",
+        "LGA_Name": "Wamba",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.750000000000002,
+              7.6000000000000005
+            ],
+            [
+              10.950000000000001,
+              7.6000000000000005
+            ],
+            [
+              10.950000000000001,
+              7.8
+            ],
+            [
+              10.750000000000002,
+              7.8
+            ],
+            [
+              10.750000000000002,
+              7.6000000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-001",
+        "LGA_Name": "Ardo Kola",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9,
+              7.6000000000000005
+            ],
+            [
+              11.1,
+              7.6000000000000005
+            ],
+            [
+              11.1,
+              7.8
+            ],
+            [
+              10.9,
+              7.8
+            ],
+            [
+              10.9,
+              7.6000000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-002",
+        "LGA_Name": "Bali",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.000000000000002,
+              7.75
+            ],
+            [
+              10.200000000000001,
+              7.75
+            ],
+            [
+              10.200000000000001,
+              7.949999999999999
+            ],
+            [
+              10.000000000000002,
+              7.949999999999999
+            ],
+            [
+              10.000000000000002,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-003",
+        "LGA_Name": "Donga",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.15,
+              7.75
+            ],
+            [
+              10.35,
+              7.75
+            ],
+            [
+              10.35,
+              7.949999999999999
+            ],
+            [
+              10.15,
+              7.949999999999999
+            ],
+            [
+              10.15,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-004",
+        "LGA_Name": "Gashaka",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3,
+              7.75
+            ],
+            [
+              10.5,
+              7.75
+            ],
+            [
+              10.5,
+              7.949999999999999
+            ],
+            [
+              10.3,
+              7.949999999999999
+            ],
+            [
+              10.3,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-005",
+        "LGA_Name": "Gassol",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.450000000000001,
+              7.75
+            ],
+            [
+              10.65,
+              7.75
+            ],
+            [
+              10.65,
+              7.949999999999999
+            ],
+            [
+              10.450000000000001,
+              7.949999999999999
+            ],
+            [
+              10.450000000000001,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-006",
+        "LGA_Name": "Ibi",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.600000000000001,
+              7.75
+            ],
+            [
+              10.8,
+              7.75
+            ],
+            [
+              10.8,
+              7.949999999999999
+            ],
+            [
+              10.600000000000001,
+              7.949999999999999
+            ],
+            [
+              10.600000000000001,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-007",
+        "LGA_Name": "Jalingo",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.750000000000002,
+              7.75
+            ],
+            [
+              10.950000000000001,
+              7.75
+            ],
+            [
+              10.950000000000001,
+              7.949999999999999
+            ],
+            [
+              10.750000000000002,
+              7.949999999999999
+            ],
+            [
+              10.750000000000002,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-008",
+        "LGA_Name": "Karim Lamido",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9,
+              7.75
+            ],
+            [
+              11.1,
+              7.75
+            ],
+            [
+              11.1,
+              7.949999999999999
+            ],
+            [
+              10.9,
+              7.949999999999999
+            ],
+            [
+              10.9,
+              7.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-009",
+        "LGA_Name": "Kurmi",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.000000000000002,
+              7.9
+            ],
+            [
+              10.200000000000001,
+              7.9
+            ],
+            [
+              10.200000000000001,
+              8.1
+            ],
+            [
+              10.000000000000002,
+              8.1
+            ],
+            [
+              10.000000000000002,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-010",
+        "LGA_Name": "Lau",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.15,
+              7.9
+            ],
+            [
+              10.35,
+              7.9
+            ],
+            [
+              10.35,
+              8.1
+            ],
+            [
+              10.15,
+              8.1
+            ],
+            [
+              10.15,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-011",
+        "LGA_Name": "Sardauna",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3,
+              7.9
+            ],
+            [
+              10.5,
+              7.9
+            ],
+            [
+              10.5,
+              8.1
+            ],
+            [
+              10.3,
+              8.1
+            ],
+            [
+              10.3,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-012",
+        "LGA_Name": "Takum",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.450000000000001,
+              7.9
+            ],
+            [
+              10.65,
+              7.9
+            ],
+            [
+              10.65,
+              8.1
+            ],
+            [
+              10.450000000000001,
+              8.1
+            ],
+            [
+              10.450000000000001,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-013",
+        "LGA_Name": "Ussa",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.600000000000001,
+              7.9
+            ],
+            [
+              10.8,
+              7.9
+            ],
+            [
+              10.8,
+              8.1
+            ],
+            [
+              10.600000000000001,
+              8.1
+            ],
+            [
+              10.600000000000001,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-014",
+        "LGA_Name": "Wukari",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.750000000000002,
+              7.9
+            ],
+            [
+              10.950000000000001,
+              7.9
+            ],
+            [
+              10.950000000000001,
+              8.1
+            ],
+            [
+              10.750000000000002,
+              8.1
+            ],
+            [
+              10.750000000000002,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-015",
+        "LGA_Name": "Yorro",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9,
+              7.9
+            ],
+            [
+              11.1,
+              7.9
+            ],
+            [
+              11.1,
+              8.1
+            ],
+            [
+              10.9,
+              8.1
+            ],
+            [
+              10.9,
+              7.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-TAR-016",
+        "LGA_Name": "Zing",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.500000000000002,
+              10.5
+            ],
+            [
+              10.700000000000001,
+              10.5
+            ],
+            [
+              10.700000000000001,
+              10.7
+            ],
+            [
+              10.500000000000002,
+              10.7
+            ],
+            [
+              10.500000000000002,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-001",
+        "LGA_Name": "Akko",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.65,
+              10.5
+            ],
+            [
+              10.85,
+              10.5
+            ],
+            [
+              10.85,
+              10.7
+            ],
+            [
+              10.65,
+              10.7
+            ],
+            [
+              10.65,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-002",
+        "LGA_Name": "Balanga",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8,
+              10.5
+            ],
+            [
+              11.0,
+              10.5
+            ],
+            [
+              11.0,
+              10.7
+            ],
+            [
+              10.8,
+              10.7
+            ],
+            [
+              10.8,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-003",
+        "LGA_Name": "Billiri",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.950000000000001,
+              10.5
+            ],
+            [
+              11.15,
+              10.5
+            ],
+            [
+              11.15,
+              10.7
+            ],
+            [
+              10.950000000000001,
+              10.7
+            ],
+            [
+              10.950000000000001,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-004",
+        "LGA_Name": "Dukku",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.100000000000001,
+              10.5
+            ],
+            [
+              11.3,
+              10.5
+            ],
+            [
+              11.3,
+              10.7
+            ],
+            [
+              11.100000000000001,
+              10.7
+            ],
+            [
+              11.100000000000001,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-005",
+        "LGA_Name": "Funakaye",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.250000000000002,
+              10.5
+            ],
+            [
+              11.450000000000001,
+              10.5
+            ],
+            [
+              11.450000000000001,
+              10.7
+            ],
+            [
+              11.250000000000002,
+              10.7
+            ],
+            [
+              11.250000000000002,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-006",
+        "LGA_Name": "Gombe",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.4,
+              10.5
+            ],
+            [
+              11.6,
+              10.5
+            ],
+            [
+              11.6,
+              10.7
+            ],
+            [
+              11.4,
+              10.7
+            ],
+            [
+              11.4,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-007",
+        "LGA_Name": "Kaltungo",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.500000000000002,
+              10.65
+            ],
+            [
+              10.700000000000001,
+              10.65
+            ],
+            [
+              10.700000000000001,
+              10.85
+            ],
+            [
+              10.500000000000002,
+              10.85
+            ],
+            [
+              10.500000000000002,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-008",
+        "LGA_Name": "Kwami",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.65,
+              10.65
+            ],
+            [
+              10.85,
+              10.65
+            ],
+            [
+              10.85,
+              10.85
+            ],
+            [
+              10.65,
+              10.85
+            ],
+            [
+              10.65,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-009",
+        "LGA_Name": "Nafada",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8,
+              10.65
+            ],
+            [
+              11.0,
+              10.65
+            ],
+            [
+              11.0,
+              10.85
+            ],
+            [
+              10.8,
+              10.85
+            ],
+            [
+              10.8,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-010",
+        "LGA_Name": "Shongom",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.950000000000001,
+              10.65
+            ],
+            [
+              11.15,
+              10.65
+            ],
+            [
+              11.15,
+              10.85
+            ],
+            [
+              10.950000000000001,
+              10.85
+            ],
+            [
+              10.950000000000001,
+              10.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "LGA_Code": "NG-GOM-011",
+        "LGA_Name": "Yamaltu/Deba",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "adm2_pcode": null,
+        "adm1_pcode": null,
+        "area_sqkm": null,
+        "Notes": "N-HYPPADEC member LGA"
+      }
+    }
+  ]
+}

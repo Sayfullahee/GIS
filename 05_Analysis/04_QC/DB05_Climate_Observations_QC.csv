@@ -1,0 +1,30 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+DB05-Q01,Structure,All required fields present,Schema check,All 29 schema fields present,Add missing columns,Yes,Pending
+DB05-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Climate_ID / Station_ID / Station_Name / Observation_Date / Observation_Period / State_Code / Latitude / Longitude / Source / Source_Date / Unit_Standard / QC_Status / Record_Created / Data_Version,Flag and resolve,Yes,Pending
+DB05-Q03,Uniqueness,No duplicate Climate_ID,Distinct count,Count distinct = count total,Investigate and resolve,Yes,Pending
+DB05-Q04,Uniqueness,No duplicate Station_ID + Observation_Date + Observation_Period combination,Composite key check,No duplicate combinations (one record per station per period),Flag duplicates; keep source-verified record; flag other for review,Yes,Pending
+DB05-Q05,Reference integrity,Station_ID resolves to G20,LEFT JOIN,All Station_ID values exist in G20,Flag unresolved; register station in G20 before entering observations,Yes,Pending (requires G20)
+DB05-Q06,Consistency,Station_Name matches G20,Cross-check,Station_Name consistent with G20 for same Station_ID,Correct to G20 canonical name,No,Pending
+DB05-Q07,Consistency,Coordinates match G20,Cross-check,Latitude and Longitude identical to G20 for same Station_ID,Correct to G20 values,Yes,Pending
+DB05-Q08,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+DB05-Q09,Temporal,Observation_Date valid,Date check,Valid date; not future; >= 1950-01-01,Flag invalid dates,Yes,Pending
+DB05-Q10,Temporal,Observation_Period consistent with date precision,Logic check,Daily records have full YYYY-MM-DD date; Monthly records have YYYY-MM-01; Annual have YYYY-01-01,Standardise dates to first-of-period convention for Monthly and Annual records,No,Pending
+DB05-Q11,Range,Rainfall_mm non-negative,Range check,All non-null values >= 0,Flag negatives,Yes,Pending
+DB05-Q12,Range,Rainfall_mm extreme value flag,Range check,Flag daily Rainfall_mm > 200mm,Send to meteorologist for verification; record verification outcome in Notes,No,Pending
+DB05-Q13,Range,Temperature_Max_C within bounds,Range check,All non-null values -5 to 55,Flag out-of-range,Yes,Pending
+DB05-Q14,Range,Temperature_Min_C within bounds,Range check,All non-null values -5 to 55,Flag out-of-range,Yes,Pending
+DB05-Q15,Logical,Temperature_Min_C <= Temperature_Max_C,Cross-field check,Temperature_Min_C <= Temperature_Max_C for all records,Flag inversions; check source data,Yes,Pending
+DB05-Q16,Logical,Temperature_Mean_C between Min and Max,Cross-field check,Temperature_Min_C <= Temperature_Mean_C <= Temperature_Max_C,Flag inconsistencies,No,Pending
+DB05-Q17,Range,Humidity_Pct 0–100,Range check,All non-null values 0–100,Flag out-of-range,No,Pending
+DB05-Q18,Range,Wind_Speed_ms non-negative,Range check,All non-null values >= 0; flag > 50 m/s,Flag extreme values for verification,No,Pending
+DB05-Q19,Missing data,NULL used for not-recorded values — not zero,Field check,Rainfall_mm is NULL when not recorded — not 0; zero only when confirmed zero rainfall,Correct 0 entries to NULL where measurement was absent; use Rainfall_QC_Flag = MISS,Yes,Pending
+DB05-Q20,QC Flag,Rainfall_QC_Flag present when Rainfall_mm present,Conditional check,Rainfall_QC_Flag not null when Rainfall_mm not null,Populate Rainfall_QC_Flag for all rainfall records,No,Pending
+DB05-Q21,QC Flag,Rainfall_QC_Flag allowed values,Value check,All non-null values in {OK / EST / SUS / MISS},Flag invalid values,No,Pending
+DB05-Q22,Logical,Extreme_Rainfall_Threshold_mm present when Extreme_Rainfall_Flag = Yes,Conditional check,Not null when flag = Yes,Populate threshold value; must reference INDICATOR_REGISTER.csv,No,Pending
+DB05-Q23,Logical,Drought_Indicator allowed values,Value check,All non-null values in {None / Mild / Moderate / Severe / Extreme / Unknown},Flag invalid values; document which drought index was applied,No,Pending
+DB05-Q24,Logical,Observation_Period allowed values,Value check,All values in {Daily / Monthly / Annual / Event},Flag invalid values,Yes,Pending
+DB05-Q25,Unit,Unit_Standard = SI for all records,Value check,All values = SI,Flag non-SI; document conversion applied,Yes,Pending
+DB05-Q26,Time series,No impossible jumps between consecutive daily rainfall records,Sequential check per Station_ID,Flag station-days where rainfall changes by > 300mm from previous day (instrument error indicator),Verify with source; may be valid extreme event,No,Pending
+DB05-Q27,Time series,Monthly totals consistent with daily records where both exist,Aggregation check,Monthly Rainfall_mm within 5% of sum of daily records for same station-month,Flag inconsistencies; document reconciliation,No,Pending
+DB05-Q28,Coverage,Each study state has at least one active climate station,Count by State_Code in G20,All 10 study states have >= 1 station,Flag states without stations; document data gap; plan interpolation approach,No,Pending (requires G20)
+DB05-Q29,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC011 present and complete,Update SOURCE_REGISTER.csv,No,Pending

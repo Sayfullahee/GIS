@@ -1,0 +1,19 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+alert_id,str,NO,ALT-2026-NIG-001,Verified field for Flood_Alerts
+issued_at,str,NO,2026-10-08 06:00:00+01:00,Verified field for Flood_Alerts
+state_code,str,NO,NG-NIG,Verified field for Flood_Alerts
+lga_id,str,NO,LGA-NIG-002,Verified field for Flood_Alerts
+warning_level,int64,NO,2,Verified field for Flood_Alerts
+trigger_type,str,NO,river_level,Verified field for Flood_Alerts
+hazard_score,float64,NO,78.5,Verified field for Flood_Alerts
+confidence,str,NO,High,Verified field for Flood_Alerts
+status,str,NO,released,Verified field for Flood_Alerts
+rule_id,str,NO,RULE-RIV-STAGE2,Verified field for Flood_Alerts
+rule_version,str,NO,v4.1,Verified field for Flood_Alerts
+reviewed_by,str,NO,SEMA_Tech_Lead,Verified field for Flood_Alerts
+reviewed_at,str,NO,2026-10-08 05:30:00+01:00,Verified field for Flood_Alerts
+approved_by,str,NO,HYPPADEC_Director_Ops,Verified field for Flood_Alerts
+approved_at,str,NO,2026-10-08 05:50:00+01:00,Verified field for Flood_Alerts
+released_by,str,NO,Duty_Hydrologist_01,Verified field for Flood_Alerts
+released_at,str,NO,2026-10-08 06:00:00+01:00,Verified field for Flood_Alerts
+notes,str,NO,Shiroro reservoir spillway discharge threshold exceeded; Level 2 Watch.,Verified field for Flood_Alerts

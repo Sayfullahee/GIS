@@ -1,0 +1,11 @@
+State_Code,State_Name,Major_Hydro_Basin,SAR_Observed_Flood_Area_Km2,Mean_NDVI_Baseline,NDVI_Vegetation_Anomaly,Tree_Canopy_Cover_Pct,Mean_Riverbank_Retreat_M_Yr,Cropland_Flood_Exposure_Pct,Ground_Truth_Field_Sites,EO_Classification_Accuracy_Pct,Sensor_Sources,Data_Confidence,Baseline_Year,QC_Status
+NG-NIG,Niger,Niger Basin / Shiroro-Kainji,425.6,0.54,-0.06,28.4,3.8,18.2,25,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-KEB,Kebbi,Rima / Sokoto Basin,310.2,0.42,-0.08,14.2,4.2,14.5,10,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-PLA,Plateau,Plateau Uplands / Benue Trib,85.4,0.61,-0.02,36.8,2.1,9.4,16,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-BEN,Benue,Lower Benue River Plain,512.8,0.63,-0.05,39.5,4.9,24.6,19,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-KOG,Kogi,Niger-Benue Confluence,488.0,0.59,-0.04,34.1,5.4,22.8,18,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-KWA,Kwara,Middle Niger / Jebba Corridor,215.3,0.52,-0.03,31.0,3.1,12.0,14,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-KAD,Kaduna,Kaduna River Catchment,194.5,0.51,-0.07,22.7,2.8,11.3,15,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-NAS,Nasarawa,Upper Benue Tributaries,178.6,0.58,-0.03,35.4,2.6,13.9,18,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-TAR,Taraba,Kashimbila / Taraba Basin,340.1,0.66,-0.02,46.2,3.4,15.1,10,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN
+NG-GOM,Gombe,Dadin Kowa / Gongola Basin,132.4,0.46,-0.05,19.8,3.5,10.7,15,90.0,Sentinel-1 SAR / Sentinel-2 MSI / Copernicus 30m DEM,High,2026,CLEAN

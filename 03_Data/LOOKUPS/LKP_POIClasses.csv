@@ -1,0 +1,20 @@
+POI_Class_Code,POI_Class_Name,Sub_Class,OSM_Tags,Critical_Service,Exposure_Weight,Description
+SCH_P,School - Primary,Education,amenity=school + school=primary,Yes,High,Primary school — high population of vulnerable users
+SCH_S,School - Secondary,Education,amenity=school + school=secondary,Yes,High,Secondary school
+SCH_T,School - Tertiary,Education,amenity=college;university,Yes,Moderate,Tertiary institution
+HEALTH_H,Hospital,Health,amenity=hospital,Yes,Very High,Full hospital — critical emergency service
+HEALTH_C,Health Centre/Clinic,Health,amenity=clinic;health_post,Yes,High,Primary health care facility
+HEALTH_P,Pharmacy,Health,amenity=pharmacy,No,Low,
+MARKET,Market,Commerce,amenity=marketplace,No,Moderate,Weekly or daily market — economic hub
+RELIG_C,Church,Religious,amenity=place_of_worship + religion=christian,No,Low,Community gathering point
+RELIG_M,Mosque,Religious,amenity=place_of_worship + religion=muslim,No,Low,
+WATER_B,Borehole/Handpump,Water,man_made=water_well;water_point,Yes,High,Community water supply
+WATER_T,Water Tower/Tank,Water,man_made=water_tower,Yes,High,
+GOVT_LGA,LGA Secretariat,Government,office=government,Yes,Moderate,Local government administrative centre
+GOVT_STATE,State Government Office,Government,office=government + admin_level=4,Yes,Moderate,
+TRANSPORT_P,Motor Park/Bus Station,Transport,amenity=bus_station;taxi,No,Moderate,Major transport hub
+POLICE,Police Station,Security,amenity=police,Yes,Moderate,
+FIRE,Fire Station,Emergency,amenity=fire_station,Yes,High,
+BANK,Bank/ATM,Finance,amenity=bank;atm,No,Low,
+COMM_HALL,Community Hall/Centre,Community,amenity=community_centre,No,Low,Community gathering point
+OTHER,Other POI,Other,,No,Low,Does not fit above classes — describe in Notes

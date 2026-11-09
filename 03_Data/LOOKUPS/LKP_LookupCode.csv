@@ -1,0 +1,26 @@
+Lookup_ID,Domain,Code,Label,Description,Unit,Version
+LK-ADM-01,Administrative,STATE,State Level,Administrative Level 1 Boundary,None,v4.1
+LK-ADM-02,Administrative,LGA,Local Government Area,Administrative Level 2 Boundary,None,v4.1
+LK-ADM-03,Administrative,WARD,Ward Level,Administrative Level 3 Boundary (Sub-layer G02W),None,v4.1
+LK-ADM-04,Administrative,COMMUNITY,Community,Settlement or Community Level (G03),None,v4.1
+LK-GEO-01,Geometry,POINT,Point Feature,Single coordinate pair (WGS84 EPSG:4326),None,v4.1
+LK-GEO-02,Geometry,LINE,Linear Feature,River road or network linestring,None,v4.1
+LK-GEO-03,Geometry,POLYGON,Polygon Feature,Areal boundary reservoir basin or flood extent,None,v4.1
+LK-GEO-04,Geometry,RASTER,Raster Grid,Continuous elevation slope or surface grid (30m),None,v4.1
+LK-SLOPE-01,Terrain,DEG,Degrees,Terrain slope measurement unit (DEC02 mandatory),degrees,v4.1
+LK-QC-01,Quality_Control,RAW,Raw Landing,Immutable unedited ingested submission,None,v4.1
+LK-QC-02,Quality_Control,CLEAN,Clean Operational,Passed structural logical and spatial QC,None,v4.1
+LK-QC-03,Quality_Control,DERIVED,Derived Analytical,Computed indicator or modelled surface,None,v4.1
+LK-CONF-01,Confidence,HIGH,High Confidence,Authoritative recent verified primary source,None,v4.1
+LK-CONF-02,Confidence,MOD,Moderate Confidence,Established secondary or minor limitation,None,v4.1
+LK-CONF-03,Confidence,LOW,Low Confidence,Indicative screening only needs verification,None,v4.1
+LK-CONF-04,Confidence,UNK,Unknown Confidence,Insufficient evidence to rate,None,v4.1
+LK-SEV-00,Erosion_Severity,0,None,No observable accelerated erosion,None,v4.1
+LK-SEV-01,Erosion_Severity,1,Slight,Sheet erosion minor rills,None,v4.1
+LK-SEV-02,Erosion_Severity,2,Moderate,Established rills active bank erosion,None,v4.1
+LK-SEV-03,Erosion_Severity,3,Severe,Active gullies threatening farmland/structures,None,v4.1
+LK-SEV-04,Erosion_Severity,4,Very Severe,Catastrophic canyon gullies infrastructure collapse,None,v4.1
+LK-TIER-01,Priority_Tier,TIER1,Critical Priority,Immediate emergency intervention and resource allocation,None,v4.1
+LK-TIER-02,Priority_Tier,TIER2,High Priority,Targeted programmatic intervention in annual capital budget,None,v4.1
+LK-TIER-03,Priority_Tier,TIER3,Moderate Priority,Medium-term resilience and adaptation measures,None,v4.1
+LK-TIER-04,Priority_Tier,TIER4,Monitor,Low risk or low confidence; continuous observation,None,v4.1

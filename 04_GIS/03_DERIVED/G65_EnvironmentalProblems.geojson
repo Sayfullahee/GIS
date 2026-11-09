@@ -1,0 +1,1416 @@
+{
+  "type": "FeatureCollection",
+  "name": "G65_EnvironmentalProblems",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4512,
+          9.3245
+        ]
+      },
+      "properties": {
+        "record_id": "SEP001",
+        "state_code": "NG-ADA",
+        "state_name": "Adamawa",
+        "problem_code": "DEFORESTATION",
+        "problem_name": "Deforestation",
+        "category": "Land & Biosphere",
+        "symbol_shape": "starburst",
+        "symbol_color": "#16A34A",
+        "symbol_char": "\u2731",
+        "photo_order": 3,
+        "severity": "Critical",
+        "source": "National Environmental Survey Wall Map",
+        "status": "Verified from Photo",
+        "notes": "Green starburst symbol positioned directly over Adamawa in official national poster."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8021,
+          9.8512
+        ]
+      },
+      "properties": {
+        "record_id": "SEP002",
+        "state_code": "NG-ADA",
+        "state_name": "Adamawa",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "High",
+        "source": "National Environmental Survey Wall Map",
+        "status": "Verified from Photo",
+        "notes": "Red triangle symbol plotted in northern Adamawa highlands/gully belt."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4831,
+          9.2014
+        ]
+      },
+      "properties": {
+        "record_id": "SEP003",
+        "state_code": "NG-ADA",
+        "state_name": "Adamawa",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "Critical",
+        "source": "N-HYPPADEC / Upper Benue River Basin Authority",
+        "status": "Active Basin Monitor",
+        "notes": "Lagdo Dam release corridor along Benue River floodplains."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2045,
+          10.2514
+        ]
+      },
+      "properties": {
+        "record_id": "SEP004",
+        "state_code": "NG-ADA",
+        "state_name": "Adamawa",
+        "problem_code": "DROUGHT",
+        "problem_name": "Drought",
+        "category": "Hydrometeorology",
+        "symbol_shape": "diamond_nested",
+        "symbol_color": "#1E293B",
+        "symbol_char": "\u25c8",
+        "photo_order": 5,
+        "severity": "High",
+        "source": "NiMet / ACReSAL Northern Savanna Drought Register",
+        "status": "Active Basin Monitor",
+        "notes": "Northern dry spell belt impacting pastoral and rainfed agrarian communities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.55,
+          9.61
+        ]
+      },
+      "properties": {
+        "record_id": "SEP005",
+        "state_code": "NG-NIG",
+        "state_name": "Niger",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "Critical",
+        "source": "N-HYPPADEC Master Hydrological Register",
+        "status": "Verified",
+        "notes": "Downstream flood risk zone along Kainji-Jebba-Shiroro axis."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8,
+          9.95
+        ]
+      },
+      "properties": {
+        "record_id": "SEP006",
+        "state_code": "NG-NIG",
+        "state_name": "Niger",
+        "problem_code": "LEAD_POISONING",
+        "problem_name": "Lead Poisoning",
+        "category": "Toxic Contamination",
+        "symbol_shape": "trefoil_clover",
+        "symbol_color": "#15803D",
+        "symbol_char": "\u2618",
+        "photo_order": 9,
+        "severity": "Critical",
+        "source": "Federal Ministry of Health / NESREA Lead Incident Log",
+        "status": "Verified",
+        "notes": "Artisanal gold mining lead contamination corridor in Shiroro/Rafi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0,
+          9.35
+        ]
+      },
+      "properties": {
+        "record_id": "SEP007",
+        "state_code": "NG-NIG",
+        "state_name": "Niger",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "Medium",
+        "source": "CHER-CDSS G26 Erosion Register",
+        "status": "Verified",
+        "notes": "Gully erosion in Mokwa and Bida agricultural zones."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.54,
+          9.615
+        ]
+      },
+      "properties": {
+        "record_id": "SEP008",
+        "state_code": "NG-NIG",
+        "state_name": "Niger",
+        "problem_code": "SOLID_WASTE",
+        "problem_name": "Solid Waste Management",
+        "category": "Municipal Pollution",
+        "symbol_shape": "circle",
+        "symbol_color": "#A3E635",
+        "symbol_char": "\u25cf",
+        "photo_order": 11,
+        "severity": "High",
+        "source": "NESREA Urban Sanitation Audit",
+        "status": "Verified",
+        "notes": "Minna urban open dumping and drainage blockage hotspot."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2,
+          12.45
+        ]
+      },
+      "properties": {
+        "record_id": "SEP009",
+        "state_code": "NG-KEB",
+        "state_name": "Kebbi",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "Critical",
+        "source": "N-HYPPADEC Flood Disaster Log",
+        "status": "Verified",
+        "notes": "Severe Rima and Niger river basin seasonal inundation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          12.8
+        ]
+      },
+      "properties": {
+        "record_id": "SEP010",
+        "state_code": "NG-KEB",
+        "state_name": "Kebbi",
+        "problem_code": "DESERTIFICATION",
+        "problem_name": "Desertification",
+        "category": "Land & Aridification",
+        "symbol_shape": "cross",
+        "symbol_color": "#DC2626",
+        "symbol_char": "\u271a",
+        "photo_order": 4,
+        "severity": "High",
+        "source": "Great Green Wall National Agency",
+        "status": "Verified",
+        "notes": "Arid frontline belt experiencing active sand dune movement."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3,
+          12.6
+        ]
+      },
+      "properties": {
+        "record_id": "SEP011",
+        "state_code": "NG-KEB",
+        "state_name": "Kebbi",
+        "problem_code": "DROUGHT",
+        "problem_name": "Drought",
+        "category": "Hydrometeorology",
+        "symbol_shape": "diamond_nested",
+        "symbol_color": "#1E293B",
+        "symbol_char": "\u25c8",
+        "photo_order": 5,
+        "severity": "High",
+        "source": "NiMet Drought Risk Monitor",
+        "status": "Verified",
+        "notes": "Prolonged dry spells affecting fadama rice and sorghum production."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9,
+          9.9
+        ]
+      },
+      "properties": {
+        "record_id": "SEP012",
+        "state_code": "NG-PLA",
+        "state_name": "Plateau",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "Critical",
+        "source": "CHER-CDSS G26 / NEWMAP Legacy Hotspots",
+        "status": "Verified",
+        "notes": "Severe tin-mining legacy gully erosion across Jos plateau."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8,
+          9.5
+        ]
+      },
+      "properties": {
+        "record_id": "SEP013",
+        "state_code": "NG-PLA",
+        "state_name": "Plateau",
+        "problem_code": "ECOLOGICAL_CONFLICT",
+        "problem_name": "Ecological Conflict",
+        "category": "Socio-Ecological",
+        "symbol_shape": "badge_swords",
+        "symbol_color": "#B45309",
+        "symbol_char": "\u2694",
+        "photo_order": 6,
+        "severity": "Critical",
+        "source": "Ecological Conflict Peace & Resilience Audit",
+        "status": "Verified",
+        "notes": "Pastoral grazing route vs farmland ecological tension."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52,
+          7.73
+        ]
+      },
+      "properties": {
+        "record_id": "SEP014",
+        "state_code": "NG-BEN",
+        "state_name": "Benue",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "Critical",
+        "source": "N-HYPPADEC / Benue SEMA Flood Register",
+        "status": "Verified",
+        "notes": "River Benue high-volume overflows in Makurdi and surrounding lowlands."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9,
+          7.45
+        ]
+      },
+      "properties": {
+        "record_id": "SEP015",
+        "state_code": "NG-BEN",
+        "state_name": "Benue",
+        "problem_code": "ECOLOGICAL_CONFLICT",
+        "problem_name": "Ecological Conflict",
+        "category": "Socio-Ecological",
+        "symbol_shape": "badge_swords",
+        "symbol_color": "#B45309",
+        "symbol_char": "\u2694",
+        "photo_order": 6,
+        "severity": "Critical",
+        "source": "National Grazing Corridor Resource Assessment",
+        "status": "Verified",
+        "notes": "Riverine basin arable land pressure."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          7.2
+        ]
+      },
+      "properties": {
+        "record_id": "SEP016",
+        "state_code": "NG-BEN",
+        "state_name": "Benue",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "High",
+        "source": "CHER-CDSS G26 Erosion Hotspots",
+        "status": "Verified",
+        "notes": "Active gully network in Gboko and Otukpo corridors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.74,
+          7.8
+        ]
+      },
+      "properties": {
+        "record_id": "SEP017",
+        "state_code": "NG-KOG",
+        "state_name": "Kogi",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "Critical",
+        "source": "N-HYPPADEC Confluence Early Warning",
+        "status": "Verified",
+        "notes": "Niger-Benue confluence inundation epicentre at Lokoja."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6,
+          7.5
+        ]
+      },
+      "properties": {
+        "record_id": "SEP018",
+        "state_code": "NG-KOG",
+        "state_name": "Kogi",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "High",
+        "source": "CHER-CDSS G26 Hotspot Register",
+        "status": "Verified",
+        "notes": "Erosion scars in Okene and Ankpa escarpments."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.72,
+          7.78
+        ]
+      },
+      "properties": {
+        "record_id": "SEP019",
+        "state_code": "NG-KOG",
+        "state_name": "Kogi",
+        "problem_code": "WATER_POLLUTION",
+        "problem_name": "Water Pollution",
+        "category": "Aquatic Pollution",
+        "symbol_shape": "diamond_outline",
+        "symbol_color": "#059669",
+        "symbol_char": "\u25c7",
+        "photo_order": 12,
+        "severity": "Medium",
+        "source": "NIWA / Confluence Water Quality Study",
+        "status": "Verified",
+        "notes": "Riverine sedimentation and industrial runoff."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9,
+          8.95
+        ]
+      },
+      "properties": {
+        "record_id": "SEP020",
+        "state_code": "NG-KWA",
+        "state_name": "Kwara",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "High",
+        "source": "N-HYPPADEC Flood Risk Register",
+        "status": "Verified",
+        "notes": "Edu and Patigi flood-prone riverbanks along River Niger."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55,
+          8.5
+        ]
+      },
+      "properties": {
+        "record_id": "SEP021",
+        "state_code": "NG-KWA",
+        "state_name": "Kwara",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "Medium",
+        "source": "CHER-CDSS G26 Erosion Register",
+        "status": "Verified",
+        "notes": "Gully erosion around Ilorin metropolitan outskirts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.44,
+          10.52
+        ]
+      },
+      "properties": {
+        "record_id": "SEP022",
+        "state_code": "NG-KAD",
+        "state_name": "Kaduna",
+        "problem_code": "AIR_POLLUTION",
+        "problem_name": "Air Pollution",
+        "category": "Pollution",
+        "symbol_shape": "circle",
+        "symbol_color": "#38BDF8",
+        "symbol_char": "\u25cf",
+        "photo_order": 1,
+        "severity": "High",
+        "source": "NESREA Air Quality Monitoring Station",
+        "status": "Verified",
+        "notes": "Industrial particulate concentrations and vehicle exhaust."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.42,
+          10.5
+        ]
+      },
+      "properties": {
+        "record_id": "SEP023",
+        "state_code": "NG-KAD",
+        "state_name": "Kaduna",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "High",
+        "source": "Kaduna SEMA Flood Vulnerability Log",
+        "status": "Verified",
+        "notes": "Kaduna River flash flood overflows affecting central wards."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8,
+          10.1
+        ]
+      },
+      "properties": {
+        "record_id": "SEP024",
+        "state_code": "NG-KAD",
+        "state_name": "Kaduna",
+        "problem_code": "ECOLOGICAL_CONFLICT",
+        "problem_name": "Ecological Conflict",
+        "category": "Socio-Ecological",
+        "symbol_shape": "badge_swords",
+        "symbol_color": "#B45309",
+        "symbol_char": "\u2694",
+        "photo_order": 6,
+        "severity": "Critical",
+        "source": "Southern Kaduna Resource Dispute Log",
+        "status": "Verified",
+        "notes": "Ecological resource stress and land degradation conflicts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52,
+          8.5
+        ]
+      },
+      "properties": {
+        "record_id": "SEP025",
+        "state_code": "NG-NAS",
+        "state_name": "Nasarawa",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "High",
+        "source": "Nasarawa SEMA Rapid Assessment",
+        "status": "Verified",
+        "notes": "Benue tributary backflow in Toto, Doma and Awe LGAs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2,
+          8.6
+        ]
+      },
+      "properties": {
+        "record_id": "SEP026",
+        "state_code": "NG-NAS",
+        "state_name": "Nasarawa",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "High",
+        "source": "CHER-CDSS G26 Erosion Hotspots",
+        "status": "Verified",
+        "notes": "Gully sites in Keffi and Lafia municipal catchments."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5,
+          7.85
+        ]
+      },
+      "properties": {
+        "record_id": "SEP027",
+        "state_code": "NG-TAR",
+        "state_name": "Taraba",
+        "problem_code": "DEFORESTATION",
+        "problem_name": "Deforestation",
+        "category": "Land & Biosphere",
+        "symbol_shape": "starburst",
+        "symbol_color": "#16A34A",
+        "symbol_char": "\u2731",
+        "photo_order": 3,
+        "severity": "Critical",
+        "source": "Global Forest Watch / TAR SEMA Survey",
+        "status": "Verified",
+        "notes": "Intensive illegal rosewood (Madrid) logging and forest clearance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.36,
+          8.9
+        ]
+      },
+      "properties": {
+        "record_id": "SEP028",
+        "state_code": "NG-TAR",
+        "state_name": "Taraba",
+        "problem_code": "FLOODING",
+        "problem_name": "Flooding",
+        "category": "Hydrological Hazard",
+        "symbol_shape": "diamond_quartered",
+        "symbol_color": "#2563EB",
+        "symbol_char": "\u2b16",
+        "photo_order": 8,
+        "severity": "Critical",
+        "source": "N-HYPPADEC Riverine Monitoring",
+        "status": "Verified",
+        "notes": "Upper Benue and Donga river basin annual flash inundation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8,
+          7.2
+        ]
+      },
+      "properties": {
+        "record_id": "SEP029",
+        "state_code": "NG-TAR",
+        "state_name": "Taraba",
+        "problem_code": "ECOLOGICAL_CONFLICT",
+        "problem_name": "Ecological Conflict",
+        "category": "Socio-Ecological",
+        "symbol_shape": "badge_swords",
+        "symbol_color": "#B45309",
+        "symbol_char": "\u2694",
+        "photo_order": 6,
+        "severity": "Critical",
+        "source": "Mambilla Plateau Resource Audit",
+        "status": "Verified",
+        "notes": "Highland grazing land allocation and ecological disputes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.17,
+          10.28
+        ]
+      },
+      "properties": {
+        "record_id": "SEP030",
+        "state_code": "NG-GOM",
+        "state_name": "Gombe",
+        "problem_code": "EROSION",
+        "problem_name": "Erosion",
+        "category": "Geomorphic & Soil",
+        "symbol_shape": "triangle_up",
+        "symbol_color": "#E11D48",
+        "symbol_char": "\u25b2",
+        "photo_order": 7,
+        "severity": "Critical",
+        "source": "NEWMAP Gombe State Interventions",
+        "status": "Verified",
+        "notes": "Severe deep gully complexes threatening Gombe town."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4,
+          10.8
+        ]
+      },
+      "properties": {
+        "record_id": "SEP031",
+        "state_code": "NG-GOM",
+        "state_name": "Gombe",
+        "problem_code": "DESERTIFICATION",
+        "problem_name": "Desertification",
+        "category": "Land & Aridification",
+        "symbol_shape": "cross",
+        "symbol_color": "#DC2626",
+        "symbol_char": "\u271a",
+        "photo_order": 4,
+        "severity": "High",
+        "source": "Frontline Shelterbelt Monitoring",
+        "status": "Verified",
+        "notes": "Dukku and Funakaye semi-arid vegetative decline."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.66,
+          12.16
+        ]
+      },
+      "properties": {
+        "record_id": "SEP032",
+        "state_code": "NG-ZAM",
+        "state_name": "Zamfara",
+        "problem_code": "LEAD_POISONING",
+        "problem_name": "Lead Poisoning",
+        "category": "Toxic Contamination",
+        "symbol_shape": "trefoil_clover",
+        "symbol_color": "#15803D",
+        "symbol_char": "\u2618",
+        "photo_order": 9,
+        "severity": "Critical",
+        "source": "MSF / Federal Ministry of Health Report",
+        "status": "Verified",
+        "notes": "Historic and active artisanal gold ore milling lead poisoning epicentre."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.04,
+          4.81
+        ]
+      },
+      "properties": {
+        "record_id": "SEP033",
+        "state_code": "NG-RIV",
+        "state_name": "Rivers",
+        "problem_code": "OIL_SPILLAGE",
+        "problem_name": "Oil Spillage",
+        "category": "Petrochemical Pollution",
+        "symbol_shape": "star_5pt",
+        "symbol_color": "#7C3AED",
+        "symbol_char": "\u2605",
+        "photo_order": 10,
+        "severity": "Critical",
+        "source": "NOSDRA National Oil Spill Monitor",
+        "status": "Verified",
+        "notes": "Major crude oil spillage, pipeline ruptures, and mangrove destruction."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0,
+          4.75
+        ]
+      },
+      "properties": {
+        "record_id": "SEP034",
+        "state_code": "NG-RIV",
+        "state_name": "Rivers",
+        "problem_code": "WATER_POLLUTION",
+        "problem_name": "Water Pollution",
+        "category": "Aquatic Pollution",
+        "symbol_shape": "diamond_outline",
+        "symbol_color": "#059669",
+        "symbol_char": "\u25c7",
+        "photo_order": 12,
+        "severity": "Critical",
+        "source": "Niger Delta Water Quality Assessment",
+        "status": "Verified",
+        "notes": "Hydrocarbon pollution of creeks and drinking boreholes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1,
+          4.75
+        ]
+      },
+      "properties": {
+        "record_id": "SEP035",
+        "state_code": "NG-BAY",
+        "state_name": "Bayelsa",
+        "problem_code": "OIL_SPILLAGE",
+        "problem_name": "Oil Spillage",
+        "category": "Petrochemical Pollution",
+        "symbol_shape": "star_5pt",
+        "symbol_color": "#7C3AED",
+        "symbol_char": "\u2605",
+        "photo_order": 10,
+        "severity": "Critical",
+        "source": "NOSDRA Pipeline Incident Registry",
+        "status": "Verified",
+        "notes": "Severe oil spills across Nembe, Brass, and Southern Ijaw creeks."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3792,
+          6.5244
+        ]
+      },
+      "properties": {
+        "record_id": "SEP036",
+        "state_code": "NG-LAG",
+        "state_name": "Lagos",
+        "problem_code": "AIR_POLLUTION",
+        "problem_name": "Air Pollution",
+        "category": "Pollution",
+        "symbol_shape": "circle",
+        "symbol_color": "#38BDF8",
+        "symbol_char": "\u25cf",
+        "photo_order": 1,
+        "severity": "Critical",
+        "source": "Lagos LASEPA Clean Air Initiative",
+        "status": "Verified",
+        "notes": "High PM2.5 concentrations from traffic congestion and industrial clusters."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3514,
+          6.6012
+        ]
+      },
+      "properties": {
+        "record_id": "SEP037",
+        "state_code": "NG-LAG",
+        "state_name": "Lagos",
+        "problem_code": "SOLID_WASTE",
+        "problem_name": "Solid Waste Management",
+        "category": "Municipal Pollution",
+        "symbol_shape": "circle",
+        "symbol_color": "#A3E635",
+        "symbol_char": "\u25cf",
+        "photo_order": 11,
+        "severity": "Critical",
+        "source": "LAWMA Dumpsite Environmental Audit",
+        "status": "Verified",
+        "notes": "Olusosun landfill capacity and uncollected urban plastic runoff."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53,
+          11.98
+        ]
+      },
+      "properties": {
+        "record_id": "SEP038",
+        "state_code": "NG-KAN",
+        "state_name": "Kano",
+        "problem_code": "SOLID_WASTE",
+        "problem_name": "Solid Waste Management",
+        "category": "Municipal Pollution",
+        "symbol_shape": "circle",
+        "symbol_color": "#A3E635",
+        "symbol_char": "\u25cf",
+        "photo_order": 11,
+        "severity": "Critical",
+        "source": "Kano REMASAB Waste Register",
+        "status": "Verified",
+        "notes": "Open urban disposal and market organic waste blockage of canals."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51,
+          12.0
+        ]
+      },
+      "properties": {
+        "record_id": "SEP039",
+        "state_code": "NG-KAN",
+        "state_name": "Kano",
+        "problem_code": "AIR_POLLUTION",
+        "problem_name": "Air Pollution",
+        "category": "Pollution",
+        "symbol_shape": "circle",
+        "symbol_color": "#38BDF8",
+        "symbol_char": "\u25cf",
+        "photo_order": 1,
+        "severity": "High",
+        "source": "Sharada / Bompai Industrial Emissions Log",
+        "status": "Verified",
+        "notes": "Tannery and textile industrial smoke plus dust storms."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.15,
+          11.8333
+        ]
+      },
+      "properties": {
+        "record_id": "SEP040",
+        "state_code": "NG-BOR",
+        "state_name": "Borno",
+        "problem_code": "DESERTIFICATION",
+        "problem_name": "Desertification",
+        "category": "Land & Aridification",
+        "symbol_shape": "cross",
+        "symbol_color": "#DC2626",
+        "symbol_char": "\u271a",
+        "photo_order": 4,
+        "severity": "Critical",
+        "source": "Lake Chad Basin Commission / GGW",
+        "status": "Verified",
+        "notes": "Lake Chad recession and extreme Saharan encroachment."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75,
+          9.98
+        ]
+      },
+      "properties": {
+        "record_id": "SEP041",
+        "state_code": "NG-NIG",
+        "state_name": "Niger",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "State Security & Conflict Early Warning Network",
+        "status": "Verified",
+        "notes": "Armed banditry attacks and farm access blockade in Shiroro and Rafi LGAs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3,
+          9.45
+        ]
+      },
+      "properties": {
+        "record_id": "SEP042",
+        "state_code": "NG-NIG",
+        "state_name": "Niger",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "CHER-CDSS Table Food_Security / FEWS NET",
+        "status": "Verified",
+        "notes": "Post-flood grain reserve depletion and staple price spikes across Mokwa and Bida."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.55,
+          10.65
+        ]
+      },
+      "properties": {
+        "record_id": "SEP043",
+        "state_code": "NG-KAD",
+        "state_name": "Kaduna",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "Kaduna Peace Commission / Rural Incident Log",
+        "status": "Verified",
+        "notes": "Intense rural banditry and kidnap risks preventing cultivation in Birnin Gwari and Giwa."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5,
+          10.45
+        ]
+      },
+      "properties": {
+        "record_id": "SEP044",
+        "state_code": "NG-KAD",
+        "state_name": "Kaduna",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "National Food Security Assessment",
+        "status": "Verified",
+        "notes": "Reduced cereal harvests and market disruptions in peri-urban agrarian clusters."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2,
+          11.4
+        ]
+      },
+      "properties": {
+        "record_id": "SEP045",
+        "state_code": "NG-KEB",
+        "state_name": "Kebbi",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "Kebbi SEMA / Joint Security Taskforce",
+        "status": "Verified",
+        "notes": "Bandit incursions into Danko-Wasagu and Sakaba agricultural communities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.15,
+          12.35
+        ]
+      },
+      "properties": {
+        "record_id": "SEP046",
+        "state_code": "NG-KEB",
+        "state_name": "Kebbi",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "CHER-CDSS Food Security Baseline",
+        "status": "Verified",
+        "notes": "Widespread rice and millet field submersion leading to acute rural food insecurity."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3,
+          7.6
+        ]
+      },
+      "properties": {
+        "record_id": "SEP047",
+        "state_code": "NG-BEN",
+        "state_name": "Benue",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "Benue SEMA / Community Peace Monitors",
+        "status": "Verified",
+        "notes": "Armed raids and militia violence along Katsina-Ala and Ukum agrarian borders."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6,
+          7.7
+        ]
+      },
+      "properties": {
+        "record_id": "SEP048",
+        "state_code": "NG-BEN",
+        "state_name": "Benue",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "Benue State Agricultural Development Authority",
+        "status": "Verified",
+        "notes": "Yam and cassava crop spoilage and harvest deficit in flood and conflict zones."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.95,
+          9.4
+        ]
+      },
+      "properties": {
+        "record_id": "SEP049",
+        "state_code": "NG-PLA",
+        "state_name": "Plateau",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "Plateau Peace Building Agency Incident Register",
+        "status": "Verified",
+        "notes": "Night-time armed raids on agrarian settlements in Mangu and Bokkos frontiers."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.85,
+          9.8
+        ]
+      },
+      "properties": {
+        "record_id": "SEP050",
+        "state_code": "NG-PLA",
+        "state_name": "Plateau",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "Regional Food Basket Surveillance",
+        "status": "Verified",
+        "notes": "Potato and maize production shortfall due to insecurity-induced farm abandonment."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2,
+          8.2
+        ]
+      },
+      "properties": {
+        "record_id": "SEP051",
+        "state_code": "NG-TAR",
+        "state_name": "Taraba",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "Taraba State Security Brief",
+        "status": "Verified",
+        "notes": "Kidnapping and rural armed bandit ambushes in southern farming corridors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3,
+          8.85
+        ]
+      },
+      "properties": {
+        "record_id": "SEP052",
+        "state_code": "NG-TAR",
+        "state_name": "Taraba",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "CHER-CDSS Baseline Food Monitor",
+        "status": "Verified",
+        "notes": "Riverine flood crop washouts causing localized grain shortages in Ibi and Ardo Kola."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.85,
+          8.45
+        ]
+      },
+      "properties": {
+        "record_id": "SEP053",
+        "state_code": "NG-NAS",
+        "state_name": "Nasarawa",
+        "problem_code": "BANDIT_ATTACK",
+        "problem_name": "Bandit Attack",
+        "category": "Security & Rural Protection",
+        "symbol_shape": "crosshair_hazard",
+        "symbol_color": "#991B1B",
+        "symbol_char": "\ud83c\udfaf",
+        "photo_order": 14,
+        "severity": "Critical",
+        "source": "Nasarawa Peace and Security Watch",
+        "status": "Verified",
+        "notes": "Armed bandit activities and rural farmer tension along Nasarawa-Toto-Kogi border."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48,
+          8.52
+        ]
+      },
+      "properties": {
+        "record_id": "SEP054",
+        "state_code": "NG-NAS",
+        "state_name": "Nasarawa",
+        "problem_code": "FOOD_SECURITY",
+        "problem_name": "Food Security",
+        "category": "Livelihoods & Nutrition",
+        "symbol_shape": "wheat_sheaf",
+        "symbol_color": "#EAB308",
+        "symbol_char": "\ud83c\udf3e",
+        "photo_order": 13,
+        "severity": "High",
+        "source": "Nasarawa Agricultural Development Programme",
+        "status": "Verified",
+        "notes": "Farmland displacement and flood washouts of rice and sesame crops."
+      }
+    }
+  ]
+}

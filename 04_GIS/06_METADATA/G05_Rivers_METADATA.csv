@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G05
+Layer_Name,Rivers (HydroRIVERS)
+Layer_Type,Vector-Line
+Geometry_Type,Line
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,HydroRIVERS v1.0 (derived from 15 arc-second HydroSHEDS DEM)
+Source_ID,SRC003
+Source_Dataset,HydroSHEDS HydroRIVERS Africa
+Provider,USGS / WWF
+Acquisition_Date,YYYY-MM-DD
+Source_Version,v1.0
+Coverage,Africa (clip to study area + 50km buffer for complete river networks)
+Processing_Method,"Download HydroRIVERS Africa; clip to study area with 50km buffer to capture full river networks entering the study area; validate geometry; calculate community-to-river distance (nearest feature join to G03); remove orphan segments if present"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x / Python
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (with 50km buffer to avoid cutting river networks at boundary)
+Reprojected,No (HydroRIVERS distributed as WGS84)
+Hydrologic_Conditioned,Yes (derived from hydrologically conditioned HydroSHEDS DEM)
+License,Free for non-commercial use (HydroSHEDS licence)
+Restrictions,Non-commercial use; attribution required
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,None (HydroRIVERS is an external source layer)
+Derived_Layers,"G14 (flow accumulation cross-reference), G24 (flood hazard), IND04 (river proximity), BUFFER BUF001/BUF002"
+Storage_Location,04_GIS/01_RAW/ (Africa source) | 04_GIS/02_CLEAN/ (clipped and validated)
+File_Format,GeoPackage preferred
+File_Name,G05_Rivers_HydroRIVERS_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,6
+Feature_Count,TBD after clip
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,HydroRIVERS v1.0 (circa 2008 DEM base; refer to HydroSHEDS documentation)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_04_Hydrology, MAP_05_Flood_Hazard"
+Notes,"HydroRIVERS includes rivers with upstream drainage area >= 10 sqkm. Smaller streams may not be captured. RIVER_NAME field is often blank for minor rivers — supplement with local names from field survey where important. HYRIV_ID is the stable unique identifier — do not modify."

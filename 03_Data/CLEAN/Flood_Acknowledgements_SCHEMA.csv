@@ -1,0 +1,10 @@
+Column_Name,Data_Type,Nullable,Sample_Value,Description
+acknowledgement_id,str,NO,ACK-2026-001,Verified field for Flood_Acknowledgements
+notification_id,str,NO,NOTIF-2026-001,Verified field for Flood_Acknowledgements
+acknowledged_at,str,NO,2026-10-08 06:18:00+01:00,Verified field for Flood_Acknowledgements
+acknowledgement_status,str,NO,received,Verified field for Flood_Acknowledgements
+recipient_token,str,NO,TOK-NIG-4412,Verified field for Flood_Acknowledgements
+community_id,str,NO,COM-NIG-001-0001,Verified field for Flood_Acknowledgements
+respondent_role,str,NO,Community Focal Lead,Verified field for Flood_Acknowledgements
+acknowledgement_source,str,NO,SMS-2WAY,Verified field for Flood_Acknowledgements
+notes,str,NO,Flood warning acknowledged; youth committee activated.,Verified field for Flood_Acknowledgements

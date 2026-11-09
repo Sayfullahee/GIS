@@ -1,0 +1,7 @@
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution | ============================================================
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution |   24_WASTE_POLLUTION — Waste Sites + Leachate + Exposure (G55, G58)
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution | ============================================================
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution | DB08 loaded: 15 waste sites
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution | G55 saved: c:\xampp\htdocs\GIS\04_GIS\02_CLEAN\G55_WasteDumpSites_v1_0.csv
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution | G58 Waste Pollution Exposure saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G58_WastePollutionExposure.csv | Mean WP_Score: 14.0 | Medical waste alerts: 0
+2026-10-26 10:59:13 | INFO     | 24_waste_pollution | 24_waste_pollution complete

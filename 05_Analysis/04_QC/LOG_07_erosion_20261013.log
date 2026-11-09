@@ -1,0 +1,19 @@
+2026-10-13 16:47:14 | INFO     | 07_erosion | ============================================================
+2026-10-13 16:47:14 | INFO     | 07_erosion |   07_EROSION — Erosion Indicator Computation
+2026-10-13 16:47:14 | INFO     | 07_erosion | ============================================================
+2026-10-13 16:47:14 | INFO     | 07_erosion | DB03 loaded: 75 erosion sites
+2026-10-13 16:47:14 | INFO     | 07_erosion | IND03 computed for 31 communities (from 75 erosion sites)
+2026-10-13 16:47:14 | INFO     | 07_erosion | IND04 computed
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-NIG: 9 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-KEB: 1 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-PLA: 6 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-BEN: 8 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-KOG: 5 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-KWA: 2 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-KAD: 5 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-NAS: 6 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-TAR: 1 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | State NG-GOM: 3 active sites → method: PointMapping
+2026-10-13 16:47:14 | INFO     | 07_erosion | G27 hotspot scores computed for 50 communities
+2026-10-13 16:47:14 | INFO     | 07_erosion | Erosion indicators saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\Erosion_Indicators_IND03_IND04_G27.csv
+2026-10-13 16:47:14 | INFO     | 07_erosion | 07_erosion complete

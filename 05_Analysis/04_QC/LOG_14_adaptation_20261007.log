@@ -1,0 +1,21 @@
+2026-10-07 17:04:37 | INFO     | 14_adaptation | ============================================================
+2026-10-07 17:04:37 | INFO     | 14_adaptation |   14_ADAPTATION — Adaptation Inventory and Gap (G36)
+2026-10-07 17:04:37 | INFO     | 14_adaptation | ============================================================
+2026-10-07 17:04:37 | INFO     | 14_adaptation | IND09 computed: mean coverage = 0.27
+2026-10-07 17:04:37 | WARNING  | 14_adaptation | IND10 formula not yet approved in INDICATOR_REGISTER.csv — IND10 set to NULL. Approve formula before G37 Priority computation.
+2026-10-07 17:04:37 | INFO     | 14_adaptation | G36 Adaptation saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G36_Adaptation.csv | 50 communities | Mean IND09: 0.27
+2026-10-07 17:04:37 | INFO     | 14_adaptation | 14_adaptation complete
+2026-10-07 17:05:06 | INFO     | 14_adaptation | ============================================================
+2026-10-07 17:05:06 | INFO     | 14_adaptation |   14_ADAPTATION — Adaptation Inventory and Gap (G36)
+2026-10-07 17:05:06 | INFO     | 14_adaptation | ============================================================
+2026-10-07 17:05:06 | INFO     | 14_adaptation | IND09 computed: mean coverage = 0.27
+2026-10-07 17:05:06 | WARNING  | 14_adaptation | IND10 formula not yet approved in INDICATOR_REGISTER.csv — IND10 set to NULL. Approve formula before G37 Priority computation.
+2026-10-07 17:05:06 | INFO     | 14_adaptation | G36 Adaptation saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G36_Adaptation.csv | 50 communities | Mean IND09: 0.27
+2026-10-07 17:05:06 | INFO     | 14_adaptation | 14_adaptation complete
+2026-10-07 18:16:34 | INFO     | 14_adaptation | ============================================================
+2026-10-07 18:16:34 | INFO     | 14_adaptation |   14_ADAPTATION — Adaptation Inventory and Gap (G36)
+2026-10-07 18:16:34 | INFO     | 14_adaptation | ============================================================
+2026-10-07 18:16:34 | INFO     | 14_adaptation | IND09 computed: mean coverage = 0.27
+2026-10-07 18:16:34 | WARNING  | 14_adaptation | IND10 formula not yet approved in INDICATOR_REGISTER.csv — IND10 set to NULL. Approve formula before G37 Priority computation.
+2026-10-07 18:16:34 | INFO     | 14_adaptation | G36 Adaptation saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G36_Adaptation.csv | 50 communities | Mean IND09: 0.27
+2026-10-07 18:16:34 | INFO     | 14_adaptation | 14_adaptation complete

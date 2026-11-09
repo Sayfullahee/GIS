@@ -1,0 +1,14 @@
+Field_Name,Data_Type,Required,Primary_Key,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Community identifier,No duplicates; no nulls; resolves to DB01
+State_Code,Text(6),Yes,No,State code,Resolves to LKP_States.csv
+LGA_Code,Text(10),Yes,No,LGA code,Resolves to LKP_LGAs.csv; consistent with State_Code
+IND01_Flood_Frequency_Norm,Double,No,No,Normalised flood frequency score 0-100,If present: 0-100; NULL if no flood data
+IND02_Flood_Severity_Norm,Double,No,No,Normalised flood severity score 0-100,If present: 0-100; NULL if no severity data
+IND03_Erosion_Severity_Norm,Double,No,No,Normalised erosion severity score 0-100,If present: 0-100; NULL if no erosion sites
+IND04_River_Proximity_Norm,Double,No,No,Normalised river proximity score 0-100 (inverted — closer = higher),If present: 0-100
+H_Score,Double,Yes,No,Hazard Index score 0-100 (weighted sum of normalised indicators),No nulls; 0-100; weighted per RISK_MODEL_SPEC.md
+H_Missing_Components,Integer,No,No,Count of indicator components that were NULL and excluded from H_Score,If present: 0-4; document which components missing
+H_Data_Completeness,Text(10),Yes,No,"Full, Partial, Minimal",Full = all 4 indicators available; Partial = 2-3; Minimal = 1,No nulls
+Risk_Model_Version,Text(20),Yes,No,Risk model version used — e.g. Risk_Model_v1.0,No nulls; must match RISK_MODEL_SPEC.md entry
+Computation_Date,Date,Yes,No,Date H score was computed YYYY-MM-DD,No nulls
+geometry,Polygon,Yes,No,Community boundary polygon,No null geometries

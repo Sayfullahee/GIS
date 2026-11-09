@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G29
+Layer_Name,Flood Exposure
+Layer_Type,Vector-Polygon (community/LGA/state aggregation) + Raster (pixel-level)
+Geometry_Type,Polygon and Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Community polygon (from G02 LGA / G03 community boundaries) + G09 DEM resolution raster
+Source_ID,"G24 (flood hazard), G03 (communities), G17 (buildings), G16 (roads), G18 (POI), G19 (infrastructure), G06 (basins)"
+Source_Dataset,Multi-input derived product
+Provider,Project GIS/Analysis team
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from all upstream layers at their CLEAN versions
+Coverage,10 study states
+Processing_Method,"Concept: Flood Exposure = Flood Hazard (G24) × Assets/Population × Spatial Intersection. Step 1: Confirm all upstream layers CLEAN. Step 2: Spatial intersection — overlay G24 flood hazard raster with each asset layer. Step 3: Per community: count assets in each hazard class (Very Low/Low/Moderate/High/Very High). Step 4: Compute exposure scores per asset type. Step 5: Aggregate to community / LGA / state level. Step 6: Compute IND05 (population exposure) and IND06 (infrastructure exposure) per community. Step 7: Publish CLEAN exposure layer. Output: (A) Community-level exposure table/polygon; (B) Raster showing asset density in flood zones."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (geopandas / rasterio / rasterstats) / QGIS
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,Derived from source layer licences
+Restrictions,None (community-level aggregation; no household coordinates)
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,"G24 (CLEAN — flood hazard surface), G03 (CLEAN — communities), G17 (CLEAN — buildings), G16 (CLEAN — roads), G18 (CLEAN — POI), G19 (CLEAN — field infrastructure), DB01 (CLEAN — population)"
+Derived_Layers,"G32 (exposure index — G29 feeds population and infrastructure exposure components), G35 (composite risk), IND05 (population exposure), IND06 (infrastructure exposure)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,"GeoPackage (community exposure polygons) + GeoTIFF (raster asset density layers)"
+File_Name,"G29_FloodExposure_community_v1_0.gpkg | G29_FloodExposure_raster_v1_0.tif"
+File_Size_MB,TBD
+Attribute_Count,20 (community exposure polygon layer)
+Feature_Count,TBD (one record per community)
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Derived from upstream layer dates
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_11_Exposure, MAP_20_Risk (input)"
+Notes,"Exposure is computed by community — the community is the unit of analysis. Asset counts within each hazard class must be recorded separately (not just total exposure) to enable sensitivity analysis and to support the traceability requirement. Population exposure (IND05) uses DB01 Population field — flag communities with missing population. Building-based exposure used where DB01 population is missing. Exposure scores must NOT incorporate vulnerability — that comes in G33."

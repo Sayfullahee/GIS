@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G15
+Layer_Name,Land Cover (ESA WorldCover)
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,10 metres (ESA WorldCover v200 2021)
+Source_ID,SRC007
+Source_Dataset,ESA WorldCover v200 (2021)
+Provider,ESA / Copernicus
+Acquisition_Date,YYYY-MM-DD
+Source_Version,v200 (2021 epoch) — confirm at acquisition; document if newer version used
+Coverage,Global (clip to study area + 10km buffer)
+Processing_Method,"Step 1: Download ESA WorldCover v200 tiles covering study area from worldcover2021.esa.int. Step 2: Mosaic tiles. Step 3: Clip to study area + 10km buffer. Step 4: Reproject to EPSG:4326 if not already (WorldCover distributed as WGS84 — verify). Step 5: Validate class codes against LKP_LandCoverClasses.csv. Step 6: Compute class area statistics. Step 7: Produce CLEAN layer."
+Processing_Date,YYYY-MM-DD
+Processing_Software,GDAL / QGIS 3.x / Python (rasterio)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (+ 10km buffer)
+Reprojected,No (WorldCover already WGS84 — confirm)
+Hydrologic_Conditioned,N/A
+License,CC BY 4.0 (ESA WorldCover) — attribution required in all outputs
+Restrictions,Attribution required: ESA WorldCover 2021 v200 (https://worldcover2021.esa.int)
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,None (external source layer)
+Derived_Layers,"G24 (flood hazard — vegetation/impervious surface affects runoff), G27 (erosion hotspots — bare soil / degraded vegetation), G29 (flood exposure — land use context), G32 (exposure index — agricultural land)"
+Storage_Location,04_GIS/01_RAW/ (source tiles) | 04_GIS/02_CLEAN/ (mosaicked/clipped)
+File_Format,GeoTIFF (Byte / UInt8)
+File_Name,G15_LandCover_ESAWorldCover_v200_2021_v1_0.tif
+File_Size_MB,TBD (10m resolution over study area — expect several hundred MB)
+Attribute_Count,N/A (classified raster — class codes in LKP_LandCoverClasses.csv)
+Feature_Count,N/A
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,2021 (WorldCover v200 epoch)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_09_Land_Cover, MAP_10_Erosion_Hazard (contextual layer)"
+Notes,"WorldCover uses 11 land cover classes at 10m resolution. Class codes are standardised integers — do not reclassify without documenting. Attribution (CC BY 4.0) is mandatory in all map outputs and reports using this layer. Update cycle approximately 1-3 years — check for newer WorldCover epoch before any major system update. Resolution (10m) is finer than DEM (~90m or 30m) — be aware of resolution mismatch when combining with terrain derivatives."

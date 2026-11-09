@@ -1,0 +1,1164 @@
+{
+  "type": "FeatureCollection",
+  "name": "G27_Erosion_Hotspots_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.835444000000001,
+              9.488473
+            ],
+            [
+              6.875444,
+              9.488473
+            ],
+            [
+              6.875444,
+              9.528473
+            ],
+            [
+              6.835444000000001,
+              9.528473
+            ],
+            [
+              6.835444000000001,
+              9.488473
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-001",
+        "Erosion_ID": "ERO-NIG-000001",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.230688000000001,
+              9.701289000000001
+            ],
+            [
+              6.270688,
+              9.701289000000001
+            ],
+            [
+              6.270688,
+              9.741289
+            ],
+            [
+              6.230688000000001,
+              9.741289
+            ],
+            [
+              6.230688000000001,
+              9.701289000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-002",
+        "Erosion_ID": "ERO-NIG-000002",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.617751,
+              9.451130000000001
+            ],
+            [
+              6.657750999999999,
+              9.451130000000001
+            ],
+            [
+              6.657750999999999,
+              9.49113
+            ],
+            [
+              6.617751,
+              9.49113
+            ],
+            [
+              6.617751,
+              9.451130000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-003",
+        "Erosion_ID": "ERO-NIG-000003",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.681949000000001,
+              9.85645
+            ],
+            [
+              8.721949,
+              9.85645
+            ],
+            [
+              8.721949,
+              9.89645
+            ],
+            [
+              8.681949000000001,
+              9.89645
+            ],
+            [
+              8.681949000000001,
+              9.85645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-007",
+        "Erosion_ID": "ERO-PLA-000007",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.536452,
+              7.672300000000001
+            ],
+            [
+              8.576452,
+              7.672300000000001
+            ],
+            [
+              8.576452,
+              7.7123
+            ],
+            [
+              8.536452,
+              7.7123
+            ],
+            [
+              8.536452,
+              7.672300000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-009",
+        "Erosion_ID": "ERO-BEN-000009",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.380074,
+              7.926278000000001
+            ],
+            [
+              8.420074,
+              7.926278000000001
+            ],
+            [
+              8.420074,
+              7.966278
+            ],
+            [
+              8.380074,
+              7.966278
+            ],
+            [
+              8.380074,
+              7.926278000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-011",
+        "Erosion_ID": "ERO-BEN-000011",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.985385000000001,
+              7.827405000000001
+            ],
+            [
+              7.025385,
+              7.827405000000001
+            ],
+            [
+              7.025385,
+              7.867405
+            ],
+            [
+              6.985385000000001,
+              7.867405
+            ],
+            [
+              6.985385000000001,
+              7.827405000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-013",
+        "Erosion_ID": "ERO-KOG-000013",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.375075000000001,
+              8.386296
+            ],
+            [
+              4.415075,
+              8.386296
+            ],
+            [
+              4.415075,
+              8.426295999999999
+            ],
+            [
+              4.375075000000001,
+              8.426295999999999
+            ],
+            [
+              4.375075000000001,
+              8.386296
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-019",
+        "Erosion_ID": "ERO-KWA-000019",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.450667,
+              10.67684
+            ],
+            [
+              7.490666999999999,
+              10.67684
+            ],
+            [
+              7.490666999999999,
+              10.71684
+            ],
+            [
+              7.450667,
+              10.71684
+            ],
+            [
+              7.450667,
+              10.67684
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-022",
+        "Erosion_ID": "ERO-KAD-000022",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.804743,
+              8.841474
+            ],
+            [
+              8.844743,
+              8.841474
+            ],
+            [
+              8.844743,
+              8.881473999999999
+            ],
+            [
+              8.804743,
+              8.881473999999999
+            ],
+            [
+              8.804743,
+              8.841474
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-025",
+        "Erosion_ID": "ERO-NAS-000025",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.717198,
+              8.595208000000001
+            ],
+            [
+              8.757197999999999,
+              8.595208000000001
+            ],
+            [
+              8.757197999999999,
+              8.635208
+            ],
+            [
+              8.717198,
+              8.635208
+            ],
+            [
+              8.717198,
+              8.595208000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-026",
+        "Erosion_ID": "ERO-NAS-000026",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.387694,
+              10.523935
+            ],
+            [
+              11.427693999999999,
+              10.523935
+            ],
+            [
+              11.427693999999999,
+              10.563934999999999
+            ],
+            [
+              11.387694,
+              10.563934999999999
+            ],
+            [
+              11.387694,
+              10.523935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-028",
+        "Erosion_ID": "ERO-GOM-000028",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.98755,
+              10.393676000000001
+            ],
+            [
+              11.02755,
+              10.393676000000001
+            ],
+            [
+              11.02755,
+              10.433676
+            ],
+            [
+              10.98755,
+              10.433676
+            ],
+            [
+              10.98755,
+              10.393676000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-029",
+        "Erosion_ID": "ERO-GOM-000029",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.229034,
+              9.689159
+            ],
+            [
+              6.2690339999999996,
+              9.689159
+            ],
+            [
+              6.2690339999999996,
+              9.729159
+            ],
+            [
+              6.229034,
+              9.729159
+            ],
+            [
+              6.229034,
+              9.689159
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-032",
+        "Erosion_ID": "ERO-NIG-000032",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.602578,
+              9.447097000000001
+            ],
+            [
+              6.642577999999999,
+              9.447097000000001
+            ],
+            [
+              6.642577999999999,
+              9.487097
+            ],
+            [
+              6.602578,
+              9.487097
+            ],
+            [
+              6.602578,
+              9.447097000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-033",
+        "Erosion_ID": "ERO-NIG-000033",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.669435,
+              9.861362
+            ],
+            [
+              8.709435,
+              9.861362
+            ],
+            [
+              8.709435,
+              9.901361999999999
+            ],
+            [
+              8.669435,
+              9.901361999999999
+            ],
+            [
+              8.669435,
+              9.861362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-037",
+        "Erosion_ID": "ERO-PLA-000037",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.408188,
+              7.912579
+            ],
+            [
+              8.448188,
+              7.912579
+            ],
+            [
+              8.448188,
+              7.952578999999999
+            ],
+            [
+              8.408188,
+              7.952578999999999
+            ],
+            [
+              8.408188,
+              7.912579
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-041",
+        "Erosion_ID": "ERO-BEN-000041",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.928564000000001,
+              8.073689
+            ],
+            [
+              6.968564,
+              8.073689
+            ],
+            [
+              6.968564,
+              8.113688999999999
+            ],
+            [
+              6.928564000000001,
+              8.113688999999999
+            ],
+            [
+              6.928564000000001,
+              8.073689
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-044",
+        "Erosion_ID": "ERO-KOG-000044",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.502937,
+              8.817002
+            ],
+            [
+              4.542936999999999,
+              8.817002
+            ],
+            [
+              4.542936999999999,
+              8.857002
+            ],
+            [
+              4.502937,
+              8.857002
+            ],
+            [
+              4.502937,
+              8.817002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-047",
+        "Erosion_ID": "ERO-KWA-000047",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.376988000000001,
+              8.365828
+            ],
+            [
+              4.416988,
+              8.365828
+            ],
+            [
+              4.416988,
+              8.405828
+            ],
+            [
+              4.376988000000001,
+              8.405828
+            ],
+            [
+              4.376988000000001,
+              8.365828
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-049",
+        "Erosion_ID": "ERO-KWA-000049",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.300505,
+              10.507144
+            ],
+            [
+              7.340504999999999,
+              10.507144
+            ],
+            [
+              7.340504999999999,
+              10.547144
+            ],
+            [
+              7.300505,
+              10.547144
+            ],
+            [
+              7.300505,
+              10.507144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-051",
+        "Erosion_ID": "ERO-KAD-000051",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.458653000000001,
+              10.668103
+            ],
+            [
+              7.498653,
+              10.668103
+            ],
+            [
+              7.498653,
+              10.708103
+            ],
+            [
+              7.458653000000001,
+              10.708103
+            ],
+            [
+              7.458653000000001,
+              10.668103
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-052",
+        "Erosion_ID": "ERO-KAD-000052",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.370794,
+              8.242361
+            ],
+            [
+              8.410794,
+              8.242361
+            ],
+            [
+              8.410794,
+              8.282361
+            ],
+            [
+              8.370794,
+              8.282361
+            ],
+            [
+              8.370794,
+              8.242361
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-053",
+        "Erosion_ID": "ERO-NAS-000053",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.593393,
+              8.446968
+            ],
+            [
+              8.633393,
+              8.446968
+            ],
+            [
+              8.633393,
+              8.486968
+            ],
+            [
+              8.593393,
+              8.486968
+            ],
+            [
+              8.593393,
+              8.446968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-054",
+        "Erosion_ID": "ERO-NAS-000054",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.818807,
+              8.844705000000001
+            ],
+            [
+              8.858806999999999,
+              8.844705000000001
+            ],
+            [
+              8.858806999999999,
+              8.884705
+            ],
+            [
+              8.818807,
+              8.884705
+            ],
+            [
+              8.818807,
+              8.844705000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-055",
+        "Erosion_ID": "ERO-NAS-000055",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.732422,
+              8.612191000000001
+            ],
+            [
+              8.772421999999999,
+              8.612191000000001
+            ],
+            [
+              8.772421999999999,
+              8.652191
+            ],
+            [
+              8.732422,
+              8.652191
+            ],
+            [
+              8.732422,
+              8.612191000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-056",
+        "Erosion_ID": "ERO-NAS-000056",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.388251,
+              10.525268
+            ],
+            [
+              11.428251,
+              10.525268
+            ],
+            [
+              11.428251,
+              10.565268
+            ],
+            [
+              11.388251,
+              10.565268
+            ],
+            [
+              11.388251,
+              10.525268
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-058",
+        "Erosion_ID": "ERO-GOM-000058",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.224017000000001,
+              9.696544000000001
+            ],
+            [
+              6.264017,
+              9.696544000000001
+            ],
+            [
+              6.264017,
+              9.736544
+            ],
+            [
+              6.224017000000001,
+              9.736544
+            ],
+            [
+              6.224017000000001,
+              9.696544000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-062",
+        "Erosion_ID": "ERO-NIG-000062",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.598213,
+              9.456053
+            ],
+            [
+              6.6382129999999995,
+              9.456053
+            ],
+            [
+              6.6382129999999995,
+              9.496053
+            ],
+            [
+              6.598213,
+              9.496053
+            ],
+            [
+              6.598213,
+              9.456053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-063",
+        "Erosion_ID": "ERO-NIG-000063",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.072202000000001,
+              11.180197
+            ],
+            [
+              4.112202,
+              11.180197
+            ],
+            [
+              4.112202,
+              11.220196999999999
+            ],
+            [
+              4.072202000000001,
+              11.220196999999999
+            ],
+            [
+              4.072202000000001,
+              11.180197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-065",
+        "Erosion_ID": "ERO-KEB-000065",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.812065,
+              9.917999
+            ],
+            [
+              8.852065,
+              9.917999
+            ],
+            [
+              8.852065,
+              9.957999
+            ],
+            [
+              8.812065,
+              9.957999
+            ],
+            [
+              8.812065,
+              9.917999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-066",
+        "Erosion_ID": "ERO-PLA-000066",
+        "Severity_0_4": 3,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.974207000000001,
+              7.819704000000001
+            ],
+            [
+              7.014207,
+              7.819704000000001
+            ],
+            [
+              7.014207,
+              7.859704
+            ],
+            [
+              6.974207000000001,
+              7.859704
+            ],
+            [
+              6.974207000000001,
+              7.819704000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Hotspot_ID": "HOT-EROS-073",
+        "Erosion_ID": "ERO-KOG-000073",
+        "Severity_0_4": 4,
+        "Method": "Tiered Kernel Density Hotspot (HMD03)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+
+[1m============================================================
+  CHER-CDSS PIPELINE TEST SUITE
+  Project root: C:\xampp\htdocs\GIS
+  Python:       3.14.6
+  Date:         2026-10-14
+============================================================[0m
+
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 01 â€” Environment and imports[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  pandas importable
+  [32mâœ“[0m  numpy importable
+  [32mâœ“[0m  Directory exists: 03_Data/CLEAN
+  [32mâœ“[0m  Directory exists: 03_Data/LOOKUPS
+  [32mâœ“[0m  Directory exists: 04_GIS/06_METADATA
+  [32mâœ“[0m  Directory exists: 05_Analysis/02_SCRIPTS
+  [32mâœ“[0m  Directory exists: 00_Project_Control
+  [32mâœ“[0m  Control file exists: CHER_CDSS_ADVANCED_MASTER_IMPLEMENTATION_SCAFFOLD_v4.1.md
+  [32mâœ“[0m  Control file exists: REFERENCE_BOUNDS_REGISTER.csv
+  [32mâœ“[0m  Control file exists: SOURCE_REGISTER.csv
+  [32mâœ“[0m  Control file exists: INDICATOR_REGISTER.csv
+  [32mâœ“[0m  Control file exists: BUFFER_RULES.csv
+  [32mâœ“[0m  Control file exists: PROCESSING_STATUS.csv
+  [32mâœ“[0m  Control file exists: VERSION_LOG.csv
+  [32mâœ“[0m  Control file exists: HAZARD_MODEL_DECISIONS.csv
+  [32mâœ“[0m  Control file exists: EXPOSURE_MODEL_DECISIONS.csv
+  [32mâœ“[0m  Control file exists: SYSTEM_ACCEPTANCE_TESTS.md
+  [32mâœ“[0m  Control file exists: BACKUP_ARCHITECTURE.md
+  [32mâœ“[0m  RISK_MODEL_SPEC.md exists (07_Decision_Support/01_Risk/)
+  [32mâœ“[0m  POSTGRESQL_DDL_v4.1.sql exists (03_Data/)
+  [32mâœ“[0m  Lookup table exists: LKP_States.csv
+  [32mâœ“[0m  Lookup table exists: LKP_LGAs.csv
+  [32mâœ“[0m  Lookup table exists: LKP_DataConfidence.csv
+  [32mâœ“[0m  Lookup table exists: LKP_LookupCode.csv
+  [32mâœ“[0m  Lookup table exists: LKP_Livelihood.csv
+  [32mâœ“[0m  Lookup table exists: LKP_ErosionSeverity.csv
+  [32mâœ“[0m  Lookup table exists: LKP_ErosionType.csv
+  [32mâœ“[0m  Lookup table exists: LKP_InfrastructureType.csv
+  [32mâœ“[0m  Lookup table exists: LKP_QC_Status.csv
+  [32mâœ“[0m  Lookup table exists: LKP_AdaptationStatus.csv
+  [32mâœ“[0m  Lookup table exists: LKP_LandCoverClasses.csv
+  [32mâœ“[0m  Lookup table exists: LKP_RoadHierarchy.csv
+  [32mâœ“[0m  Lookup table exists: LKP_POIClasses.csv
+  [32mâœ“[0m  Script exists: config.py
+  [32mâœ“[0m  Script exists: logger.py
+  [32mâœ“[0m  Script exists: qc_utils.py
+  [32mâœ“[0m  Script exists: 01_ingest.py
+  [32mâœ“[0m  Script exists: 02_validate.py
+  [32mâœ“[0m  Script exists: 03_clean.py
+  [32mâœ“[0m  Script exists: 04_integrate.py
+  [32mâœ“[0m  Script exists: 13_risk.py
+  [32mâœ“[0m  Script exists: 15_priority.py
+  [32mâœ“[0m  Script exists: run_pipeline.py
+  [32mâœ“[0m  GIS metadata exists: G01_State_Boundaries
+  [32mâœ“[0m  GIS metadata exists: G03_Communities
+  [32mâœ“[0m  GIS metadata exists: G09_DEM
+  [32mâœ“[0m  GIS metadata exists: G24_FloodHazard
+  [32mâœ“[0m  GIS metadata exists: G35_CompositeRisk
+  [32mâœ“[0m  GIS metadata exists: G37_PriorityAreas
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 02 â€” config.py imports and paths[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  PROJECT_ROOT resolves
+  [32mâœ“[0m  DATA_CLEAN path defined
+  [32mâœ“[0m  GIS_METADATA path defined
+  [32mâœ“[0m  STUDY_STATES has 10 entries
+  [32mâœ“[0m  Risk weights sum to 1.0
+  [32mâœ“[0m  S1 weights sum to 1.0
+  [32mâœ“[0m  S2 weights sum to 1.0
+  [32mâœ“[0m  Slope unit is degrees
+  [32mâœ“[0m  BUF003 erosion threat = 100m
+  [32mâœ“[0m  G25 validation threshold = 70%
+  [32mâœ“[0m  RISK_MODEL_VERSION set
+  [36mÂ·[0m  RISK_MODEL_VERSION: Risk_Model_v4.1
+  [36mÂ·[0m  Baseline weights: H=0.35 E=0.25 V=0.25 C=0.15
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 03 â€” Lookup table integrity[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  LKP_States has 10 records
+  [32mâœ“[0m  LKP_States no duplicate State_Code
+  [32mâœ“[0m  LKP_States no null State_Code
+  [32mâœ“[0m  LKP_LGAs has records
+  [32mâœ“[0m  LKP_LGAs no duplicate LGA_Code
+  [32mâœ“[0m  All LGA State_Code values resolve to LKP_States
+  [32mâœ“[0m  LKP_ErosionSeverity has codes 0-4
+  [32mâœ“[0m  LKP_QC_Status contains all required stages
+  [32mâœ“[0m  LKP_LandCoverClasses has 11 classes
+  [32mâœ“[0m  WorldCover class codes present (10,20,40,50,60,80,90)
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 04 â€” qc_utils.py QC functions[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  QCReport.passed = False when critical failure
+  [32mâœ“[0m  QCReport critical_failures = 1
+  [32mâœ“[0m  QCReport advisory_flags = 1
+  [32mâœ“[0m  QCReport qc_status = QC_FAILED
+  [32mâœ“[0m  QCReport.passed = True when no critical failures
+  [32mâœ“[0m  check_required_fields PASS on good data
+  [32mâœ“[0m  check_no_nulls_in_required PASS on good data
+  [32mâœ“[0m  check_unique_key PASS on good data (no duplicates)
+  [32mâœ“[0m  check_coordinates PASS on good data
+  [32mâœ“[0m  check_dates PASS on good data
+  [32mâœ“[0m  check_range PASS on good data
+  [32mâœ“[0m  check_allowed_values PASS on good data
+  [32mâœ“[0m  check_unique_key CATCHES duplicates
+  [32mâœ“[0m  check_no_nulls_in_required CATCHES null values
+  [32mâœ“[0m  check_coordinates CATCHES out-of-range values
+  [32mâœ“[0m  check_missing_not_zero CATCHES zero where NULL expected
+  [32mâœ“[0m  check_allowed_values CATCHES invalid values
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 05 â€” 02_validate.py â€” DB01 validation[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  DB01 valid data â€” critical failures = 0
+  [32mâœ“[0m  DB01 duplicate Community_ID â€” caught as critical failure
+  [32mâœ“[0m  DB01 out-of-range latitude â€” caught as critical failure
+  [32mâœ“[0m  DB01 null Survey_Date â€” caught as critical failure
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 06 â€” 02_validate.py â€” DB03 erosion validation[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  DB03 valid data â€” critical failures = 0
+  [32mâœ“[0m  DB03 severity=9 â€” caught as critical failure
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 07 â€” Risk formula R = 0.35H + 0.25E + 0.25V + 0.15C[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  Formula: |R âˆ’ (0.35H+0.25E+0.25V+0.15C)| < 0.01
+  [32mâœ“[0m  Weights sum to 1.0
+  [32mâœ“[0m  All R_Score values between 0 and 100
+  [32mâœ“[0m  S1 equal weights sum to 1.0
+  [32mâœ“[0m  S1 R_Score also 0-100
+  [32mâœ“[0m  Spearman rank correlation baseline vs S1 > 0.5 (got 0.941)
+  [36mÂ·[0m  Rank correlation baseline vs S1: 0.941
+  [32mâœ“[0m  Missing component handled â€” R computed from available components
+  [32mâœ“[0m  Partial R_Score still 0-100
+  [32mâœ“[0m  Priority_Score = 0.70R + 0.30IND10, all 0-100
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 08 â€” Indicator normalisation and inversion rules[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  Min-max normalisation: all values 0-100
+  [32mâœ“[0m  Min-max: min of normed = 0
+  [32mâœ“[0m  Min-max: max of normed = 100
+  [32mâœ“[0m  IND04 inversion: distance=0 â†’ score=100
+  [32mâœ“[0m  IND04 inversion: distance=500m â†’ score=0
+  [32mâœ“[0m  IND04 inversion: distance=750m â†’ score=0
+  [32mâœ“[0m  IND04 inversion: distance=250m â†’ score=50
+  [32mâœ“[0m  IND09 inversion: coverage=0 â†’ vulnerability=100
+  [32mâœ“[0m  IND09 inversion: coverage=1 â†’ vulnerability=0
+  [32mâœ“[0m  IND09 inversion: coverage=0.5 â†’ vulnerability=50
+  [32mâœ“[0m  IND08 NULL (not 0) for communities outside BUF004
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 09 â€” Critical data rules (NULL vs zero, privacy, immutability)[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  NULL vs zero: loss field check runs without error
+  [36mÂ·[0m    Zero-value loss records requiring verification: 1
+  [32mâœ“[0m  G33 Privacy_Compliant = Yes for all records
+  [32mâœ“[0m  No Household_ID column in G33 data
+  [32mâœ“[0m  09_Archive directory exists
+  [32mâœ“[0m  LKP_QC_Status contains all required transition states
+  [32mâœ“[0m  RISK_MODEL_SPEC.md contains 'decision-support' language
+  [32mâœ“[0m  RISK_MODEL_SPEC.md contains 'not a probability' language
+  [32mâœ“[0m  RISK_MODEL_SPEC.md contains sensitivity models S1 and S2
+  [32mâœ“[0m  RISK_MODEL_SPEC.md contains approval record
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 10 â€” run_pipeline.py dry run[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  run_pipeline.py imports without error
+  [32mâœ“[0m  PipelineCriticalError defined
+  [32mâœ“[0m  build_pipeline() callable
+  [32mâœ“[0m  Pipeline has 18 steps
+  [32mâœ“[0m  First 18 step IDs present
+2026-10-14 15:43:39 | INFO     | run_pipeline | ============================================================
+2026-10-14 15:43:39 | INFO     | run_pipeline |   N-HYPPADEC PIPELINE â€” EXECUTION PLAN
+2026-10-14 15:43:39 | INFO     | run_pipeline | ============================================================
+2026-10-14 15:43:39 | INFO     | run_pipeline | Run date:    2026-10-14
+2026-10-14 15:43:39 | INFO     | run_pipeline | Steps:       25/25 total
+2026-10-14 15:43:39 | INFO     | run_pipeline | Dry run:     True
+2026-10-14 15:43:39 | INFO     | run_pipeline | 
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [01] 01_ingest            â€” Register sources; ingest raw data files
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [02] 02_validate          â€” Q01-Q10 QC checks on DB01-DB06; halt on critical failure
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [03] 03_clean             â€” Consent gate; code standardisation; write CLEAN CSVs
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [04] 04_integrate         â€” SJ01-SJ12; derive hydropower distance; rebuild G03/G19/G26
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [05] 05_climate           â€” Temporal aggregation; extreme events; G21 station summary
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [06] 06_flood             â€” IND01 flood frequency; IND02 flood severity
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [07] 07_erosion           â€” IND03 erosion severity; IND04 river proximity; G27 hotspots
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [08] 08_hydropower        â€” IND07 electricity disruption; IND08 hydropower disruption; G28
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [09] 09_exposure          â€” Flood exposure; erosion exposure; E_Score 0-100
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [10] 10_vulnerability     â€” IND09 inverted; DB02 aggregated; V_Score 0-100
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [11] 11_criticality       â€” IND08 NULL outside BUF004; C_Score 0-100
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [12] 12_hazard            â€” IND01-IND04 weighted; validate against G25; halt if < 70% pass
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [13] 13_risk              â€” R = 0.35H + 0.25E + 0.25V + 0.15C; S1/S2 sensitivity models
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [14] 14_adaptation        â€” Adaptation categories; IND09 raw; IND10 if formula approved
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [15] 15_priority          â€” Priority_Score = 0.70R + 0.30IND10; tier/rank; top-20 list
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [16] 16_qc                â€” Privacy; provenance; version; enumerator; cross-DB; geom sync
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [17] 17_reports           â€” Community profiles; state summaries; descriptive stats; risk dist
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [18] 18_maps              â€” 27-map register; QGIS-ready GeoJSON; cartographic checklists
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [19] 20_climate_change    â€” Rainfall/temperature trends; SPI drought frequency; CC_Score
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [20] 21_flooding          â€” Gumbel RP rainfall; HAND inundation; FL_Score per community
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [21] 22_land_degradation  â€” NDVI trend IND15; RUSLE soil loss IND16; LD_Score
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [22] 23_deforestation     â€” Hansen GFC IND17; deforestation pressure DF_Score
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [23] 24_waste_pollution   â€” DB08 waste sites; leachate IND18â€“19; WP_Score
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [24] 25_biodiversity      â€” Habitat integrity IND20; PA coverage IND21; BL_Score
+2026-10-14 15:43:39 | INFO     | run_pipeline |   [25] 26_eri               â€” ERI = 0.25H+0.15E+0.15V+0.10C+0.10CC+0.08LD+0.07DF+0.05WP+0.05BL
+2026-10-14 15:43:39 | INFO     | run_pipeline | 
+2026-10-14 15:43:39 | INFO     | run_pipeline | DRY RUN â€” no modules executed.
+  [32mâœ“[0m  Dry run returns exit code 3
+  [32mâœ“[0m  PipelineCriticalError can be raised and caught
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 11 â€” PROCESSING_STATUS.csv and VERSION_LOG.csv integrity[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  PROCESSING_STATUS.csv readable
+  [32mâœ“[0m  PROCESSING_STATUS has required columns
+  [32mâœ“[0m  PROCESSING_STATUS contains DB01
+  [32mâœ“[0m  PROCESSING_STATUS contains DB02
+  [32mâœ“[0m  PROCESSING_STATUS contains DB03
+  [32mâœ“[0m  PROCESSING_STATUS contains DB04
+  [32mâœ“[0m  PROCESSING_STATUS contains DB05
+  [32mâœ“[0m  PROCESSING_STATUS contains DB06
+  [32mâœ“[0m  PROCESSING_STATUS contains G01
+  [32mâœ“[0m  PROCESSING_STATUS contains G02
+  [32mâœ“[0m  PROCESSING_STATUS contains G03
+  [32mâœ“[0m  PROCESSING_STATUS contains G04
+  [32mâœ“[0m  PROCESSING_STATUS contains G05
+  [32mâœ“[0m  PROCESSING_STATUS contains G06
+  [32mâœ“[0m  PROCESSING_STATUS contains G07
+  [32mâœ“[0m  PROCESSING_STATUS contains G08
+  [32mâœ“[0m  PROCESSING_STATUS contains G09
+  [32mâœ“[0m  PROCESSING_STATUS contains G10
+  [32mâœ“[0m  PROCESSING_STATUS contains G11
+  [32mâœ“[0m  PROCESSING_STATUS contains G12
+  [32mâœ“[0m  PROCESSING_STATUS contains G13
+  [32mâœ“[0m  PROCESSING_STATUS contains G14
+  [32mâœ“[0m  PROCESSING_STATUS contains G15
+  [32mâœ“[0m  PROCESSING_STATUS contains G16
+  [32mâœ“[0m  PROCESSING_STATUS contains G17
+  [32mâœ“[0m  PROCESSING_STATUS contains G18
+  [32mâœ“[0m  PROCESSING_STATUS contains G19
+  [32mâœ“[0m  PROCESSING_STATUS contains G20
+  [32mâœ“[0m  PROCESSING_STATUS contains G21
+  [32mâœ“[0m  PROCESSING_STATUS contains G22
+  [32mâœ“[0m  PROCESSING_STATUS contains G23
+  [32mâœ“[0m  PROCESSING_STATUS contains G24
+  [32mâœ“[0m  PROCESSING_STATUS contains G25
+  [32mâœ“[0m  PROCESSING_STATUS contains G26
+  [32mâœ“[0m  PROCESSING_STATUS contains G27
+  [32mâœ“[0m  PROCESSING_STATUS contains G28
+  [32mâœ“[0m  PROCESSING_STATUS contains G29
+  [32mâœ“[0m  PROCESSING_STATUS contains G30
+  [32mâœ“[0m  PROCESSING_STATUS contains G31
+  [32mâœ“[0m  PROCESSING_STATUS contains G32
+  [32mâœ“[0m  PROCESSING_STATUS contains G33
+  [32mâœ“[0m  PROCESSING_STATUS contains G34
+  [32mâœ“[0m  PROCESSING_STATUS contains G35
+  [32mâœ“[0m  PROCESSING_STATUS contains G36
+  [32mâœ“[0m  PROCESSING_STATUS contains G37
+  [32mâœ“[0m  VERSION_LOG.csv readable
+  [32mâœ“[0m  VERSION_LOG has v10.0 (Phase 10) entries
+  [32mâœ“[0m  VERSION_LOG has ALL_PHASES COMPLETE description
+  [36mÂ·[0m  VERSION_LOG total entries: 207
+
+[1m[36m============================================================[0m
+[1m[36m  TEST 12 â€” CHER-CDSS v4.1 Scaffold & Decision Intelligence Standards[0m
+[1m[36m============================================================[0m
+  [32mâœ“[0m  CHER_CDSS Scaffold v4.1 document exists
+  [32mâœ“[0m  Scaffold v4.1 contains Section 44 RACI Matrix
+  [32mâœ“[0m  Scaffold v4.1 specifies GIS master register
+  [32mâœ“[0m  Scaffold v4.1 includes 22 Core Data Tables
+  [32mâœ“[0m  Scaffold v4.1 defines fixed normalization reference bounds
+  [32mâœ“[0m  Scaffold v4.1 codifies IES validity rules
+  [32mâœ“[0m  STUDY_STATES matches 10 confirmed N-HYPPADEC states
+  [32mâœ“[0m  REFERENCE_BOUNDS_REGISTER.csv exists
+  [32mâœ“[0m  REFERENCE_BOUNDS_2026 configured in config.py
+  [32mâœ“[0m  Normalization: mid-point 5.0 in [0, 10] = 50.0
+  [32mâœ“[0m  Normalization: clipping upper bound (15.0 in [0, 10]) = 100.0
+  [32mâœ“[0m  Normalization: clipping lower bound (-3.0 in [0, 10]) = 0.0
+  [32mâœ“[0m  Normalization: inverse direction (2.0 in [0, 10]) = 80.0
+  [32mâœ“[0m  Composite Risk additive formula matches
+  [32mâœ“[0m  Composite Risk multiplicative alternative calculates
+  [32mâœ“[0m  Multiplicative check: E=0 yields zero risk
+  [32mâœ“[0m  IES normal calculation: 60 to 36 = 40.0% reduction
+  [32mâœ“[0m  IES validity rule: undefined when Risk_before = 0 (returns None)
+  [32mâœ“[0m  IES validity rule: rejects comparison with mismatched reference bounds
+  [32mâœ“[0m  Data Confidence rubric contains 4 standard ratings
+
+[1m============================================================
+  SUMMARY
+============================================================[0m
+  Total checks: 197
+  [32mPassed:  197[0m
+  [31mFailed:  0[0m
+
+[1m[32m  âœ“ ALL TESTS PASSED[0m
+

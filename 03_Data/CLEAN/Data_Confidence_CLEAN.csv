@@ -1,0 +1,11 @@
+Confidence_ID,Entity_Or_Layer,Completeness_Pct,Recency_Months,Source_Quality,Validation_Status,Rating,Decision_Use,Assessed_Date
+CONF-G01-2026,G01_Nigeria_State,100.0,1,Primary Statutory,Validated,High,Full statutory planning & territorial bounding,2026-10-01
+CONF-G02-2026,G02_Nigeria_LGA,100.0,1,Primary Statutory,Validated,High,Statutory local government resource allocation,2026-10-01
+CONF-G03-2026,G03_Communities,100.0,1,Field DGPS Survey,Ground Validated,High,Sentinel community investment prioritization,2026-10-01
+CONF-G05-2026,G05_River_Drainage,98.5,2,HydroRIVERS + GEE,Validated,High,Hydrodynamic modeling and buffer analysis,2026-10-01
+CONF-G07-2026,G07_HydroFacilities,100.0,1,Operator Direct Log,Validated,High,Hydropower impact analysis and buffer zones,2026-10-01
+CONF-G09-2026,G09_DEM,100.0,6,SRTM 30m / Copernicus,Cross-Checked,High,"Slope, aspect, flow accumulation derivation",2026-10-01
+CONF-G24-2026,G24_FloodHazard,94.0,1,Multi-Criteria Model,Validated vs G25,High,Flood hazard zoning and exposure overlays,2026-10-01
+CONF-G26-2026,G26_ErosionSites,96.0,1,Field Geotechnical Survey,Ground Validated,High,Gully engineering stabilization prioritisation,2026-10-01
+CONF-G35-2026,G35_CompositeRisk,100.0,1,Pipeline Derivation,Sensitivity Tested,High,Statutory resource allocation & capital prioritization,2026-10-01
+CONF-SEC-2026,Security_Impact,88.0,1,Field Informant + Aggregates,Safe Aggregation,Moderate,Indicative planning and access risk assessment,2026-10-01

@@ -1,0 +1,6 @@
+Severity_Code,Severity_Label,Description,Typical_Dimensions,Infrastructure_Threat,Action_Required
+0,None/Not Observed,No active erosion observed at site,N/A,None,Monitor only
+1,Low,Minor surface scarring; limited extent,Length <10m or Width <2m or Depth <0.5m,Low,Monitor and record
+2,Moderate,Established erosion feature; expanding slowly,Length 10-50m or Width 2-10m or Depth 0.5-3m,Moderate,Priority monitoring; intervention planning
+3,High,Large active feature; threatening infrastructure or community,Length 50-200m or Width 10-30m or Depth 3-10m,High,Urgent intervention
+4,Very High/Critical,Catastrophic scale; imminent or ongoing infrastructure/community loss,Length >200m or Width >30m or Depth >10m,Critical,Emergency response required

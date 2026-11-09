@@ -1,0 +1,7 @@
+2026-10-26 10:59:13 | INFO     | 25_biodiversity | ============================================================
+2026-10-26 10:59:13 | INFO     | 25_biodiversity |   25_BIODIVERSITY — Habitat Integrity + PA Coverage + BL Index (G63)
+2026-10-26 10:59:13 | INFO     | 25_biodiversity | ============================================================
+2026-10-26 10:59:13 | WARNING  | 25_biodiversity | Habitat stats not found at c:\xampp\htdocs\GIS\05_Analysis\01_INPUTS\Habitat_Community_Stats.csv. Build G59/G60/G61 and run zonal statistics to populate. IND20-IND22 will be NULL until available.
+2026-10-26 10:59:13 | WARNING  | 25_biodiversity | DB09 CLEAN not found — field biodiversity data unavailable
+2026-10-26 10:59:13 | INFO     | 25_biodiversity | G63 Biodiversity Loss Index saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G63_BiodiversityLossIndex.csv | Mean BL_Score: nan | Completeness: Minimal
+2026-10-26 10:59:13 | INFO     | 25_biodiversity | 25_biodiversity complete

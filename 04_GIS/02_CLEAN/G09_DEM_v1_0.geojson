@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "name": "G09_DEM_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.0,
+              6.5
+            ],
+            [
+              8.5,
+              6.5
+            ],
+            [
+              8.5,
+              8.5
+            ],
+            [
+              6.0,
+              8.5
+            ],
+            [
+              6.0,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Lowland Fluvial (<150m)",
+        "Elev_Min_m": 0,
+        "Elev_Max_m": 150,
+        "Source": "SRTM 30m v4.1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.5,
+              8.5
+            ],
+            [
+              7.5,
+              8.5
+            ],
+            [
+              7.5,
+              11.0
+            ],
+            [
+              4.5,
+              11.0
+            ],
+            [
+              4.5,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Basin Plains (150-300m)",
+        "Elev_Min_m": 150,
+        "Elev_Max_m": 300,
+        "Source": "SRTM 30m v4.1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0,
+              9.0
+            ],
+            [
+              9.5,
+              9.0
+            ],
+            [
+              9.5,
+              11.5
+            ],
+            [
+              7.0,
+              11.5
+            ],
+            [
+              7.0,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "Foothills & Midlands (300-600m)",
+        "Elev_Min_m": 300,
+        "Elev_Max_m": 600,
+        "Source": "SRTM 30m v4.1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              8.4
+            ],
+            [
+              10.0,
+              8.4
+            ],
+            [
+              10.0,
+              10.2
+            ],
+            [
+              8.4,
+              10.2
+            ],
+            [
+              8.4,
+              8.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Zone_Name": "High Plateau Uplands (>600m)",
+        "Elev_Min_m": 600,
+        "Elev_Max_m": 1800,
+        "Source": "SRTM 30m v4.1"
+      }
+    }
+  ]
+}

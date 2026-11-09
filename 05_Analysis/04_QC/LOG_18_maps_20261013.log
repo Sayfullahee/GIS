@@ -1,0 +1,10 @@
+2026-10-13 16:47:16 | INFO     | 18_maps | ============================================================
+2026-10-13 16:47:16 | INFO     | 18_maps |   18_MAPS — Map Register and Export Preparation
+2026-10-13 16:47:16 | INFO     | 18_maps | ============================================================
+2026-10-13 16:47:16 | INFO     | 18_maps | Map register created: c:\xampp\htdocs\GIS\06_Reports\03_FIGURES\MAP_REGISTER.csv (27 maps planned)
+2026-10-13 16:47:16 | INFO     | 18_maps | Community map data exported: c:\xampp\htdocs\GIS\04_GIS\05_MAP_EXPORTS\Community_Risk_MapData_v1_0.csv (50 communities)
+2026-10-13 16:47:16 | INFO     | 18_maps | GeoJSON exported: c:\xampp\htdocs\GIS\04_GIS\05_MAP_EXPORTS\Community_Risk_MapData_v1_0.geojson
+2026-10-13 16:47:16 | INFO     | 18_maps | 18_maps complete.
+  MAP_REGISTER.csv: 27 maps registered in c:\xampp\htdocs\GIS\06_Reports\03_FIGURES
+  Community map data ready for QGIS in c:\xampp\htdocs\GIS\04_GIS\05_MAP_EXPORTS
+  NOTE: Final PDF map production requires QGIS Desktop with project templates in 04_GIS/04_PROJECTS/. Every map must pass cartographic element checklist before publication.

@@ -1,0 +1,55 @@
+Record_ID,State_Code,State_Name,Problem_Code,Problem_Name,Latitude,Longitude,Severity_Level,Observed_Source,Validation_Status,Notes
+SEP001,NG-ADA,Adamawa,DEFORESTATION,Deforestation,9.3245,12.4512,Critical,National Environmental Survey Wall Map,Verified from Photo,Green starburst symbol positioned directly over Adamawa in official national poster.
+SEP002,NG-ADA,Adamawa,EROSION,Erosion,9.8512,12.8021,High,National Environmental Survey Wall Map,Verified from Photo,Red triangle symbol plotted in northern Adamawa highlands/gully belt.
+SEP003,NG-ADA,Adamawa,FLOODING,Flooding,9.2014,12.4831,Critical,N-HYPPADEC / Upper Benue River Basin Authority,Active Basin Monitor,Lagdo Dam release corridor along Benue River floodplains.
+SEP004,NG-ADA,Adamawa,DROUGHT,Drought,10.2514,13.2045,High,NiMet / ACReSAL Northern Savanna Drought Register,Active Basin Monitor,Northern dry spell belt impacting pastoral and rainfed agrarian communities.
+SEP005,NG-NIG,Niger,FLOODING,Flooding,9.61,6.55,Critical,N-HYPPADEC Master Hydrological Register,Verified,Downstream flood risk zone along Kainji-Jebba-Shiroro axis.
+SEP006,NG-NIG,Niger,LEAD_POISONING,Lead Poisoning,9.95,6.8,Critical,Federal Ministry of Health / NESREA Lead Incident Log,Verified,Artisanal gold mining lead contamination corridor in Shiroro/Rafi.
+SEP007,NG-NIG,Niger,EROSION,Erosion,9.35,6.0,Medium,CHER-CDSS G26 Erosion Register,Verified,Gully erosion in Mokwa and Bida agricultural zones.
+SEP008,NG-NIG,Niger,SOLID_WASTE,Solid Waste Management,9.615,6.54,High,NESREA Urban Sanitation Audit,Verified,Minna urban open dumping and drainage blockage hotspot.
+SEP009,NG-KEB,Kebbi,FLOODING,Flooding,12.45,4.2,Critical,N-HYPPADEC Flood Disaster Log,Verified,Severe Rima and Niger river basin seasonal inundation.
+SEP010,NG-KEB,Kebbi,DESERTIFICATION,Desertification,12.8,4.5,High,Great Green Wall National Agency,Verified,Arid frontline belt experiencing active sand dune movement.
+SEP011,NG-KEB,Kebbi,DROUGHT,Drought,12.6,4.3,High,NiMet Drought Risk Monitor,Verified,Prolonged dry spells affecting fadama rice and sorghum production.
+SEP012,NG-PLA,Plateau,EROSION,Erosion,9.9,8.9,Critical,CHER-CDSS G26 / NEWMAP Legacy Hotspots,Verified,Severe tin-mining legacy gully erosion across Jos plateau.
+SEP013,NG-PLA,Plateau,ECOLOGICAL_CONFLICT,Ecological Conflict,9.5,8.8,Critical,Ecological Conflict Peace & Resilience Audit,Verified,Pastoral grazing route vs farmland ecological tension.
+SEP014,NG-BEN,Benue,FLOODING,Flooding,7.73,8.52,Critical,N-HYPPADEC / Benue SEMA Flood Register,Verified,River Benue high-volume overflows in Makurdi and surrounding lowlands.
+SEP015,NG-BEN,Benue,ECOLOGICAL_CONFLICT,Ecological Conflict,7.45,8.9,Critical,National Grazing Corridor Resource Assessment,Verified,Riverine basin arable land pressure.
+SEP016,NG-BEN,Benue,EROSION,Erosion,7.2,8.6,High,CHER-CDSS G26 Erosion Hotspots,Verified,Active gully network in Gboko and Otukpo corridors.
+SEP017,NG-KOG,Kogi,FLOODING,Flooding,7.8,6.74,Critical,N-HYPPADEC Confluence Early Warning,Verified,Niger-Benue confluence inundation epicentre at Lokoja.
+SEP018,NG-KOG,Kogi,EROSION,Erosion,7.5,6.6,High,CHER-CDSS G26 Hotspot Register,Verified,Erosion scars in Okene and Ankpa escarpments.
+SEP019,NG-KOG,Kogi,WATER_POLLUTION,Water Pollution,7.78,6.72,Medium,NIWA / Confluence Water Quality Study,Verified,Riverine sedimentation and industrial runoff.
+SEP020,NG-KWA,Kwara,FLOODING,Flooding,8.95,4.9,High,N-HYPPADEC Flood Risk Register,Verified,Edu and Patigi flood-prone riverbanks along River Niger.
+SEP021,NG-KWA,Kwara,EROSION,Erosion,8.5,4.55,Medium,CHER-CDSS G26 Erosion Register,Verified,Gully erosion around Ilorin metropolitan outskirts.
+SEP022,NG-KAD,Kaduna,AIR_POLLUTION,Air Pollution,10.52,7.44,High,NESREA Air Quality Monitoring Station,Verified,Industrial particulate concentrations and vehicle exhaust.
+SEP023,NG-KAD,Kaduna,FLOODING,Flooding,10.5,7.42,High,Kaduna SEMA Flood Vulnerability Log,Verified,Kaduna River flash flood overflows affecting central wards.
+SEP024,NG-KAD,Kaduna,ECOLOGICAL_CONFLICT,Ecological Conflict,10.1,7.8,Critical,Southern Kaduna Resource Dispute Log,Verified,Ecological resource stress and land degradation conflicts.
+SEP025,NG-NAS,Nasarawa,FLOODING,Flooding,8.5,8.52,High,Nasarawa SEMA Rapid Assessment,Verified,"Benue tributary backflow in Toto, Doma and Awe LGAs."
+SEP026,NG-NAS,Nasarawa,EROSION,Erosion,8.6,8.2,High,CHER-CDSS G26 Erosion Hotspots,Verified,Gully sites in Keffi and Lafia municipal catchments.
+SEP027,NG-TAR,Taraba,DEFORESTATION,Deforestation,7.85,10.5,Critical,Global Forest Watch / TAR SEMA Survey,Verified,Intensive illegal rosewood (Madrid) logging and forest clearance.
+SEP028,NG-TAR,Taraba,FLOODING,Flooding,8.9,11.36,Critical,N-HYPPADEC Riverine Monitoring,Verified,Upper Benue and Donga river basin annual flash inundation.
+SEP029,NG-TAR,Taraba,ECOLOGICAL_CONFLICT,Ecological Conflict,7.2,10.8,Critical,Mambilla Plateau Resource Audit,Verified,Highland grazing land allocation and ecological disputes.
+SEP030,NG-GOM,Gombe,EROSION,Erosion,10.28,11.17,Critical,NEWMAP Gombe State Interventions,Verified,Severe deep gully complexes threatening Gombe town.
+SEP031,NG-GOM,Gombe,DESERTIFICATION,Desertification,10.8,11.4,High,Frontline Shelterbelt Monitoring,Verified,Dukku and Funakaye semi-arid vegetative decline.
+SEP032,NG-ZAM,Zamfara,LEAD_POISONING,Lead Poisoning,12.16,6.66,Critical,MSF / Federal Ministry of Health Report,Verified,Historic and active artisanal gold ore milling lead poisoning epicentre.
+SEP033,NG-RIV,Rivers,OIL_SPILLAGE,Oil Spillage,4.81,7.04,Critical,NOSDRA National Oil Spill Monitor,Verified,"Major crude oil spillage, pipeline ruptures, and mangrove destruction."
+SEP034,NG-RIV,Rivers,WATER_POLLUTION,Water Pollution,4.75,7.0,Critical,Niger Delta Water Quality Assessment,Verified,Hydrocarbon pollution of creeks and drinking boreholes.
+SEP035,NG-BAY,Bayelsa,OIL_SPILLAGE,Oil Spillage,4.75,6.1,Critical,NOSDRA Pipeline Incident Registry,Verified,"Severe oil spills across Nembe, Brass, and Southern Ijaw creeks."
+SEP036,NG-LAG,Lagos,AIR_POLLUTION,Air Pollution,6.5244,3.3792,Critical,Lagos LASEPA Clean Air Initiative,Verified,High PM2.5 concentrations from traffic congestion and industrial clusters.
+SEP037,NG-LAG,Lagos,SOLID_WASTE,Solid Waste Management,6.6012,3.3514,Critical,LAWMA Dumpsite Environmental Audit,Verified,Olusosun landfill capacity and uncollected urban plastic runoff.
+SEP038,NG-KAN,Kano,SOLID_WASTE,Solid Waste Management,11.98,8.53,Critical,Kano REMASAB Waste Register,Verified,Open urban disposal and market organic waste blockage of canals.
+SEP039,NG-KAN,Kano,AIR_POLLUTION,Air Pollution,12.0,8.51,High,Sharada / Bompai Industrial Emissions Log,Verified,Tannery and textile industrial smoke plus dust storms.
+SEP040,NG-BOR,Borno,DESERTIFICATION,Desertification,11.8333,13.15,Critical,Lake Chad Basin Commission / GGW,Verified,Lake Chad recession and extreme Saharan encroachment.
+SEP041,NG-NIG,Niger,BANDIT_ATTACK,Bandit Attack,9.98,6.75,Critical,State Security & Conflict Early Warning Network,Verified,Armed banditry attacks and farm access blockade in Shiroro and Rafi LGAs.
+SEP042,NG-NIG,Niger,FOOD_SECURITY,Food Security,9.45,6.3,High,CHER-CDSS Table Food_Security / FEWS NET,Verified,Post-flood grain reserve depletion and staple price spikes across Mokwa and Bida.
+SEP043,NG-KAD,Kaduna,BANDIT_ATTACK,Bandit Attack,10.65,6.55,Critical,Kaduna Peace Commission / Rural Incident Log,Verified,Intense rural banditry and kidnap risks preventing cultivation in Birnin Gwari and Giwa.
+SEP044,NG-KAD,Kaduna,FOOD_SECURITY,Food Security,10.45,7.5,High,National Food Security Assessment,Verified,Reduced cereal harvests and market disruptions in peri-urban agrarian clusters.
+SEP045,NG-KEB,Kebbi,BANDIT_ATTACK,Bandit Attack,11.4,5.2,Critical,Kebbi SEMA / Joint Security Taskforce,Verified,Bandit incursions into Danko-Wasagu and Sakaba agricultural communities.
+SEP046,NG-KEB,Kebbi,FOOD_SECURITY,Food Security,12.35,4.15,High,CHER-CDSS Food Security Baseline,Verified,Widespread rice and millet field submersion leading to acute rural food insecurity.
+SEP047,NG-BEN,Benue,BANDIT_ATTACK,Bandit Attack,7.6,9.3,Critical,Benue SEMA / Community Peace Monitors,Verified,Armed raids and militia violence along Katsina-Ala and Ukum agrarian borders.
+SEP048,NG-BEN,Benue,FOOD_SECURITY,Food Security,7.7,8.6,High,Benue State Agricultural Development Authority,Verified,Yam and cassava crop spoilage and harvest deficit in flood and conflict zones.
+SEP049,NG-PLA,Plateau,BANDIT_ATTACK,Bandit Attack,9.4,8.95,Critical,Plateau Peace Building Agency Incident Register,Verified,Night-time armed raids on agrarian settlements in Mangu and Bokkos frontiers.
+SEP050,NG-PLA,Plateau,FOOD_SECURITY,Food Security,9.8,8.85,High,Regional Food Basket Surveillance,Verified,Potato and maize production shortfall due to insecurity-induced farm abandonment.
+SEP051,NG-TAR,Taraba,BANDIT_ATTACK,Bandit Attack,8.2,10.2,Critical,Taraba State Security Brief,Verified,Kidnapping and rural armed bandit ambushes in southern farming corridors.
+SEP052,NG-TAR,Taraba,FOOD_SECURITY,Food Security,8.85,11.3,High,CHER-CDSS Baseline Food Monitor,Verified,Riverine flood crop washouts causing localized grain shortages in Ibi and Ardo Kola.
+SEP053,NG-NAS,Nasarawa,BANDIT_ATTACK,Bandit Attack,8.45,7.85,Critical,Nasarawa Peace and Security Watch,Verified,Armed bandit activities and rural farmer tension along Nasarawa-Toto-Kogi border.
+SEP054,NG-NAS,Nasarawa,FOOD_SECURITY,Food Security,8.52,8.48,High,Nasarawa Agricultural Development Programme,Verified,Farmland displacement and flood washouts of rice and sesame crops.

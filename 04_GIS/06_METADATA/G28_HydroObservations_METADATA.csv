@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G28
+Layer_Name,Hydro/Water Observations (Time-Series GIS Layer)
+Layer_Type,Vector-Point (time-series attribute representation)
+Geometry_Type,Point
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Facility point (one point per facility; temporal dimension in attributes)
+Source_ID,SRC016 (via DB04)
+Source_Dataset,Derived from DB04 Hydropower/Water Observations
+Provider,Derived (DB04 → G28)
+Acquisition_Date,N/A (derived)
+Source_Version,Derived from DB04 v1.0
+Coverage,10 study states (hydropower facilities in G07)
+Processing_Method,"Derived from DB04 CLEAN. Two representations: (A) Facility summary layer — one point per facility with aggregated statistics (mean generation; total disruption days; sedimentation trend; latest status); (B) Annual snapshot — one point per facility per year for temporal mapping. G28 inherits G07 geometry. Step 1: DB04 must be CLEAN. Step 2: Aggregate DB04 by Hydro_ID and period. Step 3: Join to G07 geometry by Hydro_ID. Step 4: QC aggregated values. Step 5: Publish G28 CLEAN."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (pandas / geopandas) / QGIS
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (same as G07)
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,Same as DB04 sources
+Restrictions,Operator data subject to data sharing agreement
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,DB04 (must be CLEAN) | G07 (must be CLEAN — provides geometry)
+Derived_Layers,"G34 (criticality index — hydropower disruption), IND08 (hydropower disruption indicator)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoPackage preferred (summary layer)
+File_Name,G28_HydroObservations_[period]_v1_0.gpkg
+File_Size_MB,TBD
+Attribute_Count,15 (summary layer)
+Feature_Count,Equals G07 facility count
+Bounding_Box_W,Same as G07
+Bounding_Box_E,Same as G07
+Bounding_Box_S,Same as G07
+Bounding_Box_N,Same as G07
+Data_Date,Dependent on DB04 record range
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_06_Hydropower
+Notes,"G28 is the spatial/aggregated representation of DB04. Full time-series remains in DB04. G28 provides facility-level summaries for GIS mapping and is a direct input to G34 criticality index. When DB04 is updated G28 must be regenerated. The aggregation period must be documented. Generation_MWh_Mean and Disruption_Days_Total are the primary analytical attributes."

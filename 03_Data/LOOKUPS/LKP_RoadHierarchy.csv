@@ -1,0 +1,8 @@
+Road_Class_Code,Road_Class_Name,OSM_Highway_Tags,Description,Critical_For_Exposure,Notes
+RC01,Federal Highway,motorway;trunk;primary,Federal-managed intercity highways and expressways,Yes,Highest connectivity value; damage has widest impact
+RC02,State Road,secondary,State-managed roads connecting towns and LGA headquarters,Yes,
+RC03,LGA Road,tertiary,LGA-managed roads connecting communities,Yes,
+RC04,Community Road,unclassified;residential;living_street,Community access roads and residential streets,No,Often unpaved; high local importance
+RC05,Track/Path,track;path;footway,Earth tracks and footpaths — primarily agricultural/rural access,No,May be only access route for remote communities
+RC06,Bridge/Crossing,See G16 bridge attribute,Road bridge or river crossing (applies to any RC01-RC05),Yes,Flag separately — bridge loss = full route severance
+RC07,Unknown/Unclassified,other,OSM highway tag not mapped to a project class,No,Review and reclassify before use in exposure analysis

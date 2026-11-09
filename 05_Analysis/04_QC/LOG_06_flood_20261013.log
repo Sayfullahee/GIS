@@ -1,0 +1,8 @@
+2026-10-13 16:47:14 | INFO     | 06_flood | ============================================================
+2026-10-13 16:47:14 | INFO     | 06_flood |   06_FLOOD — Flood Indicator Computation
+2026-10-13 16:47:14 | INFO     | 06_flood | ============================================================
+2026-10-13 16:47:14 | INFO     | 06_flood | G25 loaded: 35 flood events
+2026-10-13 16:47:14 | INFO     | 06_flood | IND01 computed: 50 communities
+2026-10-13 16:47:14 | INFO     | 06_flood | IND02 computed for 35 flood events
+2026-10-13 16:47:14 | INFO     | 06_flood | Flood indicators saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\Flood_Indicators_IND01_IND02.csv
+2026-10-13 16:47:14 | INFO     | 06_flood | 06_flood complete

@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G01
+Layer_Name,Nigeria State Boundaries
+Layer_Type,Vector-Polygon
+Geometry_Type,Polygon
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Administrative boundary (national official scale)
+Source_ID,SRC001
+Source_Dataset,Nigeria Administrative Boundaries (State Level)
+Provider,OCHA / NBS
+Acquisition_Date,YYYY-MM-DD
+Source_Version,2023 or latest confirmed version
+Coverage,Nigeria (clipped to 10 study states for analysis; full Nigeria retained in RAW)
+Processing_Method,"Acquire full Nigeria state boundary; validate geometry; retain official identifiers; assign project State_Code; clip to 10 study states for CLEAN layer"
+Processing_Date,YYYY-MM-DD
+Processing_Software,QGIS 3.x
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (CLEAN version) / No (RAW version retained)
+Reprojected,No (source should already be EPSG:4326; confirm)
+Hydrologic_Conditioned,N/A
+License,Open (OCHA HDX)
+Restrictions,None
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,None (G01 is foundation layer)
+Derived_Layers,"G02 (validated against), G03 (spatial validation), G06 (basin-state join), G20 (station-state join)"
+Storage_Location,04_GIS/01_RAW/ (source) | 04_GIS/02_CLEAN/ (validated)
+File_Format,GeoPackage preferred
+File_Name,G01_Nigeria_States_v1_0.gpkg
+File_Size_MB,
+Attribute_Count,9
+Feature_Count,37 (full Nigeria) / 10 (study states)
+Bounding_Box_W,2.676932
+Bounding_Box_E,14.680073
+Bounding_Box_S,4.272977
+Bounding_Box_N,13.885645
+Data_Date,YYYY-MM-DD
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,"MAP_01_Study_Area, MAP_02_Community_Sampling"
+Notes,Ten target states must all be present; full Nigeria boundary retained in RAW for context maps

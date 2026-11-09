@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G23
+Layer_Name,Temperature Surface
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,"Method-dependent — see CLIMATE_INTERPOLATION_DECISIONS.csv CLD02 and CLD04. Recommended: 0.25 degree (~25km) if ERA5; or lapse-rate adjusted IDW at DEM resolution if station coverage permits."
+Source_ID,G21 (station data) + ERA5 or approved gridded temperature source
+Source_Dataset,"Derived from G21 (DB05 aggregated) + ERA5 / CRU TS or approved gridded temperature product"
+Provider,Derived (NiMet via DB05/G21 + ERA5/approved gridded source)
+Acquisition_Date,N/A (derived)
+Source_Version,Dependent on G21 + gridded product version
+Coverage,10 study states
+Processing_Method,"Method determined by CLIMATE_INTERPOLATION_DECISIONS.csv CLD02. If ERA5: (1) Download ERA5 2m temperature for study area and baseline period. (2) Compute annual/seasonal means. (3) Clip to study area. (4) Validate against G21 station means. If lapse-rate IDW: (1) Use G21 station mean temperature values. (2) Correct to sea-level equivalent using station elevation and lapse rate. (3) Run IDW interpolation. (4) Apply DEM-based elevation correction (G09) to re-introduce terrain effect. (5) Cross-validate with LOOCV. Document all parameters."
+Processing_Date,YYYY-MM-DD
+Processing_Software,Python (scipy / pykrige / rasterio / cdsapi for ERA5) / QGIS / GDAL
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes
+Reprojected,No (WGS84)
+Hydrologic_Conditioned,N/A
+License,ERA5: Copernicus Licence to Use Copernicus Products. CRU: open for research.
+Restrictions,ERA5: Copernicus licence; register at Copernicus CDS before access
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G21 (CLEAN) | G20 (CLEAN) | DB05 (CLEAN) | G09 (for lapse-rate elevation correction)
+Derived_Layers,"IND01 (drought/temperature stress component), G31 (hazard index — temperature extreme indicator)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Float32)
+File_Name,G23_TemperatureSurface_[method]_[period]_v1_0.tif
+File_Size_MB,TBD
+Attribute_Count,N/A (raster)
+Feature_Count,N/A
+Bounding_Box_W,TBD
+Bounding_Box_E,TBD
+Bounding_Box_S,TBD
+Bounding_Box_N,TBD
+Data_Date,Baseline period (e.g. 2000–2025 mean)
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_15_Temperature
+Notes,"Same methodological principles as G22 — method must be pre-specified; cross-validation required; uncertainty surface required. Lapse-rate correction is important for terrain in Cross River / Ebonyi / Enugu / Kogi highlands. Use standard lapse rate of 6.5°C/1000m unless local data available. Document lapse rate value in CLIMATE_INTERPOLATION_DECISIONS.csv CLD02."

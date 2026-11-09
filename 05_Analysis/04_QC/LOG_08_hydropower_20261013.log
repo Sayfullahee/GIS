@@ -1,0 +1,11 @@
+2026-10-13 16:47:14 | INFO     | 08_hydropower | ============================================================
+2026-10-13 16:47:14 | INFO     | 08_hydropower |   08_HYDROPOWER — Hydropower Indicator Computation
+2026-10-13 16:47:14 | INFO     | 08_hydropower | ============================================================
+2026-10-13 16:47:14 | INFO     | 08_hydropower | DB04 loaded: 36 observations from 6 facilities
+2026-10-13 16:47:14 | INFO     | 08_hydropower | IND08 computed for 6 facilities
+2026-10-13 16:47:14 | WARNING  | 08_hydropower | G07 CLEAN CSV not found — G28 will lack coordinates
+2026-10-13 16:47:14 | INFO     | 08_hydropower | G28 summary saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G28_HydroObservations_Summary.csv
+2026-10-13 16:47:14 | INFO     | 08_hydropower | IND07 derived from DB01 Electricity_Access (proxy)
+2026-10-13 16:47:14 | INFO     | 08_hydropower | IND07 saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\Hydro_Indicators_IND07_IND08.csv
+2026-10-13 16:47:14 | INFO     | 08_hydropower | IND08 saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\IND08_Hydropower_Disruption.csv
+2026-10-13 16:47:14 | INFO     | 08_hydropower | 08_hydropower complete

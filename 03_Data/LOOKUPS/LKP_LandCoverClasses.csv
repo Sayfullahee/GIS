@@ -1,0 +1,12 @@
+Class_Code,Class_Name,Class_Description,Hex_Colour,Relevance_to_Project,Runoff_Class,Erosion_Risk_Class,Notes
+10,Tree cover,"Trees >5m height; canopy >10%",#006400,Protective vegetation — reduces erosion and runoff,Low,Low,Monitor for deforestation between WorldCover epochs
+20,Shrubland,"Shrubs <5m; woody/herbaceous mix",#FFBB22,Moderate protection — less effective than tree cover,Moderate-Low,Moderate-Low,
+30,Grassland,Natural or semi-natural herbaceous cover,#FFFF4C,Some protection — depends on grass density and root depth,Moderate,Moderate,
+40,Cropland,Annual or perennial crops,#F096FF,High relevance — agricultural communities; seasonal bare soil increases erosion risk,Moderate-High,Moderate-High,Seasonal variation important — bare soil periods increase risk
+50,Built-up,"Impervious surfaces: roads; buildings; urban areas",#FA0000,High runoff generation; high exposure of people and infrastructure,High,N/A (surface sealed),Key for exposure analysis (G29/G30)
+60,Bare/sparse vegetation,"Soil; sand; rock with <10% vegetation",#B4B4B4,Very high erosion risk — minimal cover,High,Very High,Strong indicator of active or potential erosion; cross-check with G26 erosion sites
+70,Snow and ice,Permanent snow/ice,#F0F0F0,Not expected in study area,N/A,N/A,Flag if present — likely classification error in Nigeria context
+80,Permanent water bodies,"Rivers; lakes; reservoirs",#0064C8,Relevant for reservoir/river delineation; cross-check with G05/G08,N/A,N/A,Cross-check against G05 (rivers) and G08 (reservoirs)
+90,Herbaceous wetland,Herbaceous vegetation in flooded/waterlogged areas,#0096A0,High flood relevance — indicates flood-prone areas; critical for G24 hazard model,Very High,High,Strong indicator of flood exposure; cross-check with G25 flood records
+95,Mangroves,Intertidal mangrove forest,#00CF75,Coastal protection function; relevant in Delta/Cross River/Ondo coastal LGAs,Low,Low,
+100,Moss and lichen,Mosses and lichens,#FAE6A0,Minimal presence expected in study area,Low,Low,

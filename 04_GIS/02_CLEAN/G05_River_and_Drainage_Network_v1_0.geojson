@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "name": "G05_River_and_Drainage_Network_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.4,
+            11.5
+          ],
+          [
+            4.9,
+            10.0
+          ],
+          [
+            5.8,
+            9.0
+          ],
+          [
+            6.7,
+            7.8
+          ],
+          [
+            6.8,
+            6.0
+          ]
+        ]
+      },
+      "properties": {
+        "River_Name": "River Niger (Main Channel)",
+        "Hierarchy": "Primary Drainage Channel",
+        "CRS": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.8,
+            9.2
+          ],
+          [
+            10.5,
+            8.8
+          ],
+          [
+            9.5,
+            8.3
+          ],
+          [
+            8.5,
+            7.7
+          ],
+          [
+            6.7,
+            7.8
+          ]
+        ]
+      },
+      "properties": {
+        "River_Name": "River Benue (Main Channel)",
+        "Hierarchy": "Primary Drainage Channel",
+        "CRS": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5,
+            10.8
+          ],
+          [
+            7.4,
+            10.5
+          ],
+          [
+            6.8,
+            9.8
+          ],
+          [
+            6.0,
+            8.6
+          ]
+        ]
+      },
+      "properties": {
+        "River_Name": "Kaduna River",
+        "Hierarchy": "Primary Drainage Channel",
+        "CRS": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.8,
+            11.2
+          ],
+          [
+            11.4,
+            10.3
+          ],
+          [
+            11.6,
+            9.7
+          ]
+        ]
+      },
+      "properties": {
+        "River_Name": "Gongola River",
+        "Hierarchy": "Primary Drainage Channel",
+        "CRS": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1,
+            13.1
+          ],
+          [
+            4.8,
+            12.4
+          ],
+          [
+            4.2,
+            11.6
+          ]
+        ]
+      },
+      "properties": {
+        "River_Name": "Rima River",
+        "Hierarchy": "Primary Drainage Channel",
+        "CRS": "EPSG:4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.8,
+            6.9
+          ],
+          [
+            9.3,
+            7.3
+          ],
+          [
+            8.8,
+            7.6
+          ]
+        ]
+      },
+      "properties": {
+        "River_Name": "Katsina-Ala River",
+        "Hierarchy": "Primary Drainage Channel",
+        "CRS": "EPSG:4326"
+      }
+    }
+  ]
+}

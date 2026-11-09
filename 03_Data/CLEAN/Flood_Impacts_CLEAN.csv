@@ -1,0 +1,4 @@
+impact_id,flood_event_id,community_id,state_code,impact_category,asset_type,affected_count,estimated_loss_ngn,service_disruption_days,assessed_at,assessed_by,confidence,provenance_id,notes
+IMP-2025-001,FLD-0001,COM-NIG-001-0001,NG-NIG,Agriculture,Rice & Yam Farmland,145,185000000.0,21,2025-10-15 11:00:00+01:00,SEMA Agricultural Assessment Team,High,PRV-NIG-IMP-2025,Verified crop submergence damage across 450 hectares
+IMP-2025-002,FLD-0002,COM-BEN-001-0001,NG-BEN,Infrastructure,Rural Access Culverts & Road Embankment,6,95000000.0,18,2025-09-20 14:00:00+01:00,State Works & SEMA Joint Team,High,PRV-BEN-IMP-2025,"Access road embankment washed out, cutting market transit"
+IMP-2025-003,FLD-0003,COM-KOG-001-0001,NG-KOG,Socioeconomic,Market Stalls & Water Supply Points,82,140000000.0,24,2025-10-28 10:30:00+01:00,SEMA Kogi Rapid Assessment Unit,High,PRV-KOG-IMP-2025,Water boreholes contaminated and shoreline market sheds submerged

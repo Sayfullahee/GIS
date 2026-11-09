@@ -1,0 +1,36 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Unique,Description,QC_Rule,Privacy_Level
+BioObs_ID,Text,16,Yes,Yes,Yes,Permanent biodiversity observation identifier — format: BIO-[StateCode2]-[YYYYMMDD]-[Seq4],No duplicates; no nulls,Level 2
+Community_ID,Text,12,No,No,No,FK → DB01 nearest community,If present must resolve to DB01,Level 2
+State_Code,Text,6,Yes,No,No,FK → LKP_States.csv,Must resolve; no nulls,Level 2
+LGA_Code,Text,10,Yes,No,No,FK → LKP_LGAs.csv,Must resolve; consistent with State_Code,Level 2
+Habitat_Code,Text,6,Yes,No,No,FK → LKP_HabitatTypes.csv,Must resolve to LKP_HabitatTypes.csv; no nulls,Level 2
+Observation_Type,Text,30,Yes,No,No,"Habitat assessment / Species count / Rapid survey / Remote sensing interpretation / Community knowledge",Allowed values only; no nulls,Level 2
+Latitude,Double,,Yes,No,No,Observation point latitude WGS84,No nulls; 4.0–14.0,Level 2
+Longitude,Double,,Yes,No,No,Observation point longitude WGS84,No nulls; 2.5–15.0,Level 2
+GPS_Accuracy_m,Double,,Yes,No,No,GPS accuracy metres,No nulls; flag >30m,Level 2
+Transect_Length_m,Double,,No,No,No,Length of biodiversity transect if applicable,If present > 0,Level 2
+Plot_Area_sqm,Double,,No,No,No,Area of sample plot if applicable,If present > 0,Level 2
+Tree_Cover_Pct,Double,,No,No,No,Estimated tree canopy cover at observation point percent,If present: 0–100,Level 2
+Shrub_Cover_Pct,Double,,No,No,No,Estimated shrub cover percent,If present: 0–100,Level 2
+Grass_Cover_Pct,Double,,No,No,No,Estimated grass/herb cover percent,If present: 0–100,Level 2
+Bare_Ground_Pct,Double,,No,No,No,Estimated bare ground percent,If present: 0–100; check sum with other cover types,Level 2
+Cover_Sum_Check,Double,,No,No,No,Sum of all cover types — should equal 100%,If all four cover types present: |sum − 100| < 5; flag otherwise,Level 2
+Disturbance_Type,Text,100,No,No,No,"Logging / Agricultural encroachment / Fire / Grazing / Mining / None observed / Multiple",Free text or controlled; document clearly,Level 2
+Disturbance_Severity,Integer,,No,No,No,"0=None; 1=Low; 2=Moderate; 3=High; 4=Catastrophic",0–4 integer,Level 2
+Mammal_Species_Count,Integer,,No,No,No,Count of mammal species recorded or estimated in assessment area,If present >= 0,Level 2
+Bird_Species_Count,Integer,,No,No,No,Count of bird species,If present >= 0,Level 2
+Reptile_Amphibian_Count,Integer,,No,No,No,Count of reptile/amphibian species,If present >= 0,Level 2
+Plant_Species_Count,Integer,,No,No,No,Count of plant species in plot,If present >= 0,Level 2
+Invasive_Species_Present,Text,3,No,No,No,"Yes, No, Unknown",Whether invasive plant or animal species observed,Allowed values only,Level 2
+Invasive_Species_Names,Text,300,No,No,No,Names of invasive species observed,Free text; required if Invasive_Species_Present = Yes,Level 2
+NDVI_At_Point,Double,,No,No,No,NDVI value extracted from G47 raster at observation location,If present: -1 to 1; populated by integration script from G47,Level 2
+Habitat_Integrity_Score,Double,,No,No,No,Habitat Integrity Score 0–100 derived from G60,If present: 0–100; populated from G60 after raster built,Level 2
+Assessment_Method,Text,200,Yes,No,No,Protocol or method used for assessment — reference standard where applicable,No nulls,Level 2
+Observer_Qualification,Text,100,No,No,No,Training level of observer — ecologist / trained enumerator / community member,Free text; affects data confidence rating,Level 2
+Observation_Date,Date,,Yes,No,No,Date of observation YYYY-MM-DD,No nulls; valid date; not future,Level 2
+Observed_By,Text,50,Yes,No,No,Observer name or code,No nulls,Level 2
+Photo_ID,Text,200,No,No,No,Reference IDs of photographs,If present must have corresponding files,Level 2
+Notes,Text,1000,No,No,No,Field notes,Review before publication for sensitive species locations,Level 2
+Record_Created,Date,,Yes,No,No,Date record created,Auto-populated; no nulls,Level 2
+Data_Version,Text,10,Yes,No,No,Data version,No nulls,Level 2
+QC_Status,Text,12,Yes,No,No,Processing status,Must resolve to LKP_QC_Status.csv,Level 2

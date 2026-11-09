@@ -1,0 +1,1692 @@
+{
+  "type": "FeatureCollection",
+  "name": "G43_Recent_Flood_Extent_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8455,
+              9.502178
+            ],
+            [
+              6.8854999999999995,
+              9.502178
+            ],
+            [
+              6.8854999999999995,
+              9.542178
+            ],
+            [
+              6.8455,
+              9.542178
+            ],
+            [
+              6.8455,
+              9.502178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0001",
+        "Community_ID": "COM-NIG-001-0001",
+        "Community": "Gurara Central Settlement 1",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Gurara",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 13.4,
+        "Observed_Depth_M": 1.55,
+        "Duration_Days": 23,
+        "Exposed_Population": 3149,
+        "SAR_Severity_Score": 54.2,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.219488,
+              9.695622
+            ],
+            [
+              6.259487999999999,
+              9.695622
+            ],
+            [
+              6.259487999999999,
+              9.735622
+            ],
+            [
+              6.219488,
+              9.735622
+            ],
+            [
+              6.219488,
+              9.695622
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0002",
+        "Community_ID": "COM-NIG-002-0002",
+        "Community": "Mokwa Central Settlement 2",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Mokwa",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 21.3,
+        "Observed_Depth_M": 0.83,
+        "Duration_Days": 6,
+        "Exposed_Population": 2590,
+        "SAR_Severity_Score": 28.72,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.605281000000001,
+              9.272515
+            ],
+            [
+              6.645281,
+              9.272515
+            ],
+            [
+              6.645281,
+              9.312515
+            ],
+            [
+              6.605281000000001,
+              9.312515
+            ],
+            [
+              6.605281000000001,
+              9.272515
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0003",
+        "Community_ID": "COM-NIG-004-0004",
+        "Community": "Tafa Central Settlement 4",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Tafa",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 6.4,
+        "Observed_Depth_M": 1.33,
+        "Duration_Days": 16,
+        "Exposed_Population": 1744,
+        "SAR_Severity_Score": 39.6,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.658284,
+              9.408718
+            ],
+            [
+              6.698283999999999,
+              9.408718
+            ],
+            [
+              6.698283999999999,
+              9.448718
+            ],
+            [
+              6.658284,
+              9.448718
+            ],
+            [
+              6.658284,
+              9.408718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0004",
+        "Community_ID": "COM-NIG-005-0005",
+        "Community": "Lapai Central Settlement 5",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Lapai",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 15.4,
+        "Observed_Depth_M": 2.02,
+        "Duration_Days": 21,
+        "Exposed_Population": 1974,
+        "SAR_Severity_Score": 59.13,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.851919,
+              11.52739
+            ],
+            [
+              3.891919,
+              11.52739
+            ],
+            [
+              3.891919,
+              11.56739
+            ],
+            [
+              3.851919,
+              11.56739
+            ],
+            [
+              3.851919,
+              11.52739
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0005",
+        "Community_ID": "COM-KEB-001-0006",
+        "Community": "Aleiro Central Settlement 1",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "LGA": "Aleiro",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 7.3,
+        "Observed_Depth_M": 2.4,
+        "Duration_Days": 16,
+        "Exposed_Population": 2100,
+        "SAR_Severity_Score": 54.32,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.080926000000001,
+              11.181831
+            ],
+            [
+              4.120926,
+              11.181831
+            ],
+            [
+              4.120926,
+              11.221831
+            ],
+            [
+              4.080926000000001,
+              11.221831
+            ],
+            [
+              4.080926000000001,
+              11.181831
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0006",
+        "Community_ID": "COM-KEB-004-0009",
+        "Community": "Arewa Dandi Central Settlement 4",
+        "State_Code": "NG-KEB",
+        "State_Name": "Kebbi",
+        "LGA": "Arewa Dandi",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 15.6,
+        "Observed_Depth_M": 2.88,
+        "Duration_Days": 24,
+        "Exposed_Population": 4264,
+        "SAR_Severity_Score": 74.2,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.819279,
+              9.915913
+            ],
+            [
+              8.859278999999999,
+              9.915913
+            ],
+            [
+              8.859278999999999,
+              9.955912999999999
+            ],
+            [
+              8.819279,
+              9.955912999999999
+            ],
+            [
+              8.819279,
+              9.915913
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0007",
+        "Community_ID": "COM-PLA-001-0011",
+        "Community": "Barkin Ladi Central Settlement 1",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "LGA": "Barkin Ladi",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 14.4,
+        "Observed_Depth_M": 1.12,
+        "Duration_Days": 12,
+        "Exposed_Population": 4426,
+        "SAR_Severity_Score": 36.13,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.09261,
+              9.848975000000001
+            ],
+            [
+              9.13261,
+              9.848975000000001
+            ],
+            [
+              9.13261,
+              9.888975
+            ],
+            [
+              9.09261,
+              9.888975
+            ],
+            [
+              9.09261,
+              9.848975000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0008",
+        "Community_ID": "COM-PLA-004-0014",
+        "Community": "Shendam Central Settlement 4",
+        "State_Code": "NG-PLA",
+        "State_Name": "Plateau",
+        "LGA": "Shendam",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 7.1,
+        "Observed_Depth_M": 1.37,
+        "Duration_Days": 26,
+        "Exposed_Population": 1849,
+        "SAR_Severity_Score": 52.15,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.175821000000001,
+              7.559388
+            ],
+            [
+              8.215821,
+              7.559388
+            ],
+            [
+              8.215821,
+              7.599387999999999
+            ],
+            [
+              8.175821000000001,
+              7.599387999999999
+            ],
+            [
+              8.175821000000001,
+              7.559388
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0009",
+        "Community_ID": "COM-BEN-001-0016",
+        "Community": "Ohimini Central Settlement 1",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "LGA": "Ohimini",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 21.1,
+        "Observed_Depth_M": 2.45,
+        "Duration_Days": 20,
+        "Exposed_Population": 2371,
+        "SAR_Severity_Score": 66.55,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.764138,
+              8.007286
+            ],
+            [
+              8.804138,
+              8.007286
+            ],
+            [
+              8.804138,
+              8.047286
+            ],
+            [
+              8.764138,
+              8.047286
+            ],
+            [
+              8.764138,
+              8.007286
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0010",
+        "Community_ID": "COM-BEN-005-0020",
+        "Community": "Okpokwu Central Settlement 5",
+        "State_Code": "NG-BEN",
+        "State_Name": "Benue",
+        "LGA": "Okpokwu",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 15.4,
+        "Observed_Depth_M": 1.56,
+        "Duration_Days": 19,
+        "Exposed_Population": 3930,
+        "SAR_Severity_Score": 50.67,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.826373,
+              7.914327
+            ],
+            [
+              6.866372999999999,
+              7.914327
+            ],
+            [
+              6.866372999999999,
+              7.954326999999999
+            ],
+            [
+              6.826373,
+              7.954326999999999
+            ],
+            [
+              6.826373,
+              7.914327
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0011",
+        "Community_ID": "COM-KOG-003-0023",
+        "Community": "Okehi Central Settlement 3",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "LGA": "Okehi",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 17.3,
+        "Observed_Depth_M": 0.74,
+        "Duration_Days": 19,
+        "Exposed_Population": 4463,
+        "SAR_Severity_Score": 40.68,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.721846,
+              7.986368000000001
+            ],
+            [
+              6.761845999999999,
+              7.986368000000001
+            ],
+            [
+              6.761845999999999,
+              8.026368
+            ],
+            [
+              6.721846,
+              8.026368
+            ],
+            [
+              6.721846,
+              7.986368000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0012",
+        "Community_ID": "COM-KOG-005-0025",
+        "Community": "Ijumu Central Settlement 5",
+        "State_Code": "NG-KOG",
+        "State_Name": "Kogi",
+        "LGA": "Ijumu",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 19.5,
+        "Observed_Depth_M": 2.28,
+        "Duration_Days": 25,
+        "Exposed_Population": 5520,
+        "SAR_Severity_Score": 69.32,
+        "Ground_Truth_Confidence": "Low",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.376114,
+              8.717107
+            ],
+            [
+              4.416113999999999,
+              8.717107
+            ],
+            [
+              4.416113999999999,
+              8.757107
+            ],
+            [
+              4.376114,
+              8.757107
+            ],
+            [
+              4.376114,
+              8.717107
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0013",
+        "Community_ID": "COM-KWA-002-0027",
+        "Community": "Baruten Central Settlement 2",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "LGA": "Baruten",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 7.7,
+        "Observed_Depth_M": 1.08,
+        "Duration_Days": 26,
+        "Exposed_Population": 502,
+        "SAR_Severity_Score": 48.58,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.375514000000001,
+              8.371644
+            ],
+            [
+              4.415514,
+              8.371644
+            ],
+            [
+              4.415514,
+              8.411643999999999
+            ],
+            [
+              4.375514000000001,
+              8.411643999999999
+            ],
+            [
+              4.375514000000001,
+              8.371644
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0014",
+        "Community_ID": "COM-KWA-004-0029",
+        "Community": "Oyun Central Settlement 4",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "LGA": "Oyun",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 13.7,
+        "Observed_Depth_M": 1.56,
+        "Duration_Days": 16,
+        "Exposed_Population": 1893,
+        "SAR_Severity_Score": 46.32,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.447749000000001,
+              8.169659000000001
+            ],
+            [
+              4.487749,
+              8.169659000000001
+            ],
+            [
+              4.487749,
+              8.209659
+            ],
+            [
+              4.447749000000001,
+              8.209659
+            ],
+            [
+              4.447749000000001,
+              8.169659000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0015",
+        "Community_ID": "COM-KWA-005-0030",
+        "Community": "Oke Ero Central Settlement 5",
+        "State_Code": "NG-KWA",
+        "State_Name": "Kwara",
+        "LGA": "Oke Ero",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 8.0,
+        "Observed_Depth_M": 1.69,
+        "Duration_Days": 26,
+        "Exposed_Population": 1072,
+        "SAR_Severity_Score": 56.87,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.270579000000001,
+              10.529851
+            ],
+            [
+              7.310579,
+              10.529851
+            ],
+            [
+              7.310579,
+              10.569851
+            ],
+            [
+              7.270579000000001,
+              10.569851
+            ],
+            [
+              7.270579000000001,
+              10.529851
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0016",
+        "Community_ID": "COM-KAD-001-0031",
+        "Community": "Kudan Central Settlement 1",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "LGA": "Kudan",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 8.8,
+        "Observed_Depth_M": 2.5,
+        "Duration_Days": 22,
+        "Exposed_Population": 2501,
+        "SAR_Severity_Score": 63.4,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.7456760000000004,
+              10.34008
+            ],
+            [
+              7.785676,
+              10.34008
+            ],
+            [
+              7.785676,
+              10.38008
+            ],
+            [
+              7.7456760000000004,
+              10.38008
+            ],
+            [
+              7.7456760000000004,
+              10.34008
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0017",
+        "Community_ID": "COM-KAD-002-0032",
+        "Community": "Kaduna South Central Settlement 2",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "LGA": "Kaduna South",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 16.8,
+        "Observed_Depth_M": 2.21,
+        "Duration_Days": 12,
+        "Exposed_Population": 3945,
+        "SAR_Severity_Score": 51.87,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.29607,
+              10.51141
+            ],
+            [
+              7.336069999999999,
+              10.51141
+            ],
+            [
+              7.336069999999999,
+              10.551409999999999
+            ],
+            [
+              7.29607,
+              10.551409999999999
+            ],
+            [
+              7.29607,
+              10.51141
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0018",
+        "Community_ID": "COM-KAD-003-0033",
+        "Community": "Birnin Gwari Central Settlement 3",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "LGA": "Birnin Gwari",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 10.5,
+        "Observed_Depth_M": 2.0,
+        "Duration_Days": 16,
+        "Exposed_Population": 2268,
+        "SAR_Severity_Score": 50.58,
+        "Ground_Truth_Confidence": "Low",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.458048000000001,
+              10.666528
+            ],
+            [
+              7.498048,
+              10.666528
+            ],
+            [
+              7.498048,
+              10.706527999999999
+            ],
+            [
+              7.458048000000001,
+              10.706527999999999
+            ],
+            [
+              7.458048000000001,
+              10.666528
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0019",
+        "Community_ID": "COM-KAD-005-0035",
+        "Community": "Makarfi Central Settlement 5",
+        "State_Code": "NG-KAD",
+        "State_Name": "Kaduna",
+        "LGA": "Makarfi",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 5.2,
+        "Observed_Depth_M": 0.74,
+        "Duration_Days": 12,
+        "Exposed_Population": 1577,
+        "SAR_Severity_Score": 26.47,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.367989,
+              8.23591
+            ],
+            [
+              8.407988999999999,
+              8.23591
+            ],
+            [
+              8.407988999999999,
+              8.27591
+            ],
+            [
+              8.367989,
+              8.27591
+            ],
+            [
+              8.367989,
+              8.23591
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0020",
+        "Community_ID": "COM-NAS-001-0036",
+        "Community": "Toto Central Settlement 1",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "LGA": "Toto",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 3.4,
+        "Observed_Depth_M": 1.74,
+        "Duration_Days": 9,
+        "Exposed_Population": 775,
+        "SAR_Severity_Score": 35.4,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.581095000000001,
+              8.448953000000001
+            ],
+            [
+              8.621095,
+              8.448953000000001
+            ],
+            [
+              8.621095,
+              8.488953
+            ],
+            [
+              8.581095000000001,
+              8.488953
+            ],
+            [
+              8.581095000000001,
+              8.448953000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0021",
+        "Community_ID": "COM-NAS-002-0037",
+        "Community": "Nasarawa Egon Central Settlement 2",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "LGA": "Nasarawa Egon",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 13.3,
+        "Observed_Depth_M": 2.77,
+        "Duration_Days": 26,
+        "Exposed_Population": 1861,
+        "SAR_Severity_Score": 73.92,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.810976,
+              8.830724
+            ],
+            [
+              8.850976,
+              8.830724
+            ],
+            [
+              8.850976,
+              8.870724
+            ],
+            [
+              8.810976,
+              8.870724
+            ],
+            [
+              8.810976,
+              8.830724
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0022",
+        "Community_ID": "COM-NAS-003-0038",
+        "Community": "Akwanga Central Settlement 3",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "LGA": "Akwanga",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 8.9,
+        "Observed_Depth_M": 2.04,
+        "Duration_Days": 20,
+        "Exposed_Population": 550,
+        "SAR_Severity_Score": 54.98,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.724299,
+              8.608158000000001
+            ],
+            [
+              8.764299,
+              8.608158000000001
+            ],
+            [
+              8.764299,
+              8.648158
+            ],
+            [
+              8.724299,
+              8.648158
+            ],
+            [
+              8.724299,
+              8.608158000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0023",
+        "Community_ID": "COM-NAS-004-0039",
+        "Community": "Nasarawa Central Settlement 4",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "LGA": "Nasarawa",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 7.1,
+        "Observed_Depth_M": 2.66,
+        "Duration_Days": 7,
+        "Exposed_Population": 1686,
+        "SAR_Severity_Score": 47.18,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.373283,
+              8.219832
+            ],
+            [
+              8.413283,
+              8.219832
+            ],
+            [
+              8.413283,
+              8.259832
+            ],
+            [
+              8.373283,
+              8.259832
+            ],
+            [
+              8.373283,
+              8.219832
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0024",
+        "Community_ID": "COM-NAS-005-0040",
+        "Community": "Keffi Central Settlement 5",
+        "State_Code": "NG-NAS",
+        "State_Name": "Nasarawa",
+        "LGA": "Keffi",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 13.7,
+        "Observed_Depth_M": 1.95,
+        "Duration_Days": 19,
+        "Exposed_Population": 4254,
+        "SAR_Severity_Score": 55.02,
+        "Ground_Truth_Confidence": "Medium",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.552437000000001,
+              9.034550000000001
+            ],
+            [
+              11.592437,
+              9.034550000000001
+            ],
+            [
+              11.592437,
+              9.07455
+            ],
+            [
+              11.552437000000001,
+              9.07455
+            ],
+            [
+              11.552437000000001,
+              9.034550000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0025",
+        "Community_ID": "COM-TAR-001-0041",
+        "Community": "Ardo Kola Central Settlement 1",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "LGA": "Ardo Kola",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 8.2,
+        "Observed_Depth_M": 2.7,
+        "Duration_Days": 4,
+        "Exposed_Population": 1134,
+        "SAR_Severity_Score": 44.77,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.596982,
+              8.926381000000001
+            ],
+            [
+              11.636982,
+              8.926381000000001
+            ],
+            [
+              11.636982,
+              8.966381
+            ],
+            [
+              11.596982,
+              8.966381
+            ],
+            [
+              11.596982,
+              8.926381000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0026",
+        "Community_ID": "COM-TAR-002-0042",
+        "Community": "Bali Central Settlement 2",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "LGA": "Bali",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 9.4,
+        "Observed_Depth_M": 1.06,
+        "Duration_Days": 26,
+        "Exposed_Population": 1798,
+        "SAR_Severity_Score": 49.17,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.198345,
+              8.792733
+            ],
+            [
+              11.238344999999999,
+              8.792733
+            ],
+            [
+              11.238344999999999,
+              8.832733
+            ],
+            [
+              11.198345,
+              8.832733
+            ],
+            [
+              11.198345,
+              8.792733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0027",
+        "Community_ID": "COM-TAR-003-0043",
+        "Community": "Ibi Central Settlement 3",
+        "State_Code": "NG-TAR",
+        "State_Name": "Taraba",
+        "LGA": "Ibi",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 14.1,
+        "Observed_Depth_M": 1.95,
+        "Duration_Days": 9,
+        "Exposed_Population": 3931,
+        "SAR_Severity_Score": 43.55,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.05945,
+              10.171990000000001
+            ],
+            [
+              11.09945,
+              10.171990000000001
+            ],
+            [
+              11.09945,
+              10.21199
+            ],
+            [
+              11.05945,
+              10.21199
+            ],
+            [
+              11.05945,
+              10.171990000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0028",
+        "Community_ID": "COM-GOM-002-0047",
+        "Community": "Akko Central Settlement 2",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "LGA": "Akko",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 12.1,
+        "Observed_Depth_M": 2.26,
+        "Duration_Days": 13,
+        "Exposed_Population": 556,
+        "SAR_Severity_Score": 51.35,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.974107,
+              10.403559
+            ],
+            [
+              11.014107,
+              10.403559
+            ],
+            [
+              11.014107,
+              10.443558999999999
+            ],
+            [
+              10.974107,
+              10.443558999999999
+            ],
+            [
+              10.974107,
+              10.403559
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0029",
+        "Community_ID": "COM-GOM-003-0048",
+        "Community": "Shongom Central Settlement 3",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "LGA": "Shongom",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 13.9,
+        "Observed_Depth_M": 1.52,
+        "Duration_Days": 12,
+        "Exposed_Population": 2364,
+        "SAR_Severity_Score": 41.22,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.322231,
+              10.364447
+            ],
+            [
+              11.362231,
+              10.364447
+            ],
+            [
+              11.362231,
+              10.404447
+            ],
+            [
+              11.322231,
+              10.404447
+            ],
+            [
+              11.322231,
+              10.364447
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0030",
+        "Community_ID": "COM-GOM-004-0049",
+        "Community": "Yamaltu/Deba Central Settlement 4",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "LGA": "Yamaltu/Deba",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 7.5,
+        "Observed_Depth_M": 2.14,
+        "Duration_Days": 12,
+        "Exposed_Population": 793,
+        "SAR_Severity_Score": 46.28,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.189204,
+              10.59453
+            ],
+            [
+              11.229204,
+              10.59453
+            ],
+            [
+              11.229204,
+              10.63453
+            ],
+            [
+              11.189204,
+              10.63453
+            ],
+            [
+              11.189204,
+              10.59453
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0031",
+        "Community_ID": "COM-GOM-005-0050",
+        "Community": "Billiri Central Settlement 5",
+        "State_Code": "NG-GOM",
+        "State_Name": "Gombe",
+        "LGA": "Billiri",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 16.0,
+        "Observed_Depth_M": 0.95,
+        "Duration_Days": 23,
+        "Exposed_Population": 3558,
+        "SAR_Severity_Score": 47.5,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.8455,
+              9.502178
+            ],
+            [
+              6.8854999999999995,
+              9.502178
+            ],
+            [
+              6.8854999999999995,
+              9.542178
+            ],
+            [
+              6.8455,
+              9.542178
+            ],
+            [
+              6.8455,
+              9.502178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0032",
+        "Community_ID": "COM-NIG-001-0001",
+        "Community": "Gurara Central Settlement 1",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Gurara",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 18.2,
+        "Observed_Depth_M": 2.12,
+        "Duration_Days": 5,
+        "Exposed_Population": 4277,
+        "SAR_Severity_Score": 43.2,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.219488,
+              9.695622
+            ],
+            [
+              6.259487999999999,
+              9.695622
+            ],
+            [
+              6.259487999999999,
+              9.735622
+            ],
+            [
+              6.219488,
+              9.735622
+            ],
+            [
+              6.219488,
+              9.695622
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0033",
+        "Community_ID": "COM-NIG-002-0002",
+        "Community": "Mokwa Central Settlement 2",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Mokwa",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 2.5,
+        "Observed_Depth_M": 0.91,
+        "Duration_Days": 6,
+        "Exposed_Population": 304,
+        "SAR_Severity_Score": 20.38,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.605281000000001,
+              9.272515
+            ],
+            [
+              6.645281,
+              9.272515
+            ],
+            [
+              6.645281,
+              9.312515
+            ],
+            [
+              6.605281000000001,
+              9.312515
+            ],
+            [
+              6.605281000000001,
+              9.272515
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0034",
+        "Community_ID": "COM-NIG-004-0004",
+        "Community": "Tafa Central Settlement 4",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Tafa",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 6.0,
+        "Observed_Depth_M": 0.92,
+        "Duration_Days": 14,
+        "Exposed_Population": 1635,
+        "SAR_Severity_Score": 31.6,
+        "Ground_Truth_Confidence": "High",
+        "QC_Status": "CLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.658284,
+              9.408718
+            ],
+            [
+              6.698283999999999,
+              9.408718
+            ],
+            [
+              6.698283999999999,
+              9.448718
+            ],
+            [
+              6.658284,
+              9.448718
+            ],
+            [
+              6.658284,
+              9.408718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Event_ID": "FLD-0035",
+        "Community_ID": "COM-NIG-005-0005",
+        "Community": "Lapai Central Settlement 5",
+        "State_Code": "NG-NIG",
+        "State_Name": "Niger",
+        "LGA": "Lapai",
+        "Event_Date": "2025-09-14",
+        "SAR_Sensor": "Sentinel-1 C-Band SAR GRD",
+        "Radar_Polarization": "VV + VH",
+        "Inundated_Area_Km2": 15.3,
+        "Observed_Depth_M": 1.08,
+        "Duration_Days": 16,
+        "Exposed_Population": 1962,
+        "SAR_Severity_Score": 40.72,
+        "Ground_Truth_Confidence": "Low",
+        "QC_Status": "CLEAN"
+      }
+    }
+  ]
+}

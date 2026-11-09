@@ -1,0 +1,35 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Default,Allowed_Values,Description,QC_Rule,Privacy_Level
+Observation_ID,Text,16,Yes,Yes,No,,Yes,,Format: OBS-HYD-[HydroID4]-[YYYYMMDD]-[Seq2] e.g. OBS-HYD-0001-20260101-01,Permanent observation identifier — one record per observation event per facility,No duplicates; no nulls; format must follow pattern,Level 2
+Hydro_ID,Text,12,Yes,No,Yes,DB04 facility key / G07 Hydro_ID,No,,Must exist in G07,Parent hydropower facility identifier — links every observation to a permanent facility,Must resolve to G07 Hydro_ID; no nulls; a facility must exist in G07 before observations can be entered,Level 2
+Facility_Name,Text,100,Yes,No,No,,No,,Any text,Facility name — carried from G07 for readability; do not edit here,Must match G07 Facility_Name for corresponding Hydro_ID; no nulls,Level 2
+State_Code,Text,6,Yes,No,Yes,LKP_States.csv State_Code,No,,See LKP_States.csv,State where facility is located — from G07,Must resolve to LKP_States.csv; must be consistent with G07 State_Code for same Hydro_ID,Level 2
+LGA_Code,Text,10,Yes,No,Yes,LKP_LGAs.csv LGA_Code,No,,See LKP_LGAs.csv,LGA where facility is located — from G07,Must resolve to LKP_LGAs.csv; consistent with State_Code,Level 2
+Latitude,Double,,Yes,No,No,,No,,4.0 to 14.0,Facility latitude — from G07; do not edit per observation,Must match G07 Latitude for corresponding Hydro_ID,Level 2
+Longitude,Double,,Yes,No,No,,No,,2.5 to 15.0,Facility longitude — from G07; do not edit per observation,Must match G07 Longitude for corresponding Hydro_ID,Level 2
+Observation_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date of this specific observation or data record,No nulls; valid date; not future; >= 2010-01-01 for historical records,Level 2
+Reservoir_Level_m,Double,,No,No,No,,No,,>=0 or NULL,Reservoir water level in metres above a defined datum — datum must be documented,If present must be >=0; NULL if not measured; document datum in metadata,Level 2
+Reservoir_Level_Datum,Text,100,No,No,No,,No,,Any text or NULL,Datum used for Reservoir_Level_m measurement,Required if Reservoir_Level_m is populated; must be consistent across all records for same facility,Level 2
+River_Discharge_m3s,Double,,No,No,No,,No,,>=0 or NULL,River discharge at facility measurement point in cubic metres per second,If present must be >=0; NULL if not measured,Level 2
+Inflow_m3s,Double,,No,No,No,,No,,>=0 or NULL,Reservoir inflow rate in cubic metres per second,If present must be >=0,Level 2
+Outflow_m3s,Double,,No,No,No,,No,,>=0 or NULL,Reservoir/turbine outflow in cubic metres per second,If present must be >=0,Level 2
+Generation_MWh,Double,,No,No,No,,No,,>=0 or NULL,Electricity generated in this observation period in megawatt-hours,If present must be >=0; NULL if not measured; do not substitute 0 for not reported,Level 2
+Generation_Period_Days,Integer,,No,No,No,,No,,1 to 366 or NULL,Number of days over which Generation_MWh was accumulated,If present must be 1–366; required if Generation_MWh is populated,Level 2
+Installed_MW,Double,,No,No,No,,No,,>0 or NULL,Installed generating capacity in MW — from official records; do not change per observation,If present must be >0; cross-check against G07 Installed_MW; flag discrepancy,Level 2
+Operating_Status,Text,2,Yes,No,Yes,LKP_OperatingStatus.csv Status_Code,No,,See LKP_OperatingStatus.csv,Operating status at time of observation,Must resolve to LKP_OperatingStatus.csv; no nulls,Level 2
+Flood_Damage,Text,3,No,No,No,,No,,"Yes, No, Unknown",Whether flood damage was observed or reported at the facility,Allowed values only; NULL permitted,Level 2
+Flood_Damage_Description,Text,500,No,No,No,,No,,Any text or NULL,Description of flood damage if present,Free text; required if Flood_Damage = Yes,Level 2
+Sedimentation,Text,10,No,No,No,,No,,"None, Low, Moderate, High, Critical, Unknown",Observed sedimentation level in reservoir or intake,Allowed values only; NULL permitted,Level 2
+Erosion_Severity,Integer,,No,No,No,,No,,0 to 4 or NULL,Erosion severity at or near facility on 0–4 scale (consistent with DB03 Severity_0_4),If present must be 0–4 integer,Level 2
+Operational_Disruption,Text,3,No,No,No,,No,,"Yes, No, Unknown",Whether any operational disruption occurred during this observation period,Allowed values only,Level 2
+Disruption_Cause,Text,200,No,No,No,,No,,Any text or NULL,Cause of operational disruption,Free text; required if Operational_Disruption = Yes,Level 2
+Disruption_Duration_Days,Integer,,No,No,No,,No,,>=0 or NULL,Duration of disruption in days,If present must be >=0,Level 2
+Transmission_Impact,Text,3,No,No,No,,No,,"Yes, No, Unknown",Whether transmission infrastructure was affected,Allowed values only,Level 2
+Community_Impact,Text,3,No,No,No,,No,,"Yes, No, Unknown",Whether downstream communities were affected by changes to facility operation,Allowed values only,Level 2
+Community_Impact_Description,Text,500,No,No,No,,No,,Any text or NULL,Description of community impact,Free text; required if Community_Impact = Yes,Level 2
+Monitoring_Source,Text,200,Yes,No,No,,No,,Any text,Source of this observation data — e.g. field visit / operator report / remote monitoring,No nulls; document clearly,Level 2
+Source_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date of source data — may differ from Observation_Date for compiled records,No nulls; valid date,Level 2
+Notes,Text,1000,No,No,No,,No,,Any text or NULL,Observer notes,Review before publication,Level 2
+Record_Created,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date record entered,Auto-populated; no nulls,Level 2
+Record_Modified,Date,,No,No,No,,No,,YYYY-MM-DD or NULL,Date record last modified,Auto-populated on update,Level 2
+Data_Version,Text,10,Yes,No,No,,No,,e.g. v1.0,Data version,No nulls,Level 2
+QC_Status,Text,12,Yes,No,Yes,LKP_QC_Status.csv QC_Status_Code,No,RAW,See LKP_QC_Status.csv,Processing status,Must resolve to LKP_QC_Status.csv,Level 2

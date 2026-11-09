@@ -1,0 +1,12 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Description
+Station_ID,Text,30,Yes,Yes,No,,Permanent station identifier
+Station_Name,Text,150,Yes,No,No,,Station facility name
+Operator,Text,100,Yes,No,No,,"Operating authority (NiMet, NIHSA)"
+State_Code,Text,10,Yes,No,Yes,LKP_States.csv State_Code,Host state code
+Elevation_m,Double,,No,No,No,,Station elevation above sea level in meters
+Latitude,Double,,Yes,No,No,,WGS84 latitude
+Longitude,Double,,Yes,No,No,,WGS84 longitude
+Operating_Since,Date,10,No,No,No,,Installation date
+Status,Text,30,Yes,No,No,,Operational status
+Provenance_ID,Text,40,Yes,No,Yes,Data_Provenance_CLEAN.csv,Data provenance lineage ID
+QC_Status,Text,20,Yes,No,Yes,LKP_QC_Status.csv,QC status

@@ -1,0 +1,5 @@
+flood_event_id,event_name,start_date,end_date,state_code,community_id,peak_depth_m,duration_days,source_agency,confidence_rating,impact_summary,provenance_id
+FLD-0001,September 2025 Niger River Flood Overflow,2025-09-14,2025-10-07,NG-NIG,COM-NIG-001-0001,1.55,23,SEMA / Sentinel-1 C-Band SAR,High,Extensive agricultural submergence and riverbank access disruption across Gurara corridor,PRV-NIG-SEMA-2025-01
+FLD-0002,August 2025 Benue River Basin Flash Flood,2025-08-20,2025-09-08,NG-BEN,COM-BEN-001-0001,1.8,19,SEMA Benue / Sentinel-1 SAR,High,Farmland inundation and localized community residential flooding in Agatu floodplain,PRV-BEN-SEMA-2025-01
+FLD-0003,October 2025 Lokoja Confluence Flood Crest,2025-10-01,2025-10-25,NG-KOG,COM-KOG-001-0001,2.1,24,NIHSA / SEMA Kogi,High,Severe confluence backwater inundation impacting riverfront facilities and farm assets,PRV-KOG-SEMA-2025-01
+FLD-0004,September 2025 Kebbi Rice Belt Lowland Inundation,2025-09-05,2025-09-28,NG-KEB,COM-KEB-001-0001,1.4,23,SEMA Kebbi / NIHSA,High,Crop submergence in Argungu-Yauri lowlands with critical dike overtopping,PRV-KEB-SEMA-2025-01

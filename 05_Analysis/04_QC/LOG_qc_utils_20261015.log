@@ -1,0 +1,187 @@
+2026-10-15 08:34:16 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB03']
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G27 → DERIVED
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB04']
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G28 → DERIVED
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03', 'DB06']
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G29 → DERIVED
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G30 → DERIVED
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G32 → DERIVED
+2026-10-15 08:34:17 | DEBUG    | qc_utils | VERSION_LOG updated: G32 Baseline_2026
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G33 → DERIVED
+2026-10-15 08:34:17 | DEBUG    | qc_utils | VERSION_LOG updated: G33 Baseline_2026
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G34 → DERIVED
+2026-10-15 08:34:17 | DEBUG    | qc_utils | VERSION_LOG updated: G34 Baseline_2026
+2026-10-15 08:34:17 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03']
+2026-10-15 08:34:17 | INFO     | qc_utils | PROCESSING_STATUS updated: G31 → DERIVED
+2026-10-15 08:34:17 | DEBUG    | qc_utils | VERSION_LOG updated: G31 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G35 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G35 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G36 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G36 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G37 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G37 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Privacy_20261015.csv
+2026-10-15 08:34:23 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Provenance_20261015.csv
+2026-10-15 08:34:23 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Version_20261015.csv
+2026-10-15 08:34:23 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Enumerator_20261015.csv
+2026-10-15 08:34:23 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Cross_DB_20261015.csv
+2026-10-15 08:34:23 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Geometry_Sync_20261015.csv
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G42 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G42 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05', 'DB01']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G46 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G46 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G50 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G50 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G54 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G54 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G55 → CLEAN
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G58 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G58 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G63 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G63 Baseline_2026
+2026-10-15 08:34:23 | INFO     | qc_utils | PROCESSING_STATUS updated: G64 → DERIVED
+2026-10-15 08:34:23 | DEBUG    | qc_utils | VERSION_LOG updated: G64 Baseline_2026
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G21 → DERIVED
+2026-10-15 10:13:03 | DEBUG    | qc_utils | VERSION_LOG updated: G21 Baseline_2026
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB03']
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G27 → DERIVED
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB04']
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G28 → DERIVED
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03', 'DB06']
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G29 → DERIVED
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G30 → DERIVED
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G32 → DERIVED
+2026-10-15 10:13:03 | DEBUG    | qc_utils | VERSION_LOG updated: G32 Baseline_2026
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 10:13:03 | INFO     | qc_utils | PROCESSING_STATUS updated: G33 → DERIVED
+2026-10-15 10:13:03 | DEBUG    | qc_utils | VERSION_LOG updated: G33 Baseline_2026
+2026-10-15 10:13:03 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 10:13:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G34 → DERIVED
+2026-10-15 10:13:04 | DEBUG    | qc_utils | VERSION_LOG updated: G34 Baseline_2026
+2026-10-15 10:13:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03']
+2026-10-15 10:13:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G31 → DERIVED
+2026-10-15 10:13:04 | DEBUG    | qc_utils | VERSION_LOG updated: G31 Baseline_2026
+2026-10-15 10:13:09 | INFO     | qc_utils | PROCESSING_STATUS updated: G35 → DERIVED
+2026-10-15 10:13:09 | DEBUG    | qc_utils | VERSION_LOG updated: G35 Baseline_2026
+2026-10-15 10:13:09 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 10:13:09 | INFO     | qc_utils | PROCESSING_STATUS updated: G36 → DERIVED
+2026-10-15 10:13:09 | DEBUG    | qc_utils | VERSION_LOG updated: G36 Baseline_2026
+2026-10-15 10:13:09 | INFO     | qc_utils | PROCESSING_STATUS updated: G37 → DERIVED
+2026-10-15 10:13:09 | DEBUG    | qc_utils | VERSION_LOG updated: G37 Baseline_2026
+2026-10-15 10:13:09 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Privacy_20261015.csv
+2026-10-15 10:13:09 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Provenance_20261015.csv
+2026-10-15 10:13:09 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Version_20261015.csv
+2026-10-15 10:13:09 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Enumerator_20261015.csv
+2026-10-15 10:13:09 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Cross_DB_20261015.csv
+2026-10-15 10:13:09 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Geometry_Sync_20261015.csv
+2026-10-15 10:13:09 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 10:13:09 | INFO     | qc_utils | PROCESSING_STATUS updated: G42 → DERIVED
+2026-10-15 10:13:09 | DEBUG    | qc_utils | VERSION_LOG updated: G42 Baseline_2026
+2026-10-15 10:13:09 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05', 'DB01']
+2026-10-15 10:13:09 | INFO     | qc_utils | PROCESSING_STATUS updated: G46 → DERIVED
+2026-10-15 10:13:09 | DEBUG    | qc_utils | VERSION_LOG updated: G46 Baseline_2026
+2026-10-15 10:13:10 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 10:13:10 | INFO     | qc_utils | PROCESSING_STATUS updated: G50 → DERIVED
+2026-10-15 10:13:10 | DEBUG    | qc_utils | VERSION_LOG updated: G50 Baseline_2026
+2026-10-15 10:13:10 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 10:13:10 | INFO     | qc_utils | PROCESSING_STATUS updated: G54 → DERIVED
+2026-10-15 10:13:10 | DEBUG    | qc_utils | VERSION_LOG updated: G54 Baseline_2026
+2026-10-15 10:13:10 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 10:13:10 | INFO     | qc_utils | PROCESSING_STATUS updated: G55 → CLEAN
+2026-10-15 10:13:10 | INFO     | qc_utils | PROCESSING_STATUS updated: G58 → DERIVED
+2026-10-15 10:13:10 | DEBUG    | qc_utils | VERSION_LOG updated: G58 Baseline_2026
+2026-10-15 10:13:10 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 10:13:10 | INFO     | qc_utils | PROCESSING_STATUS updated: G63 → DERIVED
+2026-10-15 10:13:10 | DEBUG    | qc_utils | VERSION_LOG updated: G63 Baseline_2026
+2026-10-15 10:13:10 | INFO     | qc_utils | PROCESSING_STATUS updated: G64 → DERIVED
+2026-10-15 10:13:10 | DEBUG    | qc_utils | VERSION_LOG updated: G64 Baseline_2026
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G21 → DERIVED
+2026-10-15 11:37:57 | DEBUG    | qc_utils | VERSION_LOG updated: G21 Baseline_2026
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB03']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G27 → DERIVED
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB04']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G28 → DERIVED
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03', 'DB06']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G29 → DERIVED
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G30 → DERIVED
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G32 → DERIVED
+2026-10-15 11:37:57 | DEBUG    | qc_utils | VERSION_LOG updated: G32 Baseline_2026
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G33 → DERIVED
+2026-10-15 11:37:57 | DEBUG    | qc_utils | VERSION_LOG updated: G33 Baseline_2026
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G34 → DERIVED
+2026-10-15 11:37:57 | DEBUG    | qc_utils | VERSION_LOG updated: G34 Baseline_2026
+2026-10-15 11:37:57 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB03']
+2026-10-15 11:37:57 | INFO     | qc_utils | PROCESSING_STATUS updated: G31 → DERIVED
+2026-10-15 11:37:57 | DEBUG    | qc_utils | VERSION_LOG updated: G31 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G35 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G35 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01', 'DB06']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G36 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G36 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G37 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G37 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Privacy_20261015.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Provenance_20261015.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Version_20261015.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Enumerator_20261015.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Cross_DB_20261015.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | QC report saved: c:\xampp\htdocs\GIS\05_Analysis\04_QC\QC_Geometry_Sync_20261015.csv
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G42 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G42 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05', 'DB01']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G46 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G46 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G50 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G50 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G54 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G54 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G55 → CLEAN
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G58 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G58 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G63 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G63 Baseline_2026
+2026-10-15 11:38:04 | INFO     | qc_utils | PROCESSING_STATUS updated: G64 → DERIVED
+2026-10-15 11:38:04 | DEBUG    | qc_utils | VERSION_LOG updated: G64 Baseline_2026
+2026-10-15 13:25:28 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 13:25:28 | INFO     | qc_utils | PROCESSING_STATUS updated: G50 → DERIVED
+2026-10-15 13:25:28 | DEBUG    | qc_utils | VERSION_LOG updated: G50 Baseline_2026
+2026-10-15 13:30:15 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 13:30:15 | INFO     | qc_utils | PROCESSING_STATUS updated: G55 → CLEAN
+2026-10-15 13:30:15 | INFO     | qc_utils | PROCESSING_STATUS updated: G58 → DERIVED
+2026-10-15 13:30:15 | DEBUG    | qc_utils | VERSION_LOG updated: G58 Baseline_2026
+2026-10-15 13:30:35 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB05']
+2026-10-15 13:30:43 | INFO     | qc_utils | PROCESSING_STATUS updated: G42 → DERIVED
+2026-10-15 13:30:43 | DEBUG    | qc_utils | VERSION_LOG updated: G42 Baseline_2026
+2026-10-15 13:31:45 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 13:31:45 | INFO     | qc_utils | PROCESSING_STATUS updated: G50 → DERIVED
+2026-10-15 13:31:45 | DEBUG    | qc_utils | VERSION_LOG updated: G50 Baseline_2026
+2026-10-15 13:31:46 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 13:31:46 | INFO     | qc_utils | PROCESSING_STATUS updated: G54 → DERIVED
+2026-10-15 13:31:46 | DEBUG    | qc_utils | VERSION_LOG updated: G54 Baseline_2026
+2026-10-15 13:31:46 | INFO     | qc_utils | Upstream dependencies confirmed CLEAN: ['DB01']
+2026-10-15 13:31:46 | INFO     | qc_utils | PROCESSING_STATUS updated: G63 → DERIVED
+2026-10-15 13:31:46 | DEBUG    | qc_utils | VERSION_LOG updated: G63 Baseline_2026
+2026-10-15 13:31:48 | INFO     | qc_utils | PROCESSING_STATUS updated: G64 → DERIVED
+2026-10-15 13:31:48 | DEBUG    | qc_utils | VERSION_LOG updated: G64 Baseline_2026

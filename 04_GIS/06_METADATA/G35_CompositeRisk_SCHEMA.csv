@@ -1,0 +1,34 @@
+Field_Name,Data_Type,Required,Primary_Key,Description,QC_Rule
+Community_ID,Text(12),Yes,Yes,Community identifier,No duplicates; no nulls; resolves to DB01
+Community,Text(100),Yes,No,Community name,No nulls
+State_Code,Text(6),Yes,No,State code,Resolves to LKP_States.csv
+LGA_Code,Text(10),Yes,No,LGA code,Resolves to LKP_LGAs.csv
+H_Score,Double,Yes,No,Hazard Index score 0-100 from G31,No nulls; 0-100; must match G31.H_Score
+E_Score,Double,Yes,No,Exposure Index score 0-100 from G32,No nulls; 0-100; must match G32.E_Score
+V_Score,Double,Yes,No,Vulnerability Index score 0-100 from G33,No nulls; 0-100; must match G33.V_Score
+C_Score,Double,Yes,No,Criticality Index score 0-100 from G34,No nulls; 0-100; must match G34.C_Score
+R_Score,Double,Yes,No,Composite Risk score 0-100 (R = 0.35H + 0.25E + 0.25V + 0.15C),No nulls; 0-100; verify: R = 0.35*H + 0.25*E + 0.25*V + 0.15*C within ±0.01 tolerance
+R_Class,Text(10),Yes,No,"Risk classification: Very Low, Low, Moderate, High, Very High","No nulls; allowed values only; thresholds from RISK_MODEL_SPEC.md Section 8; must be consistent with R_Score"
+R_Score_S1,Double,No,No,Sensitivity model S1 score (equal weights 25/25/25/25) 0-100,If present: 0-100
+R_Class_S1,Text(10),No,No,Risk classification under S1,"Allowed values only"
+R_Score_S2,Double,No,No,Sensitivity model S2 score (alternative weights — see RISK_MODEL_SPEC.md) 0-100,If present: 0-100
+R_Class_S2,Text(10),No,No,Risk classification under S2,"Allowed values only"
+Rank_Baseline,Integer,No,No,Community rank by R_Score within study area (1 = highest risk),If present: 1 to N (N = community count); no duplicates
+Rank_S1,Integer,No,No,Community rank under S1,If present: 1 to N; no duplicates
+Rank_Change_S1,Integer,No,No,Rank change between baseline and S1 (positive = worsened relative rank under S1),Computed from Rank_Baseline and Rank_S1
+H_Data_Completeness,Text(10),Yes,No,H completeness flag from G31,"Full, Partial, Minimal"
+E_Data_Completeness,Text(10),Yes,No,E completeness flag from G32,"Full, Partial, Minimal"
+V_Data_Completeness,Text(10),Yes,No,V completeness flag from G33,"Full, Partial, Minimal"
+C_Data_Completeness,Text(10),Yes,No,C completeness flag from G34,"Full, Partial, Minimal"
+Risk_Model_Version,Text(20),Yes,No,Risk model version — e.g. Risk_Model_v1.0,No nulls; must match RISK_MODEL_SPEC.md; mandatory on every published output
+Hazard_Weight,Double,Yes,No,H weight used in computation — 0.35 for baseline,No nulls; must sum with other weights to 1.0
+Exposure_Weight,Double,Yes,No,E weight — 0.25,No nulls
+Vulnerability_Weight,Double,Yes,No,V weight — 0.25,No nulls
+Criticality_Weight,Double,Yes,No,C weight — 0.15,No nulls
+Weight_Sum_Check,Double,Yes,No,Sum of all four weights — must equal 1.0,No nulls; |Weight_Sum_Check - 1.0| < 0.001; automatic QC gate
+Normalization_Method,Text(50),Yes,No,Normalisation method applied to H/E/V/C scores — e.g. Min-max 0-100 study area,No nulls; must match RISK_MODEL_SPEC.md
+Reference_Bounds,Text(100),Yes,No,Description of reference bounds used for normalisation — e.g. Baseline 2026 study area,No nulls
+Data_Date,Text(20),Yes,No,Date range of underlying data used — e.g. 2026,No nulls
+Input_Versions,Text(400),Yes,No,Versions of G31/G32/G33/G34 used — comma-separated,No nulls; enables full reproducibility audit
+Computation_Date,Date,Yes,No,Date R score was computed YYYY-MM-DD,No nulls
+geometry,Polygon,Yes,No,Community boundary polygon,No null geometries

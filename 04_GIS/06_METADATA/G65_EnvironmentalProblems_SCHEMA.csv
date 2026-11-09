@@ -1,0 +1,15 @@
+Field_Name,Data_Type,Description,Example
+record_id,String(10),Unique event identifier,SEP001
+state_code,String(10),State ISO/Internal Code,NG-ADA
+state_name,String(50),State Name,Adamawa
+problem_code,String(30),Standard problem code,DEFORESTATION
+problem_name,String(60),Human-readable name matching photo,Deforestation
+category,String(40),Environmental category,Land & Biosphere
+symbol_shape,String(30),Legend symbology shape,starburst
+symbol_color,String(10),Hexadecimal symbol color,#16A34A
+symbol_char,String(10),Unicode symbol representation,✱
+photo_order,Integer,1-12 sort order matching photo,3
+severity,String(20),Severity ranking (Critical/High/Medium),Critical
+source,String(100),Survey observation origin,National Environmental Survey Wall Map
+status,String(40),Validation status,Verified from Photo
+notes,String(255),Contextual description,Green starburst symbol positioned directly over Adamawa

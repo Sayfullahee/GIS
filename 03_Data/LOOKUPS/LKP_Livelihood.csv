@@ -1,0 +1,16 @@
+Livelihood_Code,Livelihood_Name,Category,Notes
+LIV01,Farming,Agriculture,Crop farming primary livelihood
+LIV02,Fishing,Agriculture,River/pond fishing primary livelihood
+LIV03,Farming and Fishing,Agriculture,Combined crop farming and fishing
+LIV04,Livestock,Agriculture,Cattle/goat/poultry rearing
+LIV05,Trading,Commerce,Market/retail trade
+LIV06,Artisan/Craft,Commerce,Carpentry/tailoring/weaving/pottery etc.
+LIV07,Civil Service,Employment,Government employment
+LIV08,Private Employment,Employment,Private sector employment
+LIV09,Mining/Quarrying,Extractive,Sand/gravel/stone extraction
+LIV10,Transport,Services,Motorcycle/vehicle transport
+LIV11,Teaching/Education,Services,School teaching
+LIV12,Health Worker,Services,Clinic/hospital worker
+LIV13,Religious/Community Leader,Services,Pastor/imam/traditional ruler
+LIV14,Unemployed,None,No stated livelihood
+LIV99,Other,Other,Livelihood not listed above

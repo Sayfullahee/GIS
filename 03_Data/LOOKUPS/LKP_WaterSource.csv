@@ -1,0 +1,12 @@
+Water_Source_Code,Water_Source_Name,Safe_Category,Notes
+WS01,Pipe-borne water (treated),Improved,Government or utility supply
+WS02,Borehole/Hand pump,Improved,
+WS03,Protected well,Improved,Covered/lined well
+WS04,Protected spring,Improved,
+WS05,Rainwater collection,Improved,With clean storage
+WS06,River/Stream (unprotected),Unimproved,Direct collection
+WS07,Unprotected well,Unimproved,Open/uncovered well
+WS08,Pond/Lake,Unimproved,
+WS09,Tanker/Vendor water,Vendor,Quality dependent on source
+WS10,Bottled/Sachet water,Vendor,
+WS99,Other,Unknown,Specify in Notes

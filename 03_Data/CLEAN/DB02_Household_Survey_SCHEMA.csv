@@ -1,0 +1,36 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Default,Allowed_Values,Description,QC_Rule,Privacy_Level
+Household_ID,Text,14,Yes,Yes,No,,Yes,,Format: HH-[Community_ID]-[Seq4] e.g. HH-COM-AB-001-0001-0001,Permanent household identifier — assigned by data manager,No duplicates; no nulls; format must follow pattern,Level 3 RESTRICTED
+Community_ID,Text,12,Yes,No,Yes,DB01 Community_ID,No,,Must exist in DB01,Parent community identifier,Must resolve to DB01 Community_ID; no nulls,Level 3 RESTRICTED
+Enumerator_ID,Text,20,Yes,No,No,,No,,Any text,Field enumerator code or initials,No nulls; used for quality control of enumerator performance,Level 3 RESTRICTED
+Survey_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date household interview was conducted,No nulls; valid date; must not be future; must be >= 2026-01-01; must be on or after community Survey_Date in DB01,Level 3 RESTRICTED
+Consent_Given,Text,3,Yes,No,No,,No,,"Yes, No",Whether informed consent was obtained before interview,No nulls; only Yes or No; records where Consent_Given = No must not be used in any analysis — flag for deletion after review,Level 3 RESTRICTED
+Latitude,Double,,No,No,No,,No,,4.0 to 14.0 or NULL,Household GPS latitude — RESTRICTED; do not publish,If present must be within Nigeria bounds; must be near parent community (within 5km),Level 3 RESTRICTED
+Longitude,Double,,No,No,No,,No,,2.5 to 15.0 or NULL,Household GPS longitude — RESTRICTED; do not publish,If present must be within Nigeria bounds,Level 3 RESTRICTED
+GPS_Accuracy_m,Double,,No,No,No,,No,,>0 or NULL,GPS horizontal accuracy — RESTRICTED,If present must be >0,Level 3 RESTRICTED
+HH_Size,Integer,,No,No,No,,No,,1 to 30,Number of persons in household,If present must be between 1 and 30; flag >20 for verification; 0 not allowed,Level 3 RESTRICTED
+HH_Head_Sex,Text,6,No,No,No,,No,,"Male, Female, Other",Sex of household head,Allowed values only,Level 3 RESTRICTED
+HH_Head_Age,Integer,,No,No,No,,No,,15 to 100,Age of household head in years,If present must be between 15 and 100,Level 3 RESTRICTED
+Livelihood_Primary,Text,5,No,No,Yes,LKP_Livelihood.csv Livelihood_Code,No,,See LKP_Livelihood.csv or NULL,Primary household livelihood,If present must resolve to LKP_Livelihood.csv,Level 3 RESTRICTED
+Livelihood_Secondary,Text,5,No,No,Yes,LKP_Livelihood.csv Livelihood_Code,No,,See LKP_Livelihood.csv or NULL,Secondary household livelihood,If present must resolve to LKP_Livelihood.csv,Level 3 RESTRICTED
+Income_Band,Text,5,No,No,No,,No,,"INC1, INC2, INC3, INC4, INC5",Household income band (coded — see income band codebook),Allowed values only; INC1=lowest INC5=highest — see codebook for thresholds,Level 3 RESTRICTED
+Flood_Affected,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether household has been flood-affected,Allowed values only,Level 3 RESTRICTED
+Flood_Last_Year,Integer,,No,No,No,,No,,YYYY,Year of most recent flood event affecting household,If present must be valid year >= 1990 and <= current year,Level 3 RESTRICTED
+Flood_Losses_NGN,Double,,No,No,No,,No,,>=0 or NULL,Estimated total household losses from flooding in Nigerian Naira,If present must be >=0; NULL if no losses or not reported; do not substitute 0 for not reported,Level 3 RESTRICTED
+Erosion_Affected,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether household has been erosion-affected,Allowed values only,Level 3 RESTRICTED
+Erosion_Losses_NGN,Double,,No,No,No,,No,,>=0 or NULL,Estimated household losses from erosion in Nigerian Naira,If present must be >=0; NULL if no losses or not reported,Level 3 RESTRICTED
+Land_Lost_Erosion_sqm,Double,,No,No,No,,No,,>=0 or NULL,Area of farmland or plot lost to erosion in square metres,If present must be >=0,Level 3 RESTRICTED
+Water_Source,Text,5,No,No,Yes,LKP_WaterSource.csv Water_Source_Code,No,,See LKP_WaterSource.csv or NULL,Primary household water source,If present must resolve to LKP_WaterSource.csv,Level 3 RESTRICTED
+Water_Hours_Per_Day,Double,,No,No,No,,No,,0 to 24 or NULL,Average hours per day household has water access,If present must be 0–24,Level 3 RESTRICTED
+Electricity_Access,Text,7,No,No,No,,No,,"Yes, No, Partial, Unknown",Electricity access at household level,Allowed values only,Level 3 RESTRICTED
+Electricity_Outage_Days,Integer,,No,No,No,,No,,0 to 365 or NULL,Number of days without electricity in past 12 months,If present must be 0–365,Level 3 RESTRICTED
+Health_Issues_Flood,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether household reports flood-related health issues,Allowed values only,Level 3 RESTRICTED
+Displacement_Flood,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether household has been displaced due to flooding,Allowed values only,Level 3 RESTRICTED
+Displacement_Erosion,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether household has been displaced due to erosion,Allowed values only,Level 3 RESTRICTED
+Adaptation_Measure,Text,5,No,No,Yes,LKP_AdaptationStatus.csv Adaptation_Code,No,,See LKP_AdaptationStatus.csv or NULL,Primary household adaptation measure in place,If present must resolve to LKP_AdaptationStatus.csv,Level 3 RESTRICTED
+Assistance_Received,Text,3,No,No,No,,No,,"Yes, No, Unknown",Whether household has received disaster assistance,Allowed values only,Level 3 RESTRICTED
+Assistance_Source,Text,200,No,No,No,,No,,Any text or NULL,Source of assistance received,Free text; review for sensitive content before any use,Level 3 RESTRICTED
+Notes,Text,1000,No,No,No,,No,,Any text or NULL,Enumerator notes,Flag for editorial review; never publish,Level 3 RESTRICTED
+Record_Created,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date record was entered,Auto-populated; no nulls,Level 3 RESTRICTED
+Record_Modified,Date,,No,No,No,,No,,YYYY-MM-DD or NULL,Date record was last modified,Auto-populated on update,Level 3 RESTRICTED
+Data_Version,Text,10,Yes,No,No,,No,,e.g. v1.0,Data version,No nulls,Level 3 RESTRICTED
+QC_Status,Text,12,Yes,No,Yes,LKP_QC_Status.csv QC_Status_Code,No,RAW,See LKP_QC_Status.csv,Processing status,Must resolve to LKP_QC_Status.csv,Level 3 RESTRICTED

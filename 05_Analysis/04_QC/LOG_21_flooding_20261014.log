@@ -1,0 +1,12 @@
+2026-10-14 15:52:52 | INFO     | 21_flooding | ============================================================
+2026-10-14 15:52:52 | INFO     | 21_flooding |   21_FLOODING — Multi-Return-Period Flood Model
+2026-10-14 15:52:52 | INFO     | 21_flooding | ============================================================
+2026-10-14 15:52:52 | INFO     | 21_flooding | RP rainfall estimated: 5 stations | Gumbel: 5 | Factor approximation: 0
+2026-10-14 15:52:52 | INFO     | 21_flooding | G46 Flood Frequency (community) saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G46_FloodFrequency_Community.csv | Mean FL_Score: 71.1
+2026-10-14 15:52:52 | INFO     | 21_flooding | 21_flooding complete
+2026-10-14 16:22:38 | INFO     | 21_flooding | ============================================================
+2026-10-14 16:22:38 | INFO     | 21_flooding |   21_FLOODING — Multi-Return-Period Flood Model
+2026-10-14 16:22:38 | INFO     | 21_flooding | ============================================================
+2026-10-14 16:22:38 | INFO     | 21_flooding | RP rainfall estimated: 5 stations | Gumbel: 5 | Factor approximation: 0
+2026-10-14 16:22:38 | INFO     | 21_flooding | G46 Flood Frequency (community) saved: c:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G46_FloodFrequency_Community.csv | Mean FL_Score: 71.1
+2026-10-14 16:22:38 | INFO     | 21_flooding | 21_flooding complete

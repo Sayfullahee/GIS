@@ -1,0 +1,17 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G24-Q01,Dependency,All upstream layers CLEAN,Check PROCESSING_STATUS.csv,G05 G09 G10 G13 G14 G15 G22 G25 all have QC_Status = CLEAN,Do not compute G24 until all upstream layers pass QC,Yes,Pending
+G24-Q02,Model specification,Input weights pre-specified in HAZARD_MODEL_DECISIONS.csv HMD01,Check HMD01,HMD01 approved and dated before G24 computation,Record model specification; do not compute without it,Yes,Pending
+G24-Q03,Classification,Hazard zone thresholds pre-specified in HMD02,Check HMD02,HMD02 thresholds recorded and approved before classification,Record thresholds; do not change after seeing output,Yes,Pending
+G24-Q04,CRS,CRS = EPSG:4326,gdalinfo,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G24-Q05,Range,Index values 0–100,Raster statistics,Min >= 0; Max <= 100; no values outside range,Investigate normalisation step; check for outliers in input layers,Yes,Pending
+G24-Q06,NoData,NoData value set — not 0,gdalinfo,NoData value set and is not 0,Set nodata to -9999 or equivalent,Yes,Pending
+G24-Q07,Coverage,Raster covers all 10 study states,Spatial check,No NoData holes within G01 study state boundaries,Investigate missing input coverage,Yes,Pending
+G24-Q08,Extent,Raster extent matches G09,Bounding box comparison,Extents consistent (tolerance ±1 pixel),Recompute with consistent extents,Yes,Pending
+G24-Q09,Validation,Observed flood locations (G25) fall in Moderate/High/Very High hazard zones,Spatial overlay with G25,>=70% of High-confidence G25 events fall in Moderate/High/Very High hazard zones,Flag low validation score; review input weights and model specification in HMD01,Yes,Pending (requires G25 CLEAN)
+G24-Q10,Spatial pattern,High hazard zones aligned with river corridors and flat floodplain areas,Overlay with G05 and G10,High hazard (score >= 60) concentrated within BUF001 (500m) of G05 rivers and in low-slope areas,Flag inversions where high hazard appears on steep hillsides away from rivers,No,Pending (requires G05 G10)
+G24-Q11,Model metadata,Risk_Model_Version and Input_Layers_Version populated on output,Schema check,All required metadata fields populated on every published G24 output,Populate before publication; required for traceability,Yes,Pending
+G24-Q12,Sensitivity,Sensitivity analysis with alternate weights documented,Check HMD01 sensitivity model specification,Sensitivity model (equal weights or HMD01 alternative) computed and results documented,Compute sensitivity model; report rank changes; archive,No,Pending
+G24-Q13,Classification,Hazard zones classified using pre-specified thresholds only,Cross-check HMD02,Polygon Hazard_Class values consistent with HMD02 thresholds applied to raster values,Reclassify using approved thresholds only,Yes,Pending
+G24-Q14,Prohibition,G24 not described as flood probability or return period,Output text review,No publication or map contains language describing G24 as probability of flooding or return period,Review all map labels and reports; correct language to hazard index or relative hazard,Yes,Pending
+G24-Q15,Reproducibility,Same inputs + model version + parameters = same output,Re-run and compare,Output raster MD5 matches,Document all normalisation parameters; fix non-deterministic steps,No,Pending
+G24-Q16,Attribution,Source layer attributions documented,SOURCE_REGISTER.csv check,All source attributions for HydroSHEDS and ESA WorldCover present,Update SOURCE_REGISTER.csv,No,Pending

@@ -1,0 +1,13 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G19-Q01,Dependency,DB06 QC_Status = CLEAN before G19 generated,Check PROCESSING_STATUS.csv,DB06 QC_Status = CLEAN,Do not generate G19 from unvalidated DB06,Yes,Pending
+G19-Q02,Sync,G19 feature count matches DB06 CLEAN record count,Count comparison,G19 feature count = DB06 CLEAN count,Regenerate G19 from DB06; investigate discrepancy,Yes,Pending
+G19-Q03,Sync,All DB06 Infrastructure_ID values present in G19,LEFT JOIN check,All DB06 Infrastructure_ID in G19; no missing records,Regenerate G19; investigate missing records,Yes,Pending
+G19-Q04,Sync,Geometry X/Y matches DB06 Latitude/Longitude for all records,Coordinate comparison,|geom_x - DB06 Longitude| < 0.00001 AND |geom_y - DB06 Latitude| < 0.00001 for all records,Rebuild geometry from DB06 coordinates,Yes,Pending
+G19-Q05,CRS,CRS = EPSG:4326,gdalinfo / QGIS check,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G19-Q06,Geometry,No null geometries,Null check,Zero null geometries,Investigate; check DB06 for null coordinates,Yes,Pending
+G19-Q07,Spatial,All points within 10 study states,Point-in-polygon G01,100% within G01 study state polygons,Flag outliers; check DB06 coordinates and State_Code,Yes,Pending (requires G01)
+G19-Q08,Spatial,Each point within its stated state,Point-in-polygon G01 per record,Each G19 point within correct G01 state polygon per State_Code,Flag mismatches; correct in DB06 then regenerate G19,Yes,Pending (requires G01)
+G19-Q09,Attribute sync,All DB06 attribute fields present and correctly typed in G19,Schema check vs DB06_Infrastructure_SCHEMA.csv,All 24 DB06 fields present in G19 attribute table,Regenerate from DB06 with correct field mapping,Yes,Pending
+G19-Q10,Critical service,Critical infrastructure flagged for priority exposure analysis,Count by Critical_Service,At least one Critical_Service = Yes record per study state,Flag states with no critical infrastructure surveyed — likely coverage gap,No,Pending
+G19-Q11,Flood/erosion exposure,Exposure fields updated after GIS analysis,Check Flood_Exposure and Erosion_Exposure values,After G29/G30 built: Flood_Exposure and Erosion_Exposure values cross-validated with GIS result,Update G19 attribute after G29/G30 analysis; document any field/GIS disagreements,No,Pending (requires G29/G30)
+G19-Q12,Provenance,Source documented in SOURCE_REGISTER.csv,Cross-check,SRC015 present and complete,Update SOURCE_REGISTER.csv,No,Pending

@@ -1,0 +1,42 @@
+2026-11-05 13:47:38 | INFO     | 26_eri | ============================================================
+2026-11-05 13:47:38 | INFO     | 26_eri |   26_ERI — Environmental Risk Index v2.0 (G64)
+2026-11-05 13:47:38 | INFO     | 26_eri | ============================================================
+2026-11-05 13:47:38 | INFO     | 26_eri | All ERI weight sets verified: sum = 1.0 ✓
+2026-11-05 13:47:38 | INFO     | 26_eri | ERI components loaded: 1646 communities | Components available: ['G31', 'G32', 'G33', 'G34', 'G42', 'G50', 'G54', 'G58', 'G63']
+2026-11-05 13:47:38 | INFO     | 26_eri | Spearman rank correlation baseline vs S1: 0.885
+2026-11-05 13:47:38 | INFO     | 26_eri | Spearman rank correlation baseline vs S2: 0.962
+2026-11-05 13:47:38 | INFO     | 26_eri | Spearman rank correlation baseline vs S3: 0.987
+2026-11-05 13:47:39 | INFO     | 26_eri | ERI vs HEVC comparison: 0 communities newly elevated to High/Very High by environmental domains (ERI > HEVC by >=10 pts)
+2026-11-05 13:47:39 | INFO     | 26_eri | 
+=======================================================
+  ERI v2.0 COMPLETE
+=======================================================
+  Communities assessed:  1646
+  Mean ERI Score:        25.7
+  High/Very High (ERI):  10
+  Missing >= 5 components: 1532
+  Saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G64_EnvironmentalRiskIndex_ERI_v2.csv
+  Model version: ERI_Model_v2.0
+
+2026-11-05 13:47:39 | INFO     | 26_eri | 26_eri complete
+2026-11-05 13:49:13 | INFO     | 26_eri | ============================================================
+2026-11-05 13:49:13 | INFO     | 26_eri |   26_ERI — Environmental Risk Index v2.0 (G64)
+2026-11-05 13:49:13 | INFO     | 26_eri | ============================================================
+2026-11-05 13:49:13 | INFO     | 26_eri | All ERI weight sets verified: sum = 1.0 ✓
+2026-11-05 13:49:13 | INFO     | 26_eri | ERI components loaded: 1616 communities | Components available: ['G31', 'G32', 'G33', 'G34', 'G42', 'G50', 'G54', 'G58', 'G63']
+2026-11-05 13:49:14 | INFO     | 26_eri | Spearman rank correlation baseline vs S1: 0.852
+2026-11-05 13:49:14 | INFO     | 26_eri | Spearman rank correlation baseline vs S2: 0.951
+2026-11-05 13:49:14 | INFO     | 26_eri | Spearman rank correlation baseline vs S3: 0.984
+2026-11-05 13:49:14 | INFO     | 26_eri | ERI vs HEVC comparison: 0 communities newly elevated to High/Very High by environmental domains (ERI > HEVC by >=10 pts)
+2026-11-05 13:49:14 | INFO     | 26_eri | 
+=======================================================
+  ERI v2.0 COMPLETE
+=======================================================
+  Communities assessed:  1616
+  Mean ERI Score:        25.4
+  High/Very High (ERI):  4
+  Missing >= 5 components: 1502
+  Saved: C:\xampp\htdocs\GIS\05_Analysis\03_OUTPUTS\G64_EnvironmentalRiskIndex_ERI_v2.csv
+  Model version: ERI_Model_v2.0
+
+2026-11-05 13:49:14 | INFO     | 26_eri | 26_eri complete

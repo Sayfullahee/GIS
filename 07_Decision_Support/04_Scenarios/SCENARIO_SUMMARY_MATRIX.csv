@@ -1,0 +1,5 @@
+Scenario_ID,Scenario_Name,Mean_Risk,Mean_Delta,Tier1_Critical_Count,Tier2_High_Count,Tier3_Moderate_Count,Tier4_Monitor_Count
+SCN-2026-BASE,2026 Baseline Reference,42.55,0.0,1,10,16,23
+SCN-2026-CLIM-STRESS,"Climate Stress (+15% Rain, +1.5C)",47.39,4.84,6,14,15,15
+SCN-2026-LAND-DEGRADE,Land-Use Degradation & Buffer Loss,45.25,2.69,6,8,19,17
+SCN-2026-ADAPT-INVEST,Adaptation Investment & Dykes,35.98,-6.58,0,5,16,29

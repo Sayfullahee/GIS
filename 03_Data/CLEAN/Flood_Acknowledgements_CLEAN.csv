@@ -1,0 +1,5 @@
+acknowledgement_id,notification_id,acknowledged_at,acknowledgement_status,recipient_token,community_id,respondent_role,acknowledgement_source,notes
+ACK-2026-001,NOTIF-2026-001,2026-10-08 06:18:00+01:00,received,TOK-NIG-4412,COM-NIG-001-0001,Community Focal Lead,SMS-2WAY,Flood warning acknowledged; youth committee activated.
+ACK-2026-002,NOTIF-2026-001,2026-10-08 06:25:00+01:00,understood,TOK-NIG-4413,COM-NIG-001-0001,Ward Head,SMS-2WAY,Drainage clearing begun.
+ACK-2026-003,NOTIF-2026-002,2026-10-09 05:00:00+01:00,understood,TOK-BEN-1021,COM-BEN-001-0001,Red Cross Volunteer,Mobile App,Assembly point opened at high school ground.
+ACK-2026-004,NOTIF-2026-003,2026-10-09 08:35:00+01:00,received,TOK-KOG-8819,COM-KOG-001-0001,Boat Operators Chairman,IVR Callback,River transport suspended.

@@ -1,0 +1,4080 @@
+[
+  {
+    "dispatch_id": "DISP-20261109094835",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-11-09T09:48:35.202034",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261106130316",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-11-06T13:03:16.110346",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261106101107",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-11-06T10:11:07.796879",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261105175757",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-11-05T17:57:57.426170",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261105150649",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-11-05T15:06:49.000814",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261022153206",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "VHF_RADIO",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-10-22T15:32:06.526897",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261022153158",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "WHATSAPP_EMERGENCY",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-10-22T15:31:58.072357",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261022153129",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-10-22T15:31:29.887938",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261021121014",
+    "alert_id": "ALT-2026-HYD-01",
+    "title": "Kainji & Jebba Hydro Dams Stage-2 Spillway Discharge",
+    "channel": "SMS_BROADCAST",
+    "recipients_group": "Community Liaison Officers & Village Heads",
+    "dispatched_at": "2026-10-21T12:10:14.422082",
+    "recipients_contacted": 142,
+    "delivery_rate_pct": 98.6,
+    "acknowledged_count": 128,
+    "status": "TRANSMITTED_AND_ACKNOWLEDGED"
+  },
+  {
+    "dispatch_id": "DISP-20261106-9B654E",
+    "timestamp": "2026-11-06T11:48:15.451000+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "English",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "N-HYPPADEC National Situation Room",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "en_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-9CC32D56",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-0AD037D4",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-318BE3F4",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-0E49758E",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-CDACC4D0",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-8888B27C",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-F0260246",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-82F7CDE0",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-981448A0",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-E9BFC34C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-DB69D7A2",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-A380C254",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-BE668F9E",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-C1CF97F1",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-7400F1D3",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-D2E5A47B",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-2A3EA57A",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-DAC8B0AC",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-5324E5B4",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-FA6DF3CA",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      },
+      {
+        "message_id": "MSG-2CB3C8FF",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T11:48:15.451000+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-092E7E",
+    "timestamp": "2026-11-06T12:00:39.345306+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-C081381D",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-199342A7",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-F1B7752D",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-106C1F57",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-D625A9D6",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-2D2768F1",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-EFDD160D",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-7925BE38",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-C8E89333",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-A15911A8",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-4AB4786C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-5A64CAA8",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-1A0BF51E",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-D5E5422D",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-9997BAA6",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-D97EC04A",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-E3097D56",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-D74C90B7",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-F4932D05",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-34E7A0CB",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      },
+      {
+        "message_id": "MSG-58E7E795",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:00:39.345306+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-9FDBDB",
+    "timestamp": "2026-11-06T12:00:48.895978+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-0B518229",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-A627D3B4",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-D79200C2",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-1C5D895A",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-288A4102",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-4E3C0EE7",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-23FEA0A0",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-F56DDB01",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-50818338",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-BE0A2324",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-C6435FC2",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-96AD4B5C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-189B40CC",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-5E6804A5",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-CA37D0E0",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-D6CAFF3C",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-A8AF368A",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-FD9E9FF2",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-77A22E93",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-61984066",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      },
+      {
+        "message_id": "MSG-7BE89D38",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:00:48.895978+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-F31255",
+    "timestamp": "2026-11-06T12:03:38.965804+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Hydroelectric Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 100.0,
+    "lead_time_hours": 14,
+    "affected_lgas": [
+      "Mokwa",
+      "Lavun",
+      "Yauri",
+      "Borgu",
+      "Pategi"
+    ],
+    "language": "Nupe",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 14 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Lavun, Yauri, Borgu.",
+    "sender_officer": "N-HYPPADEC Situation Room",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 10,
+      "total_transmissions": 23,
+      "sms_sent": 10,
+      "whatsapp_sent": 9,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Hydroelectric Dam: Spill risk 100.0%. Lead time 14h. Exposed LGAs: Mokwa, Lavun, Yauri. Directives: Evacuate floodplain immediat"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Hydroelectric Dam"
+              },
+              {
+                "type": "text",
+                "text": "100.0%"
+              },
+              {
+                "type": "text",
+                "text": "14 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Lavun, Yauri, Borgu, Pategi"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 14 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Lavun, Yauri, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI HYDROELECTRIC DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 100.0%\n*Evacuation Lead Time:* 14 hours\n*Downstream LGAs:* Mokwa, Lavun, Yauri, Borgu, Pategi\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 14 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Lavun, Yauri, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-7DAF0896",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-9255CA2F",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-320E5693",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-EA35F96E",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-D25357E1",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-E13CF5A3",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-699F6E0B",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-67778A5A",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-70FE817E",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-722E3985",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-404DD28F",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-337F04AD",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-24133BC8",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-45561E07",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-2AC4C142",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-BFB554B1",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-4B62827E",
+        "recipient_id": "CLO-KEB-001",
+        "recipient_name": "Alhaji Bello Yauri",
+        "role": "Yauri Emirate Waterway Warden",
+        "entity": "Yauri Riverine Watch",
+        "phone_masked": "+234 803 *** 1290",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-BC4C1B0D",
+        "recipient_id": "CLO-KEB-001",
+        "recipient_name": "Alhaji Bello Yauri",
+        "role": "Yauri Emirate Waterway Warden",
+        "entity": "Yauri Riverine Watch",
+        "phone_masked": "+234 803 *** 1290",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-7B444530",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-3D85961B",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-764E5209",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-552A0FE2",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      },
+      {
+        "message_id": "MSG-6993F17D",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:03:38.965804+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-F08196",
+    "timestamp": "2026-11-06T12:03:42.241681+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Hydroelectric Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 100.0,
+    "lead_time_hours": 14,
+    "affected_lgas": [
+      "Mokwa",
+      "Lavun",
+      "Yauri",
+      "Borgu",
+      "Pategi"
+    ],
+    "language": "Nupe",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 14 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Lavun, Yauri, Borgu.",
+    "sender_officer": "N-HYPPADEC Situation Room",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 10,
+      "total_transmissions": 23,
+      "sms_sent": 10,
+      "whatsapp_sent": 9,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Hydroelectric Dam: Spill risk 100.0%. Lead time 14h. Exposed LGAs: Mokwa, Lavun, Yauri. Directives: Evacuate floodplain immediat"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Hydroelectric Dam"
+              },
+              {
+                "type": "text",
+                "text": "100.0%"
+              },
+              {
+                "type": "text",
+                "text": "14 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Lavun, Yauri, Borgu, Pategi"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 14 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Lavun, Yauri, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI HYDROELECTRIC DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 100.0%\n*Evacuation Lead Time:* 14 hours\n*Downstream LGAs:* Mokwa, Lavun, Yauri, Borgu, Pategi\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 14 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Lavun, Yauri, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-8787B751",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-92D7965D",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-762E8437",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-C1C22DBA",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-DE6AB729",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-1BA44201",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-39000FEC",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-89B5A0D6",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-1748A7D6",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-4C371B8C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-328637B4",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-20DC5940",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-BBF02FD8",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-1A74FBEF",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-51B72AC8",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-4D5B7694",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-AEB427B5",
+        "recipient_id": "CLO-KEB-001",
+        "recipient_name": "Alhaji Bello Yauri",
+        "role": "Yauri Emirate Waterway Warden",
+        "entity": "Yauri Riverine Watch",
+        "phone_masked": "+234 803 *** 1290",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-97ECF8B8",
+        "recipient_id": "CLO-KEB-001",
+        "recipient_name": "Alhaji Bello Yauri",
+        "role": "Yauri Emirate Waterway Warden",
+        "entity": "Yauri Riverine Watch",
+        "phone_masked": "+234 803 *** 1290",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-5CB10864",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-F7C94DE4",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-0993121B",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-B77F83F4",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      },
+      {
+        "message_id": "MSG-D6900E77",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:03:42.241681+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-35BF50",
+    "timestamp": "2026-11-06T12:22:54.751593+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-54613482",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-3637AB9C",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-95DA4B44",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-B65C342A",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-19228507",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-F09B1EE1",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-778778CF",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-FB81B54E",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-2C1E00C7",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-34E03894",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-E6EA142C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-EA2EB74D",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-F1D8B98E",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-044ABA0D",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-175301AD",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-1BFE3812",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-4D9325A1",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-FA9CE0B3",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-070A69C7",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-B05BF9B8",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      },
+      {
+        "message_id": "MSG-9318A936",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:22:54.751593+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-9FD83D",
+    "timestamp": "2026-11-06T12:23:04.105829+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-55742D4D",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-469FA16E",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-7CC2E95E",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-5012386B",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-890187CB",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-9FC935D1",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-4B24284A",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-7AEC8F50",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-32DBB602",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-81883A24",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-777E3DA2",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-96E83938",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-8C800AB5",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-C754A3EE",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-8B8EEC99",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-C6351648",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-0F47901B",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-8F1CE1BD",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-1AC525BA",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-F1B3FE75",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      },
+      {
+        "message_id": "MSG-4C020D0A",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T12:23:04.105829+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-2EBFFC",
+    "timestamp": "2026-11-06T13:50:46.825905+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-A6E573D2",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-E9D9873B",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-9716B795",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-6083C675",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-4B71F115",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-96EAC84C",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-350F08DB",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-4AD38532",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-069F00DE",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-10B13C6E",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-BE7CBD1B",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-48E5C11B",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-DF3D1782",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-BD245999",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-AF5ABC2B",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-F5CED4F3",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-4CF5427E",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-C24ADC11",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-A81F7CB2",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-220500B5",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      },
+      {
+        "message_id": "MSG-598DEE80",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:50:46.825905+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-F18769",
+    "timestamp": "2026-11-06T13:51:12.305725+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-52BCA0A3",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-5950F0F0",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-21062F21",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-26F2360B",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-0C763741",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-C0DA0283",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-0A0E20B7",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-EDA6E3D0",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-1827447C",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-DD8485E8",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-D82D5A80",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-A3D512DA",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-73DD89ED",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-C29249B9",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-F88265D3",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-05AE3FFB",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-B8903F72",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-CAB0F9F4",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-8D54C233",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-DBC6C8D8",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      },
+      {
+        "message_id": "MSG-FD3FE6B6",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:51:12.305725+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-3E9A1B",
+    "timestamp": "2026-11-06T13:51:29.664821+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-5DF82BE1",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-3EAC5FAA",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-37597799",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-B544EDC4",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-160526CD",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-441C66EE",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-5DD27C30",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-F1A2C459",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-E6C68FF2",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-9633606C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-7F608736",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-A1AD72C0",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-A3AB8900",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-1614F93F",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-44A7C03F",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-5D82727D",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-163252EE",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-29915B7D",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-5361C8E2",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-25F7C719",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      },
+      {
+        "message_id": "MSG-F92FCE0E",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:51:29.664821+00:00"
+      }
+    ]
+  },
+  {
+    "dispatch_id": "DISP-20261106-3D7A67",
+    "timestamp": "2026-11-06T13:51:37.666325+00:00",
+    "dam_id": "DAM-NIG-01",
+    "dam_name": "Kainji Dam",
+    "warning_level": 3,
+    "severity_label": "SEVERE EMERGENCY",
+    "spill_risk_pct": 85.0,
+    "lead_time_hours": 18,
+    "affected_lgas": [
+      "Mokwa",
+      "Borgu"
+    ],
+    "language": "Hausa",
+    "directive_text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu.",
+    "sender_officer": "Test Commander",
+    "channels_used": [
+      "SMS",
+      "WHATSAPP",
+      "TELEGRAM"
+    ],
+    "statistics": {
+      "total_recipients": 9,
+      "total_transmissions": 21,
+      "sms_sent": 9,
+      "whatsapp_sent": 8,
+      "telegram_sent": 4,
+      "success_rate_pct": 100.0
+    },
+    "payloads": {
+      "sms": {
+        "sender_id": "NHYPPADEC",
+        "encoding": "GSM-7",
+        "message": "[ALERT SEVERE EMERGENCY] Kainji Dam: Spill risk 85.0%. Lead time 18h. Exposed LGAs: Mokwa, Borgu. Directives: Evacuate floodplain immediately. Call 0800-HYPPADE"
+      },
+      "whatsapp": {
+        "messaging_product": "whatsapp",
+        "template_name": "nhyppadec_flood_emergency_v2",
+        "language": {
+          "code": "ha_NG"
+        },
+        "components": [
+          {
+            "type": "header",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "\ud83d\udea8 N-HYPPADEC EARLY WARNING: SEVERE EMERGENCY"
+              }
+            ]
+          },
+          {
+            "type": "body",
+            "parameters": [
+              {
+                "type": "text",
+                "text": "Kainji Dam"
+              },
+              {
+                "type": "text",
+                "text": "85.0%"
+              },
+              {
+                "type": "text",
+                "text": "18 hours"
+              },
+              {
+                "type": "text",
+                "text": "Mokwa, Borgu"
+              },
+              {
+                "type": "text",
+                "text": "Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu."
+              }
+            ]
+          },
+          {
+            "type": "buttons",
+            "buttons": [
+              {
+                "type": "quick_reply",
+                "text": "\u2705 Evacuation Initiated"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udea4 Request Rescue Boats"
+              },
+              {
+                "type": "quick_reply",
+                "text": "\ud83d\udccf Report Water Level"
+              }
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "parse_mode": "MarkdownV2",
+        "broadcast_title": "\u26a0\ufe0f *N\\-HYPPADEC FLOOD WARNING \\- KAINJI DAM*",
+        "content": "*Severity:* SEVERE EMERGENCY \\(Level 3\\)\n*Spill Probability:* 85.0%\n*Evacuation Lead Time:* 18 hours\n*Downstream LGAs:* Mokwa, Borgu\n\n*DIRECTIVE:*\n_Imminent controlled or uncontrolled reservoir release forecasted within 18 hours. Immediately activate community evacuation plans for all riverine floodplains in Mokwa, Borgu._"
+      }
+    },
+    "deliveries": [
+      {
+        "message_id": "MSG-817DC6F0",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-E4D126DF",
+        "recipient_id": "CLO-NIG-001",
+        "recipient_name": "Alhaji Umaru Faruk",
+        "role": "Community Liaison Officer (CLO)",
+        "entity": "Borgu Emirate Council / Kainji Dam Basin",
+        "phone_masked": "+234 803 *** 4821",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-B3797669",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-9DA6528A",
+        "recipient_id": "CLO-NIG-002",
+        "recipient_name": "Malama Maryam Shehu",
+        "role": "Riverine Women Leader / Health Volunteer",
+        "entity": "Mokwa Riverine Association",
+        "phone_masked": "+234 814 *** 9310",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-042E692F",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-9B3E9ED2",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-27303BE2",
+        "recipient_id": "CLO-NIG-003",
+        "recipient_name": "Engr. Idris Mohammed",
+        "role": "Emergency Dispatch Coordinator",
+        "entity": "Shiroro Downstream Emergency Team",
+        "phone_masked": "+234 802 *** 1154",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 217,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-88D45847",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 229,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-A682D8BA",
+        "recipient_id": "CLO-KWA-001",
+        "recipient_name": "Mallam Yahaya Ndakotsu",
+        "role": "District Liaison Officer",
+        "entity": "Patigi Emirate Council",
+        "phone_masked": "+234 806 *** 7729",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 241,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-EA7D4924",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 253,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-68FC004C",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 265,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-5D2F07B0",
+        "recipient_id": "CLO-KWA-002",
+        "recipient_name": "Chief Sunday Adebayo",
+        "role": "SEMA Kwara Field Desk",
+        "entity": "Kwara State Emergency Mgmt Agency",
+        "phone_masked": "+234 818 *** 3392",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 277,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-0BD86E55",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 289,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-B702A3BE",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 301,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-4FDB27EF",
+        "recipient_id": "CLO-KOG-001",
+        "recipient_name": "Hon. Danjuma Ibrahim",
+        "role": "Flood Rapid Response Officer",
+        "entity": "Kogi SEMA Confluence Command",
+        "phone_masked": "+234 805 *** 8812",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 313,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-745E3CF4",
+        "recipient_id": "CLO-KOG-002",
+        "recipient_name": "Elder Augustine Onu",
+        "role": "Riverine Community Chief",
+        "entity": "Ibaji Flood Relief Committee",
+        "phone_masked": "+234 807 *** 6634",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 145,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-B78D7E6A",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 157,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-25316E43",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 169,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-5B2A5561",
+        "recipient_id": "CLO-BEN-001",
+        "recipient_name": "Torkwase Comfort Terungwa",
+        "role": "SEMA Benue River Basin Liaison",
+        "entity": "Benue State Emergency Management Agency",
+        "phone_masked": "+234 813 *** 5543",
+        "channel": "TELEGRAM",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 181,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-F2A84CFC",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "SMS",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 193,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      },
+      {
+        "message_id": "MSG-EE98A76F",
+        "recipient_id": "CLO-TAR-001",
+        "recipient_name": "Bulus Danjuma",
+        "role": "Kashimbila Downstream Safety Monitor",
+        "entity": "Taraba SEMA Riverine Division",
+        "phone_masked": "+234 816 *** 9904",
+        "channel": "WHATSAPP",
+        "status": "DELIVERED_ACK",
+        "carrier_latency_ms": 205,
+        "ack_timestamp": "2026-11-06T13:51:37.666325+00:00"
+      }
+    ]
+  }
+]

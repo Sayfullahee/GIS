@@ -1,0 +1,47 @@
+Field,Value
+Layer_ID,G10
+Layer_Name,Slope
+Layer_Type,Raster
+Geometry_Type,Raster
+CRS,EPSG:4326
+CRS_EPSG,4326
+Resolution_or_Scale,Same as G09 DEM (inherited)
+Source_ID,G09 (derived)
+Source_Dataset,Derived from G09 DEM
+Provider,Project GIS team
+Acquisition_Date,N/A (derived product)
+Source_Version,Derived from G09 v1.0
+Coverage,Same as G09 DEM
+Processing_Method,"Compute slope from G09 CLEAN DEM using GDAL gdaldem slope OR QGIS raster terrain analysis. Algorithm: Horn (1981) — standard 8-neighbour algorithm. CRITICAL: unit must be fixed project-wide before computation — see TERRAIN_PROCESSING_DECISIONS.csv."
+Processing_Date,YYYY-MM-DD
+Processing_Software,GDAL gdaldem / QGIS 3.x / Python (richdem / rasterio)
+Processing_Version,TBD
+Clipped_to_Study_Area,Yes (same extent as G09)
+Reprojected,No (inherits G09 CRS)
+Hydrologic_Conditioned,N/A
+License,Derived from source DEM licence
+Restrictions,Same as G09
+QC_Status,RAW
+QC_Date,
+QC_By,
+QC_Notes,
+Critical_QC_Passed,Pending
+Dependent_Layers,G09 (must be CLEAN before slope computed)
+Derived_Layers,"G24 (flood hazard input), G27 (erosion hotspot input), G31 (hazard index input)"
+Storage_Location,04_GIS/03_DERIVED/
+File_Format,GeoTIFF (Float32)
+File_Name,G10_Slope_[unit]_v1_0.tif (e.g. G10_Slope_degrees_v1_0.tif)
+File_Size_MB,TBD
+Attribute_Count,N/A (raster — single band)
+Feature_Count,N/A
+Bounding_Box_W,Same as G09
+Bounding_Box_E,Same as G09
+Bounding_Box_S,Same as G09
+Bounding_Box_N,Same as G09
+Data_Date,Derived from G09 — same data date
+Baseline_Version,v1.0
+Current_Version,v0.0
+Previous_Version,
+Archive_Path,
+Map_Outputs,MAP_07_Terrain_Slope
+Notes,"SLOPE UNIT IS FIXED PROJECT-WIDE — must be decided once and documented in TERRAIN_PROCESSING_DECISIONS.csv before G10 is computed. Recommended: degrees (0–90). Once fixed this unit applies to all slope references in DB03 (erosion), G24 (flood hazard), G27 (erosion hotspots), G31 (hazard index). Do NOT mix degree and percent slope in different layers."

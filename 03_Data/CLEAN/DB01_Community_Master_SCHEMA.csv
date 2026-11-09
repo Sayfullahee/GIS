@@ -1,0 +1,25 @@
+Field_Name,Data_Type,Max_Length,Required,Primary_Key,Foreign_Key,FK_Reference,Unique,Default,Allowed_Values,Description,QC_Rule,Privacy_Level
+Community_ID,Text,12,Yes,Yes,No,,Yes,,Format: COM-[StateCode2]-[LGASeq3]-[Seq4] e.g. COM-AB-001-0001,Permanent community identifier — never changes once assigned. Assigned by data manager not field team.,No duplicates; no nulls; must follow format pattern; must remain stable across all data versions,Level 2
+Community,Text,100,Yes,No,No,,No,,Any text,Community name as used locally by residents and field team,No nulls; flag duplicate name+LGA combinations for verification,Level 2
+State_Code,Text,6,Yes,No,Yes,LKP_States.csv State_Code,No,,See LKP_States.csv,Project state identifier,Must resolve to LKP_States.csv; no nulls,Level 2
+State_Name,Text,50,Yes,No,No,,No,,See LKP_States.csv,Official state name,Must be consistent with State_Code; no nulls,Level 2
+LGA_Code,Text,10,Yes,No,Yes,LKP_LGAs.csv LGA_Code,No,,See LKP_LGAs.csv,Project LGA identifier,Must resolve to LKP_LGAs.csv; must be consistent with State_Code; no nulls,Level 2
+LGA,Text,60,Yes,No,No,,No,,See LKP_LGAs.csv,Official LGA name,Must be consistent with LGA_Code; no nulls,Level 2
+Latitude,Double,, Yes,No,No,,No,,4.0 to 14.0,Community GPS latitude decimal degrees WGS84,No nulls; must be within Nigeria bounds (4.0–14.0); must fall within stated state boundary,Level 2
+Longitude,Double,,Yes,No,No,,No,,2.5 to 15.0,Community GPS longitude decimal degrees WGS84,No nulls; must be within Nigeria bounds (2.5–15.0); must fall within stated state boundary,Level 2
+GPS_Accuracy_m,Double,,Yes,No,No,,No,,>0,GPS horizontal accuracy in metres at time of recording,No nulls; flag >30m; reject >100m — require re-survey,Level 2
+Survey_Date,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date community GPS point and baseline data were collected,No nulls; valid date; must not be future date; must be >= 2026-01-01,Level 2
+Population,Integer,,No,No,No,,No,,>0 or NULL,Estimated resident population at time of survey,If present must be >0; flag >50000 for verification; NULL = not recorded (not zero),Level 2
+Livelihood,Text,5,No,No,Yes,LKP_Livelihood.csv Livelihood_Code,No,,See LKP_Livelihood.csv or NULL,Primary community livelihood code,If present must resolve to LKP_Livelihood.csv; NULL permitted,Level 2
+Electricity_Access,Text,7,No,No,No,,No,,"Yes, No, Partial, Unknown",Electricity access status at community level,Allowed values only if present; NULL permitted,Level 2
+Water_Source,Text,5,No,No,Yes,LKP_WaterSource.csv Water_Source_Code,No,,See LKP_WaterSource.csv or NULL,Primary water source code,If present must resolve to LKP_WaterSource.csv,Level 2
+Flood_Experience,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether community members report flood experience,Allowed values only; NULL permitted,Level 2
+Erosion_Presence,Text,7,No,No,No,,No,,"Yes, No, Unknown",Whether erosion is observed or reported in the community,Allowed values only; NULL permitted,Level 2
+Hydropower_Distance,Double,,No,No,No,,No,,>=0 or NULL,Distance in km to nearest hydropower facility — calculated from G07 after GIS phase; do not manually enter,If present must be >=0; populated by GIS script not field team,Level 2
+Adaptation_Status,Text,5,No,No,Yes,LKP_AdaptationStatus.csv Adaptation_Code,No,,See LKP_AdaptationStatus.csv or NULL,Primary adaptation status code,If present must resolve to LKP_AdaptationStatus.csv,Level 2
+Photo_ID,Text,50,No,No,No,,No,,Any text or NULL,Reference ID of primary community photograph,If present must have corresponding file in 02_Fieldwork/Photos/,Level 2
+Notes,Text,1000,No,No,No,,No,,Any text or NULL,Field team notes — review before publication for sensitive content,No QC rule; flag for editorial review before any publication,Level 2
+Record_Created,Date,,Yes,No,No,,No,,YYYY-MM-DD,Date record was entered into the database,Auto-populated by system on insert; no nulls,Level 2
+Record_Modified,Date,,No,No,No,,No,,YYYY-MM-DD or NULL,Date record was last modified,Auto-populated by system on update,Level 2
+Data_Version,Text,10,Yes,No,No,,No,,e.g. v1.0,Data version at time of record creation or last update,No nulls; must follow version convention,Level 2
+QC_Status,Text,12,Yes,No,Yes,LKP_QC_Status.csv QC_Status_Code,No,RAW,See LKP_QC_Status.csv,Processing status of this record,Must resolve to LKP_QC_Status.csv; default RAW on insert,Level 2

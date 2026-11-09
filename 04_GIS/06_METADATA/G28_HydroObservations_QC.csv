@@ -1,0 +1,12 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G28-Q01,Dependency,DB04 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,DB04 QC_Status = CLEAN,Do not generate G28 from unvalidated DB04,Yes,Pending
+G28-Q02,Dependency,G07 QC_Status = CLEAN,Check PROCESSING_STATUS.csv,G07 QC_Status = CLEAN,G28 geometry depends on G07,Yes,Pending
+G28-Q03,Coverage,G28 facility count matches G07 count,Count comparison,G28 count = G07 facility count,Flag missing facilities; investigate DB04 coverage gaps,Yes,Pending
+G28-Q04,Linkage,All G28 Hydro_IDs resolve to G07,LEFT JOIN,All Hydro_IDs in G07,Flag unresolved; register missing facilities,Yes,Pending
+G28-Q05,Spatial,G28 geometry matches G07 per facility,Coordinate comparison,G28 coordinates identical to G07 for same Hydro_ID,Regenerate geometry join from G07,Yes,Pending
+G28-Q06,Aggregation period,Period documented,Metadata check,Aggregation period (start/end year; record count) documented,Document before publication,Yes,Pending
+G28-Q07,Range,Mean generation plausible given Installed_MW,Calculation check,Generation_MWh_Mean / (period_days * 24) <= Installed_MW for all facilities,Flag implausible values; verify with operator,No,Pending
+G28-Q08,Completeness,Disruption records present where Operating_Status != OP in DB04,Cross-check,All facilities with Operating_Status != OP in DB04 have Disruption_Days > 0 in G28 summary,Flag facilities with no disruption recorded despite non-operational status,No,Pending
+G28-Q09,Missing data,NULL used for facilities with no generation data — not zero,Field check,Generation_MWh_Mean is NULL for facilities with no DB04 generation records — not 0,Correct 0 entries; document data gap,Yes,Pending
+G28-Q10,Temporal,No impossible jumps in generation trend,Sequential check,Year-on-year generation change < 200% for same facility,Flag extreme jumps; verify with operator,No,Pending
+G28-Q11,Attribute sync,All summary fields present and correctly typed,Schema check,Required summary fields present and typed correctly,Regenerate with correct field mapping,Yes,Pending

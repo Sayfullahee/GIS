@@ -1,0 +1,187 @@
+LGA_Code,LGA_Name,State_Code,State_Name,adm2_pcode,adm1_pcode,area_sqkm,Notes
+NG-NIG-001,Agaie,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-002,Agwara,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-003,Bida,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-004,Borgu,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-005,Bosso,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-006,Chanchaga,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-007,Edati,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-008,Gbako,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-009,Gurara,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-010,Katcha,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-011,Kontagora,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-012,Lapai,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-013,Lavun,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-014,Magama,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-015,Mariga,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-016,Mashegu,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-017,Mokwa,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-018,Muya,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-019,Paikoro,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-020,Rafi,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-021,Rijau,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-022,Shiroro,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-023,Suleja,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-024,Tafa,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-NIG-025,Wushishi,NG-NIG,Niger,,,,N-HYPPADEC member LGA
+NG-KEB-001,Aleiro,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-002,Arewa Dandi,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-003,Argungu,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-004,Augie,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-005,Bagudo,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-006,Birnin Kebbi,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-007,Bunza,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-008,Dandi,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-009,Fakai,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-010,Gwandu,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-011,Jega,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-012,Kalgo,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-013,Koko/Besse,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-014,Maiyama,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-015,Ngaski,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-016,Sakaba,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-017,Shanga,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-018,Suru,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-019,Danko/Wasagu,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-020,Yauri,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-KEB-021,Zuru,NG-KEB,Kebbi,,,,N-HYPPADEC member LGA
+NG-PLA-001,Barkin Ladi,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-002,Bassa,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-003,Bokkos,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-004,Jos East,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-005,Jos North,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-006,Jos South,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-007,Kanam,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-008,Kanke,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-009,Langtang North,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-010,Langtang South,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-011,Mangu,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-012,Mikang,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-013,Pankshin,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-014,Qua'an Pan,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-015,Riyom,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-016,Shendam,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-PLA-017,Wase,NG-PLA,Plateau,,,,N-HYPPADEC member LGA
+NG-BEN-001,Ado,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-002,Agatu,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-003,Apa,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-004,Buruku,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-005,Gboko,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-006,Guma,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-007,Gwer East,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-008,Gwer West,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-009,Katsina-Ala,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-010,Konshisha,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-011,Kwande,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-012,Logo,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-013,Makurdi,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-014,Obi,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-015,Ogbadibo,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-016,Ohimini,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-017,Oju,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-018,Okpokwu,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-019,Otukpo,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-020,Tarka,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-021,Ukum,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-022,Ushongo,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-BEN-023,Vandeikya,NG-BEN,Benue,,,,N-HYPPADEC member LGA
+NG-KOG-001,Adavi,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-002,Ajaokuta,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-003,Ankpa,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-004,Bassa,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-005,Dekina,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-006,Ibaji,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-007,Idah,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-008,Igalamela Odolu,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-009,Ijumu,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-010,Kabba/Bunu,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-011,Kogi Koton Karfe,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-012,Lokoja,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-013,Mopa Muro,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-014,Ofu,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-015,Ogori/Magongo,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-016,Okehi,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-017,Okene,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-018,Olamaboro,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-019,Omala,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-020,Yagba East,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KOG-021,Yagba West,NG-KOG,Kogi,,,,N-HYPPADEC member LGA
+NG-KWA-001,Asa,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-002,Baruten,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-003,Edu,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-004,Ekiti,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-005,Ifelodun,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-006,Ilorin East,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-007,Ilorin South,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-008,Ilorin West,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-009,Irepodun,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-010,Isin,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-011,Kaiama,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-012,Moro,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-013,Offa,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-014,Oke Ero,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-015,Oyun,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KWA-016,Pategi,NG-KWA,Kwara,,,,N-HYPPADEC member LGA
+NG-KAD-001,Birnin Gwari,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-002,Chikun,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-003,Giwa,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-004,Igabi,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-005,Ikara,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-006,Jaba,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-007,Jema'a,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-008,Kachia,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-009,Kaduna North,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-010,Kaduna South,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-011,Kagarko,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-012,Kajuru,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-013,Kaura,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-014,Kauru,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-015,Kubau,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-016,Kudan,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-017,Lere,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-018,Makarfi,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-019,Sabon Gari,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-020,Sanga,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-021,Soba,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-022,Zangon Kataf,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-KAD-023,Zaria,NG-KAD,Kaduna,,,,N-HYPPADEC member LGA
+NG-NAS-001,Akwanga,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-002,Awe,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-003,Doma,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-004,Karu,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-005,Keana,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-006,Keffi,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-007,Kokona,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-008,Lafia,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-009,Nasarawa,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-010,Nasarawa Egon,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-011,Obi,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-012,Toto,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-NAS-013,Wamba,NG-NAS,Nasarawa,,,,N-HYPPADEC member LGA
+NG-TAR-001,Ardo Kola,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-002,Bali,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-003,Donga,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-004,Gashaka,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-005,Gassol,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-006,Ibi,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-007,Jalingo,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-008,Karim Lamido,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-009,Kurmi,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-010,Lau,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-011,Sardauna,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-012,Takum,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-013,Ussa,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-014,Wukari,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-015,Yorro,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-TAR-016,Zing,NG-TAR,Taraba,,,,N-HYPPADEC member LGA
+NG-GOM-001,Akko,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-002,Balanga,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-003,Billiri,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-004,Dukku,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-005,Funakaye,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-006,Gombe,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-007,Kaltungo,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-008,Kwami,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-009,Nafada,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-010,Shongom,NG-GOM,Gombe,,,,N-HYPPADEC member LGA
+NG-GOM-011,Yamaltu/Deba,NG-GOM,Gombe,,,,N-HYPPADEC member LGA

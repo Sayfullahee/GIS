@@ -1,0 +1,10 @@
+2026-10-07 17:39:52 | INFO     | 19_scenarios | Starting Stage 21 — Scenario Modelling & Stress Testing
+2026-10-07 17:39:52 | INFO     | 19_scenarios | Loaded 50 baseline community risk assessments
+2026-10-07 17:39:52 | INFO     | 19_scenarios | Saved 200 community scenario records to c:\xampp\htdocs\GIS\07_Decision_Support\04_Scenarios\SCENARIO_RESULTS_v4.1.csv
+2026-10-07 17:39:52 | INFO     | 19_scenarios | Saved scenario summary matrix to c:\xampp\htdocs\GIS\07_Decision_Support\04_Scenarios\SCENARIO_SUMMARY_MATRIX.csv
+2026-10-07 17:39:52 | INFO     | 19_scenarios | Generated scenario specification report at c:\xampp\htdocs\GIS\07_Decision_Support\04_Scenarios\SCENARIO_ANALYSIS_SPEC.md
+2026-10-07 18:16:45 | INFO     | 19_scenarios | Starting Stage 21 — Scenario Modelling & Stress Testing
+2026-10-07 18:16:45 | INFO     | 19_scenarios | Loaded 50 baseline community risk assessments
+2026-10-07 18:16:45 | INFO     | 19_scenarios | Saved 200 community scenario records to c:\xampp\htdocs\GIS\07_Decision_Support\04_Scenarios\SCENARIO_RESULTS_v4.1.csv
+2026-10-07 18:16:45 | INFO     | 19_scenarios | Saved scenario summary matrix to c:\xampp\htdocs\GIS\07_Decision_Support\04_Scenarios\SCENARIO_SUMMARY_MATRIX.csv
+2026-10-07 18:16:45 | INFO     | 19_scenarios | Generated scenario specification report at c:\xampp\htdocs\GIS\07_Decision_Support\04_Scenarios\SCENARIO_ANALYSIS_SPEC.md

@@ -1,0 +1,17 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G25-Q01,Structure,All required fields present,Schema check,All 14 schema fields present,Add missing fields,Yes,Pending
+G25-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in Flood_ID / Date / State_Code / Source / Confidence / Geometry_Type_Used,Flag and resolve,Yes,Pending
+G25-Q03,Uniqueness,No duplicate Flood_ID,Distinct count,Count distinct = count total,Investigate; multiple events at same location are valid if different dates,Yes,Pending
+G25-Q04,Reference integrity,State_Code resolves to LKP_States.csv,LEFT JOIN,All values in LKP_States.csv,Flag unresolved,Yes,Pending
+G25-Q05,Reference integrity,Community_ID resolves to DB01 if present,LEFT JOIN,All non-null values in DB01,Flag unresolved,Yes,Pending
+G25-Q06,Reference integrity,LGA_Code consistent with State_Code if present,Cross-check,LGA belongs to stated State_Code,Flag inconsistencies,No,Pending
+G25-Q07,Temporal,Date valid and not future,Date check,Valid date; not future; >= 2000-01-01 (flag if older — verify source),Flag invalid dates; note if first-of-month convention used for approximate dates,Yes,Pending
+G25-Q08,Range,Depth_m non-negative and plausible,Range check,If present: 0–10m; flag >10m,Flag extreme values; verify with source,No,Pending
+G25-Q09,Range,Duration_days non-negative,Range check,If present: >= 0; flag > 180 days,Flag extreme values,No,Pending
+G25-Q10,Range,Households_Affected non-negative,Range check,If present: >= 0,Flag negatives,No,Pending
+G25-Q11,Logical,Confidence allowed values,Value check,All values in {High / Medium / Low},Flag invalid values,Yes,Pending
+G25-Q12,Logical,Geometry_Type_Used consistent with actual geometry type,Geometry check,If Point then geometry is point; if Polygon then polygon,Fix geometry type label,Yes,Pending
+G25-Q13,Spatial,All events within study states,Point/centroid-in-polygon vs G01,100% within G01 study states,Flag outliers; check coordinates,Yes,Pending (requires G01)
+G25-Q14,Cross-check,Flood events consistent with DB01 Flood_Experience = Yes communities,Spatial proximity check,>=80% of communities with Flood_Experience = Yes have at least one G25 event within 5km,Flag discrepancies; document if community-reported floods not in G25 (data gap),No,Pending (requires DB01 CLEAN)
+G25-Q15,Cross-check,High-confidence events cluster along river corridors,Spatial overlay with G05,>=70% of High-confidence events within 2km (BUF001) of G05 river,Flag distant high-confidence events; verify coordinates,No,Pending (requires G05)
+G25-Q16,Missing data,NULL used for unknown dimensions — not 0,Field check,Depth_m / Duration_days / Households_Affected are NULL when not known — not 0,Correct 0 entries to NULL where information not available,Yes,Pending

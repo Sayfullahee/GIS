@@ -1,0 +1,452 @@
+{
+  "type": "FeatureCollection",
+  "name": "G01_Nigeria_States_v1_0",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.5,
+              9.0
+            ],
+            [
+              7.3,
+              9.0
+            ],
+            [
+              7.3,
+              11.3
+            ],
+            [
+              4.5,
+              11.3
+            ],
+            [
+              4.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-NIG",
+        "Internal_Code": "NIG",
+        "State_Name": "Niger",
+        "adm1_pcode": "NG026",
+        "adm0_pcode": "NG",
+        "Capital": "Minna",
+        "Region": "North Central",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code NIG)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.6,
+              10.7
+            ],
+            [
+              5.3,
+              10.7
+            ],
+            [
+              5.3,
+              13.2
+            ],
+            [
+              3.6,
+              13.2
+            ],
+            [
+              3.6,
+              10.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KEB",
+        "Internal_Code": "KEB",
+        "State_Name": "Kebbi",
+        "adm1_pcode": "NG021",
+        "adm0_pcode": "NG",
+        "Capital": "Birnin Kebbi",
+        "Region": "North West",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code KEB)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.4,
+              8.4
+            ],
+            [
+              10.2,
+              8.4
+            ],
+            [
+              10.2,
+              10.3
+            ],
+            [
+              8.4,
+              10.3
+            ],
+            [
+              8.4,
+              8.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-PLA",
+        "Internal_Code": "PLA",
+        "State_Name": "Plateau",
+        "adm1_pcode": "NG031",
+        "adm0_pcode": "NG",
+        "Capital": "Jos",
+        "Region": "North Central",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code PLA)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6,
+              6.5
+            ],
+            [
+              10.0,
+              6.5
+            ],
+            [
+              10.0,
+              8.2
+            ],
+            [
+              7.6,
+              8.2
+            ],
+            [
+              7.6,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-BEN",
+        "Internal_Code": "BEN",
+        "State_Name": "Benue",
+        "adm1_pcode": "NG007",
+        "adm0_pcode": "NG",
+        "Capital": "Makurdi",
+        "Region": "North Central",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code BEN)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.7,
+              6.5
+            ],
+            [
+              7.8,
+              6.5
+            ],
+            [
+              7.8,
+              8.7
+            ],
+            [
+              5.7,
+              8.7
+            ],
+            [
+              5.7,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KOG",
+        "Internal_Code": "KOG",
+        "State_Name": "Kogi",
+        "adm1_pcode": "NG022",
+        "adm0_pcode": "NG",
+        "Capital": "Lokoja",
+        "Region": "North Central",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code KOG)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.8,
+              8.1
+            ],
+            [
+              5.9,
+              8.1
+            ],
+            [
+              5.9,
+              10.1
+            ],
+            [
+              3.8,
+              10.1
+            ],
+            [
+              3.8,
+              8.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KWA",
+        "Internal_Code": "KWA",
+        "State_Name": "Kwara",
+        "adm1_pcode": "NG023",
+        "adm0_pcode": "NG",
+        "Capital": "Ilorin",
+        "Region": "North Central",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code KWA)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9,
+              9.1
+            ],
+            [
+              8.8,
+              9.1
+            ],
+            [
+              8.8,
+              11.5
+            ],
+            [
+              6.9,
+              11.5
+            ],
+            [
+              6.9,
+              9.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-KAD",
+        "Internal_Code": "KAD",
+        "State_Name": "Kaduna",
+        "adm1_pcode": "NG018",
+        "adm0_pcode": "NG",
+        "Capital": "Kaduna",
+        "Region": "North West",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code KAD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.9,
+              7.8
+            ],
+            [
+              9.3,
+              7.8
+            ],
+            [
+              9.3,
+              9.3
+            ],
+            [
+              6.9,
+              9.3
+            ],
+            [
+              6.9,
+              7.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-NAS",
+        "Internal_Code": "NAS",
+        "State_Name": "Nasarawa",
+        "adm1_pcode": "NG025",
+        "adm0_pcode": "NG",
+        "Capital": "Lafia",
+        "Region": "North Central",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code NAS)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.2,
+              6.5
+            ],
+            [
+              11.9,
+              6.5
+            ],
+            [
+              11.9,
+              9.5
+            ],
+            [
+              9.2,
+              9.5
+            ],
+            [
+              9.2,
+              6.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-TAR",
+        "Internal_Code": "TAR",
+        "State_Name": "Taraba",
+        "adm1_pcode": "NG034",
+        "adm0_pcode": "NG",
+        "Capital": "Jalingo",
+        "Region": "North East",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code TAR)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3,
+              9.5
+            ],
+            [
+              11.8,
+              9.5
+            ],
+            [
+              11.8,
+              11.4
+            ],
+            [
+              10.3,
+              11.4
+            ],
+            [
+              10.3,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-GOM",
+        "Internal_Code": "GOM",
+        "State_Name": "Gombe",
+        "adm1_pcode": "NG015",
+        "adm0_pcode": "NG",
+        "Capital": "Gombe",
+        "Region": "North East",
+        "Notes": "N-HYPPADEC member state (v4.1 permanent internal code GOM)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.0,
+              8.0
+            ],
+            [
+              7.0,
+              8.0
+            ],
+            [
+              7.0,
+              9.0
+            ],
+            [
+              6.0,
+              9.0
+            ],
+            [
+              6.0,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "State_Code": "NG-ADA",
+        "Internal_Code": "ADA",
+        "State_Name": "Adamawa",
+        "adm1_pcode": "NG002",
+        "adm0_pcode": "NG",
+        "Capital": "Yola",
+        "Region": "North East",
+        "Notes": "Extended regional/basin state (Upper Benue / Lagdo buffer; Deforestation & Erosion observed in 2026 national survey)"
+      }
+    }
+  ]
+}

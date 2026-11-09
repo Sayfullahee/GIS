@@ -1,0 +1,11 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G32-Q01,Dependency,G29 G30 all CLEAN; INDICATOR_REGISTER IND05-IND06 approved,Check PROCESSING_STATUS.csv,All upstream CLEAN; indicators approved,Do not compute until all pass QC,Yes,Pending
+G32-Q02,Coverage,One record per community,Count check,G32 count = G29 community count,Investigate missing communities,Yes,Pending
+G32-Q03,Range,E_Score 0-100,Range check,All E_Score values 0-100,Investigate normalisation,Yes,Pending
+G32-Q04,Range,All normalised component scores 0-100 if present,Range check,IND05/IND06a/IND06b all 0-100 where not null,Investigate,Yes,Pending
+G32-Q05,Formula,E_Score = weighted sum of available exposure indicators,Calculation check,E_Score consistent with RISK_MODEL_SPEC.md Section 3,Recompute,Yes,Pending
+G32-Q06,Missing data,NULL used for missing components,Field check,Missing exposure components are NULL — not 0,Correct,Yes,Pending
+G32-Q07,Separation,No vulnerability variables in G32,Content check,No income / adaptive capacity / displacement / social variables in G32 fields — per EMD06,Remove any vulnerability variable; belongs in G33,Yes,Pending
+G32-Q08,Completeness,E_Data_Completeness populated,Cross-check,Full = all 3 components available; Partial = 1-2; Minimal = hazard zone area only,Update flag,Yes,Pending
+G32-Q09,Reference integrity,Community_ID resolves to DB01,LEFT JOIN,All values in DB01,Flag unresolved,Yes,Pending
+G32-Q10,Metadata,Risk_Model_Version and Computation_Date populated,Null check,Zero nulls,Populate before publication,Yes,Pending

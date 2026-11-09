@@ -1,0 +1,6 @@
+Station_ID,Station_Name,State_Code,LGA_Code,Latitude,Longitude,Elevation_m,Source,Active_Status,Record_Start_Year
+NIM000001,Abakaliki_Station,NG-EB,,6.329,8.113,90,NiMet,Yes,2004
+NIM000002,Onitsha_Station,NG-AN,,6.163,6.776,55,NiMet,Yes,2004
+NIM000003,Lokoja_Station,NG-KO,,7.8,6.742,52,NiMet,Yes,2004
+NIM000004,Calabar_Station,NG-CR,,4.958,8.322,61,NiMet,Yes,2004
+NIM000005,Benin_City_Station,NG-ED,,6.336,5.617,78,NiMet,Yes,2004

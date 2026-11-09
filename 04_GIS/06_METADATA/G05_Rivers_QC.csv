@@ -1,0 +1,17 @@
+QC_ID,QC_Category,Check_Description,Method,Pass_Criteria,Failure_Action,Critical,Status
+G05-Q01,Structure,All required fields present,Schema check,All required fields present,Add missing fields,Yes,Pending
+G05-Q02,Completeness,No nulls in required fields,Null count,Zero nulls in HYRIV_ID / LENGTH_KM / UP_AREA / ORD_STRA / BASIN_ID,Flag and investigate,Yes,Pending
+G05-Q03,Uniqueness,No duplicate HYRIV_ID,Distinct count,Count distinct = count total,Investigate source; do not assign new IDs,Yes,Pending
+G05-Q04,Range,UP_AREA >= 10,Range check,All UP_AREA >= 10 (HydroRIVERS threshold),Flag values < 10; investigate if from correct dataset,No,Pending
+G05-Q05,Range,ORD_STRA between 1 and 10,Range check,All ORD_STRA between 1 and 10,Flag out-of-range values,No,Pending
+G05-Q06,Range,LENGTH_KM > 0,Range check,All values > 0,Flag and recalculate from geometry,Yes,Pending
+G05-Q07,Geometry,No null geometries,Null check,Zero null geometries,Investigate and remove if no fix possible,Yes,Pending
+G05-Q08,Geometry,No invalid geometries,Validity check,All geometries valid,Run ST_MakeValid,Yes,Pending
+G05-Q09,Geometry,No disconnected orphan segments,Network connectivity check,All segments connect to network or are explained,Flag orphan segments; remove if clearly erroneous,No,Pending
+G05-Q10,Geometry,Segments flow from high to low elevation (general check),Overlay with G09 DEM centroids,General upstream-to-downstream direction consistent with DEM,Flag anomalies for review,No,Pending (requires G09)
+G05-Q11,Coordinate,CRS = EPSG:4326,CRS check,CRS = EPSG:4326,Reproject and document,Yes,Pending
+G05-Q12,Coverage,Major rivers in study area present,Visual and named-river check,Niger / Benue / Cross River / Imo River / Anambra River present where they pass through study states,Investigate if major rivers missing; check clip extent,Yes,Pending
+G05-Q13,Reference,BASIN_ID resolves to G06,Cross-check after G06 built,All BASIN_ID values present in G06 HYBAS_ID,Flag unresolved basin IDs,No (requires G06),Pending
+G05-Q14,Length,Calculated length within 5% of attribute,Recalculate and compare,|calc - attribute| / attribute <= 0.05,Update LENGTH_KM from geometry; document,No,Pending
+G05-Q15,Provenance,Source in SOURCE_REGISTER.csv,Cross-check,SRC003 present and complete,Update SOURCE_REGISTER.csv,No,Pending
+G05-Q16,License,HydroSHEDS licence compliance,Document check,Non-commercial use confirmed; attribution recorded in metadata,Document in map outputs and reports,No,Pending

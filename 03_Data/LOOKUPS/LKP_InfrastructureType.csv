@@ -1,0 +1,27 @@
+Infra_Type_Code,Infra_Type_Name,Category,Critical_Service,Notes
+ROAD_FED,Federal Road,Transport,Yes,Federal highway network
+ROAD_STA,State Road,Transport,Yes,State-managed roads
+ROAD_LGA,LGA Road,Transport,Yes,Local government roads
+ROAD_COM,Community Road/Track,Transport,No,Earth/unpaved community access roads
+BRIDGE,Bridge/Culvert,Transport,Yes,River crossings and drainage structures
+SCHOOL_P,Primary School,Education,Yes,
+SCHOOL_S,Secondary School,Education,Yes,
+SCHOOL_T,Tertiary Institution,Education,Yes,
+HEALTH_C,Health Centre/Clinic,Health,Yes,
+HEALTH_H,Hospital,Health,Yes,
+WATER_B,Borehole,Water,Yes,
+WATER_W,Well,Water,Yes,
+WATER_R,River/Stream Intake,Water,Yes,
+WATER_P,Pipe-borne Water System,Water,Yes,
+POWER_L,Electricity Line/Pylon,Power,Yes,Transmission and distribution
+POWER_T,Electricity Transformer,Power,Yes,
+POWER_S,Power Station/Generator,Power,Yes,
+AGRIC_F,Farm/Agricultural Land,Agriculture,No,
+AGRIC_S,Storage/Silo,Agriculture,No,
+MARKET,Market/Trading Centre,Commerce,No,
+RELIG,Religious Building,Community,No,Church/mosque/shrine
+GOVT,Government Building,Administration,Yes,
+COMM,Community Hall/Centre,Community,No,
+TELE,Telecommunications Mast,Communications,Yes,
+HYDRO,Hydropower Facility,Energy,Yes,Dam/turbine/penstock
+OTHER,Other Infrastructure,Other,No,Specify in Notes field
